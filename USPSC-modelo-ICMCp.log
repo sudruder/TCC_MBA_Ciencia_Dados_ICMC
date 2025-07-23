@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.9)  9 JUL 2025 17:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.9)  23 JUL 2025 20:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1393,10 +1393,10 @@ LaTeX Warning: You have requested package `USPSC-classe/ABNT6023-10520',
 Package: ABNT6023-2013 
 )
 
-LaTeX Warning: \include should only be used after \begin{document} on input line 169.
+LaTeX Warning: \include should only be used after \begin{document} on input line 117.
 
 (USPSC-pre-textual-ICMC.tex)
-Package hyperref Info: Option `colorlinks' set `true' on input line 188.
+Package hyperref Info: Option `colorlinks' set `true' on input line 137.
 \USPSC-modelo-ICMCp@idxfile=\write6
 \openout6 = `USPSC-modelo-ICMCp.idx'.
 
@@ -1466,40 +1466,33 @@ Package chemmacros Info: Using float defining method `float'.
 
 \@float@every@scheme=\toks58
 \c@scheme=\count479
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 208.
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 157.
  (P:\MiKTeX\tex/latex/lm\t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) (USPSC-modelo-ICMCp.aux (USPSC-TA-PreTextual/USPSC-CapaICMC.aux)
 Package babel Info: 'brazil' activates 'portuges' shorthands.
 (babel)             Reported  on input line 36.
- (folhadeaprovacao.aux) (USPSC-TA-PreTextual/USPSC-Dedicatoria.aux) (USPSC-TA-PreTextual/USPSC-Agradecimentos.aux) (USPSC-TA-PreTextual/USPSC-Epigrafe.aux) (USPSC-TA-PreTextual/USPSC-Resumo.aux) (USPSC-TA-PreTextual/USPSC-Abstract.aux) (USPSC-TA-PreTextual/USPSC-AbreviaturasSiglas.aux) (USPSC-TA-PreTextual/USPSC-Simbolos.aux) (USPSC-TA-Textual/USPSC-Cap1-Introducao.aux) (USPSC-TA-Textual/USPSC-Cap2-Fundamentacao.aux
-
-LaTeX Warning: Label `sec-divisoes' multiply defined.
-
-
-LaTeX Warning: Label `sec-divisoes' multiply defined.
-
-) (USPSC-TA-Textual/USPSC-Cap3-Conclusao.aux) (USPSC-TA-PosTextual/USPSC-Apendices.aux) (USPSC-TA-PosTextual/USPSC-Anexos.aux) (USPSC-TA-PosTextual/USPSC-IndicesRemissivos.aux))
+ (USPSC-TA-PreTextual/USPSC-Dedicatoria.aux) (USPSC-TA-PreTextual/USPSC-Agradecimentos.aux) (USPSC-TA-PreTextual/USPSC-Epigrafe.aux) (USPSC-TA-PreTextual/USPSC-Resumo.aux) (USPSC-TA-PreTextual/USPSC-Abstract.aux) (USPSC-TA-PreTextual/USPSC-AbreviaturasSiglas.aux) (USPSC-TA-PreTextual/USPSC-Simbolos.aux) (USPSC-TA-Textual/USPSC-Cap1-Introducao.aux) (USPSC-TA-Textual/USPSC-Cap2-Fundamentacao.aux) (USPSC-TA-Textual/USPSC-Cap3-Metodologia.aux) (USPSC-TA-Textual/USPSC-CapN-Conclusao.aux) (USPSC-TA-PosTextual/USPSC-Apendices.aux))
 \openout1 = `USPSC-modelo-ICMCp.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 208.
-LaTeX Font Info:    ... okay on input line 208.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 208.
-LaTeX Font Info:    ... okay on input line 208.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 208.
-LaTeX Font Info:    ... okay on input line 208.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 208.
-LaTeX Font Info:    ... okay on input line 208.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 208.
-LaTeX Font Info:    ... okay on input line 208.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 208.
-LaTeX Font Info:    ... okay on input line 208.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 208.
-LaTeX Font Info:    ... okay on input line 208.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 208.
-LaTeX Font Info:    ... okay on input line 208.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 208.
-LaTeX Font Info:    ... okay on input line 208.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 157.
+LaTeX Font Info:    ... okay on input line 157.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 157.
+LaTeX Font Info:    ... okay on input line 157.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 157.
+LaTeX Font Info:    ... okay on input line 157.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 157.
+LaTeX Font Info:    ... okay on input line 157.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 157.
+LaTeX Font Info:    ... okay on input line 157.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 157.
+LaTeX Font Info:    ... okay on input line 157.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 157.
+LaTeX Font Info:    ... okay on input line 157.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 157.
+LaTeX Font Info:    ... okay on input line 157.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 157.
+LaTeX Font Info:    ... okay on input line 157.
  (P:\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count480
@@ -1519,36 +1512,36 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (P:\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring ON on input line 208.
-LaTeX Info: Redefining \degres on input line 208.
+Package hyperref Info: Link coloring ON on input line 157.
+LaTeX Info: Redefining \degres on input line 157.
 \myptabbox=\box157
 \myptabboxwidth=\skip288
  (P:\MiKTeX\tex/latex/translations/dicts\translations-basic-dictionary-brazil.trsl
 File: translations-basic-dictionary-brazil.trsl (brazil translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `brazil'. on input line 208.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `brazil'. on input line 157.
  (P:\MiKTeX\tex/latex/translations/dicts\translations-basic-dictionary-spanish.trsl
 File: translations-basic-dictionary-spanish.trsl (spanish translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `spanish'. on input line 208.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `spanish'. on input line 157.
  (P:\MiKTeX\tex/latex/translations/dicts\translations-basic-dictionary-french.trsl
 File: translations-basic-dictionary-french.trsl (french translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `french'. on input line 208.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `french'. on input line 157.
  (P:\MiKTeX\tex/latex/translations/dicts\translations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 208.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 157.
 
-Package chemgreek Info: Activating mapping `default' on line 208.
+Package chemgreek Info: Activating mapping `default' on line 157.
 
-LaTeX Info: Redefining \microtypecontext on input line 208.
-Package microtype Info: Applying patch `item' on input line 208.
-Package microtype Info: Applying patch `toc' on input line 208.
-Package microtype Info: Applying patch `eqnum' on input line 208.
-Package microtype Info: Applying patch `footnote' on input line 208.
-Package microtype Info: Applying patch `verbatim' on input line 208.
-LaTeX Info: Redefining \microtypesetup on input line 208.
+LaTeX Info: Redefining \microtypecontext on input line 157.
+Package microtype Info: Applying patch `item' on input line 157.
+Package microtype Info: Applying patch `toc' on input line 157.
+Package microtype Info: Applying patch `eqnum' on input line 157.
+Package microtype Info: Applying patch `footnote' on input line 157.
+Package microtype Info: Applying patch `verbatim' on input line 157.
+LaTeX Info: Redefining \microtypesetup on input line 157.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1560,7 +1553,7 @@ Package microtype Info: Using default expansion set `alltext-nott'.
 LaTeX Warning: Command \showhyphens   has changed.
                Check if current package is valid.
 
-LaTeX Info: Redefining \showhyphens on input line 208.
+LaTeX Info: Redefining \showhyphens on input line 157.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -1620,7 +1613,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 <USPSC-img/CapaICMC.jpg, id=6, 596.4684pt x 845.0772pt>
 File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
 <use USPSC-img/CapaICMC.jpg>
-Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 230.
+Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 179.
 (pdftex.def)             Requested size: 596.44875pt x 845.04933pt.
 [1
 Non-PDF special ignored!
@@ -1632,46 +1625,46 @@ Non-PDF special ignored!
 <USPSC-TA-PreTextual/USPSC-PaginaEmBranco.pdf, id=14, 597.55246pt x 845.07718pt>
 File: USPSC-TA-PreTextual/USPSC-PaginaEmBranco.pdf Graphic file (type pdf)
 <use USPSC-TA-PreTextual/USPSC-PaginaEmBranco.pdf>
-Package pdftex.def Info: USPSC-TA-PreTextual/USPSC-PaginaEmBranco.pdf  used on input line 232.
+Package pdftex.def Info: USPSC-TA-PreTextual/USPSC-PaginaEmBranco.pdf  used on input line 181.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 <USPSC-TA-PreTextual/USPSC-PaginaEmBranco.pdf, id=16, page=1, 597.55246pt x 845.07718pt>
 File: USPSC-TA-PreTextual/USPSC-PaginaEmBranco.pdf Graphic file (type pdf)
 <use USPSC-TA-PreTextual/USPSC-PaginaEmBranco.pdf, page 1>
-Package pdftex.def Info: USPSC-TA-PreTextual/USPSC-PaginaEmBranco.pdf , page1 used on input line 232.
+Package pdftex.def Info: USPSC-TA-PreTextual/USPSC-PaginaEmBranco.pdf , page1 used on input line 181.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 File: USPSC-TA-PreTextual/USPSC-PaginaEmBranco.pdf Graphic file (type pdf)
 <use USPSC-TA-PreTextual/USPSC-PaginaEmBranco.pdf, page 1>
-Package pdftex.def Info: USPSC-TA-PreTextual/USPSC-PaginaEmBranco.pdf , page1 used on input line 232.
+Package pdftex.def Info: USPSC-TA-PreTextual/USPSC-PaginaEmBranco.pdf , page1 used on input line 181.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 File: USPSC-TA-PreTextual/USPSC-PaginaEmBranco.pdf Graphic file (type pdf)
 <use USPSC-TA-PreTextual/USPSC-PaginaEmBranco.pdf, page 1>
-Package pdftex.def Info: USPSC-TA-PreTextual/USPSC-PaginaEmBranco.pdf , page1 used on input line 232.
+Package pdftex.def Info: USPSC-TA-PreTextual/USPSC-PaginaEmBranco.pdf , page1 used on input line 181.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 File: USPSC-TA-PreTextual/USPSC-PaginaEmBranco.pdf Graphic file (type pdf)
 <use USPSC-TA-PreTextual/USPSC-PaginaEmBranco.pdf, page 1>
-Package pdftex.def Info: USPSC-TA-PreTextual/USPSC-PaginaEmBranco.pdf , page1 used on input line 232.
+Package pdftex.def Info: USPSC-TA-PreTextual/USPSC-PaginaEmBranco.pdf , page1 used on input line 181.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 
 
 File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
 <use USPSC-img/CapaICMC.jpg>
-Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 232.
+Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 181.
 (pdftex.def)             Requested size: 596.44875pt x 845.04933pt.
 <USPSC-img/USPSC-PaginaEmBranco.jpg, id=17, 597.6729pt x 845.3181pt>
 File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
 <use USPSC-img/USPSC-PaginaEmBranco.jpg>
-Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 232.
+Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 181.
 (pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
 File: USPSC-TA-PreTextual/USPSC-PaginaEmBranco.pdf Graphic file (type pdf)
 <use USPSC-TA-PreTextual/USPSC-PaginaEmBranco.pdf, page 1>
-Package pdftex.def Info: USPSC-TA-PreTextual/USPSC-PaginaEmBranco.pdf , page1 used on input line 232.
+Package pdftex.def Info: USPSC-TA-PreTextual/USPSC-PaginaEmBranco.pdf , page1 used on input line 181.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 [2
 
 
 
  <./USPSC-img/USPSC-PaginaEmBranco.jpg> <./USPSC-TA-PreTextual/USPSC-PaginaEmBranco.pdf>]
-Underfull \hbox (badness 6173) in paragraph at lines 237--237
+Underfull \hbox (badness 6173) in paragraph at lines 186--186
 []\T1/lmr/m/n/12 (+20) Monografia apresentada ao Centro de
  []
 
@@ -1679,55 +1672,55 @@ Underfull \hbox (badness 6173) in paragraph at lines 237--237
 
 File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
 <use USPSC-img/CapaICMC.jpg>
-Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 237.
+Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 186.
 (pdftex.def)             Requested size: 596.44875pt x 845.04933pt.
 File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
 <use USPSC-img/USPSC-PaginaEmBranco.jpg>
-Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 237.
+Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 186.
 (pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
 [3
 
 ]
-<USPSC-TA-PreTextual/USPSC-fichacatalografica.pdf, id=37, 597.55246pt x 845.07718pt>
+<USPSC-TA-PreTextual/USPSC-fichacatalografica.pdf, id=35, 597.55246pt x 845.07718pt>
 File: USPSC-TA-PreTextual/USPSC-fichacatalografica.pdf Graphic file (type pdf)
 <use USPSC-TA-PreTextual/USPSC-fichacatalografica.pdf>
-Package pdftex.def Info: USPSC-TA-PreTextual/USPSC-fichacatalografica.pdf  used on input line 239.
+Package pdftex.def Info: USPSC-TA-PreTextual/USPSC-fichacatalografica.pdf  used on input line 188.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
-<USPSC-TA-PreTextual/USPSC-fichacatalografica.pdf, id=39, page=1, 597.55246pt x 845.07718pt>
+<USPSC-TA-PreTextual/USPSC-fichacatalografica.pdf, id=37, page=1, 597.55246pt x 845.07718pt>
 File: USPSC-TA-PreTextual/USPSC-fichacatalografica.pdf Graphic file (type pdf)
 <use USPSC-TA-PreTextual/USPSC-fichacatalografica.pdf, page 1>
-Package pdftex.def Info: USPSC-TA-PreTextual/USPSC-fichacatalografica.pdf , page1 used on input line 239.
+Package pdftex.def Info: USPSC-TA-PreTextual/USPSC-fichacatalografica.pdf , page1 used on input line 188.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 File: USPSC-TA-PreTextual/USPSC-fichacatalografica.pdf Graphic file (type pdf)
 <use USPSC-TA-PreTextual/USPSC-fichacatalografica.pdf, page 1>
-Package pdftex.def Info: USPSC-TA-PreTextual/USPSC-fichacatalografica.pdf , page1 used on input line 239.
+Package pdftex.def Info: USPSC-TA-PreTextual/USPSC-fichacatalografica.pdf , page1 used on input line 188.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 File: USPSC-TA-PreTextual/USPSC-fichacatalografica.pdf Graphic file (type pdf)
 <use USPSC-TA-PreTextual/USPSC-fichacatalografica.pdf, page 1>
-Package pdftex.def Info: USPSC-TA-PreTextual/USPSC-fichacatalografica.pdf , page1 used on input line 239.
+Package pdftex.def Info: USPSC-TA-PreTextual/USPSC-fichacatalografica.pdf , page1 used on input line 188.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 File: USPSC-TA-PreTextual/USPSC-fichacatalografica.pdf Graphic file (type pdf)
 <use USPSC-TA-PreTextual/USPSC-fichacatalografica.pdf, page 1>
-Package pdftex.def Info: USPSC-TA-PreTextual/USPSC-fichacatalografica.pdf , page1 used on input line 239.
+Package pdftex.def Info: USPSC-TA-PreTextual/USPSC-fichacatalografica.pdf , page1 used on input line 188.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 
 
 File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
 <use USPSC-img/CapaICMC.jpg>
-Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 239.
+Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 188.
 (pdftex.def)             Requested size: 596.44875pt x 845.04933pt.
 File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
 <use USPSC-img/USPSC-PaginaEmBranco.jpg>
-Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 239.
+Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 188.
 (pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
 File: USPSC-TA-PreTextual/USPSC-fichacatalografica.pdf Graphic file (type pdf)
 <use USPSC-TA-PreTextual/USPSC-fichacatalografica.pdf, page 1>
-Package pdftex.def Info: USPSC-TA-PreTextual/USPSC-fichacatalografica.pdf , page1 used on input line 239.
+Package pdftex.def Info: USPSC-TA-PreTextual/USPSC-fichacatalografica.pdf , page1 used on input line 188.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 [4
 
  <./USPSC-TA-PreTextual/USPSC-fichacatalografica.pdf>]
-Underfull \hbox (badness 1424) in paragraph at lines 244--244
+Underfull \hbox (badness 1424) in paragraph at lines 193--193
 []\T1/lmr/m/n/12 (+20) Monograph presented to the Centro de
  []
 
@@ -1735,61 +1728,57 @@ Underfull \hbox (badness 1424) in paragraph at lines 244--244
 
 File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
 <use USPSC-img/CapaICMC.jpg>
-Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 244.
+Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 193.
 (pdftex.def)             Requested size: 596.44875pt x 845.04933pt.
 File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
 <use USPSC-img/USPSC-PaginaEmBranco.jpg>
-Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 244.
+Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 193.
 (pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
 [5
 
 ]
-<USPSC-TA-PreTextual/USPSC-folhadeaprovacao.pdf, id=56, 597.55246pt x 845.07718pt>
+<USPSC-TA-PreTextual/USPSC-folhadeaprovacao.pdf, id=54, 597.55246pt x 845.07718pt>
 File: USPSC-TA-PreTextual/USPSC-folhadeaprovacao.pdf Graphic file (type pdf)
 <use USPSC-TA-PreTextual/USPSC-folhadeaprovacao.pdf>
-Package pdftex.def Info: USPSC-TA-PreTextual/USPSC-folhadeaprovacao.pdf  used on input line 254.
+Package pdftex.def Info: USPSC-TA-PreTextual/USPSC-folhadeaprovacao.pdf  used on input line 203.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
-<USPSC-TA-PreTextual/USPSC-folhadeaprovacao.pdf, id=58, page=1, 597.55246pt x 845.07718pt>
+<USPSC-TA-PreTextual/USPSC-folhadeaprovacao.pdf, id=56, page=1, 597.55246pt x 845.07718pt>
 File: USPSC-TA-PreTextual/USPSC-folhadeaprovacao.pdf Graphic file (type pdf)
 <use USPSC-TA-PreTextual/USPSC-folhadeaprovacao.pdf, page 1>
-Package pdftex.def Info: USPSC-TA-PreTextual/USPSC-folhadeaprovacao.pdf , page1 used on input line 254.
+Package pdftex.def Info: USPSC-TA-PreTextual/USPSC-folhadeaprovacao.pdf , page1 used on input line 203.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 File: USPSC-TA-PreTextual/USPSC-folhadeaprovacao.pdf Graphic file (type pdf)
 <use USPSC-TA-PreTextual/USPSC-folhadeaprovacao.pdf, page 1>
-Package pdftex.def Info: USPSC-TA-PreTextual/USPSC-folhadeaprovacao.pdf , page1 used on input line 254.
+Package pdftex.def Info: USPSC-TA-PreTextual/USPSC-folhadeaprovacao.pdf , page1 used on input line 203.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 File: USPSC-TA-PreTextual/USPSC-folhadeaprovacao.pdf Graphic file (type pdf)
 <use USPSC-TA-PreTextual/USPSC-folhadeaprovacao.pdf, page 1>
-Package pdftex.def Info: USPSC-TA-PreTextual/USPSC-folhadeaprovacao.pdf , page1 used on input line 254.
+Package pdftex.def Info: USPSC-TA-PreTextual/USPSC-folhadeaprovacao.pdf , page1 used on input line 203.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 File: USPSC-TA-PreTextual/USPSC-folhadeaprovacao.pdf Graphic file (type pdf)
 <use USPSC-TA-PreTextual/USPSC-folhadeaprovacao.pdf, page 1>
-Package pdftex.def Info: USPSC-TA-PreTextual/USPSC-folhadeaprovacao.pdf , page1 used on input line 254.
+Package pdftex.def Info: USPSC-TA-PreTextual/USPSC-folhadeaprovacao.pdf , page1 used on input line 203.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 
 
 File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
 <use USPSC-img/CapaICMC.jpg>
-Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 254.
+Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 203.
 (pdftex.def)             Requested size: 596.44875pt x 845.04933pt.
 File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
 <use USPSC-img/USPSC-PaginaEmBranco.jpg>
-Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 254.
+Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 203.
 (pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
 File: USPSC-TA-PreTextual/USPSC-folhadeaprovacao.pdf Graphic file (type pdf)
 <use USPSC-TA-PreTextual/USPSC-folhadeaprovacao.pdf, page 1>
-Package pdftex.def Info: USPSC-TA-PreTextual/USPSC-folhadeaprovacao.pdf , page1 used on input line 254.
+Package pdftex.def Info: USPSC-TA-PreTextual/USPSC-folhadeaprovacao.pdf , page1 used on input line 203.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 [6
 
  <./USPSC-TA-PreTextual/USPSC-folhadeaprovacao.pdf>]
-\openout2 = `folhadeaprovacao.aux'.
-
-
-No file folhadeaprovacao.tex.
 \openout2 = `USPSC-TA-PreTextual/USPSC-Dedicatoria.aux'.
 
-(USPSC-TA-PreTextual/USPSC-Dedicatoria.tex
+ (USPSC-TA-PreTextual/USPSC-Dedicatoria.tex
 
 File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
 <use USPSC-img/CapaICMC.jpg>
@@ -1800,9 +1789,6 @@ File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
 Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 9.
 (pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
 [7
-
-
-
 
 ]
 
@@ -1823,11 +1809,11 @@ Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 
 
 File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
 <use USPSC-img/CapaICMC.jpg>
-Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 11.
+Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 12.
 (pdftex.def)             Requested size: 596.44875pt x 845.04933pt.
 File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
 <use USPSC-img/USPSC-PaginaEmBranco.jpg>
-Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 11.
+Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 12.
 (pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
 [9
 
@@ -1838,11 +1824,11 @@ Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 
 
 File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
 <use USPSC-img/CapaICMC.jpg>
-Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 11.
+Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 12.
 (pdftex.def)             Requested size: 596.44875pt x 845.04933pt.
 File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
 <use USPSC-img/USPSC-PaginaEmBranco.jpg>
-Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 11.
+Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 12.
 (pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
 [10
 
@@ -1880,17 +1866,13 @@ Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 
 
  (USPSC-TA-PreTextual/USPSC-Resumo.tex
 
-LaTeX Warning: Citation `nbr6028' on page 13 undefined on input line 15.
-
-
-
 File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
 <use USPSC-img/CapaICMC.jpg>
-Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 19.
+Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 23.
 (pdftex.def)             Requested size: 596.44875pt x 845.04933pt.
 File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
 <use USPSC-img/USPSC-PaginaEmBranco.jpg>
-Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 19.
+Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 23.
 (pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
 [13
 
@@ -1900,11 +1882,11 @@ Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 
 
 File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
 <use USPSC-img/CapaICMC.jpg>
-Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 19.
+Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 23.
 (pdftex.def)             Requested size: 596.44875pt x 845.04933pt.
 File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
 <use USPSC-img/USPSC-PaginaEmBranco.jpg>
-Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 19.
+Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 23.
 (pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
 [14
 
@@ -1915,11 +1897,11 @@ Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 
 
 File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
 <use USPSC-img/CapaICMC.jpg>
-Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 20.
+Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 21.
 (pdftex.def)             Requested size: 596.44875pt x 845.04933pt.
 File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
 <use USPSC-img/USPSC-PaginaEmBranco.jpg>
-Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 20.
+Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 21.
 (pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
 [15
 
@@ -1929,11 +1911,11 @@ Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 
 
 File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
 <use USPSC-img/CapaICMC.jpg>
-Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 20.
+Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 21.
 (pdftex.def)             Requested size: 596.44875pt x 845.04933pt.
 File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
 <use USPSC-img/USPSC-PaginaEmBranco.jpg>
-Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 20.
+Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 21.
 (pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
 [16
 
@@ -1941,11 +1923,11 @@ Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 
 
 File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
 <use USPSC-img/CapaICMC.jpg>
-Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 280.
+Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 229.
 (pdftex.def)             Requested size: 596.44875pt x 845.04933pt.
 File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
 <use USPSC-img/USPSC-PaginaEmBranco.jpg>
-Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 280.
+Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 229.
 (pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
 [17
 
@@ -1954,11 +1936,11 @@ Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 
 
 File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
 <use USPSC-img/CapaICMC.jpg>
-Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 280.
+Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 229.
 (pdftex.def)             Requested size: 596.44875pt x 845.04933pt.
 File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
 <use USPSC-img/USPSC-PaginaEmBranco.jpg>
-Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 280.
+Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 229.
 (pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
 [18
 
@@ -1966,21 +1948,21 @@ Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 
 
 File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
 <use USPSC-img/CapaICMC.jpg>
-Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 285.
+Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 234.
 (pdftex.def)             Requested size: 596.44875pt x 845.04933pt.
 File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
 <use USPSC-img/USPSC-PaginaEmBranco.jpg>
-Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 285.
+Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 234.
 (pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
 [19]
 
 File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
 <use USPSC-img/CapaICMC.jpg>
-Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 285.
+Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 234.
 (pdftex.def)             Requested size: 596.44875pt x 845.04933pt.
 File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
 <use USPSC-img/USPSC-PaginaEmBranco.jpg>
-Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 285.
+Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 234.
 (pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
 [20
 
@@ -1988,21 +1970,21 @@ Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 
 
 File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
 <use USPSC-img/CapaICMC.jpg>
-Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 290.
+Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 239.
 (pdftex.def)             Requested size: 596.44875pt x 845.04933pt.
 File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
 <use USPSC-img/USPSC-PaginaEmBranco.jpg>
-Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 290.
+Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 239.
 (pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
 [21]
 
 File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
 <use USPSC-img/CapaICMC.jpg>
-Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 290.
+Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 239.
 (pdftex.def)             Requested size: 596.44875pt x 845.04933pt.
 File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
 <use USPSC-img/USPSC-PaginaEmBranco.jpg>
-Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 290.
+Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 239.
 (pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
 [22
 
@@ -2013,11 +1995,11 @@ Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 
 
 File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
 <use USPSC-img/CapaICMC.jpg>
-Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 10.
+Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 16.
 (pdftex.def)             Requested size: 596.44875pt x 845.04933pt.
 File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
 <use USPSC-img/USPSC-PaginaEmBranco.jpg>
-Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 10.
+Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 16.
 (pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
 [23
 
@@ -2026,11 +2008,11 @@ Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 
 
 File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
 <use USPSC-img/CapaICMC.jpg>
-Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 10.
+Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 16.
 (pdftex.def)             Requested size: 596.44875pt x 845.04933pt.
 File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
 <use USPSC-img/USPSC-PaginaEmBranco.jpg>
-Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 10.
+Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 16.
 (pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
 [24
 
@@ -2041,63 +2023,66 @@ Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 
 
 File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
 <use USPSC-img/CapaICMC.jpg>
-Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 6.
+Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 9.
 (pdftex.def)             Requested size: 596.44875pt x 845.04933pt.
 File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
 <use USPSC-img/USPSC-PaginaEmBranco.jpg>
-Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 6.
+Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 9.
 (pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
 [25
 
 
 
 
-{P:/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}]
+{P:/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{P:/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}]
 
 File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
 <use USPSC-img/CapaICMC.jpg>
-Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 6.
+Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 9.
 (pdftex.def)             Requested size: 596.44875pt x 845.04933pt.
 File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
 <use USPSC-img/USPSC-PaginaEmBranco.jpg>
-Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 6.
+Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 9.
 (pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
 [26
 
 ]) (USPSC-modelo-ICMCp.toc
+LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <12> not available
+(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 21.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <12> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 24.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 39.
+(Font)              <14.4> on input line 38.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 39.
+(Font)              <10> on input line 38.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 39.
-
-Underfull \vbox (badness 3482) has occurred while \output is active []
-
-
+(Font)              <7> on input line 38.
+)
 
 File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
 <use USPSC-img/CapaICMC.jpg>
-Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 64.
+Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 252.
 (pdftex.def)             Requested size: 596.44875pt x 845.04933pt.
 File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
 <use USPSC-img/USPSC-PaginaEmBranco.jpg>
-Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 64.
+Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 252.
 (pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
 [27
 
 
-])
+]
 
 File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
 <use USPSC-img/CapaICMC.jpg>
-Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 301.
+Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 252.
 (pdftex.def)             Requested size: 596.44875pt x 845.04933pt.
 File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
 <use USPSC-img/USPSC-PaginaEmBranco.jpg>
-Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 301.
+Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 252.
 (pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
-[28]
+[28
+
+]
 \openout2 = `USPSC-TA-Textual/USPSC-Cap1-Introducao.aux'.
 
  (USPSC-TA-Textual/USPSC-Cap1-Introducao.tex
@@ -2116,16 +2101,15 @@ Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 
 [29
 
 
-
 ])
 
 File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
 <use USPSC-img/CapaICMC.jpg>
-Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 309.
+Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 260.
 (pdftex.def)             Requested size: 596.44875pt x 845.04933pt.
 File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
 <use USPSC-img/USPSC-PaginaEmBranco.jpg>
-Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 309.
+Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 260.
 (pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
 [30]
 \openout2 = `USPSC-TA-Textual/USPSC-Cap2-Fundamentacao.aux'.
@@ -2149,102 +2133,148 @@ Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 
 
 
 ]
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 110.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 34.
+ (P:\MiKTeX\tex/latex/lm\ts1lmr.fd
+File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+Underfull \vbox (badness 3078) has occurred while \output is active []
+
 
 
 File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
 <use USPSC-img/CapaICMC.jpg>
-Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 115.
+Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 35.
 (pdftex.def)             Requested size: 596.44875pt x 845.04933pt.
 File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
 <use USPSC-img/USPSC-PaginaEmBranco.jpg>
-Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 115.
+Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 35.
 (pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
 [32]
-Underfull \hbox (badness 10000) in paragraph at lines 123--123
-[]|\T1/lmr/bx/n/12 (+20) Sistemas
- []
 
+File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
+<use USPSC-img/CapaICMC.jpg>
+Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 61.
+(pdftex.def)             Requested size: 596.44875pt x 845.04933pt.
+File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
+<use USPSC-img/USPSC-PaginaEmBranco.jpg>
+Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 61.
+(pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
+[33{P:/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}]
 
-Overfull \hbox (6.57309pt too wide) in paragraph at lines 125--125
-[]|\T1/lmr/m/n/12 (-20) Epistemologia| 
- []
-
-
-Underfull \hbox (badness 2753) in paragraph at lines 128--128
-[]|\T1/lmr/m/n/12 (+20) N�vel do ob-
- []
-
-
-LaTeX Warning: Citation `van1986' on page 33 undefined on input line 136.
-
-
-LaTeX Warning: Citation `equipeabntex2' on page 33 undefined on input line 181.
-
-
-LaTeX Warning: Citation `equipeabntex2' on page 33 undefined on input line 181.
-
-
-LaTeX Warning: Citation `nbr6024' on page 33 undefined on input line 188.
-
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 198.
-(P:\MiKTeX\tex/latex/lm\t1lmtt.fd
-File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `lmtt' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
+File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
+<use USPSC-img/CapaICMC.jpg>
+Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 81.
+(pdftex.def)             Requested size: 596.44875pt x 845.04933pt.
+File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
+<use USPSC-img/USPSC-PaginaEmBranco.jpg>
+Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 81.
+(pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
+[34]
+<imagens/regressao_linear.png, id=339, 387.3672pt x 295.5843pt>
+File: imagens/regressao_linear.png Graphic file (type png)
+<use imagens/regressao_linear.png>
+Package pdftex.def Info: imagens/regressao_linear.png  used on input line 95.
+(pdftex.def)             Requested size: 318.49861pt x 243.04369pt.
 
 
 File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
 <use USPSC-img/CapaICMC.jpg>
-Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 200.
+Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 106.
 (pdftex.def)             Requested size: 596.44875pt x 845.04933pt.
 File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
 <use USPSC-img/USPSC-PaginaEmBranco.jpg>
-Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 200.
+Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 106.
 (pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
-[33
-pdfTeX warning (ext4): destination with the same identifier (name{table.2.1}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.200 \subsubsection
-                    {Divisões do documento: subsubseção}
-pdfTeX warning (ext4): destination with the same identifier (name{quadro.2.1}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.200 \subsubsection
-                    {Divisões do documento: subsubseção}]
-
-File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
-<use USPSC-img/CapaICMC.jpg>
-Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 228.
-(pdftex.def)             Requested size: 596.44875pt x 845.04933pt.
-File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
-<use USPSC-img/USPSC-PaginaEmBranco.jpg>
-Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 228.
-(pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
-[34
+[35{P:/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.228 \paragraph
-                {Este é um parágrafo numerado}\label{sec-exemplo-paragrafo}])
+l.106 
+       <./imagens/regressao_linear.png>]
+<imagens/arvore_decisao_iris.png, id=350, 702.625pt x 348.30125pt>
+File: imagens/arvore_decisao_iris.png Graphic file (type png)
+<use imagens/arvore_decisao_iris.png>
+Package pdftex.def Info: imagens/arvore_decisao_iris.png  used on input line 114.
+(pdftex.def)             Requested size: 318.49861pt x 157.88739pt.
+
 
 File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
 <use USPSC-img/CapaICMC.jpg>
-Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 312.
+Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 125.
 (pdftex.def)             Requested size: 596.44875pt x 845.04933pt.
 File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
 <use USPSC-img/USPSC-PaginaEmBranco.jpg>
-Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 312.
+Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 125.
 (pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
-[35]
-\openout2 = `USPSC-TA-Textual/USPSC-Cap3-Conclusao.aux'.
+[36
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.2}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.125 O
+        seu processo de construção envolve duas etapas principais: (i) a a... <./imagens/arvore_decisao_iris.png>]
+<imagens/random_forest_iris.png, id=356, 521.69907pt x 464.4853pt>
+File: imagens/random_forest_iris.png Graphic file (type png)
+<use imagens/random_forest_iris.png>
+Package pdftex.def Info: imagens/random_forest_iris.png  used on input line 132.
+(pdftex.def)             Requested size: 318.49861pt x 283.5695pt.
 
- (USPSC-TA-Textual/USPSC-Cap3-Conclusao.tex
+
+File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
+<use USPSC-img/CapaICMC.jpg>
+Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 145.
+(pdftex.def)             Requested size: 596.44875pt x 845.04933pt.
+File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
+<use USPSC-img/USPSC-PaginaEmBranco.jpg>
+Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 145.
+(pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
+[37
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.3}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.145 
+       <./imagens/random_forest_iris.png>]
+<imagens/adaboost.png, id=363, 963.6pt x 542.025pt>
+File: imagens/adaboost.png Graphic file (type png)
+<use imagens/adaboost.png>
+Package pdftex.def Info: imagens/adaboost.png  used on input line 153.
+(pdftex.def)             Requested size: 455.0pt x 255.93448pt.
+)
+
+File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
+<use USPSC-img/CapaICMC.jpg>
+Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 263.
+(pdftex.def)             Requested size: 596.44875pt x 845.04933pt.
+File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
+<use USPSC-img/USPSC-PaginaEmBranco.jpg>
+Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 263.
+(pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
+[38
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.4}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.263 ...SPSC-TA-Textual/USPSC-Cap2-Fundamentacao}
+                                                   <./imagens/adaboost.png>]
+\openout2 = `USPSC-TA-Textual/USPSC-Cap3-Metodologia.aux'.
+
+ (USPSC-TA-Textual/USPSC-Cap3-Metodologia.tex)
+
+File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
+<use USPSC-img/CapaICMC.jpg>
+Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 266.
+(pdftex.def)             Requested size: 596.44875pt x 845.04933pt.
+File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
+<use USPSC-img/USPSC-PaginaEmBranco.jpg>
+Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 266.
+(pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
+[39
+
+
+
+
+]
+\openout2 = `USPSC-TA-Textual/USPSC-CapN-Conclusao.aux'.
+
+ (USPSC-TA-Textual/USPSC-CapN-Conclusao.tex
 
 File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
 <use USPSC-img/CapaICMC.jpg>
@@ -2254,4 +2284,182 @@ File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
 <use USPSC-img/USPSC-PaginaEmBranco.jpg>
 Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 5.
 (pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
-[36
+[40
+
+
+
+
+])
+
+File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
+<use USPSC-img/CapaICMC.jpg>
+Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 269.
+(pdftex.def)             Requested size: 596.44875pt x 845.04933pt.
+File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
+<use USPSC-img/USPSC-PaginaEmBranco.jpg>
+Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 269.
+(pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
+[41] (USPSC-modelo-ICMCp.bbl
+
+File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
+<use USPSC-img/CapaICMC.jpg>
+Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 3.
+(pdftex.def)             Requested size: 596.44875pt x 845.04933pt.
+File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
+<use USPSC-img/USPSC-PaginaEmBranco.jpg>
+Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 3.
+(pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
+[42
+
+
+
+]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\uppercase' on input line 3.
+
+bibitemlist
+
+
+File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
+<use USPSC-img/CapaICMC.jpg>
+Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 108.
+(pdftex.def)             Requested size: 596.44875pt x 845.04933pt.
+File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
+<use USPSC-img/USPSC-PaginaEmBranco.jpg>
+Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 108.
+(pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
+[43])
+
+File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
+<use USPSC-img/CapaICMC.jpg>
+Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 280.
+(pdftex.def)             Requested size: 596.44875pt x 845.04933pt.
+File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
+<use USPSC-img/USPSC-PaginaEmBranco.jpg>
+Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 280.
+(pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
+[44]
+\openout2 = `USPSC-TA-PosTextual/USPSC-Apendices.aux'.
+
+ (USPSC-TA-PosTextual/USPSC-Apendices.tex
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\uppercase' on input line 6.
+
+
+
+File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
+<use USPSC-img/CapaICMC.jpg>
+Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 6.
+(pdftex.def)             Requested size: 596.44875pt x 845.04933pt.
+File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
+<use USPSC-img/USPSC-PaginaEmBranco.jpg>
+Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 6.
+(pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
+[45
+
+
+
+]
+
+File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
+<use USPSC-img/CapaICMC.jpg>
+Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 6.
+(pdftex.def)             Requested size: 596.44875pt x 845.04933pt.
+File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
+<use USPSC-img/USPSC-PaginaEmBranco.jpg>
+Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 6.
+(pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
+[46]
+
+File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
+<use USPSC-img/CapaICMC.jpg>
+Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 9.
+(pdftex.def)             Requested size: 596.44875pt x 845.04933pt.
+File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
+<use USPSC-img/USPSC-PaginaEmBranco.jpg>
+Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 9.
+(pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
+[47
+
+]
+
+File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
+<use USPSC-img/CapaICMC.jpg>
+Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 9.
+(pdftex.def)             Requested size: 596.44875pt x 845.04933pt.
+File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
+<use USPSC-img/USPSC-PaginaEmBranco.jpg>
+Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 9.
+(pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
+[48
+
+]
+
+File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
+<use USPSC-img/CapaICMC.jpg>
+Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 11.
+(pdftex.def)             Requested size: 596.44875pt x 845.04933pt.
+File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
+<use USPSC-img/USPSC-PaginaEmBranco.jpg>
+Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 11.
+(pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
+[49]
+
+File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
+<use USPSC-img/CapaICMC.jpg>
+Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 11.
+(pdftex.def)             Requested size: 596.44875pt x 845.04933pt.
+File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
+<use USPSC-img/USPSC-PaginaEmBranco.jpg>
+Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 11.
+(pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
+[50
+
+])
+
+File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
+<use USPSC-img/CapaICMC.jpg>
+Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 280.
+(pdftex.def)             Requested size: 596.44875pt x 845.04933pt.
+File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
+<use USPSC-img/USPSC-PaginaEmBranco.jpg>
+Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 280.
+(pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
+[51]
+\tf@lof=\write7
+\openout7 = `USPSC-modelo-ICMCp.lof'.
+
+\tf@lot=\write8
+\openout8 = `USPSC-modelo-ICMCp.lot'.
+
+\tf@loq=\write9
+\openout9 = `USPSC-modelo-ICMCp.loq'.
+
+\tf@toc=\write10
+\openout10 = `USPSC-modelo-ICMCp.toc'.
+
+ 
+enddocument/afterlastpage (AED): lastpage setting LastPage.
+(USPSC-modelo-ICMCp.aux (USPSC-TA-PreTextual/USPSC-CapaICMC.aux) (USPSC-TA-PreTextual/USPSC-Dedicatoria.aux) (USPSC-TA-PreTextual/USPSC-Agradecimentos.aux) (USPSC-TA-PreTextual/USPSC-Epigrafe.aux) (USPSC-TA-PreTextual/USPSC-Resumo.aux) (USPSC-TA-PreTextual/USPSC-Abstract.aux) (USPSC-TA-PreTextual/USPSC-AbreviaturasSiglas.aux) (USPSC-TA-PreTextual/USPSC-Simbolos.aux) (USPSC-TA-Textual/USPSC-Cap1-Introducao.aux) (USPSC-TA-Textual/USPSC-Cap2-Fundamentacao.aux) (USPSC-TA-Textual/USPSC-Cap3-Metodologia.aux) (USPSC-TA-Textual/USPSC-CapN-Conclusao.aux) (USPSC-TA-PosTextual/USPSC-Apendices.aux))
+ ***********
+LaTeX2e <2025-06-01> patch level 1
+L3 programming layer <2020/03/25>
+ ***********
+ ) 
+Here is how much of TeX's memory you used:
+ 44219 strings out of 468221
+ 940689 string characters out of 5449727
+ 1466635 words of memory out of 5000000
+ 71576 multiletter control sequences out of 15000+600000
+ 718615 words of font info for 204 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 99i,17n,107p,1303b,1418s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<P:/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><P:/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><P:/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><P:/MiKTeX/fonts/type1/public/lm/lmr10.pfb><P:/MiKTeX/fonts/type1/public/lm/lmr12.pfb><P:/MiKTeX/fonts/type1/public/lm/lmr8.pfb><P:/MiKTeX/fonts/type1/public/lm/lmri12.pfb><P:/MiKTeX/fonts/type1/public/lm/lmss12.pfb><P:/MiKTeX/fonts/type1/public/lm/lmssbo10.pfb><P:/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><P:/MiKTeX/fonts/type1/public/lm/lmsso12.pfb><P:/MiKTeX/fonts/type1/public/lm/lmsy10.pfb>
+Output written on USPSC-modelo-ICMCp.pdf (51 pages, 1078327 bytes).
+PDF statistics:
+ 660 PDF objects out of 1000 (max. 8388607)
+ 150 named destinations out of 1000 (max. 500000)
+ 51568 words of extra memory for PDF output out of 51595 (max. 10000000)
+

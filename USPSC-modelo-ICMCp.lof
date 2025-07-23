@@ -1,4 +1,6 @@
 \babel@toc {brazil}{}\relax 
 \babel@toc {brazil}{}\relax 
-\contentsline {figure}{\numberline {1}{\ignorespaces A delimitação do espaço}}{34}{figure.2.1}%
-\contentsline {figure}{\numberline {2}{\ignorespaces Acentuação (modo texto - \LaTeX )}}{53}{figure.anexochapback.2.2}%
+\contentsline {figure}{\numberline {1}{\ignorespaces Exemplo de uma Regressão Linear simples com dados fictícios}}{35}{figure.2.1}%
+\contentsline {figure}{\numberline {2}{\ignorespaces Exemplo de uma Árvore de Decisão com o \textit {dataset Iris}}}{36}{figure.2.2}%
+\contentsline {figure}{\numberline {3}{\ignorespaces Exemplo de uma \textit {Random Forest} com o \textit {dataset Iris}}}{37}{figure.2.3}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Esquema ilustrativo do funcionamento do \textit {AdaBoost}}}{38}{figure.2.4}%

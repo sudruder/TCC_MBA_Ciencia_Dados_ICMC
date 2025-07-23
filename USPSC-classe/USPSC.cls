@@ -1330,21 +1330,21 @@
 
 \makeatletter
 \newcommand{\folharostocarcontent}{
-	\begin{center}
-		\hspace{.49\textwidth}
-		\begin{minipage}{.5\textwidth}
-			\SingleSpacing
-			\begin{tabular}{|l|c|} \hline
-				\carimbofontsize
-				\imprimirsetorpos
-				\\ \\
-				\carimbofontsize\bfseries
-				Data de Depósito: \\ \\
-				\carimbofontsize\bfseries
-				Assinatura: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_  \\ \hline
-			\end{tabular}
-		\end{minipage}%		
-	\end{center}
+	% \begin{center}
+	% 	\hspace{.49\textwidth}
+	% 	\begin{minipage}{.5\textwidth}
+	% 		\SingleSpacing
+	% 		\begin{tabular}{|l|c|} \hline
+	% 			\carimbofontsize
+	% 			\imprimirsetorpos
+	% 			\\ \\
+	% 			\carimbofontsize\bfseries
+	% 			Data de Depósito: \\ \\
+	% 			\carimbofontsize\bfseries
+	% 			Assinatura: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_  \\ \hline
+	% 		\end{tabular}
+	% 	\end{minipage}%		
+	% \end{center}
 	\begin{center}		
 		{\ABNTEXchapterfont\bfseries\large\imprimirautor}
 		\vfill
