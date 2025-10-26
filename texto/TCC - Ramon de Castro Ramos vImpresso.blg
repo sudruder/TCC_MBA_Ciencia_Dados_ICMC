@@ -1,0 +1,109 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: TCC - Ramon de Castro Ramos vImpresso.aux
+Reallocating 'name_of_file' (item size: 1) to 31 items.
+The style file: USPSC-classe/abntex2-num-USPSC.bst
+Reallocating 'name_of_file' (item size: 1) to 39 items.
+A level-1 auxiliary file: USPSC-TA-PreTextual/USPSC-CapaICMC.aux
+Reallocating 'name_of_file' (item size: 1) to 42 items.
+A level-1 auxiliary file: USPSC-TA-PreTextual/USPSC-Dedicatoria.aux
+Reallocating 'name_of_file' (item size: 1) to 45 items.
+A level-1 auxiliary file: USPSC-TA-PreTextual/USPSC-Agradecimentos.aux
+Reallocating 'name_of_file' (item size: 1) to 39 items.
+A level-1 auxiliary file: USPSC-TA-PreTextual/USPSC-Epigrafe.aux
+Reallocating 'name_of_file' (item size: 1) to 37 items.
+A level-1 auxiliary file: USPSC-TA-PreTextual/USPSC-Resumo.aux
+Reallocating 'name_of_file' (item size: 1) to 39 items.
+A level-1 auxiliary file: USPSC-TA-PreTextual/USPSC-Abstract.aux
+Reallocating 'name_of_file' (item size: 1) to 49 items.
+A level-1 auxiliary file: USPSC-TA-PreTextual/USPSC-AbreviaturasSiglas.aux
+Reallocating 'name_of_file' (item size: 1) to 39 items.
+A level-1 auxiliary file: USPSC-TA-PreTextual/USPSC-Simbolos.aux
+Reallocating 'name_of_file' (item size: 1) to 43 items.
+A level-1 auxiliary file: USPSC-TA-Textual/USPSC-Cap1-Introducao.aux
+Reallocating 'name_of_file' (item size: 1) to 46 items.
+A level-1 auxiliary file: USPSC-TA-Textual/USPSC-Cap2-Fundamentacao.aux
+Reallocating 'name_of_file' (item size: 1) to 44 items.
+A level-1 auxiliary file: USPSC-TA-Textual/USPSC-Cap3-Metodologia.aux
+Reallocating 'name_of_file' (item size: 1) to 42 items.
+A level-1 auxiliary file: USPSC-TA-Textual/USPSC-CapN-Conclusao.aux
+Reallocating 'name_of_file' (item size: 1) to 16 items.
+Reallocating 'name_of_file' (item size: 1) to 34 items.
+Reallocating 'name_of_file' (item size: 1) to 40 items.
+A level-1 auxiliary file: USPSC-TA-PosTextual/USPSC-Apendices.aux
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 9000 items.
+Database file #1: abntex2-options.bib
+Database file #2: USPSC-bib/USPSC-modelo-references.bib
+Warning--entry type for "INEP1" isn't style-file defined
+--line 37 of file USPSC-bib/USPSC-modelo-references.bib
+Warning--entry type for "INEP2" isn't style-file defined
+--line 45 of file USPSC-bib/USPSC-modelo-references.bib
+Warning--entry type for "ref_06" isn't style-file defined
+--line 62 of file USPSC-bib/USPSC-modelo-references.bib
+Warning--entry type for "ref_08" isn't style-file defined
+--line 133 of file USPSC-bib/USPSC-modelo-references.bib
+Warning--entry type for "ref_07" isn't style-file defined
+--line 142 of file USPSC-bib/USPSC-modelo-references.bib
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'glb_str_end' (item size: 4) to 20 items.
+Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
+Reallocating 'global_strs' (item size: 1) to 4000000 items.
+Warning--campo year vazio ou faltando em ref_08
+Warning--campo year vazio ou faltando em ref_07
+Warning--campo year vazio ou faltando em INEP1
+Warning--campo year vazio ou faltando em INEP2
++---------------------------------------------------------+
+| Estilo bibliográfico abntex2-num.bst versão v-1.9.7           |
+| Em caso de dúvidas ou problemas com este estilo procure |
+| http://www.abntex.net.br/                               |
++---------------------------------------------------------+
+You've used 32 entries,
+            6713 wiz_defined-function locations,
+            1350 strings with 14467 characters,
+and the built_in function-call counts, 29504 in all, are:
+= -- 3283
+> -- 453
+< -- 664
++ -- 873
+- -- 139
+* -- 1757
+:= -- 3539
+add.period$ -- 77
+call.type$ -- 35
+change.case$ -- 234
+chr.to.int$ -- 48
+cite$ -- 24
+duplicate$ -- 2652
+empty$ -- 1623
+format.name$ -- 722
+if$ -- 6272
+int.to.chr$ -- 14
+int.to.str$ -- 3
+missing$ -- 465
+newline$ -- 110
+num.names$ -- 80
+pop$ -- 526
+preamble$ -- 1
+purify$ -- 114
+quote$ -- 0
+skip$ -- 3244
+stack$ -- 1
+substring$ -- 1172
+swap$ -- 951
+text.length$ -- 23
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 8
+warning$ -- 4
+while$ -- 116
+width$ -- 0
+write$ -- 277
+(There were 9 warnings)

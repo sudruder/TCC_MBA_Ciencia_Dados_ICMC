@@ -1,0 +1,146 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.7 }
+
+\bibitem{ref_01}
+\abntrefinfo{Melo \textit{et al.}}{MELO \textit{et al.}}{2021}
+{MELO, R.~O. \textit{et al.} Impacto das variáveis socioeconômicas no
+  desempenho do {ENEM}: uma análise espacial e sociológica.
+\textbf{Revista de Administração Pública}, v.~55, n.~6, p. 1271--1294,
+  nov./dez. 2021.}
+
+\bibitem{ref_05}
+\abntrefinfo{Ortega \textit{et al.}}{ORTEGA \textit{et al.}}{2025}
+{ORTEGA, A. \textit{et al.} Análise comparativa: Escola pública x escola
+  privada no {ENEM}. \textit{In}:  \textbf{Primeiro Hackthon de Dados pela
+  Universidade Federal do ABC}. São Paulo: [\textit{S.l.: s.n.}], 2025.
+  Relatório.}
+
+\bibitem{ref_04}
+\abntrefinfo{Nascimento \textit{et al.}}{NASCIMENTO \textit{et al.}}{2025}
+{NASCIMENTO, M.~M. \textit{et al.} Análise estatística e pluriescalar das
+  desigualdades educacionais: aspirações científicas e desempenho de
+  estudantes no {ENEM}.
+\textbf{Sociologias}, v.~27, 2025.
+Dispon{\'\i}vel em: \url{https://doi.org/10.1590/1807-0337/e130399}.}
+
+\bibitem{ref_08}
+\abntrefinfo{{INEP}}{{INEP}}{a}
+{{INEP}. \textbf{Microdados {ENEM}}.
+Local: Brasília, DF. [s.d.].
+Dispon{\'\i}vel em:
+  \url{https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/enem}.}
+
+\bibitem{ref_07}
+\abntrefinfo{{INEP}}{{INEP}}{b}
+{{INEP}. \textbf{Microdados Censo Escolar}.
+Local: Brasília, DF. [s.d.].
+Dispon{\'\i}vel em:
+  \url{https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/censo-escolar}.}
+
+\bibitem{INEP1}
+\abntrefinfo{{INEP}}{{INEP}}{c}
+{{INEP}. \textbf{Histórico do {ENEM}}.
+Dispon{\'\i}vel em:
+  \url{https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/historico}.}
+
+\bibitem{INEP2}
+\abntrefinfo{{INEP}}{{INEP}}{d}
+{{INEP}. \textbf{ENEM}.
+Dispon{\'\i}vel em:
+  \url{https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem}.}
+
+\bibitem{ref_10}
+\abntrefinfo{Oliveira e Cruz}{OLIVEIRA; CRUZ}{2014}
+{OLIVEIRA, L. K.~S.; CRUZ, R.~C. Capital cultural e educação: uma análise da
+  obra de bordieu. \textit{In}:  \textbf{XIII Encontro Cearense de
+  Historiadores da Educação - ECHE, III Encontro Nacional do Núcleo de
+  História e Memória da Educação - ENHIME, III Simpósio Nacional de
+  Estudos Culturais e Geoeducacionais - SINECGEO}. [\textit{S.l.: s.n.}], 2014.
+  p. 1247--1255. ISBN: 978-85-8126-065-5. Documento de evento, sem data e local
+  de publicação explícitos.}
+
+\bibitem{ref_06}
+\abntrefinfo{Vasconcellos}{VASCONCELLOS}{2013}
+{VASCONCELLOS, F. \textbf{Resultados do {ENEM} refletem desigualdades comuns no
+  país}. 2013.
+Dispon{\'\i}vel em:
+  \url{https://oglobo.globo.com/brasil/educacao/resultados-do-enem-refletem-desigualdades-comuns-no-pais-10445682}.}
+
+\bibitem{ref_12}
+\abntrefinfo{Jaloto e Primi}{JALOTO; PRIMI}{2021}
+{JALOTO, A.; PRIMI, R. Fatores socioeconômicos associados ao desempenho no
+  {ENEM}.
+\textbf{Em Aberto}, v.~34, n.~112, p. 125--141, dec 2021.
+Dispon{\'\i}vel em: \url{https://www.researchgate.net/publication/357656960}.}
+
+\bibitem{ref_03}
+\abntrefinfo{Moraes \textit{et al.}}{MORAES \textit{et al.}}{2022}
+{MORAES, C. P.~d. \textit{et al.} Efeito escola a partir de indicadores
+  educacionais: análise entre escolas públicas e privadas no {ENEM}.
+\textbf{REVISTA META: AVALIAÇÃO}, v.~14, n.~42, p. 67--93, mar 2022.}
+
+\bibitem{ref_16}
+\abntrefinfo{Bartholo \textit{et al.}}{BARTHOLO \textit{et al.}}{2023}
+{BARTHOLO, T. \textit{et al.} \textbf{Oportunidades educacionais de estudantes
+  concluintes do Ensino Médio: Relatório 1-Inscrição e Participação no
+  {ENEM} entre 2013 e 2021}.
+Rio de Janeiro, 2023.}
+
+\bibitem{ref_15}
+\abntrefinfo{Hiromi}{HIROMI}{2023}
+{HIROMI, F. {ENEM} mais desigual requer atenção dos gestores.
+\textbf{Aprendizagem em Foco}, n.~92, oct 2023.
+Dispon{\'\i}vel em:
+  \url{https://www.institutounibanco.org.br/boletim/enem-mais-desigual-requer-atencao-dos-gestores/}.}
+
+\bibitem{TCC_Mayra}
+\abntrefinfo{Romero}{ROMERO}{2021}
+{ROMERO, M.~C.
+\textbf{Aplicando técnicas de Machine Learning para avaliar resultados do
+  {ENEM}}.
+2021. 72~p. Disserta\c{c}\~{a}o (Trabalho de Conclusão de Curso (MBA em
+  Ciências de Dados)) --- Instituto de Ciências Matemáticas e de
+  Computação, Universidade de São Paulo, São Carlos, 2021.}
+
+\bibitem{TCC_Amanda}
+\abntrefinfo{Ferraz}{FERRAZ}{2020}
+{FERRAZ, A.~P.
+\textbf{Prevendo a aprovação de um participante do {ENEM} no {SISU} para o
+  curso de Medicina}.
+2020. 70~p. Disserta\c{c}\~{a}o (Trabalho de Conclusão de Curso (MBA em
+  Ciências de Dados)) --- Instituto de Ciências Matemáticas e de
+  Computação, Universidade de São Paulo, São Carlos, 2020.}
+
+\bibitem{ISL}
+\abntrefinfo{James \textit{et al.}}{JAMES \textit{et al.}}{2023}
+{JAMES, G. \textit{et al.} \textbf{An Introduction to Statistical Learning:
+  with Applications in Python}. Boca Raton: CRC Press, 2023.}
+
+\bibitem{ds_scratch}
+\abntrefinfo{Grus}{GRUS}{2019}
+{GRUS, J. \textbf{Data Science from Scratch: First Principles with Python}. 2.
+  ed. Sebastopol, CA: O'Reilly Media, Inc., 2019.}
+
+\bibitem{ml_first_course}
+\abntrefinfo{Lindholm \textit{et al.}}{LINDHOLM \textit{et al.}}{2022}
+{LINDHOLM, A. \textit{et al.} \textbf{Machine Learning: A First Course for
+  Engineers and Scientists}. Cambridge, UK; New York, NY: Cambridge University
+  Press, 2022.}
+
+\bibitem{rfs}
+\abntrefinfo{Breiman}{BREIMAN}{2001}
+{BREIMAN, L. Random forests.
+\textbf{Machine Learning}, v.~45, n.~1, p. 5--32, oct 2001.}
+
+\bibitem{Chapman2000CRISPDM}
+\abntrefinfo{Chapman \textit{et al.}}{CHAPMAN \textit{et al.}}{2000}
+{CHAPMAN, P. \textit{et al.} \textbf{{CRISP-DM 1.0: Step-by-step Data Mining
+  Guide}}.
+[S.l.], 2000. Disponível em:
+  \url{https://mineracaodedados.wordpress.com/wp-content/uploads/2012/12/crisp-dm-1-0.pdf}.}
+
+\end{thebibliography}

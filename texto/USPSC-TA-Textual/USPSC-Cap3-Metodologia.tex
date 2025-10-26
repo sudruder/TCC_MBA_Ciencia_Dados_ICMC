@@ -1,16 +1,134 @@
 
 \chapter{Metodologia}\label{cap_metodologia}
 
-Este capítulo detalha o delineamento da pesquisa, a coleta, o processamento e as técnicas analíticas empregadas para responder às perguntas de pesquisa.
+Este capítulo detalha a metodologia de trabalho utilizada, apresentando o delineamento da pesquisa, da coleta e processamento dos dados e as técnicas analíticas empregadas para responder às perguntas de pesquisa. A estrutura metodológica adotada será baseada no modelo CRISP-DM (Cross-Industry Standard Process for Data Mining) \cite{Chapman2000CRISPDM}, contendo as etapas de (i) entendimento de negócio, (ii) entendimento dos dados, (iii) preparação dos dados, (iv) modelagem, (v) avaliação e (vi) implantação.
 
-\section{Tipo de Pesquisa e Abordagem}\label{abordagem}
+\section{Entendimento de Negócio}\label{entendimento_negocio}
 
-A pesquisa será de natureza quantitativa, com caráter exploratório e descritivo, incorporando elementos de modelagem preditiva. A escolha dessa abordagem justifica-se pela necessidade de identificar e, crucialmente, quantificar a influência de diversos fatores no desempenho dos estudantes no ENEM. A abordagem quantitativa permite a análise de grandes volumes de dados, a identificação de padrões estatisticamente significativos e a construção de modelos que podem prever resultados e mensurar o impacto das variáveis.
+O entendimento de negócio é a primeira etapa do modelo CRISP-DM e envolve a definição clara dos objetivos do projeto, a compreensão do contexto em que a pesquisa está inserida e a identificação das partes interessadas. O foco principal deste trabalho acadêmico será a formulação de hipóteses relacionadas aos fatores que influenciam o desempenho dos estudantes no ENEM, bem como a análise do ``Efeito Escola''.
 
-\section{Fonte e Coleta de Dados}\label{dados}
+Conforme já mencionado no Capítulo \ref{cap_fundamentacao} - Fundamentação Teórica, o ENEM é um exame de grande relevância no contexto educacional brasileiro, e compreender os fatores que impactam o desempenho dos estudantes é crucial para a formulação de políticas educacionais eficazes. Trabalhos anteriores citam algumas variáveis socioeconômicas como discriminadores de performance no ENEM. A Tabela \ref{tab_variaveis_socioeconomicas} apresenta as principais variáveis socioeconômicas identificadas na literatura como relevantes para a análise do desempenho dos estudantes no ENEM, juntamente com suas respectivas referências.
 
-A fonte primária de dados para este estudo serão os microdados do ENEM, disponibilizados publicamente pelo INEP. \cite{ref_08} Serão utilizados os dados dos últimos 3 exames: 2022 a 2024. Usarei esse histórico para afastar quaisquer efeitos vindo da pandemia de COVID-19 e poder construir um comparativo entre dos efeitos influenciadores em cada edição.
 
-Para enriquecer as variáveis de características escolares e regionais, faremos a integração dos microdados do ENEM com outras bases de dados públicas, como o Censo Escolar. \cite{ref_07} A integração de dados de diferentes fontes é um passo metodológico avançado que permite uma análise mais holística.
 
-Ao combinarmos informações sobre o aluno (do ENEM) e a escola (do Censo Escolar), é possível desvendar interações complexas e o ``Efeito Escola'' de forma mais granular, superando as limitações de analisar apenas um conjunto de dados. Isso proporciona uma compreensão mais completa do ambiente educacional, incluindo infraestrutura, qualificação docente e práticas de gestão, que complementam os dados de desempenho individual.
+\begin{table}[h]
+
+    \centering
+
+    \caption{Variáveis socioeconômicas e suas referências}
+
+    \begin{tabular}{|m{7cm}|m{4cm}|} \hline
+
+        \textbf{Variável socioeconômica} & \textbf{Referência} \\ \hline
+        Renda familiar & Melo \textit{et al.} \cite{ref_01} \\ & Vasconcellos \cite{ref_06} \\ \hline
+        Raça / Cor & Melo \textit{et al.} \cite{ref_01} \\ & Moraes \textit{et al.} \cite{ref_03} \\ \hline
+        Sexo & Moraes \textit{et al.} \cite{ref_03} \\ \hline
+        Idade / Atraso Escolar & Jaloto e Primi \cite{ref_12} \\ \hline
+        Administração: Pública vs. Privada & Moraes \textit{et al.} \cite{ref_03} \\ & Jaloto e Primi \cite{ref_12} \\ & Ortega \textit{et al.} \cite{ref_05} \\ \hline
+        Atributos Escolares & Moraes \textit{et al.} \cite{ref_03} \\ \hline
+    \end{tabular}
+
+    \label{tab_variaveis_socioeconomicas}
+
+    \begin{center}
+        \footnotesize Fonte: do autor.
+    \end{center}
+
+\end{table}
+
+
+
+Assim, para este trabalho, formulo as seguintes perguntas de pesquisa para este trabalho:
+
+\begin{itemize}
+    \item \textbf{Pergunta 1:} Quais são os principais fatores socioeconômicos, características da escola e particularidades regionais que influenciam o desempenho dos estudantes no ENEM?
+    \item \textbf{Pergunta 2:} Qual é a magnitude da influência de cada um desses conjuntos de fatores nas notas dos participantes?
+\end{itemize}
+
+Com as perguntas de pesquisa definidas, o próximo passo é compreender os dados disponíveis para análise, conforme descrito na Seção \ref{entendimento_dados}.
+
+\section{Entendimento dos Dados}\label{entendimento_dados}
+ 
+Nesta etapa, o foco será a coleta e compreensão dos dados disponíveis para análise. Utilizarei duas fontes principais de dados: (i) os microdados do ENEM e (ii) e os dados do Censo Escolar, ambos disponibilizados pelo Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira (INEP).
+
+\subsection{Microdados do ENEM}\label{entendimento_microdados_enem}
+
+Os microdados do ENEM são disponibilizados anualmente pelo INEP em formato aberto e em arquivos CSV (\textit{Comma-Separated Values}) \cite{ref_08}, o que facilita a sua manipulação e análise. Junto dos microdados, é disponibilizado também o dicionário de dados, que descreve detalhadamente cada variável presente no conjunto de dados. Os dados da edição de 2022 e 2023 possuem 76 variáveis e 3,4 milhões e 3,9 milhões de observações, respectivamente, onde cada observação é um candidato que se inscreveu para realizar o exame. O dicionário completo do Censo Escolar pode ser encontrado no Apêndice \ref{apendice_dicionario_enem}. A seguir, apresento um resumo do dicionário de dados do ENEM.
+
+\begin{itemize}
+
+    \item \textbf{Dados do participante:} Número de inscrição mascarado, ano do exame, faixa etária, sexo, estado civil, cor/raça, nacionalidade, situação de conclusão do Ensino Médio, ano de conclusão do Ensino Médio, tipo de escola do Ensino Médio, tipo de instituição que concluiu ou concluirá o Ensino Médio e se o inscrito fez a prova como treineiro.
+
+    \item \textbf{Dados da escola:} Código e nome da escola, código e sigla da Unidade da Federação, código do município, nome do município, dependência administrativa, localização e situação de funcionamento.
+
+    \item \textbf{Dados do local de aplicação da prova:} Código e nome da escola onde a prova foi aplicada, código e sigla da Unidade da Federação, código do município e nome do município.
+
+    \item \textbf{Dados da prova Objetiva:} Presença e código do tipo de prova objetiva, nota das provas objetivas, vetor com as respostas da parte objetiva, língua estrangeira escolhida e vetor com o gabarito da parte objetiva.
+
+    \item \textbf{Dados da redação: } Nota das competências e nota da prova de redação.
+
+    \item \textbf{Dados do questionário socioeconômico:} Respostas do questionário socioeconômico aplicado aos participantes do ENEM.
+
+
+\end{itemize}
+
+A partir da interpretação do dicionario de dados, já é possível identificar diversas variáveis que podem ser utilizadas para responder às perguntas de pesquisa formuladas na Seção \ref{entendimento_negocio}. Essas variáveis incluem características demográficas dos participantes, informações sobre a escola de origem e dados socioeconômicos coletados por meio do questionário aplicado durante o exame.
+
+\subsection{Censo Escolar}\label{entendimento_censo_escolar}
+
+Os microdados do Censo Escolar são disponibilizados anualmente pelo INEP em formato aberto e em arquivos CSV (\textit{Comma-Separated Values}) \cite{ref_07}, o que facilita manipulação e análise. Junto dos microdados, é disponibilizado também o dicionário de dados, que descreve detalhadamente cada variável presente no conjunto de dados. Os dados da edição de 2022 e 2023 possuem 385 e 408 variáveis e 224 mil e 217 mil observações, respectivamente, onde cada observação é uma instituição de ensino do Brasil. No total, devido a diferenças de formato, temos 456 variáveis únicas entre as duas edições. O dicionário completo do Censo Escolar pode ser encontrado no Apêndice \ref{apendice_dicionario_censo}. A seguir, apresento um resumo do dicionário de dados do Censo Escolar.
+
+\begin{itemize}
+
+    \item \textbf{Dados de Identificação e Localização da Escola:} Ano do Censo, nome e código da escola, endereço completo e localização geográfica.
+
+    \item \textbf{Dados de Administração e Funcionamento:} Dependência administrativa (federal, estadual, municipal, privada), categoria da escola privada, situação de funcionamento, datas de início e término do ano letivo, vinculação a órgãos públicos, detalhes sobre parcerias ou convênios com o poder público, informações da mantenedora das escolas privadas e status de regulamentação.
+
+    \item \textbf{Dados de Infraestrutura e Dependências:} Local de funcionamento (prédio escolar, salas em empresa, unidade prisional, templo etc.), informações sobre abastecimento (água, energia e esgoto), destinação/tratamento do lixo, lista de dependências físicas existentes (biblioteca, cozinha, laboratórios, quadra de esportes, refeitório etc.) e recursos de acessibilidade (banheiro PcD, dependências acessíveis, corrimão, elevador, rampas e pisos táteis).
+
+    \item \textbf{Dados de Equipamentos e Tecnologia:} Quantidade de salas de aula existentes, utilizadas, climatizadas e acessíveis. Equipamentos para uso administrativo e pedagógico. Detalhes sobre computadores e acesso à Internet.
+
+    \item \textbf{Dados de Recursos Humanos:} Quantidade total de funcionários e quantidades específicas por função.
+
+    \item \textbf{Dados Pedagógicos e Oferta de Ensino:} Forma de organização do ensino (série/ano , ciclos , módulos ou alternância), alimentação escolar, materiais pedagógicos e socioculturais disponíveis. Informações sobre oferta de Educação Indígena (incluindo línguas), Atendimento Educacional Especializado (AEE) e Atividade Complementar. Mediação pedagógica (presencial, semipresencial, EAD).
+
+    \item \textbf{Dados de Gestão e Relação com a Comunidade:} Existência de órgãos colegiados (Associação de Pais, Conselho Escolar e Grêmio Estudantil), atualização da proposta pedagógica, existência de exame de seleção e reserva de vagas/cotas. Uso de redes sociais, compartilhamento de espaços e abertura da escola nos finais de semana.
+
+    \item \textbf{Dados Consolidados:} Indicadores de oferta de etapas (Educação Básica, Infantil, Fundamental, Médio, EJA, Profissional e Especial). Quantidade total de matrículas, docentes e turmas, com detalhamento por etapa, turno, tempo integral, sexo, cor/raça, faixa etária e zona de residência. Dados sobre alunos que utilizam transporte escolar público.
+
+\end{itemize}
+
+A partir da interpretação do dicionario de dados, já é possível identificar diversas variáveis que podem ser utilizadas para responder às perguntas de pesquisa formuladas na Seção \ref{entendimento_negocio}. Essas variáveis incluem características administrativas e pedagógicas das escolas, infraestrutura disponível e recursos humanos.
+
+\section{Preparação dos Dados}\label{preparacao_dados}
+
+A preparação dos dados é uma etapa crucial no processo de análise, pois envolve a limpeza, transformação e integração dos dados para torná-los adequados para a modelagem. Nesta seção, detalharei as etapas realizadas para preparar os microdados do ENEM e do Censo Escolar para análise.
+
+\subsection{Coleta e Importação dos Dados}\label{importacao_dados}
+
+A coleta dos dados foi realizada por meio do download dos arquivos CSV disponibilizados pelo INEP para as edições de 2022 e 2023 do ENEM e do Censo Escolar. Os arquivos foram armazenados localmente para facilitar o acesso durante o processo de análise.
+
+A leitura dos dados foi feitra através da biblioteca \texttt{pandas} do Python, que oferece funcionalidades robustas para manipulação de dados tabulares. A leitura foi feita utilizando o método \texttt{read\_csv}, especificando o separador como ponto e vírgula (\texttt{sep = ';'}), a codificação como \texttt{latin1} para lidar com caracteres especiais e o parâmetro \texttt{low\_memory = False} para otimizar a leitura de grandes arquivos.
+
+\subsection{Integração e Modificação de Esquemas}\label{integracao_esquemas}
+
+Nesta fase, foi necessário integrar os microdados do ENEM de cada edição. Os conjuntos de dados do ENEM de 2022 e 2023 possuem o mesmo esquema, ou seja, as mesmas variáveis estão presentes em ambos os anos e com o mesmo nome. Portanto, a integração foi realizada por meio da concatenação vertical dos dois conjuntos de dados, resultando em um único DataFrame contendo todas as observações de ambas as edições.
+
+Em seguida, foi feita uma modificação no nome das variáveis para nomes que me fossem mais intuitivos e de compreensão rápida do conteúdo. Essa modificação foi realizada utilizando o método \texttt{rename} da biblioteca \texttt{pandas}, a partir de um dicionário que mapeava os nomes originais para os novos nomes desejados.
+
+Para o Censo Escolar, as edições de 2022 e 2023 possuem esquemas ligeiramente diferentes, com algumas variáveis presentes em um ano e ausentes no outro. Para integrar esses conjuntos de dados, foi necessário realizar uma união que preservasse todas as variáveis de ambos os anos. Isso foi feito utilizando a função \texttt{merge} do \texttt{pandas} com a opção \texttt{how = 'outer'}, garantindo que todas as observações fossem mantidas, mesmo que algumas variáveis estivessem ausentes em determinada edição.
+
+Após a integração, também foi realizada uma modificação nos nomes das variáveis do Censo Escolar, seguindo o mesmo procedimento adotado para os dados do ENEM.
+
+\subsection{Exploração inicial}\label{exploracao_inicial}
+
+Com os dados no formato desejado, foi realizada uma exploração inicial para compreender a estrutura dos dados, identificar valores ausentes e detectar possíveis inconsistências. Essa exploração incluiu a verificação do número de linhas e colunas de cada conjunto de dados, a análise dos tipos de dados de cada variável e a identificação de valores nulos ou faltantes.
+
+Nessa fasse, também identificado variáveis que poderiam ser descartadas por não serem relevantes para a análise proposta, como variáveis de identificação pessoal dos participantes do ENEM, de local de realização da prova, entre outras. Essas variáveis foram removidas para simplificar o conjunto de dados e focar nas variáveis que realmente contribuiriam para responder às perguntas de pesquisa.
+
+\subsection{Tratamento de Valores Ausentes}\label{tratamento_valores_ausentes}
+
+Para variáveis que possuem valores faltantes, primeiro foi feita uma análise da relevância dessas variáveis para a análise proposta. Caso a variável fosse considerada relevante, foram adotadas estratégias específicas para lidar com os valores ausentes, enquanto que variáveis consideradas irrelevantes foram descartadas.
+
+As variáveis de nota nas quatro provas do ENEM (Ciências da Natureza, Ciências Humanas, Linguagens e Códigos e Matemática) e da redação apresentam valores ausentes para participantes que não compareceram à prova ou que tiveram suas provas anuladas. Essas variáveis serão as variáveis alvo da análise, portanto, observações com valores ausentes nessas variáveis foram removidas do conjunto de dados e cinco conjunto de dados resultantes foram criados, um para cada variável alvo.
+

@@ -46,6 +46,9 @@ brazil				% o último idioma é o principal do documento
 \usepackage[absolute]{textpos} % Pacote permite o posicionamento do texto
 \usepackage{eso-pic}           % Pacote para incluir imagem de fundo
 \usepackage{makebox}           % Pacote para criar caixa de texto
+\usepackage{array} % Necessário para m{} e p{}
+\usepackage{ragged2e} % Para \RaggedRight, melhor que \raggedright em tabelas
+\usepackage{refcount}
 % ---
 
 % ---
@@ -56,7 +59,7 @@ brazil				% o último idioma é o principal do documento
 
 % Sistema autor-data
 % \usepackage[alf, abnt-emphasize=bf, abnt-thesis-year=both, abnt-repeated-author-omit=no, abnt-last-names=abnt, abnt-etal-cite=3, abnt-etal-list=3, abnt-etal-text=it, abnt-and-type=e, abnt-doi=doi, abnt-url-package=none, abnt-verbatim-entry=no]{abntex2cite}
-% \bibliographystyle{USPSC-classe/abntex2-alf-USPSC}
+% \bibliographystyle{USPSC-classe/abntex2-alf-US©©PSC}
 
 % Sistema Numérico
 % Para citações numéricas, sistema adotado pelo IFSC, incluir % no início dos comandos acima e retirar a % dos comandos abaixo
