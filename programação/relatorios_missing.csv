@@ -1,0 +1,27 @@
+presenca_ciencias_natureza,tipo_nota_ciencias_natureza,quantidade,presenca_ciencias_humanas,tipo_nota_ciencias_humanas,presenca_linguagem_codigos,tipo_nota_linguagem_codigos,presenca_matematica,tipo_nota_matematica,status_redacao,tipo_nota_redacao
+Presente,Zero,17061,,,,,,,,
+Falta,Nulo,2358449,,,,,,,,
+Eliminado,Nulo,3789,,,,,,,,
+Presente,Com nota,5030761,,,,,,,,
+,,10085,Presente,Zero,,,,,,
+,,2084695,Falta,Nulo,,,,,,
+,,9280,Eliminado,Nulo,,,,,,
+,,5306000,Presente,Com nota,,,,,,
+,,3938,,,Presente,Zero,,,,
+,,2084695,,,Falta,Nulo,,,,
+,,9280,,,Eliminado,Nulo,,,,
+,,5312147,,,Presente,Com nota,,,,
+,,17181,,,,,Presente,Zero,,
+,,2358449,,,,,Falta,Nulo,,
+,,3789,,,,,Eliminado,Nulo,,
+,,5030641,,,,,Presente,Com nota,,
+,,4082,,,Presente,,,,anulada,Zero
+,,4191,,,Presente,,,,parte_desconectada,Zero
+,,56457,,,Presente,,,,fuga_ao_tema,Zero
+,,2084695,,,Falta,,,,nulo,Nulo
+,,18357,,,Presente,,,,texto_insuficiente,Zero
+,,9280,,,Eliminado,,,,nulo,Nulo
+,,2688,,,Presente,,,,nao_atendimento_ao_tipo_textual,Zero
+,,112435,,,Presente,,,,em_branco,Zero
+,,5068429,,,Presente,,,,sem_problemas,Com nota
+,,49446,,,Presente,,,,copia_texto_motivador,Zero

@@ -25,6 +25,8 @@ Reallocating 'name_of_file' (item size: 1) to 46 items.
 A level-1 auxiliary file: USPSC-TA-Textual/USPSC-Cap2-Fundamentacao.aux
 Reallocating 'name_of_file' (item size: 1) to 44 items.
 A level-1 auxiliary file: USPSC-TA-Textual/USPSC-Cap3-Metodologia.aux
+Reallocating 'name_of_file' (item size: 1) to 43 items.
+A level-1 auxiliary file: USPSC-TA-Textual/USPSC-Cap4-Resultados.aux
 Reallocating 'name_of_file' (item size: 1) to 42 items.
 A level-1 auxiliary file: USPSC-TA-Textual/USPSC-CapN-Conclusao.aux
 Reallocating 'name_of_file' (item size: 1) to 16 items.
@@ -52,6 +54,10 @@ Warning--entry type for "ref_08" isn't style-file defined
 --line 133 of file USPSC-bib/USPSC-modelo-references.bib
 Warning--entry type for "ref_07" isn't style-file defined
 --line 142 of file USPSC-bib/USPSC-modelo-references.bib
+Warning--entry type for "Anaconda_Miniconda_nd" isn't style-file defined
+--line 216 of file USPSC-bib/USPSC-modelo-references.bib
+Warning--entry type for "NVIDIA_CUDAX_nd" isn't style-file defined
+--line 225 of file USPSC-bib/USPSC-modelo-references.bib
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'glb_str_end' (item size: 4) to 20 items.
 Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
@@ -65,45 +71,45 @@ Warning--campo year vazio ou faltando em INEP2
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-You've used 32 entries,
+You've used 34 entries,
             6713 wiz_defined-function locations,
-            1350 strings with 14467 characters,
-and the built_in function-call counts, 29504 in all, are:
-= -- 3283
-> -- 453
-< -- 664
-+ -- 873
-- -- 139
-* -- 1757
-:= -- 3539
-add.period$ -- 77
-call.type$ -- 35
-change.case$ -- 234
-chr.to.int$ -- 48
-cite$ -- 24
-duplicate$ -- 2652
-empty$ -- 1623
-format.name$ -- 722
-if$ -- 6272
+            1364 strings with 14837 characters,
+and the built_in function-call counts, 33323 in all, are:
+= -- 3798
+> -- 477
+< -- 807
++ -- 1024
+- -- 147
+* -- 1964
+:= -- 3985
+add.period$ -- 85
+call.type$ -- 37
+change.case$ -- 246
+chr.to.int$ -- 50
+cite$ -- 26
+duplicate$ -- 3129
+empty$ -- 1733
+format.name$ -- 762
+if$ -- 6975
 int.to.chr$ -- 14
 int.to.str$ -- 3
-missing$ -- 465
-newline$ -- 110
-num.names$ -- 80
-pop$ -- 526
+missing$ -- 497
+newline$ -- 120
+num.names$ -- 88
+pop$ -- 572
 preamble$ -- 1
-purify$ -- 114
+purify$ -- 120
 quote$ -- 0
-skip$ -- 3244
+skip$ -- 3733
 stack$ -- 1
-substring$ -- 1172
-swap$ -- 951
-text.length$ -- 23
+substring$ -- 1351
+swap$ -- 1112
+text.length$ -- 25
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 8
 warning$ -- 4
-while$ -- 116
+while$ -- 128
 width$ -- 0
-write$ -- 277
-(There were 9 warnings)
+write$ -- 301
+(There were 11 warnings)

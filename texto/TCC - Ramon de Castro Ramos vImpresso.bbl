@@ -143,4 +143,16 @@ Dispon{\'\i}vel em:
 [S.l.], 2000. Disponível em:
   \url{https://mineracaodedados.wordpress.com/wp-content/uploads/2012/12/crisp-dm-1-0.pdf}.}
 
+\bibitem{Anaconda_Miniconda_nd}
+\abntrefinfo{{Anaconda}}{{Anaconda}}{n.d.}
+{{Anaconda}. \textbf{Getting started with Miniconda}. n.d.
+Dispon{\'\i}vel em:
+  \url{https://www.anaconda.com/docs/getting-started/miniconda/main}.}
+
+\bibitem{NVIDIA_CUDAX_nd}
+\abntrefinfo{{NVIDIA}}{{NVIDIA}}{n.d.}
+{{NVIDIA}. \textbf{{CUDA-X Data Science Libraries}}. n.d.
+Dispon{\'\i}vel em:
+  \url{https://developer.nvidia.com/topics/ai/data-science/cuda-x-data-science-libraries}.}
+
 \end{thebibliography}
