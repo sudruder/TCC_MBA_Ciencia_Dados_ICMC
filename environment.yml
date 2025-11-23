@@ -1,0 +1,17 @@
+name: tcc_gpu
+channels:
+  - rapidsai
+  - conda-forge
+  - defaults
+dependencies:
+  - xgboost
+  - cudf
+  - python=3.11
+  - cuml
+  - ipykernel
+  - matplotlib
+  - scikit-learn
+  - pandas
+  - seaborn
+  - phik
+prefix: /home/rcramos/miniconda3/envs/tcc_gpu

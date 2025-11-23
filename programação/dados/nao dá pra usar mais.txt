@@ -1,0 +1,5 @@
+2024
+1. Número sequencial que identifica cada linha da base de Resultados. Variável distinta da NU_INSCRICAO disponível na base de Participantes, de modo que não é possível utilizá-la para relacionar as duas bases.
+
+
+
