@@ -1,2 +1,105 @@
 
 \chapter{Resultados}\label{cap_resultados}
+
+Este capítulo apresenta os resultados obtidos a partir da aplicação da metodologia descrita no Capítulo \ref{cap_metodologia}. Os resultado serão apresentados na mesma ordem das etapas descritas na metodologia.
+
+\section{Entendimento dos Dados}
+
+\subsection{Tratamento dos Valores nulos}\label{sec_resultados_tratamento_nulos}
+
+Conforme descrito na Seção \ref{sec_metodologia_tratamento_nulos}, os dados nulos foram tratados de acordo com a natureza de cada variável. A Tabela \ref{tab_obs_variaveis_enem} apresenta o percentual de valores nulos por variável na conjunto de dados integrados incial, antes dos tratamentos.
+
+\begin{table}[h]
+
+    \centering
+
+    \caption{Percentual inicial de valores nulos por variável}
+
+    \label{tab_obs_variaveis_enem}
+
+    \begin{tabular}{|l|c|}
+        \hline
+        \textbf{Variável} & \textbf{Percentual de nulos} \\ \hline
+        sigla\_uf\_escola & 78,1\% \\ \hline
+        cod\_municipio\_escola & 78,1\% \\ \hline
+        tp\_adm\_escola & 78,1\% \\ \hline
+        nome\_municipio\_escola & 78,1\% \\ \hline
+        cod\_uf\_escola & 78,1\% \\ \hline
+        tp\_local\_escola & 78,1\% \\ \hline
+        funcionamento\_escola & 78,1\% \\ \hline
+        tp\_ensino & 69,8\% \\ \hline
+        tp\_escola & 68,2\% \\ \hline
+        nota\_ciencias\_natureza & 40,4\% \\ \hline
+        nota\_matematica & 40,4\% \\ \hline
+        nota\_ciencias\_humanas & 37,0\% \\ \hline
+        nota\_redacao & 37,0\% \\ \hline
+        nota\_linguagem\_codigos & 37,0\% \\ \hline
+        03\_ocupacao\_pai & 12,5\% \\ \hline
+        01\_escolaridade\_pai & 9,8\% \\ \hline
+        04\_ocupacao\_mae & 9,0\% \\ \hline
+        estado\_civil & 4,2\% \\ \hline
+        02\_escolaridade\_mae & 3,5\% \\ \hline
+        cor\_raca & 1,8\% \\ \hline
+        10\_qtde\_carro & 0,6\% \\ \hline
+        05\_qtde\_moradores & 0,6\% \\ \hline
+        06\_renda\_familiar & 0,6\% \\ \hline
+        07\_qtde\_trabalhador\_domestico & 0,6\% \\ \hline
+        08\_qtde\_banheiro & 0,6\% \\ \hline
+        09\_qtde\_quarto & 0,6\% \\ \hline
+        18\_flag\_aspirador\_po & 0,6\% \\ \hline
+        11\_qtde\_motocicleta & 0,6\% \\ \hline
+        12\_qtde\_geladeira & 0,6\% \\ \hline
+        13\_qtde\_freezer & 0,6\% \\ \hline
+        14\_qtde\_maq\_lavar\_roupa & 0,6\% \\ \hline
+        15\_qtde\_maq\_secar\_roupa & 0,6\% \\ \hline
+        16\_qtde\_micro\_ondas & 0,6\% \\ \hline
+        17\_qtde\_maq\_lavar\_louca & 0,6\% \\ \hline
+        22\_qtde\_celular & 0,6\% \\ \hline
+        19\_qtde\_tv & 0,6\% \\ \hline
+        20\_flag\_aparelho\_dvd & 0,6\% \\ \hline
+        21\_flag\_tv\_assinatura & 0,6\% \\ \hline
+        24\_qtde\_computadores & 0,6\% \\ \hline
+        23\_flag\_telefone\_fixo & 0,6\% \\ \hline
+        25\_flag\_internet & 0,6\% \\ \hline
+        nacionalidade & 0,05\% \\ \hline
+    \end{tabular}
+    \begin{center}
+        \footnotesize Fonte: elaborado pelo autor.
+    \end{center}
+\end{table}
+
+A quantidade de nulos nas variáveis varia significativamente, com algumas apresentando mais de 70\% de valores nulos, enquanto outras possuem menos de 1\%. Variáveis com uma alta proporção de valores nulos podem comprometer a análise se for realizado alguma imputação de valores.
+
+Nas variáveis de notas, foi observado que há valores preenchidos com zero e valores nulos. Após análise conjunta com as variáveis de presença nas respecitivas provas, constatou-se que os valores nulos indicam ausência ou eliminação do participante na prova, enquanto os valores zero indicam que o participante esteve presente na prova, mas obteve nota zero. Dessa forma, as observações com notas nulas foram removidas, enquanto as observações com notas zero foram mantidas.
+
+Após a aplicação dos tratamentos descritos na Seção \ref{sec_metodologia_tratamento_nulos}, restaram 12.241.442 observações e 45 variáveis no conjunto de dados integrado.
+
+\subsection{Separação dos Conjuntos de Dados por Variável Resposta}\label{sec_resultados_separacao_conjuntos_dados}
+
+Após a separação dos conjuntos de dados por variável resposta, conforme descrito na Seção \ref{sec_metodologia_separacao_conjuntos_dados}, foram criados cinco conjuntos de dados distintos. A Tabela \ref{tab_conjunto_variaveis_resposta} apresenta a quantidade de observações e variáveis em cada conjunto de dados.
+
+
+\begin{table}[h]
+
+    \centering
+
+    \caption{Quantidade de observações por conjunto de dados}
+
+    \label{tab_conjunto_variaveis_resposta}
+
+    \begin{tabular}{|l|c|c|}
+        \hline
+        \textbf{Conjunto de Dados} & \textbf{Observações} & \textbf{Variáveis} \\ \hline
+        Ciências Humanas & 7.895.093 & 36 \\ \hline
+        Ciências Natureza & 7.500.050 & 36 \\ \hline
+        Linguagem e Código & 7.895.093 & 36 \\ \hline
+        Matemática & 7.500.050 & 36 \\ \hline
+        Redação & 7.895.093 & 36 \\ \hline
+    \end{tabular}
+    \begin{center}
+        \footnotesize Fonte: elaborado pelo autor.
+    \end{center}
+\end{table}
+
+\subsection{Exploração Inicial}\label{sec_resultados_exploracao_inicial}
+
