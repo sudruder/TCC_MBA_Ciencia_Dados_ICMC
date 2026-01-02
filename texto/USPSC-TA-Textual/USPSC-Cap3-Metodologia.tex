@@ -1,7 +1,9 @@
 
 \chapter{Metodologia}\label{cap_metodologia}
 
-Este capítulo detalha a metodologia de trabalho utilizada, apresentando o delineamento da pesquisa, da coleta e processamento dos dados e as técnicas analíticas empregadas para responder às perguntas de pesquisa. A estrutura metodológica adotada será baseada no modelo CRISP-DM (\textit{Cross-Industry Standard Process for Data Mining}) \cite{Chapman2000CRISPDM}, contendo as etapas de (i) entendimento de negócio, (ii) entendimento dos dados, (iii) preparação dos dados, (iv) modelagem, (v) avaliação e (vi) implantação.
+Este capítulo detalha a metodologia de trabalho utilizada, apresentando o delineamento da pesquisa, da coleta e processamento dos dados e as técnicas analíticas empregadas para responder às perguntas de pesquisa.
+
+A estrutura metodológica adotada será baseada no modelo CRISP-DM (\textit{Cross-Industry Standard Process for Data Mining}) \cite{Chapman2000CRISPDM}, contendo as etapas de (i) entendimento de negócio, (ii) entendimento dos dados, (iii) preparação dos dados, (iv) modelagem, (v) avaliação e (vi) implantação.
 
 \begin{figure}[H]
     \centering
@@ -13,11 +15,15 @@ Este capítulo detalha a metodologia de trabalho utilizada, apresentando o delin
 \end{center}
 \end{figure}
 
-\section{Entendimento de Negócio}\label{entendimento_negocio}
+\section{Entendimento de Negócio}\label{sec_metodologia_entendimento_negocio}
 
-O entendimento de negócio é a primeira etapa do modelo CRISP-DM e envolve a definição clara dos objetivos do projeto, a compreensão do contexto em que a pesquisa está inserida e a identificação das partes interessadas. O foco principal deste trabalho acadêmico será a formulação de hipóteses relacionadas aos fatores que influenciam o desempenho dos estudantes no ENEM, bem como a análise do ``Efeito Escola''.
+O entendimento de negócio envolve a definição clara dos objetivos do projeto, a compreensão do contexto em que a pesquisa está inserida e a identificação das partes interessadas.
 
-Conforme já mencionado no Capítulo \ref{cap_fundamentacao} - Fundamentação Teórica, o ENEM é um exame de grande relevância no contexto educacional brasileiro e compreender os fatores que impactam o desempenho dos estudantes é crucial para a formulação de políticas educacionais eficazes. Trabalhos anteriores citam algumas variáveis socioeconômicas como discriminadores de performance no ENEM. A Tabela \ref{tab_variaveis_socioeconomicas} apresenta algumas dessas variáveis socioeconômicas identificadas na literatura, juntamente com suas respectivas referências.
+O foco principal deste trabalho acadêmico será a formulação de hipóteses relacionadas aos fatores que influenciam o desempenho dos estudantes no ENEM.
+
+Conforme já mencionado no Capítulo \ref{cap_fundamentacao} - Fundamentação Teórica, o ENEM é um exame de grande relevância no contexto educacional brasileiro e compreender os fatores que impactam o desempenho dos estudantes é crucial para a formulação de políticas educacionais eficazes.
+
+Trabalhos anteriores citam algumas variáveis socioeconômicas como discriminadores de performance no ENEM. A Tabela \ref{tab_variaveis_socioeconomicas} apresenta algumas dessas variáveis socioeconômicas identificadas na literatura, juntamente com suas respectivas referências.
 
 \begin{table}[h]
 
@@ -51,17 +57,38 @@ Assim, para este trabalho, são formuladas as seguintes perguntas de pesquisa:
     \item \textbf{Pergunta 2:} Qual é a magnitude da influência de cada um desses conjuntos de fatores nas notas dos participantes?
 \end{itemize}
 
-Com as perguntas de pesquisa definidas, o próximo passo é compreender os dados disponíveis para análise, conforme descrito na Seção \ref{entendimento_dados}.
+Com as perguntas de pesquisa definidas, o próximo passo é compreender os dados disponíveis para análise, conforme descrito na Seção \ref{sec_metodologia_entendimento_dados}.
 
-\section{Entendimento dos Dados}\label{entendimento_dados}
+\section{Entendimento dos Dados}\label{sec_metodologia_entendimento_dados}
 
-Nesta etapa, o foco será a coleta e compreensão dos dados disponíveis para análise. Utilizarei os microdados do ENEM como fonte principal e que são disponibilizados anualmente pelo Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira (INEP).
+Nesta etapa, o foco será a coleta e compreensão dos dados disponíveis para análise. Foram utilizados os microdados do ENEM como fonte principal, que são disponibilizados anualmente pelo Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira (INEP).
 
-\subsection{Estrutura dos Dados}\label{estrutura_dados}
+\subsection{Estrutura dos Dados}\label{sec_metodologia_estrutura_dados}
 
-Os dados se encontram em arquivos CSV (\textit{Comma-Separated Values}) \cite{ref_08}, o que facilita a sua manipulação e análise. Os dados da edição de 2022 e 2023 possuem 76 variáveis e 3,4 milhões e 3,9 milhões de observações, respectivamente, onde cada observação é um candidato que se inscreveu para realizar o exame.
+Os dados se encontram em arquivos CSV (\textit{Comma-Separated Values}) \cite{ref_08}, o que facilita a sua manipulação e análise. Serão utilizados os dados das edições de 2020 a 2023 e possuem, respectivamente, as seguintes quantidade de observações e variáveis:
 
-O dicionário de dados também é disponibilizado e descreve detalhadamente cada variável presente no conjunto de dados. A seguir, apresento um resumo do dicionário de dados.
+\begin{table}[h]
+
+    \centering
+
+    \caption{Quantidade de observações e variáveis por edição do ENEM}
+
+    \label{tab_obs_variaveis_enem}
+
+    \begin{tabular}{|c|c|c|}
+        \hline
+        \textbf{Edição} & \textbf{Observações} & \textbf{Variáveis} \\ \hline
+        2020 & 5.783.109 & 76 \\ \hline
+        2021 & 3.389.832 & 76 \\ \hline
+        2022 & 3.476.105 & 76 \\ \hline
+        2023 & 3.933.955 & 76 \\ \hline
+    \end{tabular}
+    \begin{center}
+        \footnotesize Fonte: microdados do INEP; elaborado pelo autor.
+    \end{center}
+\end{table}
+
+O dicionário de dados também é disponibilizado e descreve detalhadamente cada variável presente no conjunto de dados. A seguir, é apresentado um resumo do dicionário de dados. O dicionário completo está disponível no Apêndice \ref{apendice_dicionario_enem}.
 
 \begin{itemize}
 
@@ -77,18 +104,19 @@ O dicionário de dados também é disponibilizado e descreve detalhadamente cada
 
     \item \textbf{Dados do questionário socioeconômico:} Respostas do questionário socioeconômico aplicado aos participantes do ENEM.
 
-
 \end{itemize}
 
-A partir da interpretação do dicionario de dados, já é possível identificar diversas variáveis que podem ser utilizadas para responder às perguntas de pesquisa formuladas na Seção \ref{entendimento_negocio}, assim como as variáveis resposta.
+A partir da interpretação do dicionario de dados, já é possível identificar diversas variáveis que podem ser utilizadas para responder às perguntas de pesquisa formuladas na Seção \ref{sec_metodologia_entendimento_negocio}, assim como as variáveis resposta.
 
-\subsection{Definição da Variável Resposta}\label{definicao_variavel_resposta}
+\subsection{Definição da Variável Resposta}\label{sec_metodologia_definicao_variavel_resposta}
 
-Para este trabalho, serão usadas as notas de cada prova objetiva do ENEM como variáveis resposta, ou seja, as variáveis que queremos prever com base nas outras variáveis disponíveis no conjunto de dados. As provas objetivas do ENEM são divididas em quatro áreas de conhecimento: (i) Ciências da Natureza, (ii) Ciências Humanas, (iii) Linguagens e Códigos e (iv) Matemática. Além disso, a prova do ENEM possui uma redação com nota própria e que também será considerada como uma variável resposta.
+Esse trabalho pretende avaliar o desempenho dos estudantes no ENEM e os fatores que influenciam esse desempenho e variável resposta deve refletir esse objetivo. Assim, serão utilizadas como variáveis resposta as notas obtidas pelos estudantes nas quatro provas objetivas e na redação do ENEM.
 
-\section{Preparação do Ambiente Python}\label{preparacao_ambiente_python}
+Assim, teremos cinco variáveis resposta distintas para análise: (i) Nota da prova de Ciências da Natureza; (ii) Nota da prova de Ciências Humanas; (iii) Nota da prova de Linguagens e Códigos; (iv) Nota da prova de Matemática; e (v) Nota da Redação.
 
-Para a execução desse trabalho, foi utilizado um ambiente virtual baseado em Miniconda3 \cite{Anaconda_Miniconda_nd}. Dado o volume grande de dados (mais de 7 milhões de observações, 3,1 GB), foi necessário utilizar uma GPU para acelerar o processamento dos dados e a modelagem. A GPU utilizada foi uma NVIDIA GeForce RTX 4070 Ti Super, com 16 GB de memória dedicada.
+\section{Preparação do Ambiente Python}\label{sec_metodologia_preparacao_ambiente_python}
+
+Para a execução desse trabalho, foi utilizado um ambiente virtual baseado em Miniconda3 \cite{Anaconda_Miniconda_nd}. Dado o volume grande de dados (mais de 16 milhões de observações, 6,4 GB de tamanho), foi necessário utilizar uma GPU para acelerar o processamento dos dados e a modelagem. A GPU utilizada foi uma NVIDIA GeForce RTX 4070 Ti Super, com 16 GB de memória dedicada.
 
 Para possibilitar essa execução, o ambiente foi especificamente configurado com o ecossistema NVIDIA CUDAX \cite{NVIDIA_CUDAX_nd}. Esta suíte de bibliotecas de software permite executar pipelines de Ciência de Dados e análises inteiramente na GPU, minimizando a transferência de dados entre a CPU e a GPU.
 
@@ -96,41 +124,56 @@ Foram utilizados seus principais componentes: \texttt{cudf} \cite{NVIDIA_cuDF_nd
 
 O arquivo YML de configuração do ambiente virtual utilizado está disponível no Apêndice \ref{apendice_ambiente_virtual}.
 
-\section{Preparação dos Dados}\label{preparacao_dados}
+\section{Preparação dos Dados}\label{sec_metodologia_preparacao_dados}
 
 A preparação dos dados é uma etapa crucial no processo de análise, pois envolve a limpeza, transformação e integração dos dados para torná-los adequados para a modelagem. Nesta seção, detalharei as etapas realizadas para preparar os microdados do ENEM para análise.
 
-\subsection{Coleta, Leitura e Integração dos Dados}\label{coleta_integracao_dados}
+\subsection{Coleta, Leitura e Integração dos Dados}\label{sec_metodologia_coleta_integracao_dados}
 
-A coleta dos dados foi realizada por meio do download dos arquivos CSV disponibilizados pelo INEP para as edições de 2022 e 2023 do ENEM. Os arquivos foram armazenados localmente para facilitar o acesso durante o processo de análise.
+A coleta dos dados foi realizada por meio do download dos arquivos CSV disponibilizados pelo INEP para as edições de 2020 a 2023 do ENEM. Os arquivos foram armazenados localmente para facilitar o acesso durante o processo de análise.
 
-A leitura dos dados foi feita utilizando o método \texttt{read\_csv}, da biblioteca \texttt{cudf}, especificando o separador como ponto e vírgula (\texttt{sep = ';'}).
+A leitura dos dados foi feita utilizando o método \texttt{read\_csv}, da biblioteca \texttt{pandas}, especificando o separador como ponto e vírgula (\texttt{sep = ';'}).
 
-Os conjuntos de dados do ENEM de 2022 e 2023 possuem o mesmo esquema, ou seja, as mesmas variáveis estão presentes em ambas as edições e com o mesmo nome. Portanto, a integração foi realizada por meio da concatenação vertical dos dois conjuntos de dados, utilizando o método \texttt{concat} da biblioteca \texttt{cudf}.
+Os conjuntos de dados do ENEM de 2020 a 2023 possuem o mesmo esquema, ou seja, as mesmas variáveis estão presentes em ambas as edições e com o mesmo nome. Portanto, a integração foi realizada por meio da concatenação vertical dos dois conjuntos de dados, utilizando o método \texttt{concat} da biblioteca \texttt{pandas}.
 
 Em seguida, foi feita uma modificação no nome das variáveis para nomes que fossem mais intuitivos e de compreensão rápida do conteúdo. Essa modificação foi realizada utilizando o método \texttt{rename}, a partir de um dicionário que mapeava os nomes originais para os novos nomes desejados.
 
-\subsection{Exploração Inicial}\label{exploracao_inicial}
+\subsection{Transformação das Variáveis Categóricas}\label{sec_metodologia_transformacao_variaveis_categoricas}
 
-Com os dados no formato desejado, foi realizada uma exploração inicial para compreender a estrutura dos dados, identificar valores ausentes e detectar possíveis inconsistências.
+Analisando o dicionário de dados, foi possível identificar diversas variáveis categóricas representadas por códigos numéricos. Essas variáveis precisam ser transformadas para garantir que os modelos de \textit{Machine Learning} as interpretem corretamente como categóricas e não como variáveis numéricas.
 
-Foram analisadas as cinco variáveis respostas selecionadas com a variável de presença respectiva para entender a relação de notas nulas/zero com a ausência do participante na prova. Para a nota da redação, foi utilizada a variável de presença na prova de Linguagens e Códigos, que é quando a redação é aplicada, juntamente com a variável de status da redação, que indica se a redação foi anulada ou não.
+Os códigos numéricos foram então substituídos por rótulos textuais mais descritivos utilizando o método \texttt{map} com um dicionário de mapeamento específico para cada variável categórica. Alguns códigos represenram ausência de informação e foram substituídos por \texttt{None} para um futuro tratamento de valores ausentes adequado.
 
-Como iremos realizar a análise considerando cada variável resposta separadamente, foram criados cinco conjuntos de dados distintos, um para cada variável resposta, a partir da análise feita anteriormente.
+\subsection{Tratamentos dos Valores Nulos}\label{sec_metodologia_tratamento_nulos}
 
-Foram selecionadas apenas as observações que possuem presença nas provas correspondentes e tiveram nota válida (diferente de nulo ou zero) para cada variável resposta. Para a redação, além da presença na prova, também foram removidas as observações com redações com problemas.
+Após a integração dos dados, foi realizada uma análise inicial para identificar a presença de valores nulos em cada variável. Dependendo do percentual de valores nulos e da natureza da variável, diferentes estratégias de tratamento foram adotadas.
 
-\subsection{Tratamento de Valores Ausentes}\label{tratamento_valores_ausentes}
+As variáveis com mais de 50\% de valores nulos foram removidas do conjunto de dados, pois a alta proporção de valores ausentes poderia comprometer a análise e a modelagem subsequente.
 
-Para a avaliação e tratamento de valores ausentes, foi necessário fazer um tratamento inicial para identificar os valores que representam ausência de dados em cada variável.
+As variáveis de notas das provas objetivas e da redação passaram por uma análise mais detalhada de valores nulos em conjunto com as variáveis de presença nas respecitivas provas para entender o significado dos valores nulos e decidir o tratamento adequado. No fim, as observações com notas nulas foram removidas, enquanto as observações com notas zero foram mantidas, pois representam casos distintos.
 
-No conjunto de dados do ENEM, alguns valores ausentes são representados por códigos específicos, como \texttt{0}. Para essas variáveis, foi feita a substituição desses códigos por \texttt{None} e os demais códigos por valores apropriados (já pensando num futuro \textit{One-Hot Encoding}), através de um dicionário e o método \texttt{map}. Em seguida, foi utilizado o método \texttt{isnull} para identificar os valores ausentes em cada variável.
+As demais variáveis com valores nulos foram consideradas de maneira consolidada, ou seja, caso uma observação possua valor ausente em qualquer uma dessas variáveis, ela será considerada como tendo valor ausente. Essas observações foram então removidas do conjunto de dados.
 
-Para variáveis que apresentaram uma alta proporção de valores ausentes, foi decidido removê-las do conjunto de dados, pois a quantidade de informações perdidas poderia comprometer a análise. Para as demais variáveis, foi adotada uma estratégia específica de imputação de valores ausentes, que será detalhada na Seção \ref{imputacao_valores_ausentes}.
+\subsection{Separação dos Conjuntos de Dados por Variável Resposta}\label{sec_metodologia_separacao_conjuntos_dados}
 
-\subsection{Transformação de Variáveis Categóricas}\label{transformacao_variaveis_categoricas}
+Como possuímos cinco variáveis resposta distintas, é necessário preparar os dados para cada uma delas. Assim, foram criados cinco conjuntos de dados distintos, um para cada variável resposta. O filtro aplicado é o mesmo para todos os conjuntos de dados: foram mantidas apenas as observações que possuem presença na prova correspondente. Para a nota da redação, foi utilizada a variável de presença na prova de Linguagens e Códigos, que é quando a redação é aplicada.
 
-Algumas variáveis categóricas são representadas com números inteiros, o que poderia levar os modelos de \textit{Machine Learning} a interpretá-las como variáveis numéricas ordinais. Para evitar esse problema, foi feita a substituição dos códigos numéricos por rótulos textuais mais descritivos, utilizando o método \texttt{map} com um dicionário de mapeamento. Em seguida, foi aplicado o \textit{One-Hot Encoding} para transformar essas variáveis categóricas em variáveis binárias, utilizando o método \texttt{OneHotEncoder} da biblioteca \texttt{sklearn.preprocessing}.
+ALém disso, foram retiradas as variáveis de nota das demais provas, assim como as variáveis de presença nas demais provas, para evitar qualquer tipo de \textit{data leakage} durante a modelagem.
+
+Foi utilizado a estrutura de dicionário para armazenar os cinco conjuntos de dados distintos, facilitando o acesso e a manipulação dos dados durante a análise.
+
+\subsection{Exploração Inicial}\label{sec_metodologia_exploracao_inicial}
+
+Com os dados no formato desejado, foi realizada uma exploração inicial para compreender a estrutura dos dados e e detectar possíveis inconsistências.
+
+Primeiramente, foi analisada a distriuição das notas para cada variável resposta, utilizando histogramas e boxplots. Foi constatado que a nota da redação é aplicada em intervalos de 20 pontos, enquanto que as demais notas são aplicadas de maneira contínua. Isso se dá pela quantidade muito diferente de notas distintas existentes em cada prova: a redação possui 50 valores distintos, enquanto que as demais provas possuem mais de 5.200 valores distintos cada.
+
+
+
+
+
+
+
 
 \section{Análise de correlação das Variáveis Preditoras}\label{analise_correlacao_variaveis}
 

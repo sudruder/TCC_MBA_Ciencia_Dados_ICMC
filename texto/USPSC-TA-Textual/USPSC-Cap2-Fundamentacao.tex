@@ -19,7 +19,7 @@ Os microdados do ENEM, disponibilizados anualmente pelo Instituto Nacional de Es
 
 Para compreender a reprodução das desigualdades sociais no sistema educacional, a teoria do capital cultural de Pierre Bourdieu oferece um arcabouço teórico fundamental. Este argumenta que o sucesso escolar não depende apenas do mérito individual ou da capacidade cognitiva, mas também da posse de diferentes formas de capital: o econômico (posses que o indivíduo tem), o social (relacionamentos que podem ser benéficos aos indivíduo), o simbólico (prestígio/honra) e o cultural (conhecimentos reconhecidos por diplomas e títulos) \cite{ref_10}. 
 
-O capital cultural ainda se divide em três estados: (i) o capital cultural incorporado, composto por elementos pessoais como gostos (musicais, artísticos etc.), domínio de línguas etc.; (ii) o cpital cultural objetivado, composto por posses de livros e obras de arte ou acesso a museus, cinema etc.; (ii) o capital cultural instucionalizado, caracterizado por diplomas e títulos de conheicmento \cite{ref_10}. 
+O capital cultural ainda se divide em três estados: (i) o capital cultural incorporado, composto por elementos pessoais como gostos (musicais, artísticos etc.), domínio de línguas; (ii) o capital cultural objetivado, composto por posses de livros e obras de arte ou acesso a museus, cinema etc.; (ii) o capital cultural instucionalizado, caracterizado por diplomas e títulos de conhecimento \cite{ref_10}. 
 
 A acumulação de capital cultural é o que influenciará o desempenho escolar do indivíduo e futuramente seu posicionamento no mercado de trabalho. Se os dados do ENEM confirmarem a forte influência de variáveis socioeconômicas e de escolaridade parental, isso reforçará a tese da reprodução escolar das desigualdades, sugerindo que o sistema educacional, em vez de ser um equalizador, pode perpetuar as hierarquias sociais. Isso se manifesta, por exemplo, na forma como a escolaridade da mãe e a renda familiar são fatores relevantes para o desempenho e a dispersão das notas do ENEM \cite{ref_01}. 
 
@@ -49,13 +49,11 @@ Estudos sobre o ENEM consistentemente apontam o impacto de diversos fatores:
 % 2.4
 \section{Características escolares e o ``Efeito Escola''}\label{carac_escolares}
 
-As características das escolas também exercem influência no desempenho dos estudantes e o conceito de ``efeito escola'' busca mensurar a contribuição da instituição de ensino para o desempenho do aluno, além dos fatores individuais e familiares \cite{ref_03}.
-
-Achados relevantes incluem:
+As características das escolas também exercem influência no desempenho dos estudantes e o conceito de ``efeito escola'' busca mensurar a contribuição da instituição de ensino para o desempenho do aluno, além dos fatores individuais e familiares \cite{ref_03}. Achados relevantes incluem:
 
 \begin{itemize}
 
-	\item \textbf{Dependência Administrativa (Pública vs. Privada):} Alunos de escolas privadas consistentemente superam os de escolas públicas \cite{ref_03}.  Em Matemática, a diferença pode ser de aproximadamente 83,9 pontos entre alunos de escolas privadas e estaduais \cite{ref_12}.  O estudo da UFABC, por exemplo, mostrou que em Matemática, apenas 2,9\% dos estudantes da rede pública atingiram 720 pontos, contra 20\% da rede privada \cite{ref_05}. 
+	\item \textbf{Dependência Administrativa (Pública vs. Privada):} Alunos de escolas privadas consistentemente superam os de escolas públicas \cite{ref_03}.  Em Matemática, a diferença pode ser de aproximadamente 83,9 pontos entre alunos de escolas privadas e estaduais \cite{ref_12}. Um estudo da UFABC, por exemplo, mostrou que em Matemática, apenas 2,9\% dos estudantes da rede pública atingiram 720 pontos, contra 20\% da rede privada \cite{ref_05}. 
 
 	\item \textbf{Atributos Escolares:} Fatores como complexidade de gestão, média de horas-aula, número de alunos por turma, qualidade dos professores (esforço e adequação docente) e o nível socioeconômico médio da escola são importantes \cite{ref_03}.  O nível socioeconômico médio da escola e a regularidade docente destacam-se como os mais significativos, aumentando a nota em 22,7 pontos para cada nível socioeconômico e em 14,6 para cada nível de regularidade docente em escolas privadas \cite{ref_03}. 
 
@@ -81,7 +79,7 @@ Moraes \textit{et al.} \cite{ref_03} também aplicaram o método de regressão l
 
 O nível socioeconômico médio dos alunos da escola chega ``a aumentar a nota em 22,7 pontos para cada nível socioeconômico [...] nas escolas privadas e 12,3 pontos [...] nas escolas públicas.'' Essa variável foi construída pelos autores e separada em 6 grupos, onde o grupo 6 reúne as escolas com os alunos de maior nível socioeconômico e o grupo 1 reúne as escolas com os alunos de menor nível socioeconômico.
 
-Os trabalhos de conclusão de curso de Amanda Ferraz \cite{TCC_Amanda} e Mayra Romero \cite{TCC_Mayra}, para este mesmo MBA, aplicaram técnicas mais robustas. Ferraz utilizou \textit{Random Forest} e \textit{Boosting} para prever a aprovação de participantes do ENEM no SISU para o curso de Medicina, obtendo resultados satisfatórios com Coeficiente de Correlação de Matthews superior a 0,9. Já Romero desenvolveu e comparou modelos de classificação, incluindo \textit{Random Forest}, para identificar características socioeconômicas que indicam maior chance de o candidato atingir uma pontuação média acima de 500 pontos no ENEM. Ela concluiu que o \textit{Random Forest} teve o melhor desempenho e que a renda familiar e o número de computadores são informações que impactam a previsibilidade do modelo.
+Os Trabalhos de Conclusão de Curso de Amanda Ferraz \cite{TCC_Amanda} e Mayra Romero \cite{TCC_Mayra}, para este mesmo MBA, aplicaram técnicas mais robustas. Ferraz utilizou \textit{Random Forest} e \textit{Boosting} para prever a aprovação de participantes do ENEM no SISU para o curso de Medicina, obtendo resultados satisfatórios com Coeficiente de Correlação de Matthews superior a 0,9. Já Romero desenvolveu e comparou modelos de classificação, incluindo o \textit{Random Forest}, para identificar características socioeconômicas que indicam maior chance de o candidato atingir uma pontuação média acima de 500 pontos no ENEM. Ela concluiu que o \textit{Random Forest} teve o melhor desempenho e que a renda familiar e o número de computadores são informações que impactam a previsibilidade do modelo.
 
 % 2.7
 \section{Métodos de \textit{Machine Learning}}\label{metodos_ml}
@@ -100,7 +98,7 @@ Y = \beta_0 + \beta_1 \times X + \epsilon \label{eq_reg_lin_simples}
 
 onde $Y$ denota a variável resposta, $X$ a variável preditora, $\beta_0$ o intercepto (o valor de $Y$ quando $X = 0$), $\beta_1$ o coeficiente angular (indicando o impacto de $X$ sobre $Y$) e $\epsilon$ o termo de erro. Em uma regressão múltipla, diversas variáveis independentes são consideradas, cada uma com o seu $\beta_i$ correspondente.
 
-Por trás da regressão linear, há algumas premissas adotadas, como a linearidade da relação entre $X$ e $Y$, a independência dos erros, a homocedasticidade e a normalidade dos resíduos. Essas premissas podem ser interpretadas como desvantagens do modelo de regressão linear, por restringir a sua aplicação ou até mesmo a inviabilizar a sua aplicação. Já a fácil interpretação, simplicidade e eficiência computacional são algumas das vantagens desse método, que também é muito utilizado como \textit{benchmark} de métodos mais complexos.
+Por trás da regressão linear, há algumas premissas adotadas, como a linearidade da relação entre $X$ e $Y$, a independência dos erros, a homocedasticidade e a normalidade dos resíduos. Essas premissas podem ser interpretadas como desvantagens do modelo de regressão linear, por restringir ou até mesmo a inviabilizar a sua aplicação. Já a fácil interpretação, simplicidade e eficiência computacional são algumas das vantagens desse método, que também é muito utilizado como \textit{benchmark} de métodos mais complexos.
 
 \begin{figure}[H]
     \centering
@@ -117,9 +115,9 @@ Por trás da regressão linear, há algumas premissas adotadas, como a linearida
 
 A Árvore de Decisão é um método paramétrico de aprendizado supervisionado que utiliza uma abordagem intuitiva de separação dos dados em grupos semelhantes, através de regras hierárquicas simples e de forma recursiva. Pode ser utilizado para resolver problemas de regressão, com a média da variável resposta em cada folha, ou de classificação, com a classe mais frequente em cada folha.
 
-O processo de divisão segue uma lógica de ``se-então'': se o dado de entrada tem o valor de uma variável preditora maior ou igual a um limite, então este segue pelo caminho a esquerda; se não, então este segue pelo caminho a direita. É dessa lógica que surge a analogia com árvore, já que as regras usadas para definir o modelo, podem ser representadas em um gráfico de árvore binária. A seleção das melhores divisões é feita baseada em alguma medida de impureza, como a Entropia ou o Índice de Gini.
+O processo de divisão segue uma lógica de ``se-então'': se o dado de entrada tem o valor de uma variável preditora menor ou igual a um limite, então este segue pelo caminho a esquerda; se não, então este segue pelo caminho a direita. É dessa lógica que surge a analogia com árvore, já que as regras usadas para definir o modelo, podem ser representadas em um gráfico de árvore binária. A seleção das melhores divisões é baseada, para os problemas de classificação, em alguma medida de impureza, como a Entropia ou o Índice de Gini. Já para os problemas de regressão, as divisões são baseadas na redução de alguma medida de erro, como o erro quadrático médio (\textit{Mean Squared Error} - MSE).
 
-Assim como a Regressão Linear, a Árvore de Decisão é um modelo de fácil interpretação, já que as regras de decisão são explícitas e podem ser visualizadas graficamente, é capaz de lidar com variáveis categóricas e contínuas, o que a torna versátil, não requer normalização dos dados e é robusta a outliers. No entanto, ela pode ser propensa \textit{overfitting} se não aplicadas técnicas de poda e são instáveis, já que pequenas variações nos dados podem levar a grandes mudanças na estrutura da árvore.
+Assim como a Regressão Linear, a Árvore de Decisão é um modelo de fácil interpretação, já que as regras de decisão são explícitas e podem ser visualizadas graficamente. É capaz de lidar com variáveis categóricas e contínuas, o que a torna versátil, não requer normalização dos dados e é robusta a outliers. No entanto, ela é propensa ao \textit{overfitting}, se não aplicadas técnicas de poda, e são instáveis, já que pequenas variações nos dados podem levar a grandes mudanças na estrutura da árvore.
 
 \begin{figure}[H]
 	\centering
@@ -133,11 +131,11 @@ Assim como a Regressão Linear, a Árvore de Decisão é um modelo de fácil int
 
 \subsection{\textit{Random Forest}}\label{rand_for}
 
-O \textit{Random Forest} é um método derivado da Árvore de Decisão, sendo um dos algoritmos mais populares e eficazes em \textit{Machine Learning}. Ele adota uma abordagem de \textit{ensemble}, ou seja, combina múltiplos modelos para melhorar a precisão e a robustez das previsões. A ideia central é criar uma ``floresta'' de árvores de decisão, onde a decisão final é feita pela média das previsões para um problema de regressão ou pela classe mais frequente entre todas as árvores no caso de um problema de classificação.
+O \textit{Random Forest} é um método derivado da Árvore de Decisão, sendo um dos algoritmos mais populares e eficazes em \textit{Machine Learning}. Ele adota uma abordagem de \textit{ensemble}, ou seja, combina múltiplos modelos para melhorar a precisão e a robustez das previsões. A ideia central é criar uma ``floresta'' de Árvores de Decisão, onde a decisão final é feita pela média/mediana das previsões para um problema de regressão ou pela classe mais frequente entre todas as árvores no caso de um problema de classificação.
 
 O seu processo de construção envolve duas etapas principais: (i) a amostragem aleatória dos dados, onde cada árvore é treinada em um subconjunto diferente dos dados originais, e (ii) a seleção aleatória de variáveis em cada divisão, o que reduz a correlação entre as árvores e melhora a generalização do modelo. Essa aleatoriedade é crucial para evitar o \textit{overfitting} e aumentar a diversidade entre as árvores.
 
-O \textit{Random Forest} é conhecido por sua alta precisão, capacidade de lidar com grandes conjuntos de dados e variáveis de diferentes tipos, resistência a outliers e facilidade de interpretação através da análise da importância das variáveis. No entanto, ele pode ser computacionalmente intensivo e menos interpretável do que uma única árvore de decisão, já que a combinação de múltiplas árvores torna mais difícil entender as regras subjacentes.
+O \textit{Random Forest} é conhecido por sua alta precisão, capacidade de lidar com grandes conjuntos de dados e variáveis de diferentes tipos, resistência a \textit{outliers} e facilidade de interpretação através da análise da importância das variáveis. No entanto, ele pode ser computacionalmente intensivo e menos interpretável do que uma única árvore de decisão, já que a combinação de múltiplas árvores torna mais difícil entender as regras subjacentes.
 
 \begin{figure}[H]
 	\centering
@@ -154,7 +152,7 @@ O \textit{Random Forest} é conhecido por sua alta precisão, capacidade de lida
 O \textit{Boosting} é uma técnica de \textit{ensemble}, combinando múltiplos modelos fracos para criar um modelo forte. A ideia central é treinar sequencialmente uma série de modelos, onde cada novo modelo foca em corrigir os erros cometidos pelos modelos anteriores. Alguns algoritmos populares de \textit{Boosting} incluem o 
 \textit{AdaBoost}, \textit{Gradient Boosting} e \textit{XGBoost}.
 
-O \textit{AdaBoost} (\textit{Adaptive Boosting}) é um dos primeiros algoritmos de \textit{Boosting} e funciona aumentando o peso dos dados de treinamento que foram classificados incorretamente pelos modelos anteriores. Ao final, as previsões de todos os modelos são combinadas, ponderadas pela precisão de cada modelo.
+O \textit{AdaBoost} (\textit{Adaptive Boosting}) foi um dos primeiros algoritmos de \textit{Boosting} e funciona aumentando o peso dos dados de treinamento que foram classificados incorretamente pelos modelos anteriores. Ao final, as previsões de todos os modelos são combinadas, ponderadas pela precisão de cada modelo.
 
 O \textit{Gradient Boosting} usa uma abordagem de otimização, onde cada novo modelo é treinado especificamente nos resíduos do modelo anterior, buscando minimizá-los. Os novos aprendizes são adicionados de forma iterativa e geralmente são árvores de decisão de pequeno porte.
 

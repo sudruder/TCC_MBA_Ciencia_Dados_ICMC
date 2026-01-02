@@ -34,21 +34,14 @@ Local: Brasília, DF. [s.d.].
 Dispon{\'\i}vel em:
   \url{https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/enem}.}
 
-\bibitem{ref_07}
-\abntrefinfo{{INEP}}{{INEP}}{b}
-{{INEP}. \textbf{Microdados Censo Escolar}.
-Local: Brasília, DF. [s.d.].
-Dispon{\'\i}vel em:
-  \url{https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/censo-escolar}.}
-
 \bibitem{INEP1}
-\abntrefinfo{{INEP}}{{INEP}}{c}
+\abntrefinfo{{INEP}}{{INEP}}{b}
 {{INEP}. \textbf{Histórico do {ENEM}}.
 Dispon{\'\i}vel em:
   \url{https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/historico}.}
 
 \bibitem{INEP2}
-\abntrefinfo{{INEP}}{{INEP}}{d}
+\abntrefinfo{{INEP}}{{INEP}}{c}
 {{INEP}. \textbf{ENEM}.
 Dispon{\'\i}vel em:
   \url{https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem}.}
@@ -115,6 +108,13 @@ Dispon{\'\i}vel em:
   Ciências de Dados)) --- Instituto de Ciências Matemáticas e de
   Computação, Universidade de São Paulo, São Carlos, 2020.}
 
+\bibitem{ref_07}
+\abntrefinfo{{INEP}}{{INEP}}{}
+{{INEP}. \textbf{Microdados Censo Escolar}.
+Local: Brasília, DF. [s.d.].
+Dispon{\'\i}vel em:
+  \url{https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/censo-escolar}.}
+
 \bibitem{ISL}
 \abntrefinfo{James \textit{et al.}}{JAMES \textit{et al.}}{2023}
 {JAMES, G. \textit{et al.} \textbf{An Introduction to Statistical Learning:
@@ -150,9 +150,48 @@ Dispon{\'\i}vel em:
   \url{https://www.anaconda.com/docs/getting-started/miniconda/main}.}
 
 \bibitem{NVIDIA_CUDAX_nd}
-\abntrefinfo{{NVIDIA}}{{NVIDIA}}{n.d.}
+\abntrefinfo{{NVIDIA}}{{NVIDIA}}{n.d.a}
 {{NVIDIA}. \textbf{{CUDA-X Data Science Libraries}}. n.d.
 Dispon{\'\i}vel em:
   \url{https://developer.nvidia.com/topics/ai/data-science/cuda-x-data-science-libraries}.}
+
+\bibitem{NVIDIA_cuDF_nd}
+\abntrefinfo{{NVIDIA}}{{NVIDIA}}{n.d.b}
+{{NVIDIA}. \textbf{Welcome to the cuDF documentation!} n.d.
+Dispon{\'\i}vel em: \url{https://docs.rapids.ai/api/cudf/stable/}.}
+
+\bibitem{PandasTeam_PandasDocs_2025}
+\abntrefinfo{{The pandas development team}}{{The pandas development
+  team}}{2025}
+{{The pandas development team}. \textbf{pandas documentation}. 2025.
+Dispon{\'\i}vel em: \url{https://pandas.pydata.org/docs/}.}
+
+\bibitem{NVIDIA_cuML_2023}
+\abntrefinfo{{NVIDIA}}{{NVIDIA}}{2023}
+{{NVIDIA}. \textbf{Welcome to cuML's documentation!} 2023.
+Dispon{\'\i}vel em: \url{https://docs.rapids.ai/api/cuml/stable/}.}
+
+\bibitem{scikit-learn}
+\abntrefinfo{Pedregosa \textit{et al.}}{PEDREGOSA \textit{et al.}}{2011}
+{PEDREGOSA, F. \textit{et al.} Scikit-learn: Machine learning in {P}ython.
+\textbf{Journal of Machine Learning Research}, v.~12, p. 2825--2830, 2011.}
+
+\bibitem{KPMG_PhiK_2024}
+\abntrefinfo{{KPMG Advisory N.V.}}{{KPMG Advisory N.V.}}{2024}
+{{KPMG Advisory N.V.} \textbf{Phi\_K Correlation Constant}. 2024.
+Dispon{\'\i}vel em: \url{https://phik.readthedocs.io/en/latest/}.}
+
+\bibitem{Baak2020Phik}
+\abntrefinfo{Baak \textit{et al.}}{BAAK \textit{et al.}}{2020}
+{BAAK, M. \textit{et al.} {A new correlation coefficient between categorical,
+  ordinal and interval variables with Pearson characteristics}.
+\textbf{Computational Statistics and Data Analysis}, v.~152, p. 107043, 2020.
+ISSN 0167-9473.}
+
+\bibitem{XGBoostDevelopers_Tutorials_2025}
+\abntrefinfo{{xgboost developers}}{{xgboost developers}}{2025}
+{{xgboost developers}. \textbf{XGBoost Tutorials}. 2025.
+Dispon{\'\i}vel em:
+  \url{https://xgboost.readthedocs.io/en/stable/tutorials/index.html}.}
 
 \end{thebibliography}

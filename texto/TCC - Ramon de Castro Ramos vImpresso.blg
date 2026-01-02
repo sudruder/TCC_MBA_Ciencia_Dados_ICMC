@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99d
+This is BibTeX, Version 0.99e
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: TCC - Ramon de Castro Ramos vImpresso.aux
 Reallocating 'name_of_file' (item size: 1) to 31 items.
@@ -58,58 +58,68 @@ Warning--entry type for "Anaconda_Miniconda_nd" isn't style-file defined
 --line 216 of file USPSC-bib/USPSC-modelo-references.bib
 Warning--entry type for "NVIDIA_CUDAX_nd" isn't style-file defined
 --line 225 of file USPSC-bib/USPSC-modelo-references.bib
+Warning--entry type for "NVIDIA_cuDF_nd" isn't style-file defined
+--line 246 of file USPSC-bib/USPSC-modelo-references.bib
+Warning--entry type for "PandasTeam_PandasDocs_2025" isn't style-file defined
+--line 264 of file USPSC-bib/USPSC-modelo-references.bib
+Warning--entry type for "XGBoostDevelopers_Tutorials_2025" isn't style-file defined
+--line 273 of file USPSC-bib/USPSC-modelo-references.bib
+Warning--entry type for "NVIDIA_cuML_2023" isn't style-file defined
+--line 282 of file USPSC-bib/USPSC-modelo-references.bib
+Warning--entry type for "KPMG_PhiK_2024" isn't style-file defined
+--line 291 of file USPSC-bib/USPSC-modelo-references.bib
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'glb_str_end' (item size: 4) to 20 items.
 Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
 Reallocating 'global_strs' (item size: 1) to 4000000 items.
 Warning--campo year vazio ou faltando em ref_08
-Warning--campo year vazio ou faltando em ref_07
 Warning--campo year vazio ou faltando em INEP1
 Warning--campo year vazio ou faltando em INEP2
+Warning--campo year vazio ou faltando em ref_07
 +---------------------------------------------------------+
 | Estilo bibliográfico abntex2-num.bst versão v-1.9.7           |
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-You've used 34 entries,
+You've used 41 entries,
             6713 wiz_defined-function locations,
-            1364 strings with 14837 characters,
-and the built_in function-call counts, 33323 in all, are:
-= -- 3798
-> -- 477
-< -- 807
-+ -- 1024
-- -- 147
-* -- 1964
-:= -- 3985
-add.period$ -- 85
-call.type$ -- 37
-change.case$ -- 246
-chr.to.int$ -- 50
-cite$ -- 26
-duplicate$ -- 3129
-empty$ -- 1733
-format.name$ -- 762
-if$ -- 6975
+            1405 strings with 16112 characters,
+and the built_in function-call counts, 41983 in all, are:
+= -- 4791
+> -- 607
+< -- 1026
++ -- 1285
+- -- 187
+* -- 2476
+:= -- 5043
+add.period$ -- 112
+call.type$ -- 44
+change.case$ -- 304
+chr.to.int$ -- 63
+cite$ -- 33
+duplicate$ -- 3987
+empty$ -- 2124
+format.name$ -- 972
+if$ -- 8742
 int.to.chr$ -- 14
 int.to.str$ -- 3
-missing$ -- 497
-newline$ -- 120
-num.names$ -- 88
-pop$ -- 572
+missing$ -- 613
+newline$ -- 156
+num.names$ -- 116
+pop$ -- 734
 preamble$ -- 1
-purify$ -- 120
+purify$ -- 145
 quote$ -- 0
-skip$ -- 3733
+skip$ -- 4626
 stack$ -- 1
-substring$ -- 1351
-swap$ -- 1112
-text.length$ -- 25
+substring$ -- 1742
+swap$ -- 1428
+text.length$ -- 34
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 8
 warning$ -- 4
-while$ -- 128
+while$ -- 172
 width$ -- 0
-write$ -- 301
-(There were 11 warnings)
+write$ -- 390
+(There were 16 warnings)
