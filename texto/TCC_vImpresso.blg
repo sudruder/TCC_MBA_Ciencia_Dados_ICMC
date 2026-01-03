@@ -1,6 +1,6 @@
 This is BibTeX, Version 0.99e
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
-The top-level auxiliary file: TCC_vOnline.aux
+The top-level auxiliary file: TCC_vImpresso.aux
 Reallocating 'name_of_file' (item size: 1) to 31 items.
 The style file: USPSC-classe/abntex2-num-USPSC.bst
 Reallocating 'name_of_file' (item size: 1) to 39 items.
@@ -59,7 +59,7 @@ Warning--campo year vazio ou faltando em ref_07
 +---------------------------------------------------------+
 You've used 39 entries,
             6713 wiz_defined-function locations,
-            1389 strings with 15594 characters,
+            1389 strings with 15598 characters,
 and the built_in function-call counts, 40074 in all, are:
 = -- 4614
 > -- 560
