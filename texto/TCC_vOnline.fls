@@ -1,7 +1,7 @@
 PWD /mnt/windows/Google Drive - rc.ramos95@gmail.com/Importante/MBA ICMC-USP/TCC/texto
 INPUT /home/ramon/.miktex/texmfs/data/miktex/data/le/pdftex/pdflatex.fmt
-INPUT /mnt/windows/Google Drive - rc.ramos95@gmail.com/Importante/MBA ICMC-USP/TCC/texto/TCC - Ramon de Castro Ramos vImpresso.tex
-OUTPUT TCC - Ramon de Castro Ramos vImpresso.log
+INPUT /mnt/windows/Google Drive - rc.ramos95@gmail.com/Importante/MBA ICMC-USP/TCC/texto/TCC_vOnline.tex
+OUTPUT TCC_vOnline.log
 INPUT ./USPSC-classe/USPSC.cls
 INPUT USPSC-classe/USPSC.cls
 INPUT /home/ramon/.miktex/texmfs/install/tex/latex/base/ifthen.sty
@@ -398,7 +398,7 @@ INPUT ./USPSC-pre-textual-ICMC.tex
 INPUT ./USPSC-pre-textual-ICMC.tex
 INPUT ./USPSC-pre-textual-ICMC.tex
 INPUT USPSC-pre-textual-ICMC.tex
-OUTPUT TCC - Ramon de Castro Ramos vImpresso.idx
+OUTPUT TCC_vOnline.idx
 INPUT /home/ramon/.miktex/texmfs/install/tex/latex/chemformula/chemformula.sty
 INPUT /home/ramon/.miktex/texmfs/install/tex/latex/chemformula/chemformula.sty
 INPUT /home/ramon/.miktex/texmfs/install/tex/latex/units/nicefrac.sty
@@ -407,9 +407,9 @@ INPUT /home/ramon/.miktex/texmfs/install/tex/latex/lm/t1lmr.fd
 INPUT /home/ramon/.miktex/texmfs/install/tex/latex/lm/t1lmr.fd
 INPUT /home/ramon/.miktex/texmfs/install/tex/latex/lm/t1lmr.fd
 INPUT /home/ramon/.miktex/texmfs/install/fonts/tfm/public/lm/ec-lmr12.tfm
-INPUT ./TCC - Ramon de Castro Ramos vImpresso.aux
-INPUT ./TCC - Ramon de Castro Ramos vImpresso.aux
-INPUT TCC - Ramon de Castro Ramos vImpresso.aux
+INPUT ./TCC_vOnline.aux
+INPUT ./TCC_vOnline.aux
+INPUT TCC_vOnline.aux
 INPUT ./USPSC-TA-PreTextual/USPSC-CapaICMC.aux
 INPUT ./USPSC-TA-PreTextual/USPSC-CapaICMC.aux
 INPUT USPSC-TA-PreTextual/USPSC-CapaICMC.aux
@@ -452,7 +452,7 @@ INPUT USPSC-TA-Textual/USPSC-CapN-Conclusao.aux
 INPUT ./USPSC-TA-PosTextual/USPSC-Apendices.aux
 INPUT ./USPSC-TA-PosTextual/USPSC-Apendices.aux
 INPUT USPSC-TA-PosTextual/USPSC-Apendices.aux
-OUTPUT TCC - Ramon de Castro Ramos vImpresso.aux
+OUTPUT TCC_vOnline.aux
 INPUT /home/ramon/.miktex/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
 INPUT /home/ramon/.miktex/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
 INPUT /home/ramon/.miktex/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
@@ -461,7 +461,7 @@ INPUT /home/ramon/.miktex/texmfs/install/tex/latex/epstopdf-pkg/epstopdf-base.st
 INPUT /home/ramon/.miktex/texmfs/install/tex/latex/00miktex/epstopdf-sys.cfg
 INPUT /home/ramon/.miktex/texmfs/install/tex/latex/00miktex/epstopdf-sys.cfg
 INPUT /home/ramon/.miktex/texmfs/install/tex/latex/00miktex/epstopdf-sys.cfg
-OUTPUT TCC - Ramon de Castro Ramos vImpresso.pdf
+OUTPUT TCC_vOnline.pdf
 INPUT /home/ramon/.miktex/texmfs/install/tex/latex/translations/dicts/translations-basic-dictionary-brazil.trsl
 INPUT /home/ramon/.miktex/texmfs/install/tex/latex/translations/dicts/translations-basic-dictionary-brazil.trsl
 INPUT /home/ramon/.miktex/texmfs/install/tex/latex/translations/dicts/translations-basic-dictionary-brazil.trsl
@@ -738,9 +738,9 @@ INPUT ./USPSC-img/USPSC-PaginaEmBranco.jpg
 INPUT ./USPSC-img/USPSC-PaginaEmBranco.jpg
 INPUT ./USPSC-img/USPSC-PaginaEmBranco.jpg
 INPUT ./USPSC-img/USPSC-PaginaEmBranco.jpg
-INPUT ./TCC - Ramon de Castro Ramos vImpresso.lof
-INPUT ./TCC - Ramon de Castro Ramos vImpresso.lof
-INPUT TCC - Ramon de Castro Ramos vImpresso.lof
+INPUT ./TCC_vOnline.lof
+INPUT ./TCC_vOnline.lof
+INPUT TCC_vOnline.lof
 INPUT ./USPSC-img/CapaICMC.jpg
 INPUT ./USPSC-img/CapaICMC.jpg
 INPUT ./USPSC-img/CapaICMC.jpg
@@ -757,9 +757,9 @@ INPUT ./USPSC-img/USPSC-PaginaEmBranco.jpg
 INPUT ./USPSC-img/USPSC-PaginaEmBranco.jpg
 INPUT ./USPSC-img/USPSC-PaginaEmBranco.jpg
 INPUT ./USPSC-img/USPSC-PaginaEmBranco.jpg
-INPUT ./TCC - Ramon de Castro Ramos vImpresso.lot
-INPUT ./TCC - Ramon de Castro Ramos vImpresso.lot
-INPUT TCC - Ramon de Castro Ramos vImpresso.lot
+INPUT ./TCC_vOnline.lot
+INPUT ./TCC_vOnline.lot
+INPUT TCC_vOnline.lot
 INPUT ./USPSC-img/CapaICMC.jpg
 INPUT ./USPSC-img/CapaICMC.jpg
 INPUT ./USPSC-img/CapaICMC.jpg
@@ -776,9 +776,9 @@ INPUT ./USPSC-img/USPSC-PaginaEmBranco.jpg
 INPUT ./USPSC-img/USPSC-PaginaEmBranco.jpg
 INPUT ./USPSC-img/USPSC-PaginaEmBranco.jpg
 INPUT ./USPSC-img/USPSC-PaginaEmBranco.jpg
-INPUT ./TCC - Ramon de Castro Ramos vImpresso.loq
-INPUT ./TCC - Ramon de Castro Ramos vImpresso.loq
-INPUT TCC - Ramon de Castro Ramos vImpresso.loq
+INPUT ./TCC_vOnline.loq
+INPUT ./TCC_vOnline.loq
+INPUT TCC_vOnline.loq
 INPUT ./USPSC-img/CapaICMC.jpg
 INPUT ./USPSC-img/CapaICMC.jpg
 INPUT ./USPSC-img/CapaICMC.jpg
@@ -841,9 +841,9 @@ INPUT ./USPSC-img/USPSC-PaginaEmBranco.jpg
 INPUT ./USPSC-img/USPSC-PaginaEmBranco.jpg
 INPUT ./USPSC-img/USPSC-PaginaEmBranco.jpg
 INPUT ./USPSC-img/USPSC-PaginaEmBranco.jpg
-INPUT ./TCC - Ramon de Castro Ramos vImpresso.toc
-INPUT ./TCC - Ramon de Castro Ramos vImpresso.toc
-INPUT TCC - Ramon de Castro Ramos vImpresso.toc
+INPUT ./TCC_vOnline.toc
+INPUT ./TCC_vOnline.toc
+INPUT TCC_vOnline.toc
 INPUT /home/ramon/.miktex/texmfs/install/fonts/tfm/public/lm/ec-lmssbo10.tfm
 INPUT /home/ramon/.miktex/texmfs/install/fonts/tfm/public/lm/ec-lmsso12.tfm
 INPUT ./USPSC-img/CapaICMC.jpg
@@ -1157,9 +1157,9 @@ INPUT ./USPSC-img/USPSC-PaginaEmBranco.jpg
 INPUT ./USPSC-img/USPSC-PaginaEmBranco.jpg
 INPUT ./USPSC-img/USPSC-PaginaEmBranco.jpg
 INPUT ./USPSC-img/USPSC-PaginaEmBranco.jpg
-INPUT ./TCC - Ramon de Castro Ramos vImpresso.bbl
-INPUT ./TCC - Ramon de Castro Ramos vImpresso.bbl
-INPUT TCC - Ramon de Castro Ramos vImpresso.bbl
+INPUT ./TCC_vOnline.bbl
+INPUT ./TCC_vOnline.bbl
+INPUT TCC_vOnline.bbl
 INPUT ./USPSC-img/CapaICMC.jpg
 INPUT ./USPSC-img/CapaICMC.jpg
 INPUT ./USPSC-img/CapaICMC.jpg
@@ -1229,11 +1229,11 @@ INPUT ./USPSC-img/CapaICMC.jpg
 INPUT ./USPSC-img/CapaICMC.jpg
 INPUT ./USPSC-img/CapaICMC.jpg
 INPUT ./USPSC-img/USPSC-PaginaEmBranco.jpg
-OUTPUT TCC - Ramon de Castro Ramos vImpresso.lof
-OUTPUT TCC - Ramon de Castro Ramos vImpresso.lot
-OUTPUT TCC - Ramon de Castro Ramos vImpresso.loq
-OUTPUT TCC - Ramon de Castro Ramos vImpresso.toc
-INPUT TCC - Ramon de Castro Ramos vImpresso.aux
+OUTPUT TCC_vOnline.lof
+OUTPUT TCC_vOnline.lot
+OUTPUT TCC_vOnline.loq
+OUTPUT TCC_vOnline.toc
+INPUT TCC_vOnline.aux
 INPUT ./USPSC-TA-PreTextual/USPSC-CapaICMC.aux
 INPUT ./USPSC-TA-PreTextual/USPSC-CapaICMC.aux
 INPUT USPSC-TA-PreTextual/USPSC-CapaICMC.aux

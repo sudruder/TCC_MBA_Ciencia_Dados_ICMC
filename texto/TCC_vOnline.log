@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.3)  3 JAN 2026 14:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.3)  3 JAN 2026 14:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/mnt/windows/Google Drive - rc.ramos95@gmail.com/Importante/MBA ICMC-USP/TCC/texto/TCC - Ramon de Castro Ramos vImpresso.tex"
-(/mnt/windows/Google Drive - rc.ramos95@gmail.com/Importante/MBA ICMC-USP/TCC/texto/TCC - Ramon de Castro Ramos vImpresso.tex
+**"/mnt/windows/Google Drive - rc.ramos95@gmail.com/Importante/MBA ICMC-USP/TCC/texto/TCC_vOnline.tex"
+(/mnt/windows/Google Drive - rc.ramos95@gmail.com/Importante/MBA ICMC-USP/TCC/texto/TCC_vOnline.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
 (USPSC-classe/USPSC.cls
@@ -1443,11 +1443,11 @@ LaTeX Warning: \include should only be used after \begin{document} on input line
 
 (USPSC-pre-textual-ICMC.tex)
 Package hyperref Info: Option `colorlinks' set `true' on input line 140.
-\"TCC - Ramon de Castro Ramos vImpresso"@idxfile=\write6
-\openout6 = `"TCC - Ramon de Castro Ramos vImpresso.idx"'.
+\TCC_vOnline@idxfile=\write6
+\openout6 = `TCC_vOnline.idx'.
 
 
-Writing index file "TCC - Ramon de Castro Ramos vImpresso".idx 
+Writing index file TCC_vOnline.idx 
 
 Package chemmacros Info: You haven't chosen a formula method so I'm assuming
 (chemmacros)             the default method `chemformula'.
@@ -1515,7 +1515,7 @@ Package chemmacros Info: Using float defining method `float'.
 LaTeX Font Info:    Trying to load font information for T1+lmr on input line 160.
  (/home/ramon/.miktex/texmfs/install/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) (TCC - Ramon de Castro Ramos vImpresso.aux (USPSC-TA-PreTextual/USPSC-CapaICMC.aux)
+) (TCC_vOnline.aux (USPSC-TA-PreTextual/USPSC-CapaICMC.aux)
 Package babel Info: 'brazil' activates 'portuges' shorthands.
 (babel)             Reported on input line 36.
  (USPSC-TA-PreTextual/USPSC-Dedicatoria.aux) (USPSC-TA-PreTextual/USPSC-Agradecimentos.aux) (USPSC-TA-PreTextual/USPSC-Epigrafe.aux) (USPSC-TA-PreTextual/USPSC-Resumo.aux) (USPSC-TA-PreTextual/USPSC-Abstract.aux) (USPSC-TA-PreTextual/USPSC-AbreviaturasSiglas.aux) (USPSC-TA-PreTextual/USPSC-Simbolos.aux) (USPSC-TA-Textual/USPSC-Cap1-Introducao.aux) (USPSC-TA-Textual/USPSC-Cap2-Fundamentacao.aux) (USPSC-TA-Textual/USPSC-Cap3-Metodologia.aux) (USPSC-TA-Textual/USPSC-Cap4-Resultados.aux
@@ -1523,7 +1523,7 @@ Package babel Info: 'brazil' activates 'portuges' shorthands.
 LaTeX Warning: Label `tab_obs_variaveis_enem' multiply defined.
 
 ) (USPSC-TA-Textual/USPSC-CapN-Conclusao.aux) (USPSC-TA-PosTextual/USPSC-Apendices.aux))
-\openout1 = `"TCC - Ramon de Castro Ramos vImpresso.aux"'.
+\openout1 = `TCC_vOnline.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 160.
 LaTeX Font Info:    ... okay on input line 160.
@@ -1943,7 +1943,7 @@ Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 
 (pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
  [16
 
-]) (TCC - Ramon de Castro Ramos vImpresso.lof)
+]) (TCC_vOnline.lof)
 File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
 <use USPSC-img/CapaICMC.jpg>
 Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 232.
@@ -1966,7 +1966,7 @@ Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 
 (pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
  [18
 
-] (TCC - Ramon de Castro Ramos vImpresso.lot)
+] (TCC_vOnline.lot)
 File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
 <use USPSC-img/CapaICMC.jpg>
 Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 237.
@@ -1986,7 +1986,7 @@ Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 
 (pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
  [20
 
-] (TCC - Ramon de Castro Ramos vImpresso.loq)
+] (TCC_vOnline.loq)
 File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
 <use USPSC-img/CapaICMC.jpg>
 Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 242.
@@ -2064,7 +2064,7 @@ Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 
 (pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
  [26
 
-]) (TCC - Ramon de Castro Ramos vImpresso.toc
+]) (TCC_vOnline.toc
 LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <12> not available
 (Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 21.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <12> not available
@@ -2488,11 +2488,11 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 )
 File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
 <use USPSC-img/CapaICMC.jpg>
-Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 273.
+Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 272.
 (pdftex.def)             Requested size: 596.44875pt x 845.04933pt.
 File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
 <use USPSC-img/USPSC-PaginaEmBranco.jpg>
-Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 273.
+Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 272.
 (pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
  [49
 
@@ -2502,31 +2502,31 @@ Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 
 ]
 File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
 <use USPSC-img/CapaICMC.jpg>
-Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 273.
+Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 272.
 (pdftex.def)             Requested size: 596.44875pt x 845.04933pt.
 File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
 <use USPSC-img/USPSC-PaginaEmBranco.jpg>
-Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 273.
+Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 272.
 (pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
  [50
 pdfTeX warning (ext4): destination with the same identifier (name{table.4.3}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.273 ...e{USPSC-TA-Textual/USPSC-Cap4-Resultados}
+l.272 ...e{USPSC-TA-Textual/USPSC-Cap4-Resultados}
                                                   ]
 File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
 <use USPSC-img/CapaICMC.jpg>
-Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 273.
+Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 272.
 (pdftex.def)             Requested size: 596.44875pt x 845.04933pt.
 File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
 <use USPSC-img/USPSC-PaginaEmBranco.jpg>
-Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 273.
+Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 272.
 (pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
  [51
 pdfTeX warning (ext4): destination with the same identifier (name{table.4.4}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.273 ...e{USPSC-TA-Textual/USPSC-Cap4-Resultados}
+l.272 ...e{USPSC-TA-Textual/USPSC-Cap4-Resultados}
                                                   ]
 \openout2 = `USPSC-TA-Textual/USPSC-CapN-Conclusao.aux'.
 
@@ -2549,13 +2549,13 @@ Cap\'{\i }tulo 5.
 )
 File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
 <use USPSC-img/CapaICMC.jpg>
-Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 276.
+Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 275.
 (pdftex.def)             Requested size: 596.44875pt x 845.04933pt.
 File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
 <use USPSC-img/USPSC-PaginaEmBranco.jpg>
-Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 276.
+Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 275.
 (pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
- [53] (TCC - Ramon de Castro Ramos vImpresso.bbl
+ [53] (TCC_vOnline.bbl
 File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
 <use USPSC-img/CapaICMC.jpg>
 Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 3.
@@ -2585,20 +2585,20 @@ Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 
 [55])
 File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
 <use USPSC-img/CapaICMC.jpg>
-Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 287.
+Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 286.
 (pdftex.def)             Requested size: 596.44875pt x 845.04933pt.
 File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
 <use USPSC-img/USPSC-PaginaEmBranco.jpg>
-Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 287.
+Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 286.
 (pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
  [56]
 File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
 <use USPSC-img/CapaICMC.jpg>
-Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 287.
+Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 286.
 (pdftex.def)             Requested size: 596.44875pt x 845.04933pt.
 File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
 <use USPSC-img/USPSC-PaginaEmBranco.jpg>
-Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 287.
+Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 286.
 (pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
  [57]
 \openout2 = `USPSC-TA-PosTextual/USPSC-Apendices.aux'.
@@ -2667,28 +2667,28 @@ AP\^ENDICE B.
 )
 File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
 <use USPSC-img/CapaICMC.jpg>
-Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 287.
+Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 286.
 (pdftex.def)             Requested size: 596.44875pt x 845.04933pt.
 File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
 <use USPSC-img/USPSC-PaginaEmBranco.jpg>
-Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 287.
+Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 286.
 (pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
  [63]
 \tf@lof=\write7
-\openout7 = `"TCC - Ramon de Castro Ramos vImpresso.lof"'.
+\openout7 = `TCC_vOnline.lof'.
 
 \tf@lot=\write8
-\openout8 = `"TCC - Ramon de Castro Ramos vImpresso.lot"'.
+\openout8 = `TCC_vOnline.lot'.
 
 \tf@loq=\write9
-\openout9 = `"TCC - Ramon de Castro Ramos vImpresso.loq"'.
+\openout9 = `TCC_vOnline.loq'.
 
 \tf@toc=\write10
-\openout10 = `"TCC - Ramon de Castro Ramos vImpresso.toc"'.
+\openout10 = `TCC_vOnline.toc'.
 
  
 enddocument/afterlastpage (AED): lastpage setting LastPage.
-(TCC - Ramon de Castro Ramos vImpresso.aux (USPSC-TA-PreTextual/USPSC-CapaICMC.aux) (USPSC-TA-PreTextual/USPSC-Dedicatoria.aux) (USPSC-TA-PreTextual/USPSC-Agradecimentos.aux) (USPSC-TA-PreTextual/USPSC-Epigrafe.aux) (USPSC-TA-PreTextual/USPSC-Resumo.aux) (USPSC-TA-PreTextual/USPSC-Abstract.aux) (USPSC-TA-PreTextual/USPSC-AbreviaturasSiglas.aux) (USPSC-TA-PreTextual/USPSC-Simbolos.aux) (USPSC-TA-Textual/USPSC-Cap1-Introducao.aux) (USPSC-TA-Textual/USPSC-Cap2-Fundamentacao.aux) (USPSC-TA-Textual/USPSC-Cap3-Metodologia.aux) (USPSC-TA-Textual/USPSC-Cap4-Resultados.aux) (USPSC-TA-Textual/USPSC-CapN-Conclusao.aux) (USPSC-TA-PosTextual/USPSC-Apendices.aux))
+(TCC_vOnline.aux (USPSC-TA-PreTextual/USPSC-CapaICMC.aux) (USPSC-TA-PreTextual/USPSC-Dedicatoria.aux) (USPSC-TA-PreTextual/USPSC-Agradecimentos.aux) (USPSC-TA-PreTextual/USPSC-Epigrafe.aux) (USPSC-TA-PreTextual/USPSC-Resumo.aux) (USPSC-TA-PreTextual/USPSC-Abstract.aux) (USPSC-TA-PreTextual/USPSC-AbreviaturasSiglas.aux) (USPSC-TA-PreTextual/USPSC-Simbolos.aux) (USPSC-TA-Textual/USPSC-Cap1-Introducao.aux) (USPSC-TA-Textual/USPSC-Cap2-Fundamentacao.aux) (USPSC-TA-Textual/USPSC-Cap3-Metodologia.aux) (USPSC-TA-Textual/USPSC-Cap4-Resultados.aux) (USPSC-TA-Textual/USPSC-CapN-Conclusao.aux) (USPSC-TA-PosTextual/USPSC-Apendices.aux))
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2020/03/25>
@@ -2702,15 +2702,15 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 44785 strings out of 469808
- 968400 string characters out of 5470397
- 1486371 words of memory out of 5000000
- 72135 multiletter control sequences out of 15000+600000
+ 44779 strings out of 469808
+ 967050 string characters out of 5470397
+ 1486286 words of memory out of 5000000
+ 72129 multiletter control sequences out of 15000+600000
  725907 words of font info for 222 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
- 99i,17n,108p,1224b,1448s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,17n,108p,1198b,1448s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </home/ramon/.miktex/texmfs/install/fonts/type1/public/lm/lmbx12.pfb></home/ramon/.miktex/texmfs/install/fonts/type1/public/lm/lmmi12.pfb></home/ramon/.miktex/texmfs/install/fonts/type1/public/lm/lmmi8.pfb></home/ramon/.miktex/texmfs/install/fonts/type1/public/lm/lmr10.pfb></home/ramon/.miktex/texmfs/install/fonts/type1/public/lm/lmr12.pfb></home/ramon/.miktex/texmfs/install/fonts/type1/public/lm/lmr8.pfb></home/ramon/.miktex/texmfs/install/fonts/type1/public/lm/lmri10.pfb></home/ramon/.miktex/texmfs/install/fonts/type1/public/lm/lmri12.pfb></home/ramon/.miktex/texmfs/install/fonts/type1/public/lm/lmss12.pfb></home/ramon/.miktex/texmfs/install/fonts/type1/public/lm/lmssbo10.pfb></home/ramon/.miktex/texmfs/install/fonts/type1/public/lm/lmssbx10.pfb></home/ramon/.miktex/texmfs/install/fonts/type1/public/lm/lmsso12.pfb></home/ramon/.miktex/texmfs/install/fonts/type1/public/lm/lmsy10.pfb></home/ramon/.miktex/texmfs/install/fonts/type1/public/lm/lmtt12.pfb>
-Output written on "TCC - Ramon de Castro Ramos vImpresso.pdf" (63 pages, 1314806 bytes).
+Output written on TCC_vOnline.pdf (63 pages, 1315564 bytes).
 PDF statistics:
  923 PDF objects out of 1000 (max. 8388607)
  211 named destinations out of 1000 (max. 500000)
