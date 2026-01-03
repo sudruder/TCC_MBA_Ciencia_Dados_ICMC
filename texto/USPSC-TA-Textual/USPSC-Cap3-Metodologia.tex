@@ -1,4 +1,7 @@
 
+% !TEX root = ./TCC_Impresso.tex
+% !TEX root = ./TCC_Online.tex
+
 \chapter{Metodologia}\label{cap_metodologia}
 
 Este capítulo detalha a metodologia de trabalho utilizada, apresentando o delineamento da pesquisa, da coleta e processamento dos dados e as técnicas analíticas empregadas para responder às perguntas de pesquisa.
@@ -15,158 +18,104 @@ A estrutura metodológica adotada será baseada no modelo CRISP-DM (\textit{Cros
 \end{center}
 \end{figure}
 
-\section{Entendimento de Negócio}\label{sec_metodologia_entendimento_negocio}
+\section{Entendimento de Negócio}\label{metodologia_entendimento_negocio}
 
-O entendimento de negócio envolve a definição clara dos objetivos do projeto, a compreensão do contexto em que a pesquisa está inserida e a identificação das partes interessadas.
+A etapa de entendimento de negócio envolve a definição clara dos objetivos do projeto, a compreensão do contexto em que a pesquisa está inserida, a identificação das partes interessadas, a formulação das perguntas de pesquisa que guiarão a análise dos dados e os resultados que espera-se alcançar.
 
-O foco principal deste trabalho acadêmico será a formulação de hipóteses relacionadas aos fatores que influenciam o desempenho dos estudantes no ENEM.
+O foco principal deste trabalho será a formulação de hipóteses relacionadas aos fatores que influenciam o desempenho dos estudantes no ENEM, através da análise dos dados de performance dos participantes e suas características socioeconômicas.
 
-Conforme já mencionado no Capítulo \ref{cap_fundamentacao} - Fundamentação Teórica, o ENEM é um exame de grande relevância no contexto educacional brasileiro e compreender os fatores que impactam o desempenho dos estudantes é crucial para a formulação de políticas educacionais eficazes.
+Sendo assim, foi necessário formular perguntas de pesquisa específicas que possam ser respondidas através da análise dos dados disponíveis.
 
-Trabalhos anteriores citam algumas variáveis socioeconômicas como discriminadores de performance no ENEM. A Tabela \ref{tab_variaveis_socioeconomicas} apresenta algumas dessas variáveis socioeconômicas identificadas na literatura, juntamente com suas respectivas referências.
+\section{Entendimento dos dados}\label{metodologia_entendimento_dados}
 
-\begin{table}[h]
+Com as perguntas de pesquisa definidas, a próxima etapa foi encontrar dados que sejam adequados para responder a essas perguntas e estabelecer, primeiramente, uma forma consistente de coleta e armazenamento para em seguida realizar uma rápida compreensão da estrutura dos dados.
 
-    \centering
+Há depender dos tipos de dados a serem utilizados, é necessário submeter o projeto a um comitê de ética em pesquisa para aprovação, garantindo que todos os aspectos éticos relacionados ao uso dos dados sejam devidamente considerados.
 
-    \caption{Variáveis socioeconômicas e suas referências}
+Após essa etapa, foi possível identifcar quais os arquivos são relevantes para a análise e quais variáveis dentro desses arquivos serão utilizadas como variáveis preditoras e como variáveis resposta.
 
-    \begin{tabular}{|m{7cm}|m{4cm}|} \hline
+\section{Preparação dos dados}\label{metodologia_preparacao_dados}
 
-        \textbf{Variável socioeconômica} & \textbf{Referência} \\ \hline
-        Renda familiar & Melo \textit{et al.} \cite{ref_01} \\ & Vasconcellos \cite{ref_06} \\ \hline
-        Raça / Cor & Melo \textit{et al.} \cite{ref_01} \\ & Moraes \textit{et al.} \cite{ref_03} \\ \hline
-        Sexo & Moraes \textit{et al.} \cite{ref_03} \\ \hline
-        Idade / Atraso Escolar & Jaloto e Primi \cite{ref_12} \\ \hline
-        Administração: Pública vs. Privada & Moraes \textit{et al.} \cite{ref_03} \\ & Jaloto e Primi \cite{ref_12} \\ & Ortega \textit{et al.} \cite{ref_05} \\ \hline
-        Atributos Escolares & Moraes \textit{et al.} \cite{ref_03} \\ \hline
-    \end{tabular}
+Com os arquivos relevantes selecionados, passa-se para a etapa de preparação dos dados, que envolve a leitura, limpeza, transformação e integração dos dados para torná-los adequados para a modelagem. Essa etapa é crucial, pois a qualidade dos dados impacta diretamente na eficácia dos modelos preditivos que serão construídos posteriormente.
 
-    \label{tab_variaveis_socioeconomicas}
+Para a execução dessa e das etapas posteriores, é necessário preparar um ambiente tecnológico e analítico adequado que permita a manipulação eficiente dos dados e a construção dos modelos preditivos.
 
-    \begin{center}
-        \footnotesize Fonte: elaborado pelo autor.
-    \end{center}
+Após a leitura dos dados, estes foram integrados em único conjunto de dados para facilitar a análise e a modelagem. Foram realizados os ajustes necessários no esquema dos dados para garantir a consistência e a integridade das informações.
 
-\end{table}
+Em seguida, as variáveis foram renomeadas para nomes mais intuitivos e de fácil compreensão e foi analisado se seria necessário criar variáveis contendo alguma transformação das variáveis originais, por exemplo, criar uma variável que transforme os códigos numéricos de variáveis categóricas em rótulos textuais.
 
-Assim, para este trabalho, são formuladas as seguintes perguntas de pesquisa:
+Posteriormente, foi realizada uma análise para identificar e tratar valores nulos, removendo ou imputando valores conforme apropriado. Após o tratamento dos valores nulos, os dados foram separados em diferentes conjuntos de dados, cada um correspondente a uma variável resposta específica, garantindo que cada conjunto contenha apenas as observações relevantes para a análise daquela variável e sem valores nulos.
 
-\begin{itemize}
-    \item \textbf{Pergunta 1:} Quais são os principais fatores socioeconômicos que influenciam o desempenho dos estudantes no ENEM?
-    \item \textbf{Pergunta 2:} Qual é a magnitude da influência de cada um desses conjuntos de fatores nas notas dos participantes?
-\end{itemize}
+\section{Modelagem}\label{metodologia_modelagem}
 
-Com as perguntas de pesquisa definidas, o próximo passo é compreender os dados disponíveis para análise, conforme descrito na Seção \ref{sec_metodologia_entendimento_dados}.
 
-\section{Entendimento dos Dados}\label{sec_metodologia_entendimento_dados}
 
-Nesta etapa, o foco será a coleta e compreensão dos dados disponíveis para análise. Foram utilizados os microdados do ENEM como fonte principal, que são disponibilizados anualmente pelo Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira (INEP).
+\section{Avaliação}\label{metodologia_avaliacao}
 
-\subsection{Estrutura dos Dados}\label{sec_metodologia_estrutura_dados}
+\section{Implantação}\label{metodologia_implantacao}
 
-Os dados se encontram em arquivos CSV (\textit{Comma-Separated Values}) \cite{ref_08}, o que facilita a sua manipulação e análise. Serão utilizados os dados das edições de 2020 a 2023 e possuem, respectivamente, as seguintes quantidade de observações e variáveis:
 
-\begin{table}[h]
 
-    \centering
 
-    \caption{Quantidade de observações e variáveis por edição do ENEM}
 
-    \label{tab_obs_variaveis_enem}
 
-    \begin{tabular}{|c|c|c|}
-        \hline
-        \textbf{Edição} & \textbf{Observações} & \textbf{Variáveis} \\ \hline
-        2020 & 5.783.109 & 76 \\ \hline
-        2021 & 3.389.832 & 76 \\ \hline
-        2022 & 3.476.105 & 76 \\ \hline
-        2023 & 3.933.955 & 76 \\ \hline
-    \end{tabular}
-    \begin{center}
-        \footnotesize Fonte: microdados do INEP; elaborado pelo autor.
-    \end{center}
-\end{table}
 
-O dicionário de dados também é disponibilizado e descreve detalhadamente cada variável presente no conjunto de dados. A seguir, é apresentado um resumo do dicionário de dados. O dicionário completo está disponível no Apêndice \ref{apendice_dicionario_enem}.
 
-\begin{itemize}
 
-    \item \textbf{Dados do participante:} Número de inscrição mascarado, ano do exame, faixa etária, sexo, estado civil, cor/raça, nacionalidade, situação de conclusão do Ensino Médio, ano de conclusão do Ensino Médio, tipo de escola do Ensino Médio, tipo de instituição que concluiu ou concluirá o Ensino Médio e se o inscrito fez a prova como treineiro.
 
-    \item \textbf{Dados da escola:} Código e nome da escola, código e sigla da Unidade da Federação, código do município, nome do município, dependência administrativa, localização e situação de funcionamento.
 
-    \item \textbf{Dados do local de aplicação da prova:} Código e nome da escola onde a prova foi aplicada, código e sigla da Unidade da Federação, código do município e nome do município.
 
-    \item \textbf{Dados das provas objetivas:} Presença e código do tipo de prova objetiva, nota das provas objetivas, vetor com as respostas, língua estrangeira escolhida e vetor com o gabarito.
 
-    \item \textbf{Dados da redação: } Situação da redação (se o candidato apresentou fuga do tema, deixou em branco, copiou o texto motivador, entre outras), nota das cinco competências e nota final da prova de redação.
 
-    \item \textbf{Dados do questionário socioeconômico:} Respostas do questionário socioeconômico aplicado aos participantes do ENEM.
 
-\end{itemize}
 
-A partir da interpretação do dicionario de dados, já é possível identificar diversas variáveis que podem ser utilizadas para responder às perguntas de pesquisa formuladas na Seção \ref{sec_metodologia_entendimento_negocio}, assim como as variáveis resposta.
 
-\subsection{Definição da Variável Resposta}\label{sec_metodologia_definicao_variavel_resposta}
 
-Esse trabalho pretende avaliar o desempenho dos estudantes no ENEM e os fatores que influenciam esse desempenho e variável resposta deve refletir esse objetivo. Assim, serão utilizadas como variáveis resposta as notas obtidas pelos estudantes nas quatro provas objetivas e na redação do ENEM.
 
-Assim, teremos cinco variáveis resposta distintas para análise: (i) Nota da prova de Ciências da Natureza; (ii) Nota da prova de Ciências Humanas; (iii) Nota da prova de Linguagens e Códigos; (iv) Nota da prova de Matemática; e (v) Nota da Redação.
 
-\section{Preparação do Ambiente Python}\label{sec_metodologia_preparacao_ambiente_python}
 
-Para a execução desse trabalho, foi utilizado um ambiente virtual baseado em Miniconda3 \cite{Anaconda_Miniconda_nd}. Dado o volume grande de dados (mais de 16 milhões de observações, 6,4 GB de tamanho), foi necessário utilizar uma GPU para acelerar o processamento dos dados e a modelagem. A GPU utilizada foi uma NVIDIA GeForce RTX 4070 Ti Super, com 16 GB de memória dedicada.
 
-Para possibilitar essa execução, o ambiente foi especificamente configurado com o ecossistema NVIDIA CUDAX \cite{NVIDIA_CUDAX_nd}. Esta suíte de bibliotecas de software permite executar pipelines de Ciência de Dados e análises inteiramente na GPU, minimizando a transferência de dados entre a CPU e a GPU.
 
-Foram utilizados seus principais componentes: \texttt{cudf} \cite{NVIDIA_cuDF_nd}, uma biblioteca para manipulação de \texttt{DataFrames} na GPU análoga ao \texttt{pandas} \cite{PandasTeam_PandasDocs_2025}, e \texttt{cuml} \cite{NVIDIA_cuML_2023}, que fornece implementações de algoritmos de \textit{Machine Learning} acelerados por GPU, análoga ao \texttt{scikit-learn} \cite{scikit-learn}. Todo o ambiente foi construído sobre a plataforma CUDA 13.0, com as bibliotecas e dependências gerenciadas diretamente pelo Conda.
 
-O arquivo YML de configuração do ambiente virtual utilizado está disponível no Apêndice \ref{apendice_ambiente_virtual}.
 
-\section{Preparação dos Dados}\label{sec_metodologia_preparacao_dados}
 
-A preparação dos dados é uma etapa crucial no processo de análise, pois envolve a limpeza, transformação e integração dos dados para torná-los adequados para a modelagem. Nesta seção, detalharei as etapas realizadas para preparar os microdados do ENEM para análise.
 
-\subsection{Coleta, Leitura e Integração dos Dados}\label{sec_metodologia_coleta_integracao_dados}
 
-A coleta dos dados foi realizada por meio do download dos arquivos CSV disponibilizados pelo INEP para as edições de 2020 a 2023 do ENEM. Os arquivos foram armazenados localmente para facilitar o acesso durante o processo de análise.
+% \subsection{Coleta, Leitura e Integração dos Dados}\label{sec_metodologia_coleta_integracao_dados}
 
-A leitura dos dados foi feita utilizando o método \texttt{read\_csv}, da biblioteca \texttt{pandas}, especificando o separador como ponto e vírgula (\texttt{sep = ';'}).
 
-Os conjuntos de dados do ENEM de 2020 a 2023 possuem o mesmo esquema, ou seja, as mesmas variáveis estão presentes em ambas as edições e com o mesmo nome. Portanto, a integração foi realizada por meio da concatenação vertical dos dois conjuntos de dados, utilizando o método \texttt{concat} da biblioteca \texttt{pandas}.
+% Em seguida, foi feita uma modificação no nome das variáveis para nomes que fossem mais intuitivos e de compreensão rápida do conteúdo. Essa modificação foi realizada utilizando o método \texttt{rename}, a partir de um dicionário que mapeava os nomes originais para os novos nomes desejados.
 
-Em seguida, foi feita uma modificação no nome das variáveis para nomes que fossem mais intuitivos e de compreensão rápida do conteúdo. Essa modificação foi realizada utilizando o método \texttt{rename}, a partir de um dicionário que mapeava os nomes originais para os novos nomes desejados.
+% \subsection{Transformação das Variáveis Categóricas}\label{sec_metodologia_transformacao_variaveis_categoricas}
 
-\subsection{Transformação das Variáveis Categóricas}\label{sec_metodologia_transformacao_variaveis_categoricas}
+% Analisando o dicionário de dados, foi possível identificar diversas variáveis categóricas representadas por códigos numéricos. Essas variáveis precisam ser transformadas para garantir que os modelos de \textit{Machine Learning} as interpretem corretamente como categóricas e não como variáveis numéricas.
 
-Analisando o dicionário de dados, foi possível identificar diversas variáveis categóricas representadas por códigos numéricos. Essas variáveis precisam ser transformadas para garantir que os modelos de \textit{Machine Learning} as interpretem corretamente como categóricas e não como variáveis numéricas.
+% Os códigos numéricos foram então substituídos por rótulos textuais mais descritivos utilizando o método \texttt{map} com um dicionário de mapeamento específico para cada variável categórica. Alguns códigos represenram ausência de informação e foram substituídos por \texttt{None} para um futuro tratamento de valores ausentes adequado.
 
-Os códigos numéricos foram então substituídos por rótulos textuais mais descritivos utilizando o método \texttt{map} com um dicionário de mapeamento específico para cada variável categórica. Alguns códigos represenram ausência de informação e foram substituídos por \texttt{None} para um futuro tratamento de valores ausentes adequado.
+% \subsection{Tratamentos dos Valores Nulos}\label{sec_metodologia_tratamento_nulos}
 
-\subsection{Tratamentos dos Valores Nulos}\label{sec_metodologia_tratamento_nulos}
+% Após a integração dos dados, foi realizada uma análise inicial para identificar a presença de valores nulos em cada variável. Dependendo do percentual de valores nulos e da natureza da variável, diferentes estratégias de tratamento foram adotadas.
 
-Após a integração dos dados, foi realizada uma análise inicial para identificar a presença de valores nulos em cada variável. Dependendo do percentual de valores nulos e da natureza da variável, diferentes estratégias de tratamento foram adotadas.
+% As variáveis com mais de 50\% de valores nulos foram removidas do conjunto de dados, pois a alta proporção de valores ausentes poderia comprometer a análise e a modelagem subsequente.
 
-As variáveis com mais de 50\% de valores nulos foram removidas do conjunto de dados, pois a alta proporção de valores ausentes poderia comprometer a análise e a modelagem subsequente.
+% As variáveis de notas das provas objetivas e da redação passaram por uma análise mais detalhada de valores nulos em conjunto com as variáveis de presença nas respecitivas provas para entender o significado dos valores nulos e decidir o tratamento adequado. No fim, as observações com notas nulas foram removidas, enquanto as observações com notas zero foram mantidas, pois representam casos distintos.
 
-As variáveis de notas das provas objetivas e da redação passaram por uma análise mais detalhada de valores nulos em conjunto com as variáveis de presença nas respecitivas provas para entender o significado dos valores nulos e decidir o tratamento adequado. No fim, as observações com notas nulas foram removidas, enquanto as observações com notas zero foram mantidas, pois representam casos distintos.
+% As demais variáveis com valores nulos foram consideradas de maneira consolidada, ou seja, caso uma observação possua valor ausente em qualquer uma dessas variáveis, ela será considerada como tendo valor ausente. Essas observações foram então removidas do conjunto de dados.
 
-As demais variáveis com valores nulos foram consideradas de maneira consolidada, ou seja, caso uma observação possua valor ausente em qualquer uma dessas variáveis, ela será considerada como tendo valor ausente. Essas observações foram então removidas do conjunto de dados.
+% \subsection{Separação dos Conjuntos de Dados por Variável Resposta}\label{sec_metodologia_separacao_conjuntos_dados}
 
-\subsection{Separação dos Conjuntos de Dados por Variável Resposta}\label{sec_metodologia_separacao_conjuntos_dados}
+% Como possuímos cinco variáveis resposta distintas, é necessário preparar os dados para cada uma delas. Assim, foram criados cinco conjuntos de dados distintos, um para cada variável resposta. O filtro aplicado é o mesmo para todos os conjuntos de dados: foram mantidas apenas as observações que possuem presença na prova correspondente. Para a nota da redação, foi utilizada a variável de presença na prova de Linguagens e Códigos, que é quando a redação é aplicada.
 
-Como possuímos cinco variáveis resposta distintas, é necessário preparar os dados para cada uma delas. Assim, foram criados cinco conjuntos de dados distintos, um para cada variável resposta. O filtro aplicado é o mesmo para todos os conjuntos de dados: foram mantidas apenas as observações que possuem presença na prova correspondente. Para a nota da redação, foi utilizada a variável de presença na prova de Linguagens e Códigos, que é quando a redação é aplicada.
+% ALém disso, foram retiradas as variáveis de nota das demais provas, assim como as variáveis de presença nas demais provas, para evitar qualquer tipo de \textit{data leakage} durante a modelagem.
 
-ALém disso, foram retiradas as variáveis de nota das demais provas, assim como as variáveis de presença nas demais provas, para evitar qualquer tipo de \textit{data leakage} durante a modelagem.
+% Foi utilizado a estrutura de dicionário para armazenar os cinco conjuntos de dados distintos, facilitando o acesso e a manipulação dos dados durante a análise.
 
-Foi utilizado a estrutura de dicionário para armazenar os cinco conjuntos de dados distintos, facilitando o acesso e a manipulação dos dados durante a análise.
+% \subsection{Exploração Inicial}\label{sec_metodologia_exploracao_inicial}
 
-\subsection{Exploração Inicial}\label{sec_metodologia_exploracao_inicial}
+% Com os dados no formato desejado, foi realizada uma exploração inicial para compreender a estrutura dos dados e e detectar possíveis inconsistências.
 
-Com os dados no formato desejado, foi realizada uma exploração inicial para compreender a estrutura dos dados e e detectar possíveis inconsistências.
+% Primeiramente, foi analisada a distriuição das notas para cada variável resposta, utilizando histogramas e boxplots. Foi constatado que a nota da redação é aplicada em intervalos de 20 pontos, enquanto que as demais notas são aplicadas de maneira contínua. Isso se dá pela quantidade muito diferente de notas distintas existentes em cada prova: a redação possui 50 valores distintos, enquanto que as demais provas possuem mais de 5.200 valores distintos cada.
 
-Primeiramente, foi analisada a distriuição das notas para cada variável resposta, utilizando histogramas e boxplots. Foi constatado que a nota da redação é aplicada em intervalos de 20 pontos, enquanto que as demais notas são aplicadas de maneira contínua. Isso se dá pela quantidade muito diferente de notas distintas existentes em cada prova: a redação possui 50 valores distintos, enquanto que as demais provas possuem mais de 5.200 valores distintos cada.
 
 
 
@@ -174,49 +123,48 @@ Primeiramente, foi analisada a distriuição das notas para cada variável respo
 
 
 
+% \section{Análise de correlação das Variáveis Preditoras}\label{analise_correlacao_variaveis}
 
-\section{Análise de correlação das Variáveis Preditoras}\label{analise_correlacao_variaveis}
+% Antes de iniciar a modelagem, foi realizada uma análise de correlação entre as variáveis preditoras para identificar possíveis multicolinearidades que poderiam afetar o desempenho dos modelos. A correlação foi avaliada utilizando a biblioteca \texttt{phik} \cite{KPMG_PhiK_2024} \cite{Baak2020Phik}, que permite calcular a correlação entre variáveis categóricas e numéricas.
 
-Antes de iniciar a modelagem, foi realizada uma análise de correlação entre as variáveis preditoras para identificar possíveis multicolinearidades que poderiam afetar o desempenho dos modelos. A correlação foi avaliada utilizando a biblioteca \texttt{phik} \cite{KPMG_PhiK_2024} \cite{Baak2020Phik}, que permite calcular a correlação entre variáveis categóricas e numéricas.
+% \subsection{Imputação de Valores Ausentes}\label{imputacao_valores_ausentes}
 
-\subsection{Imputação de Valores Ausentes}\label{imputacao_valores_ausentes}
+% Para as variáveis com valores ausentes que não foram removidas, foi adotado o método de \textit{KNN Imputer}, que utiliza a média/moda dos \textit{k} vizinhos mais próximos para preencher os valores ausentes. Esse método foi escolhido por sua capacidade de preservar a distribuição dos dados e considerar a correlação entre as variáveis.
 
-Para as variáveis com valores ausentes que não foram removidas, foi adotado o método de \textit{KNN Imputer}, que utiliza a média/moda dos \textit{k} vizinhos mais próximos para preencher os valores ausentes. Esse método foi escolhido por sua capacidade de preservar a distribuição dos dados e considerar a correlação entre as variáveis.
+% O \textit{KNN Imputer} foi implementado utilizando a classe \texttt{KNNImputer} da biblioteca \texttt{sklearn.impute}. Para se determinar o hiperparâmetro \texttt{k}, foi feita uma rápida análise de sensibilidade, testando diferentes valores de \texttt{k} e avaliando o impacto na distribuição das variáveis imputadas e na performance dos modelos preditivos. Para cada variável a ser imputada, foi selecionado o valor de \texttt{k} que apresentou o melhor equilíbrio entre acurácia e estabilidade.
 
-O \textit{KNN Imputer} foi implementado utilizando a classe \texttt{KNNImputer} da biblioteca \texttt{sklearn.impute}. Para se determinar o hiperparâmetro \texttt{k}, foi feita uma rápida análise de sensibilidade, testando diferentes valores de \texttt{k} e avaliando o impacto na distribuição das variáveis imputadas e na performance dos modelos preditivos. Para cada variável a ser imputada, foi selecionado o valor de \texttt{k} que apresentou o melhor equilíbrio entre acurácia e estabilidade.
+% \section{Modelagem}\label{modelagem}
 
-\section{Modelagem}\label{modelagem}
+% A modelagem é a etapa onde os dados preparados são utilizados para construir modelos preditivos que possam responder às perguntas de pesquisa formuladas na Seção \ref{entendimento_negocio}. Nesta seção, serão detalhadas as técnicas de modelagem empregadas e os critérios utilizados para a seleção dos modelos.
 
-A modelagem é a etapa onde os dados preparados são utilizados para construir modelos preditivos que possam responder às perguntas de pesquisa formuladas na Seção \ref{entendimento_negocio}. Nesta seção, serão detalhadas as técnicas de modelagem empregadas e os critérios utilizados para a seleção dos modelos.
+% \subsection{Seleção de Modelos}\label{selecao_modelos}
 
-\subsection{Seleção de Modelos}\label{selecao_modelos}
+% Como as nossas variáveis respostas são numéricas e contínuas, estamos em um problema de regressão de aprendizado supervisionado. Assim, é preciso selecionar modelos de regressão, que são os adequados para prever variáveis contínuas. Os modelos escolhidos foram a Regressão Linear com Regularizações (como \textit{benchmark}) e o XGBoost Regressor \cite{XGBoostDevelopers_Tutorials_2025}, ambos amplamente utilizados devido à sua eficácia e interpretabilidade.
 
-Como as nossas variáveis respostas são numéricas e contínuas, estamos em um problema de regressão de aprendizado supervisionado. Assim, é preciso selecionar modelos de regressão, que são os adequados para prever variáveis contínuas. Os modelos escolhidos foram a Regressão Linear com Regularizações (como \textit{benchmark}) e o XGBoost Regressor \cite{XGBoostDevelopers_Tutorials_2025}, ambos amplamente utilizados devido à sua eficácia e interpretabilidade.
+% \subsection{Otimização dos Hiperparâmetros}\label{otimizacao_hiperparametros}
 
-\subsection{Otimização dos Hiperparâmetros}\label{otimizacao_hiperparametros}
+% Para otimizar o desempenho dos modelos selecionados, foi realizada uma busca em grade (\textit{Grid Search}) para identificar os melhores hiperparâmetros. A busca foi realizada utilizando validação cruzada para garantir que os resultados fossem robustos e generalizáveis.
 
-Para otimizar o desempenho dos modelos selecionados, foi realizada uma busca em grade (\textit{Grid Search}) para identificar os melhores hiperparâmetros. A busca foi realizada utilizando validação cruzada para garantir que os resultados fossem robustos e generalizáveis.
+% \subsection{Treino dos Modelos}\label{treino_modelos}
 
-\subsection{Treino dos Modelos}\label{treino_modelos}
+% Definidos os hiperparâmetros ótimos, os modelos foram treinados utilizando o conjunto de dados preparado na Seção \ref{preparacao_dados}. O treinamento foi realizado em validação cruzada de cinco \textit{folds}, utilizando a biblioteca \texttt{cuml} para se beneficiar da aceleração por GPU. Foi selecionado como modelo final aquele modelo que apresentou o melhor desempenho médio nos \textit{folds} de validação para cada variável resposta.
 
-Definidos os hiperparâmetros ótimos, os modelos foram treinados utilizando o conjunto de dados preparado na Seção \ref{preparacao_dados}. O treinamento foi realizado em validação cruzada de cinco \textit{folds}, utilizando a biblioteca \texttt{cuml} para se beneficiar da aceleração por GPU. Foi selecionado como modelo final aquele modelo que apresentou o melhor desempenho médio nos \textit{folds} de validação para cada variável resposta.
+% \subsection{Avaliação dos Modelos}\label{avaliacao_modelos}
 
-\subsection{Avaliação dos Modelos}\label{avaliacao_modelos}
+% A avaliação dos modelos foi realizada utilizando métricas de desempenho apropriadas para problemas de regressão, como a Raiz do Erro Quadrático Médio (RMSE) e o Coeficiente de Determinação (R²). Essas métricas fornecem uma visão clara da precisão das previsões dos modelos em relação aos valores reais das notas do ENEM.
 
-A avaliação dos modelos foi realizada utilizando métricas de desempenho apropriadas para problemas de regressão, como a Raiz do Erro Quadrático Médio (RMSE) e o Coeficiente de Determinação (R²). Essas métricas fornecem uma visão clara da precisão das previsões dos modelos em relação aos valores reais das notas do ENEM.
+% Também foram realizadas análises de resíduos para verificar a adequação dos modelos e identificar possíveis padrões não capturados pelas previsões, bem como a análise gráfica das previsões versus os valores reais para avaliar visualmente o desempenho dos modelos.
 
-Também foram realizadas análises de resíduos para verificar a adequação dos modelos e identificar possíveis padrões não capturados pelas previsões, bem como a análise gráfica das previsões versus os valores reais para avaliar visualmente o desempenho dos modelos.
+% \section{Magnitude da Influência das Variáveis Preditoras}\label{medicao_efeito_variaveis}
 
-\section{Magnitude da Influência das Variáveis Preditoras}\label{medicao_efeito_variaveis}
+% Para medir o efeito de cada variável preditora nas notas do ENEM, foram utilizadas técnicas de interpretação de modelos, que permitem identificar quais variáveis têm maior impacto nas previsões dos modelos e como elas influenciam as notas dos estudantes. Entre as técnicas empregadas estão a importância das características (\textit{feature importance}), a análise dos valores SHAP (\textit{SHapley Additive exPlanations}) e os gráficos de dependência parcial (\textit{partial dependence plots}).
 
-Para medir o efeito de cada variável preditora nas notas do ENEM, foram utilizadas técnicas de interpretação de modelos, que permitem identificar quais variáveis têm maior impacto nas previsões dos modelos e como elas influenciam as notas dos estudantes. Entre as técnicas empregadas estão a importância das características (\textit{feature importance}), a análise dos valores SHAP (\textit{SHapley Additive exPlanations}) e os gráficos de dependência parcial (\textit{partial dependence plots}).
+% Além disso, foi realizada uma análise de sensibilidade para avaliar como mudanças nas variáveis preditoras afetam as previsões dos modelos. Para isso, foi construída uma matriz de cenários hipotéticos, onde cada variável preditora é alterada sistematicamente enquanto as outras são mantidas constantes. As previsões resultantes foram então analisadas para quantificar o impacto de cada variável nas notas do ENEM.
 
-Além disso, foi realizada uma análise de sensibilidade para avaliar como mudanças nas variáveis preditoras afetam as previsões dos modelos. Para isso, foi construída uma matriz de cenários hipotéticos, onde cada variável preditora é alterada sistematicamente enquanto as outras são mantidas constantes. As previsões resultantes foram então analisadas para quantificar o impacto de cada variável nas notas do ENEM.
+% \section{Limitações e Considerações Éticas}\label{limitacoes_eticas}
 
-\section{Limitações e Considerações Éticas}\label{limitacoes_eticas}
+% Algumas limitações devem ser destacadas. Primeiro, apesar do grande volume de dados, a presença de vieses de seleção (por exemplo, diferença entre participantes regulares e treineiros, ou entre ausentes e presentes nas provas) pode influenciar as inferências; as análises procuram mitigar esses efeitos, mas não os eliminam completamente. Segundo, variáveis censuradas, inconsistências de registro e códigos especiais para ausência exigiram tratamentos que podem introduzir perdas de informação.
 
-Algumas limitações devem ser destacadas. Primeiro, apesar do grande volume de dados, a presença de vieses de seleção (por exemplo, diferença entre participantes regulares e treineiros, ou entre ausentes e presentes nas provas) pode influenciar as inferências; as análises procuram mitigar esses efeitos, mas não os eliminam completamente. Segundo, variáveis censuradas, inconsistências de registro e códigos especiais para ausência exigiram tratamentos que podem introduzir perdas de informação.
+% Quanto às considerações éticas, todos os dados utilizados são microdados públicos disponibilizados pelo INEP, já anonimizados para preservar a privacidade dos participantes. Recomenda-se cautela na interpretação dos resultados para evitar conclusões simplistas sobre individualidades dos estudantes ou estigmatização de grupos e instituições.
 
-Quanto às considerações éticas, todos os dados utilizados são microdados públicos disponibilizados pelo INEP, já anonimizados para preservar a privacidade dos participantes. Recomenda-se cautela na interpretação dos resultados para evitar conclusões simplistas sobre individualidades dos estudantes ou estigmatização de grupos e instituições.
-
-No Capítulo \ref{cap_resultados} serão apresentados os resultados empíricos da metodologia empregada: (i) a descrição dos dados após o pré-processamento, (ii) a análise de correlação entre as variáveis preditoras, (iii) o desempenho dos modelos preditivos na previsão das notas do ENEM, e (iv) a análise da magnitude da influência das variáveis preditoras nas notas dos estudantes.
+% No Capítulo \ref{cap_resultados} serão apresentados os resultados empíricos da metodologia empregada: (i) a descrição dos dados após o pré-processamento, (ii) a análise de correlação entre as variáveis preditoras, (iii) o desempenho dos modelos preditivos na previsão das notas do ENEM, e (iv) a análise da magnitude da influência das variáveis preditoras nas notas dos estudantes.

@@ -7,7 +7,7 @@ twoside,  % para impressão em anverso (frente) e verso. Oposto a oneside - Nota
 %oneside, % para impressão em páginas separadas (somente anverso) -  Nota: utilizar \imprimirfolhaderosto
 % inclua uma % antes do comando twoside e exclua a % antes do oneside 
 a4paper,			% tamanho do papel. 
-% -- opções da classe abntex2 --
+% -- opções da classe abntex2 --a
 chapter=TITLE,		% títulos de capítulos convertidos em letras maiúsculas
 % -- opções do pacote babel --
 english,			% idioma adicional para hifenização
@@ -49,7 +49,34 @@ brazil				% o último idioma é o principal do documento
 \usepackage{array} % Necessário para m{} e p{}
 \usepackage{ragged2e} % Para \RaggedRight, melhor que \raggedright em tabelas
 \usepackage{refcount}
+\usepackage{listings}
+\usepackage{xcolor} % Optional, but recommended for code coloring
 % ---
+
+% Define YAML language for listings
+\newcommand\YAMLcolonstyle{\color{red}\mdseries}
+\newcommand\YAMLkeystyle{\color{black}\bfseries}
+\newcommand\YAMLvaluestyle{\color{blue}\mdseries}
+
+\lstdefinelanguage{yaml}{
+  keywords={true,false,null,y,n},
+  keywordstyle=\color{darkgray}\bfseries,
+  basicstyle=\YAMLkeystyle\tiny, % Changed to tiny to fit page
+  sensitive=false,
+  comment=[l]{\#},
+  morecomment=[s]{/*}{*/},
+  commentstyle=\color{purple}\ttfamily,
+  stringstyle=\YAMLvaluestyle\ttfamily,
+  moredelim=[l][\color{orange}]{\&},
+  moredelim=[l][\color{magenta}]{*},
+  moredelim=**[il][\YAMLcolonstyle{:}\YAMLvaluestyle]{:},
+  morestring=[b]',
+  morestring=[b]",
+  literate =    {---}{{\ProcessThreeDashes}}3
+                {>}{{\textcolor{red}\textgreater}}1     
+                {|}{{\textcolor{red}\textbar}}1 
+                {\ -\ }{{\mdseries\ -\ }}3,
+}
 
 % ---
 % Pacotes de citações

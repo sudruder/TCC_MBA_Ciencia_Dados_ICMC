@@ -1,105 +1,260 @@
-
+    
 \chapter{Resultados}\label{cap_resultados}
 
 Este capítulo apresenta os resultados obtidos a partir da aplicação da metodologia descrita no Capítulo \ref{cap_metodologia}. Os resultado serão apresentados na mesma ordem das etapas descritas na metodologia.
 
-\section{Entendimento dos Dados}
+\section{Entendimento de Negócio}\label{resultados_entendimento_negocio}
 
-\subsection{Tratamento dos Valores nulos}\label{sec_resultados_tratamento_nulos}
+Conforme descrito no Capítulo \ref{cap_metodologia} - Metodologia, foi necessário definir as perguntas de pesquisa que guiaram a análise dos dados disponíveis.
 
-Conforme descrito na Seção \ref{sec_metodologia_tratamento_nulos}, os dados nulos foram tratados de acordo com a natureza de cada variável. A Tabela \ref{tab_obs_variaveis_enem} apresenta o percentual de valores nulos por variável na conjunto de dados integrados incial, antes dos tratamentos.
+Conforme mencionado no Capítulo \ref{cap_fundamentacao} - Fundamentação Teórica, o ENEM é um exame de grande relevância no contexto educacional brasileiro e compreender os fatores que impactam o desempenho dos estudantes é crucial para a formulação de políticas educacionais eficazes.
 
-\begin{table}[h]
-
-    \centering
-
-    \caption{Percentual inicial de valores nulos por variável}
-
-    \label{tab_obs_variaveis_enem}
-
-    \begin{tabular}{|l|c|}
-        \hline
-        \textbf{Variável} & \textbf{Percentual de nulos} \\ \hline
-        sigla\_uf\_escola & 78,1\% \\ \hline
-        cod\_municipio\_escola & 78,1\% \\ \hline
-        tp\_adm\_escola & 78,1\% \\ \hline
-        nome\_municipio\_escola & 78,1\% \\ \hline
-        cod\_uf\_escola & 78,1\% \\ \hline
-        tp\_local\_escola & 78,1\% \\ \hline
-        funcionamento\_escola & 78,1\% \\ \hline
-        tp\_ensino & 69,8\% \\ \hline
-        tp\_escola & 68,2\% \\ \hline
-        nota\_ciencias\_natureza & 40,4\% \\ \hline
-        nota\_matematica & 40,4\% \\ \hline
-        nota\_ciencias\_humanas & 37,0\% \\ \hline
-        nota\_redacao & 37,0\% \\ \hline
-        nota\_linguagem\_codigos & 37,0\% \\ \hline
-        03\_ocupacao\_pai & 12,5\% \\ \hline
-        01\_escolaridade\_pai & 9,8\% \\ \hline
-        04\_ocupacao\_mae & 9,0\% \\ \hline
-        estado\_civil & 4,2\% \\ \hline
-        02\_escolaridade\_mae & 3,5\% \\ \hline
-        cor\_raca & 1,8\% \\ \hline
-        10\_qtde\_carro & 0,6\% \\ \hline
-        05\_qtde\_moradores & 0,6\% \\ \hline
-        06\_renda\_familiar & 0,6\% \\ \hline
-        07\_qtde\_trabalhador\_domestico & 0,6\% \\ \hline
-        08\_qtde\_banheiro & 0,6\% \\ \hline
-        09\_qtde\_quarto & 0,6\% \\ \hline
-        18\_flag\_aspirador\_po & 0,6\% \\ \hline
-        11\_qtde\_motocicleta & 0,6\% \\ \hline
-        12\_qtde\_geladeira & 0,6\% \\ \hline
-        13\_qtde\_freezer & 0,6\% \\ \hline
-        14\_qtde\_maq\_lavar\_roupa & 0,6\% \\ \hline
-        15\_qtde\_maq\_secar\_roupa & 0,6\% \\ \hline
-        16\_qtde\_micro\_ondas & 0,6\% \\ \hline
-        17\_qtde\_maq\_lavar\_louca & 0,6\% \\ \hline
-        22\_qtde\_celular & 0,6\% \\ \hline
-        19\_qtde\_tv & 0,6\% \\ \hline
-        20\_flag\_aparelho\_dvd & 0,6\% \\ \hline
-        21\_flag\_tv\_assinatura & 0,6\% \\ \hline
-        24\_qtde\_computadores & 0,6\% \\ \hline
-        23\_flag\_telefone\_fixo & 0,6\% \\ \hline
-        25\_flag\_internet & 0,6\% \\ \hline
-        nacionalidade & 0,05\% \\ \hline
-    \end{tabular}
-    \begin{center}
-        \footnotesize Fonte: elaborado pelo autor.
-    \end{center}
-\end{table}
-
-A quantidade de nulos nas variáveis varia significativamente, com algumas apresentando mais de 70\% de valores nulos, enquanto outras possuem menos de 1\%. Variáveis com uma alta proporção de valores nulos podem comprometer a análise se for realizado alguma imputação de valores.
-
-Nas variáveis de notas, foi observado que há valores preenchidos com zero e valores nulos. Após análise conjunta com as variáveis de presença nas respecitivas provas, constatou-se que os valores nulos indicam ausência ou eliminação do participante na prova, enquanto os valores zero indicam que o participante esteve presente na prova, mas obteve nota zero. Dessa forma, as observações com notas nulas foram removidas, enquanto as observações com notas zero foram mantidas.
-
-Após a aplicação dos tratamentos descritos na Seção \ref{sec_metodologia_tratamento_nulos}, restaram 12.241.442 observações e 45 variáveis no conjunto de dados integrado.
-
-\subsection{Separação dos Conjuntos de Dados por Variável Resposta}\label{sec_resultados_separacao_conjuntos_dados}
-
-Após a separação dos conjuntos de dados por variável resposta, conforme descrito na Seção \ref{sec_metodologia_separacao_conjuntos_dados}, foram criados cinco conjuntos de dados distintos. A Tabela \ref{tab_conjunto_variaveis_resposta} apresenta a quantidade de observações e variáveis em cada conjunto de dados.
-
+Trabalhos anteriores citam algumas variáveis socioeconômicas como discriminadores de performance no ENEM. A Tabela \ref{tab_trabalhos_anteriores} apresenta essas variáveis identificadas na literatura, juntamente com suas respectivas referências.
 
 \begin{table}[h]
 
     \centering
 
-    \caption{Quantidade de observações por conjunto de dados}
+    \caption{Variáveis socioeconômicas e suas referências}
 
-    \label{tab_conjunto_variaveis_resposta}
+    \begin{tabular}{|m{7cm}|m{4cm}|} \hline
 
-    \begin{tabular}{|l|c|c|}
-        \hline
-        \textbf{Conjunto de Dados} & \textbf{Observações} & \textbf{Variáveis} \\ \hline
-        Ciências Humanas & 7.895.093 & 36 \\ \hline
-        Ciências Natureza & 7.500.050 & 36 \\ \hline
-        Linguagem e Código & 7.895.093 & 36 \\ \hline
-        Matemática & 7.500.050 & 36 \\ \hline
-        Redação & 7.895.093 & 36 \\ \hline
+        \textbf{Variável socioeconômica} & \textbf{Referência} \\ \hline
+        Renda familiar & Melo \textit{et al.} \cite{ref_01} \\ & Vasconcellos \cite{ref_06} \\ \hline
+        Raça / Cor & Melo \textit{et al.} \cite{ref_01} \\ & Moraes \textit{et al.} \cite{ref_03} \\ \hline
+        Sexo & Moraes \textit{et al.} \cite{ref_03} \\ \hline
+        Idade / Atraso Escolar & Jaloto e Primi \cite{ref_12} \\ \hline
+        Administração: Pública vs. Privada & Moraes \textit{et al.} \cite{ref_03} \\ & Jaloto e Primi \cite{ref_12} \\ & Ortega \textit{et al.} \cite{ref_05} \\ \hline
+        Atributos Escolares & Moraes \textit{et al.} \cite{ref_03} \\ \hline
     \end{tabular}
+
+    \label{tab_trabalhos_anteriores}
+
     \begin{center}
         \footnotesize Fonte: elaborado pelo autor.
     \end{center}
+
 \end{table}
 
-\subsection{Exploração Inicial}\label{sec_resultados_exploracao_inicial}
+Assim, ao avaliarmos os trabalhos anteriores disponíveis, concluímos que há uma variedade de fatores socioeconômicos que podem influenciar o desempenho dos estudantes no ENEM. Com base nisso, foram formuladas as seguintes perguntas de pesquisa:
+
+\begin{itemize}
+    \item \textbf{Pergunta 1:} Quais são os principais fatores socioeconômicos que influenciam o desempenho dos estudantes no ENEM?
+    \item \textbf{Pergunta 2:} Qual é a magnitude da influência de cada um desses conjuntos de fatores nas notas dos participantes?
+\end{itemize}
+
+\section{Entendimento dos dados}\label{resultados_entendimento_dados}
+
+\subsection{Escolha e Coleta dos Dados}\label{resultados_escolha_coleta_dados}
+
+Como descrito no Capítulo \ref{cap_metodologia} - Metodologia, foi necessário identificar dados que fossem relevantes para responder as pergunras de pesquisa formuladas. Foi realizada uma busca por bases de dados públicas que contivessem informações detalhadas sobre os participantes do ENEM, incluindo suas características socioeconômicas e desempenho no exame.
+
+Os microdados do ENEM, disponibilizados anualmente pelo Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira (INEP), foram escolhidos como a principal fonte de dados para este trabalho e podem ser acessados através do portal do INEP \cite{ref_08}.
+
+No mesmo portal, também estão disponíveis os dados do Censo Escolar, que fornecem informações adicionais sobre as escolas de todo o território nacional \cite{ref_07}. Esses foram escolhidos como fonte complementar por fornecerem um contexto mais amplo sobre o ambiente educacional.
+
+Foram então selecionadas as edições de 2020 a 2024 (as últimas cinco edições disponíveis) de ambos os conjuntos de dados e os arquivos disponibilizados foram baixados através de download simples e armazenados localmente para posterior leitura e manipulação.
+
+Como os dados escolhidos são públicos e anonimizados por quem os distribui, entendeu-se que não há limitações éticas para o uso desses dados neste trabalho e não foi necessário submeter o projeto a um comitê de ética em pesquisa.
+
+\subsection{Compreensão Inicial dos Dados}\label{resultados_compreensao_inicial_dados}
+
+Os arquivos de microdados do ENEM e do Censo Escolar são disponibilizados em formato compactado (.zip), separados pelo ano de aplicação do exame ou do censo.
+
+Dentre os arquivos existentes nos arquivos compactados dos microdados do ENEM, foram selecionados os arquivos CSV (\textit{Comma-Separated Values}) que contêm as informações dos participantes e suas notas e os os dicionários de dados de cada edição em formato XLSX (Formato nativo do \textit{Microsoft Excel}), que foi utilizado para interpretar os valores categóricos e identificar campos-chave.
+
+Para os arquivos compactados do Censo Escolar, foram selecionados os arquivos CSV que contêm as informações das escolas e os dicionários de dados em formato XLSX.
+
+\subsubsection{Edicão de 2024 do ENEM e LGPD}\label{resultados_enem_2024_lgpd}
+
+Na edição de 2024 dos microdados do ENEM, foi feita uma alteração no formato de disponibilização dos dados dos participantes e das notas, que passaram a ser disponibilizados em arquivos separados.
+
+Isso aconteceu "Devido à vigência da Lei Geral de Proteção de Dados (LGPD), incorporada ao ordenamento jurídico
+brasileiro por meio da Lei nº 13.709, de 14 de agosto de 2018", conforme descrito no arquivo auxiliar ¨Leia-Me" disponibilizado junto com os microdados do ENEM 2024 \cite{Inep2024LeiaMeEnem}.
+
+Assim, o formato dos arquivos de microdados do ENEM 2024 difere das edições anteriores, por mais que as informações contidas permanecem as mesmas. HOuve a separação dos dados dos participantes e das notas em arquivos distintos e sem uma chave primária que permita a junção dos dois conjuntos de dados. Dessa forma, os dados da edição de 2024 do ENEM não puderam ser utilizados para este trabalho
+
+\subsection{Análise dos Dicionários de Dados}\label{resultados_analise_dicionarios_dados}
+
+Foram analisados os dicionários de dados dos microdados do ENEM e do Censo Escolar para identificar as variáveis disponíveis em cada conjunto de dados. Os dicionários completos estão disponíveis no Apêndice \ref{apendice_dicionario_enem} e \ref{apendice_dicionario_censo_escolar}. A partir dessa análise, foi possível identificar as variáveis que seriam relevantes para responder às perguntas de pesquisa formuladas na Seção \ref{resultados_entendimento_negocio}.
+
+Não foi possível localizar um dado que permitisse a identificação única das escolas dos participantes do ENEM nos microdados do ENEM, o que impossibilitou correlacionar diretamente os dados dos participantes do ENEM com os dados das escolas do Censo Escolar para agregar informações das escolas aos dados dos participantes. Dessa forma, optou-se por utilizar apenas os dados dos microdados do ENEM para a realização deste trabalho.
+
+\subsection{Definição da Variável Resposta}\label{resultados_definicao_variavel_resposta}
+
+Como esse trabalho pretende avaliar o desempenho dos estudantes no ENEM e os fatores que influenciam esse desempenho, a variável resposta deve refletir esse objetivo. Assim, serão utilizadas como variáveis resposta as notas obtidas pelos estudantes nas quatro provas objetivas e na redação do ENEM.
+
+Ou seja, teremos cinco variáveis resposta distintas para análise: (i) Nota da prova de Ciências da Natureza; (ii) Nota da prova de Ciências Humanas; (iii) Nota da prova de Linguagens e Códigos; (iv) Nota da prova de Matemática; e (v) Nota da Redação.
+
+\section{Preparação dos dados}\label{resultados_preparacao_dados}
+
+\subsection{Preparação do Ambiente Tecnológico e Analítico}\label{resultados_preparacao_ambiente_analitico}
+
+Para a execução desse trabalho, foi utilizado um ambiente baseado em \texttt{Python} através do gerenciador de ambientes virtuais Miniconda3 \cite{Anaconda_Miniconda_nd}. Dado o grande volume de dados (mais de 16 milhões de observações, 6,4 GB de tamanho), foi necessário utilizar uma GPU para acelerar o processamento dos dados e a modelagem. A GPU utilizada foi uma NVIDIA GeForce RTX 4070 Ti Super, com 16 GB de memória dedicada.
+
+Para possibilitar essa execução, o ambiente foi especificamente configurado com o ecossistema NVIDIA CUDAX \cite{NVIDIA_CUDAX_nd}. Esta suíte de bibliotecas de software permite executar pipelines de Ciência de Dados e análises inteiramente na GPU, minimizando a transferência de dados entre a CPU e a GPU.
+
+Foram utilizados seus principais componentes: \texttt{cudf} \cite{NVIDIA_cuDF_nd}, uma biblioteca para manipulação de \texttt{DataFrames} na GPU análoga ao \texttt{pandas} \cite{PandasTeam_PandasDocs_2025}, e \texttt{cuml} \cite{NVIDIA_cuML_2023}, que fornece implementações de algoritmos de \textit{Machine Learning} acelerados por GPU, análoga ao \texttt{scikit-learn} \cite{scikit-learn}. Todo o ambiente foi construído sobre a plataforma CUDA 13.0, com as bibliotecas e dependências gerenciadas diretamente pelo Conda.
+
+O arquivo YML de configuração do ambiente virtual utilizado está disponível no Apêndice \ref{apendice_ambiente_virtual}.
+
+\subsection{Leitura dos Dados}\label{resultados_leitura_dados}
+
+Os arquivos CSV dos microdados do ENEM foram lidos utilizando o método \texttt{read\_csv} da biblioteca \texttt{pandas}\cite{PandasTeam_PandasDocs_2025} especificando o separador como ponto e vírgula (\texttt{sep = ';'}).
+
+Serão utilizados os dados das edições de 2020 a 2023 e possuem, respectivamente, as seguintes quantidade de observações e variáveis:
+
+\begin{table}[h]
+
+    \centering
+
+    \caption{Quantidade de observações e variáveis por edição do ENEM}
+
+    \label{tab_qtde_obs_variaveis_edicao}
+
+    \begin{tabular}{|c|c|c|}
+        \hline
+        \textbf{Edição} & \textbf{Observações} & \textbf{Variáveis} \\ \hline
+        2020 & 5.783.109 & 76 \\ \hline
+        2021 & 3.389.832 & 76 \\ \hline
+        2022 & 3.476.105 & 76 \\ \hline
+        2023 & 3.933.955 & 76 \\ \hline
+    \end{tabular}
+    \begin{center}
+        \footnotesize Fonte: microdados do INEP; elaborado pelo autor.
+    \end{center}
+\end{table}
+
+Analisando a Tabela \ref{tab_qtde_obs_variaveis_edicao} e os dicionários de dados, foi possível observar que todas as edições selecionadas possuem o mesmo esquema, ou seja, as mesmas variáveis e com o mesmo nome estão presentes em todas as edições selecionadas. Portanto, a integração foi realizada por meio da concatenação vertical dos quatro conjuntos de dados, utilizando o método \texttt{concat} da biblioteca \texttt{pandas}.
+
+
+
+Em seguida, foi feita uma modificação no nome das variáveis para nomes que fossem mais intuitivos e de compreensão rápida do conteúdo. Essa modificação foi realizada utilizando o método \texttt{rename}, a partir de um dicionário que mapeava os nomes originais para os novos nomes desejados.
+
+\
+
+\section{Modelagem}\label{resultados_modelagem}
+\section{Avaliação}\label{resultados_avaliacao}
+\section{Implantação}\label{resultados_implantacao}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+% \section{Entendimento dos Dados}
+
+% \subsection{Tratamento dos Valores nulos}\label{sec_resultados_tratamento_nulos}
+
+% Conforme descrito na Seção \ref{sec_metodologia_tratamento_nulos}, os dados nulos foram tratados de acordo com a natureza de cada variável. A Tabela \ref{tab_obs_variaveis_enem} apresenta o percentual de valores nulos por variável na conjunto de dados integrados incial, antes dos tratamentos.
+
+% \begin{table}[h]
+
+%     \centering
+
+%     \caption{Percentual inicial de valores nulos por variável}
+
+%     \label{tab_obs_variaveis_enem}
+
+%     \begin{tabular}{|l|c|}
+%         \hline
+%         \textbf{Variável} & \textbf{Percentual de nulos} \\ \hline
+%         sigla\_uf\_escola & 78,1\% \\ \hline
+%         cod\_municipio\_escola & 78,1\% \\ \hline
+%         tp\_adm\_escola & 78,1\% \\ \hline
+%         nome\_municipio\_escola & 78,1\% \\ \hline
+%         cod\_uf\_escola & 78,1\% \\ \hline
+%         tp\_local\_escola & 78,1\% \\ \hline
+%         funcionamento\_escola & 78,1\% \\ \hline
+%         tp\_ensino & 69,8\% \\ \hline
+%         tp\_escola & 68,2\% \\ \hline
+%         nota\_ciencias\_natureza & 40,4\% \\ \hline
+%         nota\_matematica & 40,4\% \\ \hline
+%         nota\_ciencias\_humanas & 37,0\% \\ \hline
+%         nota\_redacao & 37,0\% \\ \hline
+%         nota\_linguagem\_codigos & 37,0\% \\ \hline
+%         03\_ocupacao\_pai & 12,5\% \\ \hline
+%         01\_escolaridade\_pai & 9,8\% \\ \hline
+%         04\_ocupacao\_mae & 9,0\% \\ \hline
+%         estado\_civil & 4,2\% \\ \hline
+%         02\_escolaridade\_mae & 3,5\% \\ \hline
+%         cor\_raca & 1,8\% \\ \hline
+%         10\_qtde\_carro & 0,6\% \\ \hline
+%         05\_qtde\_moradores & 0,6\% \\ \hline
+%         06\_renda\_familiar & 0,6\% \\ \hline
+%         07\_qtde\_trabalhador\_domestico & 0,6\% \\ \hline
+%         08\_qtde\_banheiro & 0,6\% \\ \hline
+%         09\_qtde\_quarto & 0,6\% \\ \hline
+%         18\_flag\_aspirador\_po & 0,6\% \\ \hline
+%         11\_qtde\_motocicleta & 0,6\% \\ \hline
+%         12\_qtde\_geladeira & 0,6\% \\ \hline
+%         13\_qtde\_freezer & 0,6\% \\ \hline
+%         14\_qtde\_maq\_lavar\_roupa & 0,6\% \\ \hline
+%         15\_qtde\_maq\_secar\_roupa & 0,6\% \\ \hline
+%         16\_qtde\_micro\_ondas & 0,6\% \\ \hline
+%         17\_qtde\_maq\_lavar\_louca & 0,6\% \\ \hline
+%         22\_qtde\_celular & 0,6\% \\ \hline
+%         19\_qtde\_tv & 0,6\% \\ \hline
+%         20\_flag\_aparelho\_dvd & 0,6\% \\ \hline
+%         21\_flag\_tv\_assinatura & 0,6\% \\ \hline
+%         24\_qtde\_computadores & 0,6\% \\ \hline
+%         23\_flag\_telefone\_fixo & 0,6\% \\ \hline
+%         25\_flag\_internet & 0,6\% \\ \hline
+%         nacionalidade & 0,05\% \\ \hline
+%     \end{tabular}
+%     \begin{center}
+%         \footnotesize Fonte: elaborado pelo autor.
+%     \end{center}
+% \end{table}
+
+% A quantidade de nulos nas variáveis varia significativamente, com algumas apresentando mais de 70\% de valores nulos, enquanto outras possuem menos de 1\%. Variáveis com uma alta proporção de valores nulos podem comprometer a análise se for realizado alguma imputação de valores.
+
+% Nas variáveis de notas, foi observado que há valores preenchidos com zero e valores nulos. Após análise conjunta com as variáveis de presença nas respecitivas provas, constatou-se que os valores nulos indicam ausência ou eliminação do participante na prova, enquanto os valores zero indicam que o participante esteve presente na prova, mas obteve nota zero. Dessa forma, as observações com notas nulas foram removidas, enquanto as observações com notas zero foram mantidas.
+
+% Após a aplicação dos tratamentos descritos na Seção \ref{sec_metodologia_tratamento_nulos}, restaram 12.241.442 observações e 45 variáveis no conjunto de dados integrado.
+
+% \subsection{Separação dos Conjuntos de Dados por Variável Resposta}\label{sec_resultados_separacao_conjuntos_dados}
+
+% Após a separação dos conjuntos de dados por variável resposta, conforme descrito na Seção \ref{sec_metodologia_separacao_conjuntos_dados}, foram criados cinco conjuntos de dados distintos. A Tabela \ref{tab_conjunto_variaveis_resposta} apresenta a quantidade de observações e variáveis em cada conjunto de dados.
+
+
+% \begin{table}[h]
+
+%     \centering
+
+%     \caption{Quantidade de observações por conjunto de dados}
+
+%     \label{tab_conjunto_variaveis_resposta}
+
+%     \begin{tabular}{|l|c|c|}
+%         \hline
+%         \textbf{Conjunto de Dados} & \textbf{Observações} & \textbf{Variáveis} \\ \hline
+%         Ciências Humanas & 7.895.093 & 36 \\ \hline
+%         Ciências Natureza & 7.500.050 & 36 \\ \hline
+%         Linguagem e Código & 7.895.093 & 36 \\ \hline
+%         Matemática & 7.500.050 & 36 \\ \hline
+%         Redação & 7.895.093 & 36 \\ \hline
+%     \end{tabular}
+%     \begin{center}
+%         \footnotesize Fonte: elaborado pelo autor.
+%     \end{center}
+% \end{table}
+
+% \subsection{Exploração Inicial}\label{sec_resultados_exploracao_inicial}
 
