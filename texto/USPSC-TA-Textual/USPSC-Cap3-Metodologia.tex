@@ -1,7 +1,4 @@
 
-% !TEX root = ./TCC_Impresso.tex
-% !TEX root = ./TCC_Online.tex
-
 \chapter{Metodologia}\label{cap_metodologia}
 
 Este capítulo detalha a metodologia de trabalho utilizada, apresentando o delineamento da pesquisa, da coleta e processamento dos dados e as técnicas analíticas empregadas para responder às perguntas de pesquisa.
@@ -13,26 +10,23 @@ A estrutura metodológica adotada será baseada no modelo CRISP-DM (\textit{Cros
     \caption{Modelo CRISP-DM}
     \includegraphics[width = 0.7\textwidth]{imagens/crisp-dm.png}
     \label{fig:crisp-dm}
-\begin{center}
+    \par\vspace{0.1cm}
     \footnotesize Fonte: modificado de Chapman \textit{et al.} \cite{Chapman2000CRISPDM}.
-\end{center}
 \end{figure}
 
 \section{Entendimento de Negócio}\label{metodologia_entendimento_negocio}
 
 A etapa de entendimento de negócio envolve a definição clara dos objetivos do projeto, a compreensão do contexto em que a pesquisa está inserida, a identificação das partes interessadas, a formulação das perguntas de pesquisa que guiarão a análise dos dados e os resultados que espera-se alcançar.
 
-O foco principal deste trabalho será a formulação de hipóteses relacionadas aos fatores que influenciam o desempenho dos estudantes no ENEM, através da análise dos dados de performance dos participantes e suas características socioeconômicas.
-
-Sendo assim, foi necessário formular perguntas de pesquisa específicas que possam ser respondidas através da análise dos dados disponíveis.
+Como o foco principal deste trabalho será a formulação de hipóteses relacionadas aos fatores que influenciam o desempenho dos estudantes no ENEM, através da análise dos dados de performance dos participantes e suas características socioeconômicas,  foi necessário formular perguntas de pesquisa específicas que possam ser respondidas através da análise dos dados disponíveis.
 
 \section{Entendimento dos dados}\label{metodologia_entendimento_dados}
 
-Com as perguntas de pesquisa definidas, a próxima etapa foi encontrar dados que sejam adequados para responder a essas perguntas e estabelecer, primeiramente, uma forma consistente de coleta e armazenamento para em seguida realizar uma rápida compreensão da estrutura dos dados.
-
-Há depender dos tipos de dados a serem utilizados, é necessário submeter o projeto a um comitê de ética em pesquisa para aprovação, garantindo que todos os aspectos éticos relacionados ao uso dos dados sejam devidamente considerados.
+Com as perguntas de pesquisa definidas, a próxima etapa foi encontrar dados que fossem adequados para responder a essas perguntas e estabelecer uma forma consistente de coleta e armazenamento desses dados para em seguida realizar uma compreensão de sua estrutura e significado.
 
 Após essa etapa, foi possível identifcar quais os arquivos são relevantes para a análise e quais variáveis dentro desses arquivos serão utilizadas como variáveis preditoras e como variáveis resposta.
+
+Há depender dos tipos de dados a serem utilizados, é necessário submeter o projeto a um comitê de ética em pesquisa para aprovação, garantindo que todos os aspectos éticos relacionados ao uso dos dados sejam devidamente considerados.
 
 \section{Preparação dos dados}\label{metodologia_preparacao_dados}
 
@@ -42,11 +36,17 @@ Para a execução dessa e das etapas posteriores, é necessário preparar um amb
 
 Após a leitura dos dados, estes foram integrados em único conjunto de dados para facilitar a análise e a modelagem. Foram realizados os ajustes necessários no esquema dos dados para garantir a consistência e a integridade das informações.
 
-Em seguida, as variáveis foram renomeadas para nomes mais intuitivos e de fácil compreensão e foi analisado se seria necessário criar variáveis contendo alguma transformação das variáveis originais, por exemplo, criar uma variável que transforme os códigos numéricos de variáveis categóricas em rótulos textuais.
+Em seguida, as variáveis foram renomeadas para nomes mais intuitivos e de fácil compreensão e foi analisado se necessário transformar os valores das variáveis originais em valores mais compreensíveis, por exemplo, transformar os códigos numéricos de variáveis categóricas em rótulos textuais.
 
 Posteriormente, foi realizada uma análise para identificar e tratar valores nulos, removendo ou imputando valores conforme apropriado. Após o tratamento dos valores nulos, os dados foram separados em diferentes conjuntos de dados, cada um correspondente a uma variável resposta específica, garantindo que cada conjunto contenha apenas as observações relevantes para a análise daquela variável e sem valores nulos.
 
 \section{Modelagem}\label{metodologia_modelagem}
+
+Com os dados preparados, a etapa de modelagem envolve a análise exploratória dos dados para entender suas características, avaliação de correlações entre as variáveis preditoras, seleção e treinamento dos modelos preditivos e otimização dos hiperparâmetros. Além disso, é importante medir a magnitude da influência das variáveis preditoras nas variáveis resposta, utilizando técnicas de interpretação de modelos e análise de sensibilidade.
+
+\subsection{Análise Exploratória dos Dados}\label{metodologia_exploracao_dados}
+
+A análise exploratória foi iniciada com o entendimento do domínio das variáveis respostas, buscando entender a distribuição das notas do ENEM e identificar possíveis padrões ou anomalias nos dados.
 
 
 
@@ -61,60 +61,6 @@ Posteriormente, foi realizada uma análise para identificar e tratar valores nul
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-% \subsection{Coleta, Leitura e Integração dos Dados}\label{sec_metodologia_coleta_integracao_dados}
-
-
-% Em seguida, foi feita uma modificação no nome das variáveis para nomes que fossem mais intuitivos e de compreensão rápida do conteúdo. Essa modificação foi realizada utilizando o método \texttt{rename}, a partir de um dicionário que mapeava os nomes originais para os novos nomes desejados.
-
-% \subsection{Transformação das Variáveis Categóricas}\label{sec_metodologia_transformacao_variaveis_categoricas}
-
-% Analisando o dicionário de dados, foi possível identificar diversas variáveis categóricas representadas por códigos numéricos. Essas variáveis precisam ser transformadas para garantir que os modelos de \textit{Machine Learning} as interpretem corretamente como categóricas e não como variáveis numéricas.
-
-% Os códigos numéricos foram então substituídos por rótulos textuais mais descritivos utilizando o método \texttt{map} com um dicionário de mapeamento específico para cada variável categórica. Alguns códigos represenram ausência de informação e foram substituídos por \texttt{None} para um futuro tratamento de valores ausentes adequado.
-
-% \subsection{Tratamentos dos Valores Nulos}\label{sec_metodologia_tratamento_nulos}
-
-% Após a integração dos dados, foi realizada uma análise inicial para identificar a presença de valores nulos em cada variável. Dependendo do percentual de valores nulos e da natureza da variável, diferentes estratégias de tratamento foram adotadas.
-
-% As variáveis com mais de 50\% de valores nulos foram removidas do conjunto de dados, pois a alta proporção de valores ausentes poderia comprometer a análise e a modelagem subsequente.
-
-% As variáveis de notas das provas objetivas e da redação passaram por uma análise mais detalhada de valores nulos em conjunto com as variáveis de presença nas respecitivas provas para entender o significado dos valores nulos e decidir o tratamento adequado. No fim, as observações com notas nulas foram removidas, enquanto as observações com notas zero foram mantidas, pois representam casos distintos.
-
-% As demais variáveis com valores nulos foram consideradas de maneira consolidada, ou seja, caso uma observação possua valor ausente em qualquer uma dessas variáveis, ela será considerada como tendo valor ausente. Essas observações foram então removidas do conjunto de dados.
-
-% \subsection{Separação dos Conjuntos de Dados por Variável Resposta}\label{sec_metodologia_separacao_conjuntos_dados}
-
-% Como possuímos cinco variáveis resposta distintas, é necessário preparar os dados para cada uma delas. Assim, foram criados cinco conjuntos de dados distintos, um para cada variável resposta. O filtro aplicado é o mesmo para todos os conjuntos de dados: foram mantidas apenas as observações que possuem presença na prova correspondente. Para a nota da redação, foi utilizada a variável de presença na prova de Linguagens e Códigos, que é quando a redação é aplicada.
-
-% ALém disso, foram retiradas as variáveis de nota das demais provas, assim como as variáveis de presença nas demais provas, para evitar qualquer tipo de \textit{data leakage} durante a modelagem.
-
-% Foi utilizado a estrutura de dicionário para armazenar os cinco conjuntos de dados distintos, facilitando o acesso e a manipulação dos dados durante a análise.
-
-% \subsection{Exploração Inicial}\label{sec_metodologia_exploracao_inicial}
-
-% Com os dados no formato desejado, foi realizada uma exploração inicial para compreender a estrutura dos dados e e detectar possíveis inconsistências.
-
-% Primeiramente, foi analisada a distriuição das notas para cada variável resposta, utilizando histogramas e boxplots. Foi constatado que a nota da redação é aplicada em intervalos de 20 pontos, enquanto que as demais notas são aplicadas de maneira contínua. Isso se dá pela quantidade muito diferente de notas distintas existentes em cada prova: a redação possui 50 valores distintos, enquanto que as demais provas possuem mais de 5.200 valores distintos cada.
 
 
 

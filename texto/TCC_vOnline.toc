@@ -29,6 +29,7 @@
 \contentsline {section}{\numberline {3.2}Entendimento dos dados}{42}{section.3.2}%
 \contentsline {section}{\numberline {3.3}Preparação dos dados}{42}{section.3.3}%
 \contentsline {section}{\numberline {3.4}Modelagem}{43}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Análise Exploratória dos Dados}{43}{subsection.3.4.1}%
 \contentsline {section}{\numberline {3.5}Avaliação}{43}{section.3.5}%
 \contentsline {section}{\numberline {3.6}Implantação}{43}{section.3.6}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
@@ -37,33 +38,38 @@
 \contentsline {section}{\numberline {4.2}Entendimento dos dados}{46}{section.4.2}%
 \contentsline {subsection}{\numberline {4.2.1}Escolha e Coleta dos Dados}{46}{subsection.4.2.1}%
 \contentsline {subsection}{\numberline {4.2.2}Compreensão Inicial dos Dados}{46}{subsection.4.2.2}%
-\contentsline {subsubsection}{\numberline {4.2.2.1}Edicão de 2024 do ENEM e LGPD}{47}{subsubsection.4.2.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.2.1}Edicão de 2024 do ENEM e LGPD}{46}{subsubsection.4.2.2.1}%
 \contentsline {subsection}{\numberline {4.2.3}Análise dos Dicionários de Dados}{47}{subsection.4.2.3}%
 \contentsline {subsection}{\numberline {4.2.4}Definição da Variável Resposta}{47}{subsection.4.2.4}%
-\contentsline {section}{\numberline {4.3}Preparação dos dados}{48}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Preparação do Ambiente Tecnológico e Analítico}{48}{subsection.4.3.1}%
+\contentsline {section}{\numberline {4.3}Preparação dos dados}{47}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Preparação do Ambiente Tecnológico e Analítico}{47}{subsection.4.3.1}%
 \contentsline {subsection}{\numberline {4.3.2}Leitura dos Dados}{48}{subsection.4.3.2}%
-\contentsline {section}{\numberline {4.4}Modelagem}{49}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Avaliação}{49}{section.4.5}%
-\contentsline {section}{\numberline {4.6}Implantação}{49}{section.4.6}%
+\contentsline {subsection}{\numberline {4.3.3}Integração dos Dados}{48}{subsection.4.3.3}%
+\contentsline {subsection}{\numberline {4.3.4}Tratamento de Valores Nulos}{49}{subsection.4.3.4}%
+\contentsline {subsection}{\numberline {4.3.5}Separação dos Conjuntos de Dados por Variável Resposta}{51}{subsection.4.3.5}%
+\contentsline {section}{\numberline {4.4}Modelagem}{51}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Análise Exploratória dos Dados}{51}{subsection.4.4.1}%
+\contentsline {section}{\numberline {4.5}Escolha dos Modelos}{54}{section.4.5}%
+\contentsline {section}{\numberline {4.6}Avaliação}{54}{section.4.6}%
+\contentsline {section}{\numberline {4.7}Implantação}{54}{section.4.7}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase []{Conclusão}}{51}{chapter.5}%
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase []{Conclusão}}{55}{chapter.5}%
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\uppercase {Refer\^encias}}{53}{section*.23}%
+\contentsline {chapter}{\uppercase {Refer\^encias}}{57}{section*.23}%
 \renewcommand *{\cftappendixname }{AP\^ENDICE \space }
 \setlength {\cftpartindent }{\cftlastnumwidth } \setlength {\cftpartnumwidth }{2em}
 \cftinsert {A}
-\contentsline {part}{\uppercase {AP\^ENDICES}}{55}{section*.24}%
+\contentsline {part}{\uppercase {AP\^ENDICES}}{59}{section*.24}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase []{Dicionário de dados dos microdados do ENEM}}{57}{appendix.A}%
+\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase []{Dicionário de dados dos microdados do ENEM}}{61}{appendix.A}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {B}\MakeTextUppercase []{Dicionário de dados do Censo Escolar}}{59}{appendix.B}%
+\contentsline {appendix}{\chapternumberline {B}\MakeTextUppercase []{Dicionário de dados do Censo Escolar}}{63}{appendix.B}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {C}\MakeTextUppercase []{Configuração do ambiente virtual}}{61}{appendix.C}%
+\contentsline {appendix}{\chapternumberline {C}\MakeTextUppercase []{Configuração do ambiente virtual}}{65}{appendix.C}%
