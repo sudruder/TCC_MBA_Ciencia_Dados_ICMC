@@ -284,7 +284,7 @@ Ao se fazer a análise junto das variáveis de prensença nas provas e status da
 
 Dessa forma, apenas as observações com notas nulas foram removidas, enquanto as observações com notas zero foram mantidas no conjunto de dados. A decisão de incorporar ou não as notas zero na análise será discutida na Seção \ref{resultados_modelagem}.
 
-Para as demais variáveis com valores nulos, foi realizada uma análise consolidade, ou seja, foram retiradas as observações que possuíam valor nulo em qualquer uma das variáveis restantes, o que resultou na retirada de 4.343.559 observações do conjunto de dados.
+Para as demais variáveis com valores nulos, foi realizada uma análise consolidada, ou seja, foram retiradas as observações que possuíam valor nulo em qualquer uma das variáveis restantes, o que resultou na retirada de 4.343.559 observações do conjunto de dados.
 
 Assim, restaram 12.241.442 observações e 45 variáveis no conjunto de dados após os tratamentos.
 
@@ -337,11 +337,11 @@ A estruturada de dicionários foi utilizada para manter o controle dos conjuntos
 
 \subsection{Análise Exploratória dos Dados}\label{resultados_analise_exploratoria_dados}
 
+\subsubsection{Distribuições das Variáveis Resposta}\label{resultados_analise_exploratoria_variaveis_resposta}
+
 O primeiro passo da análise exploratória foi entender o domínio das variáveis respostas e foi constatado que para as notas das provas objetivas (Ciências Humanas, Ciências da Natureza, Linguagens e Códigos e Matemática) haviam mais de cinco mil notas distintas, com variações pequenas entre elas (décimos de pontos). Já para a nota da redação, o número de notas distintas era significativamente menor (apenas 50 notas) com variação de pontos.
 
-Essa diferença na granularidade das notas impacta diretamente na escolha dos modelos preditivos e nas métricas de avaliação, conforme será discutido na Seção \ref{resultados_escolha_modelos}.
-
-A tabela \ref{tab_describe_notas} apresenta as estatísticas descritivas das notas de cada prova, obtido através do método \texttt{describe}.
+Essa diferença na granularidade das notas impacta diretamente na escolha dos modelos preditivos e nas métricas de avaliação, conforme será discutido na Seção \ref{resultados_escolha_modelos}. A tabela \ref{tab_describe_notas} apresenta as estatísticas descritivas das notas de cada prova, obtido através do método \texttt{describe}.
 
 % count    7.895093e+06
 % mean     5.238121e+02
@@ -419,7 +419,7 @@ A tabela \ref{tab_describe_notas} apresenta as estatísticas descritivas das not
 
     % --- DADOS DA TABELA ---
     Contagem & 7.895.093 & 7.500.050 & 7.895.093 & 7.500.050 & 7.895.093 \\ \hline
-    Média & 523,8 & 496,9 & 519 & 538,7 & 616,6 \\ \hline
+    Média & 523,8 & 496,9 & 519,0 & 538,7 & 616,6 \\ \hline
     Desvio Padrão & 91,3 & 81,4 & 91,3 & 121,5 & 204,7 \\ \hline
     Mínimo & 0,0 & 0,0 & 0,0 & 0,0 & 0,0 \\ \hline
     25º Percentil & 460,1 & 437,3 & 460,1 & 441,6 & 520 \\ \hline
@@ -470,6 +470,230 @@ Em seguida, foram construídos histogramas de cada nota para entender a distribu
     \par\vspace{0.1cm}
     {\footnotesize Fonte: elaborado pelo autor.}
 \end{figure}
+
+A tabela \ref{tab_assimetria_curtose} apresenta os valores de assimetria e curtose das notas de cada prova, obtidos através dos métodos \texttt{skew} e \texttt{kurtosis} da biblioteca \texttt{pandas}, e o percentual de notas zero em cada conjunto de dados.
+
+% Ciências Humanas - Assimetria: -0.3408 | Curtose: 1.1269
+% Ciências Natureza - Assimetria: 0.0321 | Curtose: 1.8372
+% Linguagem e Código - Assimetria: -0.5113 | Curtose: 1.1780
+% Matemática - Assimetria: 0.3138 | Curtose: 0.0850
+% Redação - Assimetria: -0.7457 | Curtose: 1.0488
+
+\begin{longtable}{|l|c|c|c|}
+
+    % --- TÍTULO E RÓTULO (1ª Página) ---
+    \caption{Assimetria, Curtose e Percentual de Notas Zero} \label{tab_assimetria_curtose} \\
+    \hline
+    \textbf{Variável} & \textbf{Assimetria} & \textbf{Curtose} & \textbf{\% Notas Zero} \\ \hline
+    \endfirsthead
+
+    % --- CABEÇALHO (Páginas Seguintes) ---
+    \caption{continuação} \\
+    \hline
+    \textbf{Variável} & \textbf{Assimetria} & \textbf{Curtose} & \textbf{\% Notas Zero} \\ \hline
+    \endhead
+
+    % --- RODAPÉ (Páginas Intermediárias) ---
+    \hline
+    \multicolumn{4}{r}{\footnotesize\textit{Continua na próxima página...}} \\
+    \endfoot
+
+    % --- RODAPÉ FINAL (Última Página) ---
+    \hline
+    \multicolumn{4}{c}{\footnotesize Fonte: elaborado pelo autor.} \\
+    \endlastfoot
+
+    % --- DADOS DA TABELA ---
+    Humanas & -0.3408 & 1,1269 & 0,18\%\\ \hline
+    Natureza & 0.0321 & 1,8372 & 0,17\%\\ \hline
+    Linguagem & -0.5113 & 1,1780 & 0,08\%\\ \hline
+    Matemática & 0.3138 & 0,0850 & 0,17\%\\ \hline
+    Redação & -0.7457 & 1,0488 & 3,56\%\\ \hline
+\end{longtable}
+
+Analisando os valores de assimetria e curtose, é possível observar que as distribuições das notas possuem diferentes características.
+
+A assimetria da nota de redação é a mais negativa, o que indica que os alunos tivereram, em geral, o melhor desempenho, assim como nas provas de Linguagens e Códigos e Ciências Humanas, que também apresentam assimetria negativa, porém com valores menores. Na prova de Ciências da Natureza, a assimetria é praticamente nula, indicando uma distribuição mais simétrica das notas, enquanto a nota de matemática apresenta a assimetria mais positiva, indicando um desempenho relativamente pior dos alunos nessa prova.
+
+Analisando os valores da curtose, a prova de matemática foi a única a apresentar uma curtose próxima de zero, indicando uma distribuição mais próxima da normalidade. As outras provas apresentaram valores maiores que 1 indicando distribuições com caudas mais pesadas e picos mais acentuados.
+
+\subsubsection{Teste de Hipótese das médias das notas por edição}\label{resultados_analise_exploratoria_teste_hipotese}
+
+Foi realizado o teste de hipótese ANOVA com nível de significância de $0,1\%$ para comparar as médias das notas por edição do ENEM em cada conjunto de dados, onde a hipótese nula $H_0$ é de que as médias são iguais entre as edições. A tabela \ref{tab_anova_notas_edicao} apresenta os valores de F, p-valor e a métrica SMD (\textit{Standardized Mean Difference}) obtidos para cada conjunto de dados.
+
+% Ciências Humanas | Estatística F: 13161.3377 | p-valor: 0.0000e+00 | SMD: 0.1850 | Insignificante
+% Ciências Natureza | Estatística F: 3431.2697 | p-valor: 0.0000e+00 | SMD: 0.0866 | Insignificante
+% Linguagem e Código | Estatística F: 26506.7651 | p-valor: 0.0000e+00 | SMD: 0.2686 | Pequeno
+% Matemática | Estatística F: 13041.3673 | p-valor: 0.0000e+00 | SMD: 0.1968 | Insignificante
+% Redação | Estatística F: 27498.7438 | p-valor: 0.0000e+00 | SMD: 0.2422 | Pequeno
+
+\begin{longtable}{|l|c|c|c|c|}
+
+    % --- TÍTULO E RÓTULO (1ª Página) ---
+    \caption{Teste ANOVA das médias das notas por edição} \label{tab_anova_notas_edicao} \\
+    \hline
+    \textbf{Variável} & \textbf{Valor F} & \textbf{Rejeita-se $H_0$?} & \textbf{SMD} & \textbf{Tamanho do efeito} \\ \hline
+    \endfirsthead
+
+    % --- CABEÇALHO (Páginas Seguintes) ---
+    \caption{continuação} \\
+    \hline
+    \textbf{Variável} & \textbf{Valor F} & \textbf{Rejeita-se $H_0$?} & \textbf{SMD} & \textbf{Tamanho do efeito} \\ \hline
+    \endhead
+
+    % --- RODAPÉ (Páginas Intermediárias) ---
+    \hline
+    \multicolumn{5}{r}{\footnotesize\textit{Continua na próxima página...}} \\
+    \endfoot
+
+    % --- RODAPÉ FINAL (Última Página) ---
+    \hline
+    \multicolumn{5}{c}{\footnotesize Fonte: elaborado pelo autor.} \\
+    \endlastfoot
+
+    % --- DADOS DA TABELA ---
+    Humanas & 13.161,3 & Sim & 0,185 & Insignificante \\ \hline
+    Natureza & 3.431,3 & Sim & 0,087 & Insignificante \\ \hline
+    Linguagem & 26.506,7 & Sim & 0,269 & Pequeno \\ \hline
+    Matemática & 13.041,4 & Sim & 0,197 & Insignificante \\ \hline
+    Redação & 27.498,7 & Sim & 0,242 & Pequeno \\ \hline
+
+\end{longtable}
+
+Foi decidido manter todas as edições do ENEM no conjunto de dados para a modelagem preditiva, sem a necessidade de segmentação por edição, uma vez que o tamanho do efeito é insignificante ou pequeno em todos os casos.
+
+\subsubsection{Análise de Outliers}\label{resultados_analise_exploratoria_outliers}
+
+Para a análise dos outliers, foram utilizados os boxplots das notas de cada prova, apresentados nas Figuras \ref{fig:boxplot_humanas}, \ref{fig:boxplot_natureza}, \ref{fig:boxplot_linguagem_codigo}, \ref{fig:boxplot_matematica} e \ref{fig:boxplot_redacao}.
+
+\begin{figure}[H]
+    \centering
+    \caption{Boxplot das notas por edição - Ciências Humanas} \label{fig:boxplot_humanas}
+    \includegraphics[width=0.7\linewidth]{imagens/boxplot_humanas.png}
+    \par\vspace{0.1cm}
+    {\footnotesize Fonte: elaborado pelo autor.}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \caption{Boxplot das notas - Ciências da Natureza} \label{fig:boxplot_natureza}
+    \includegraphics[width=0.7\linewidth]{imagens/boxplot_natureza.png}
+    \par\vspace{0.1cm}
+    {\footnotesize Fonte: elaborado pelo autor.}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \caption{Boxplot das notas - Linguagem e Código} \label{fig:boxplot_linguagem_codigo}
+    \includegraphics[width=0.7\linewidth]{imagens/boxplot_linguagem_codigo.png}
+    \par\vspace{0.1cm}
+    {\footnotesize Fonte: elaborado pelo autor.}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \caption{Boxplot das notas - Matemática} \label{fig:boxplot_matematica}
+    \includegraphics[width=0.7\linewidth]{imagens/boxplot_matematica.png}
+    \par\vspace{0.1cm}
+    {\footnotesize Fonte: elaborado pelo autor.}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \caption{Boxplot das notas - Redação} \label{fig:boxplot_redacao}
+    \includegraphics[width=0.7\linewidth]{imagens/boxplot_redacao.png}
+    \par\vspace{0.1cm}
+    {\footnotesize Fonte: elaborado pelo autor.}
+\end{figure}
+
+Foi utilizado o critério do intervalor interquartil (\textit{Interquartile Range} - IQR) para identificar os outliers nas notas de cada prova. Foram considerados outliers os valores que estavam abaixo de $Q1 - 1,5 \times IQR$ ou acima de $Q3 + 1,5 \times IQR$, onde Q1 é o primeiro quartil, Q3 é o terceiro quartil e IQR = Q3 - Q1. A Tabela \ref{tab_outliers_notas} apresenta o limite inferior, o limite superior, a quantidade e o percentual de outliers identificados em cada conjunto de dados.
+
+% Outliers - Ciências Humanas
+
+% Limite Superior: 780.35
+% Limite Inferior: 267.95
+% Superiores: 5,627 (0.07%)
+% Inferiores: 13,969 (0.18%)
+% Total: 19,596 (0.25%)
+
+% ==================================================
+
+% Outliers - Ciências Natureza
+
+% Limite Superior: 723.80
+% Limite Inferior: 265.40
+% Superiores: 36,402 (0.49%)
+% Inferiores: 12,615 (0.17%)
+% Total: 49,017 (0.65%)
+
+% ==================================================
+
+% Outliers - Linguagem e Código
+
+% Limite Superior: 728.85
+% Limite Inferior: 314.85
+% Superiores: 3,195 (0.04%)
+% Inferiores: 32,803 (0.42%)
+% Total: 35,998 (0.46%)
+
+% ==================================================
+
+% Outliers - Matemática
+
+% Limite Superior: 899.85
+% Limite Inferior: 166.65
+% Superiores: 15,096 (0.20%)
+% Inferiores: 12,848 (0.17%)
+% Total: 27,944 (0.37%)
+
+% ==================================================
+
+% Outliers - Redação
+
+% Limite Superior: 1000.00
+% Limite Inferior: 160.00
+% Superiores: 0 (0.00%)
+% Inferiores: 282,438 (3.58%)
+% Total: 282,438 (3.58%)
+
+\begin{longtable}{|l|c|c|c|c|}
+
+    % --- TÍTULO E RÓTULO (1ª Página) ---
+    \caption{Quantidade e percentual de outliers nas notas} \label{tab_outliers_notas} \\
+    \hline
+    \textbf{Variável} & \textbf{Limite Inferior} & \textbf{Limite Superior} & \textbf{Quantidade de Outliers} & \textbf{Percentual} \\ \hline
+    \endfirsthead
+
+    % --- CABEÇALHO (Páginas Seguintes) ---
+    \caption{continuação} \\
+    \hline
+    \textbf{Variável} & \textbf{Limite Inferior} & \textbf{Limite Superior} & \textbf{Quantidade de Outliers} & \textbf{Percentual} \\ \hline
+    \endhead
+
+    % --- RODAPÉ (Páginas Intermediárias) ---
+    \hline
+    \multicolumn{5}{r}{\footnotesize\textit{Continua na próxima página...}} \\
+    \endfoot
+
+    % --- RODAPÉ FINAL (Última Página) ---
+    \hline
+    \multicolumn{5}{c}{\footnotesize Fonte: elaborado pelo autor.} \\
+    \endlastfoot
+
+    % --- DADOS DA TABELA ---
+    Humanas & 267,95 & 780,35 & 19.596 & 0,25\% \\ \hline
+    Natureza & 265.40 & 723,80 & 49.017 & 0,65\% \\ \hline
+    Linguagem & 314,85 & 728,85 & 35.998 & 0,46\% \\ \hline
+    Matemática & 166,65 & 899,85 & 27.944 & 0,37\% \\ \hline
+    Redação & 160,00 & 1000,00 & 282.438 & 3,58\% \\ \hline
+
+\end{longtable}
+
+\subsection{Variáveis Preditoras}\label{resultados_variaveis_preditoras}
+
+
+
+
 
 \section{Escolha dos Modelos}\label{resultados_escolha_modelos}
 \section{Avaliação}\label{resultados_avaliacao}

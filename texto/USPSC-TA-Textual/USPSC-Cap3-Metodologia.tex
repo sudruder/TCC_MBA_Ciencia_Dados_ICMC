@@ -46,9 +46,15 @@ Com os dados preparados, a etapa de modelagem envolve a análise exploratória d
 
 \subsection{Análise Exploratória dos Dados}\label{metodologia_exploracao_dados}
 
-A análise exploratória foi iniciada com o entendimento do domínio das variáveis respostas, buscando entender a distribuição das notas do ENEM e identificar possíveis padrões ou anomalias nos dados.
+A análise exploratória foi iniciada com o entendimento das variáveis respostas, buscando entender a distribuição das notas do ENEM. Em seguida, foi feito um teste de hipotese para se avaliar se as médias das notas variam significativamente entre as edições selecionadas para esse trabalho.
 
+Esse análise é necessária uma vez que as edições do ENEM podem apresentar variações no nível de dificuldade das provas, impactando as notas dos estudantes. Para isso, será utilizada a Estatística F de ANOVA (\textit{Analysis of Variance}) \cite{bussab2017} para comparar as médias das notas entre as diferentes edições do ENEM e o cálculo do tamanho do efeito para quantificar a magnitude das diferenças encontradas, utilizando a métrica SMD (\textit{Standardized Mean Difference}) utilizando os intervalos definidos por Jacob Cohen \cite{cohen1988}.
 
+A próxima etapa da análise exploratória foi a identificação de outliers nas variáveis respostas, utilizando o critério de 1.5 vezes o intervalo interquartil (IQR) \cite{bussab2017}. A identificação dos outliers é importante para entender a distribuição das notas e avaliar se esses valores extremos podem influenciar os resultados dos modelos preditivos.
+
+Finalizadas as análises das variáveis respostas, foi realizada uma análise descritiva das variáveis preditoras, buscando entender suas distribuições, identificar possíveis correlações entre elas e avaliar a presença de multicolinearidade que possa impactar o desempenho dos modelos preditivos.
+
+Para isso, foi utlizada a biblioteca \texttt{phik} \cite{KPMG_PhiK_2024} \cite{Baak2020Phik}, que permite calcular a correlação entre variáveis categóricas e numéricas, além de fornecer métricas para avaliar a força da correlação.
 
 \section{Avaliação}\label{metodologia_avaliacao}
 

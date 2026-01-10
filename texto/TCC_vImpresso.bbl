@@ -142,6 +142,28 @@ Dispon{\'\i}vel em:
 [S.l.], 2000. Disponível em:
   \url{https://mineracaodedados.wordpress.com/wp-content/uploads/2012/12/crisp-dm-1-0.pdf}.}
 
+\bibitem{bussab2017}
+\abntrefinfo{Bussab e Morettin}{BUSSAB; MORETTIN}{2017}
+{BUSSAB, W. d.~O.; MORETTIN, P.~A. \textbf{Estatística Básica}. 9. ed. São
+  Paulo: Saraiva, 2017.}
+
+\bibitem{cohen1988}
+\abntrefinfo{Cohen}{COHEN}{1988}
+{COHEN, J. \textbf{Statistical Power Analysis for the Behavioral Sciences}. 2.
+  ed. Hillsdale: Lawrence Erlbaum Associates, 1988.}
+
+\bibitem{KPMG_PhiK_2024}
+\abntrefinfo{{KPMG Advisory N.V.}}{{KPMG Advisory N.V.}}{2024}
+{{KPMG Advisory N.V.} \textbf{Phi\_K Correlation Constant}. 2024.
+Dispon{\'\i}vel em: \url{https://phik.readthedocs.io/en/latest/}.}
+
+\bibitem{Baak2020Phik}
+\abntrefinfo{Baak \textit{et al.}}{BAAK \textit{et al.}}{2020}
+{BAAK, M. \textit{et al.} {A new correlation coefficient between categorical,
+  ordinal and interval variables with Pearson characteristics}.
+\textbf{Computational Statistics and Data Analysis}, v.~152, p. 107043, 2020.
+ISSN 0167-9473.}
+
 \bibitem{Inep2024LeiaMeEnem}
 \abntrefinfo{{INEP}}{{INEP}}{2025}
 {{INEP}. \textbf{{Microdados do Enem 2024: Leia-Me}}.
