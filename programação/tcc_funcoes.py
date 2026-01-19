@@ -1,12 +1,25 @@
 
 from cudf import DataFrame as cudf_DataFrame
-from typing import List, Tuple
 
 import pandas as pd
 import numpy as np
 import gc
 
 import matplotlib.pyplot as plt
+
+####################################################################################################
+
+def teste():
+
+    '''
+    Função de teste para verificar se o módulo foi importado corretamente.
+    '''
+
+    print(" Módulo importado com sucesso ".center(100, "="), end="\n\n")
+
+    return None
+
+teste()
 
 ####################################################################################################
 
@@ -25,6 +38,7 @@ def otimizar_memoria(df):
         # Inteiro ou Float
 
         if is_numeric_dtype(df[col]):
+
             c_min = df[col].min()
             c_max = df[col].max()
             
@@ -48,10 +62,7 @@ def otimizar_memoria(df):
 
             else:
 
-                if c_min > np.finfo(np.float16).min and c_max < np.finfo(np.float16).max:
-                    df[col] = df[col].astype(np.float16)
-
-                elif c_min > np.finfo(np.float32).min and c_max < np.finfo(np.float32).max:
+                if c_min > np.finfo(np.float32).min and c_max < np.finfo(np.float32).max:
                     df[col] = df[col].astype(np.float32)
 
                 else:
@@ -89,23 +100,18 @@ def salva_arquivo_pickle(
 
 ####################################################################################################
 
-def abre_arquivos_pickle(
-    v_arquivos_variavel: List[Tuple],
-    contexto_global: dict
-) -> None:
+def abre_arquivo_pickle(
+    arquivo: str
+) -> object:
 
     '''
-    Abre arquivos pickle e atribui o conteúdo a variáveis globais.
+    Abre um arquivos pickle.
     '''
 
     from pickle import load
 
-    for arquivo, variavel in v_arquivos_variavel:
-
-        with open('dados/pickle/' + arquivo, 'rb') as f:
-            contexto_global[variavel] = load(f)
-
-    return None
+    with open('dados/pickle/' + arquivo, 'rb') as f:
+        return load(f)
 
 ####################################################################################################
 
