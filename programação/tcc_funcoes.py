@@ -1,6 +1,7 @@
 
 from cudf import DataFrame as cudf_DataFrame
 
+import duck as db
 import pandas as pd
 import numpy as np
 import gc
@@ -93,7 +94,7 @@ def salva_arquivo_pickle(
 
     from pickle import dump
 
-    with open(arquivo, 'wb') as f:
+    with open('dados/pickle/' + arquivo, 'wb') as f:
         dump(variavel, f)
 
     return None
