@@ -1,12 +1,13 @@
 
 from cudf import DataFrame as cudf_DataFrame
 
-import duck as db
+import duckdb as db
 import pandas as pd
 import numpy as np
-import gc
-
 import matplotlib.pyplot as plt
+
+import gc
+import warnings
 
 ####################################################################################################
 
