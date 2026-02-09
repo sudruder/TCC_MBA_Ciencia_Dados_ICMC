@@ -1,0 +1,296 @@
+nohup: ignorando entrada
+
+=================================== Módulo importado com sucesso ===================================
+
+========================================== Random Forest ===========================================
+
+----------------------------------------- Ciências Humanas -----------------------------------------
+
+27 combinações de hiperparâmetros
+
+ 1 / 27 | {'max_depth': 10, 'max_features': 0.7, 'max_samples': 0.8} | RMSE: 76.2242 | Tempo: 25.7s
+
+ 2 / 27 | {'max_depth': 10, 'max_features': 0.7, 'max_samples': 0.9} | RMSE: 76.2277 | Tempo: 27.9s
+
+ 3 / 27 | {'max_depth': 10, 'max_features': 0.7, 'max_samples': 1.0} | RMSE: 76.2309 | Tempo: 30.3s
+
+ 4 / 27 | {'max_depth': 10, 'max_features': 0.9, 'max_samples': 0.8} | RMSE: 76.2622 | Tempo: 32.0s
+
+ 5 / 27 | {'max_depth': 10, 'max_features': 0.9, 'max_samples': 0.9} | RMSE: 76.2676 | Tempo: 35.4s
+
+ 6 / 27 | {'max_depth': 10, 'max_features': 0.9, 'max_samples': 1.0} | RMSE: 76.2742 | Tempo: 38.8s
+
+ 7 / 27 | {'max_depth': 10, 'max_features': 1.0, 'max_samples': 0.8} | RMSE: 76.2899 | Tempo: 30.4s
+
+ 8 / 27 | {'max_depth': 10, 'max_features': 1.0, 'max_samples': 0.9} | RMSE: 76.2971 | Tempo: 34.7s
+
+ 9 / 27 | {'max_depth': 10, 'max_features': 1.0, 'max_samples': 1.0} | RMSE: 76.3049 | Tempo: 38.4s
+
+10 / 27 | {'max_depth': 15, 'max_features': 0.7, 'max_samples': 0.8} | RMSE: 75.7287 | Tempo: 38.5s
+
+11 / 27 | {'max_depth': 15, 'max_features': 0.7, 'max_samples': 0.9} | RMSE: 75.7338 | Tempo: 42.9s
+
+12 / 27 | {'max_depth': 15, 'max_features': 0.7, 'max_samples': 1.0} | RMSE: 75.7361 | Tempo: 46.9s
+
+13 / 27 | {'max_depth': 15, 'max_features': 0.9, 'max_samples': 0.8} | RMSE: 75.7426 | Tempo: 48.2s
+
+14 / 27 | {'max_depth': 15, 'max_features': 0.9, 'max_samples': 0.9} | RMSE: 75.7506 | Tempo: 53.4s
+
+15 / 27 | {'max_depth': 15, 'max_features': 0.9, 'max_samples': 1.0} | RMSE: 75.7560 | Tempo: 59.4s
+
+16 / 27 | {'max_depth': 15, 'max_features': 1.0, 'max_samples': 0.8} | RMSE: 75.7552 | Tempo: 46.6s
+
+17 / 27 | {'max_depth': 15, 'max_features': 1.0, 'max_samples': 0.9} | RMSE: 75.7650 | Tempo: 51.5s
+
+18 / 27 | {'max_depth': 15, 'max_features': 1.0, 'max_samples': 1.0} | RMSE: 75.7695 | Tempo: 57.5s
+
+19 / 27 | {'max_depth': 20, 'max_features': 0.7, 'max_samples': 0.8} | RMSE: 75.6420 | Tempo: 53.4s
+
+20 / 27 | {'max_depth': 20, 'max_features': 0.7, 'max_samples': 0.9} | RMSE: 75.6495 | Tempo: 57.6s
+
+21 / 27 | {'max_depth': 20, 'max_features': 0.7, 'max_samples': 1.0} | RMSE: 75.6553 | Tempo: 63.7s
+
+22 / 27 | {'max_depth': 20, 'max_features': 0.9, 'max_samples': 0.8} | RMSE: 75.6728 | Tempo: 65.8s
+
+23 / 27 | {'max_depth': 20, 'max_features': 0.9, 'max_samples': 0.9} | RMSE: 75.6846 | Tempo: 73.0s
+
+24 / 27 | {'max_depth': 20, 'max_features': 0.9, 'max_samples': 1.0} | RMSE: 75.6975 | Tempo: 80.1s
+
+25 / 27 | {'max_depth': 20, 'max_features': 1.0, 'max_samples': 0.8} | RMSE: 75.6886 | Tempo: 65.2s
+
+26 / 27 | {'max_depth': 20, 'max_features': 1.0, 'max_samples': 0.9} | RMSE: 75.7040 | Tempo: 73.3s
+
+27 / 27 | {'max_depth': 20, 'max_features': 1.0, 'max_samples': 1.0} | RMSE: 75.7203 | Tempo: 80.5s
+
+---------------------------------------- Ciências Natureza -----------------------------------------
+
+27 combinações de hiperparâmetros
+
+ 1 / 27 | {'max_depth': 10, 'max_features': 0.7, 'max_samples': 0.8} | RMSE: 65.9158 | Tempo: 24.4s
+
+ 2 / 27 | {'max_depth': 10, 'max_features': 0.7, 'max_samples': 0.9} | RMSE: 65.9197 | Tempo: 27.0s
+
+ 3 / 27 | {'max_depth': 10, 'max_features': 0.7, 'max_samples': 1.0} | RMSE: 65.9233 | Tempo: 28.4s
+
+ 4 / 27 | {'max_depth': 10, 'max_features': 0.9, 'max_samples': 0.8} | RMSE: 65.9575 | Tempo: 29.9s
+
+ 5 / 27 | {'max_depth': 10, 'max_features': 0.9, 'max_samples': 0.9} | RMSE: 65.9637 | Tempo: 33.5s
+
+ 6 / 27 | {'max_depth': 10, 'max_features': 0.9, 'max_samples': 1.0} | RMSE: 65.9680 | Tempo: 36.4s
+
+ 7 / 27 | {'max_depth': 10, 'max_features': 1.0, 'max_samples': 0.8} | RMSE: 65.9851 | Tempo: 28.7s
+
+ 8 / 27 | {'max_depth': 10, 'max_features': 1.0, 'max_samples': 0.9} | RMSE: 65.9941 | Tempo: 31.7s
+
+ 9 / 27 | {'max_depth': 10, 'max_features': 1.0, 'max_samples': 1.0} | RMSE: 65.9983 | Tempo: 35.8s
+
+10 / 27 | {'max_depth': 15, 'max_features': 0.7, 'max_samples': 0.8} | RMSE: 65.4568 | Tempo: 36.0s
+
+11 / 27 | {'max_depth': 15, 'max_features': 0.7, 'max_samples': 0.9} | RMSE: 65.4577 | Tempo: 40.3s
+
+12 / 27 | {'max_depth': 15, 'max_features': 0.7, 'max_samples': 1.0} | RMSE: 65.4613 | Tempo: 43.5s
+
+13 / 27 | {'max_depth': 15, 'max_features': 0.9, 'max_samples': 0.8} | RMSE: 65.4681 | Tempo: 46.0s
+
+14 / 27 | {'max_depth': 15, 'max_features': 0.9, 'max_samples': 0.9} | RMSE: 65.4753 | Tempo: 49.6s
+
+15 / 27 | {'max_depth': 15, 'max_features': 0.9, 'max_samples': 1.0} | RMSE: 65.4807 | Tempo: 54.0s
+
+16 / 27 | {'max_depth': 15, 'max_features': 1.0, 'max_samples': 0.8} | RMSE: 65.4764 | Tempo: 43.5s
+
+17 / 27 | {'max_depth': 15, 'max_features': 1.0, 'max_samples': 0.9} | RMSE: 65.4860 | Tempo: 47.9s
+
+18 / 27 | {'max_depth': 15, 'max_features': 1.0, 'max_samples': 1.0} | RMSE: 65.4921 | Tempo: 54.4s
+
+19 / 27 | {'max_depth': 20, 'max_features': 0.7, 'max_samples': 0.8} | RMSE: 65.3906 | Tempo: 50.6s
+
+20 / 27 | {'max_depth': 20, 'max_features': 0.7, 'max_samples': 0.9} | RMSE: 65.4001 | Tempo: 56.2s
+
+21 / 27 | {'max_depth': 20, 'max_features': 0.7, 'max_samples': 1.0} | RMSE: 65.4038 | Tempo: 62.0s
+
+22 / 27 | {'max_depth': 20, 'max_features': 0.9, 'max_samples': 0.8} | RMSE: 65.4250 | Tempo: 64.0s
+
+23 / 27 | {'max_depth': 20, 'max_features': 0.9, 'max_samples': 0.9} | RMSE: 65.4311 | Tempo: 70.1s
+
+24 / 27 | {'max_depth': 20, 'max_features': 0.9, 'max_samples': 1.0} | RMSE: 65.4395 | Tempo: 77.1s
+
+25 / 27 | {'max_depth': 20, 'max_features': 1.0, 'max_samples': 0.8} | RMSE: 65.4428 | Tempo: 60.3s
+
+26 / 27 | {'max_depth': 20, 'max_features': 1.0, 'max_samples': 0.9} | RMSE: 65.4516 | Tempo: 68.9s
+
+27 / 27 | {'max_depth': 20, 'max_features': 1.0, 'max_samples': 1.0} | RMSE: 65.4623 | Tempo: 75.3s
+
+---------------------------------------- Linguagem e Código ----------------------------------------
+
+27 combinações de hiperparâmetros
+
+ 1 / 27 | {'max_depth': 10, 'max_features': 0.7, 'max_samples': 0.8} | RMSE: 63.9299 | Tempo: 26.1s
+
+ 2 / 27 | {'max_depth': 10, 'max_features': 0.7, 'max_samples': 0.9} | RMSE: 63.9333 | Tempo: 28.5s
+
+ 3 / 27 | {'max_depth': 10, 'max_features': 0.7, 'max_samples': 1.0} | RMSE: 63.9356 | Tempo: 31.4s
+
+ 4 / 27 | {'max_depth': 10, 'max_features': 0.9, 'max_samples': 0.8} | RMSE: 63.9761 | Tempo: 31.7s
+
+ 5 / 27 | {'max_depth': 10, 'max_features': 0.9, 'max_samples': 0.9} | RMSE: 63.9797 | Tempo: 35.2s
+
+ 6 / 27 | {'max_depth': 10, 'max_features': 0.9, 'max_samples': 1.0} | RMSE: 63.9822 | Tempo: 38.9s
+
+ 7 / 27 | {'max_depth': 10, 'max_features': 1.0, 'max_samples': 0.8} | RMSE: 64.0108 | Tempo: 31.7s
+
+ 8 / 27 | {'max_depth': 10, 'max_features': 1.0, 'max_samples': 0.9} | RMSE: 64.0175 | Tempo: 34.9s
+
+ 9 / 27 | {'max_depth': 10, 'max_features': 1.0, 'max_samples': 1.0} | RMSE: 64.0229 | Tempo: 38.6s
+
+10 / 27 | {'max_depth': 15, 'max_features': 0.7, 'max_samples': 0.8} | RMSE: 63.4173 | Tempo: 38.0s
+
+11 / 27 | {'max_depth': 15, 'max_features': 0.7, 'max_samples': 0.9} | RMSE: 63.4191 | Tempo: 42.2s
+
+12 / 27 | {'max_depth': 15, 'max_features': 0.7, 'max_samples': 1.0} | RMSE: 63.4217 | Tempo: 46.2s
+
+13 / 27 | {'max_depth': 15, 'max_features': 0.9, 'max_samples': 0.8} | RMSE: 63.4316 | Tempo: 47.6s
+
+14 / 27 | {'max_depth': 15, 'max_features': 0.9, 'max_samples': 0.9} | RMSE: 63.4364 | Tempo: 53.7s
+
+15 / 27 | {'max_depth': 15, 'max_features': 0.9, 'max_samples': 1.0} | RMSE: 63.4405 | Tempo: 55.9s
+
+16 / 27 | {'max_depth': 15, 'max_features': 1.0, 'max_samples': 0.8} | RMSE: 63.4440 | Tempo: 45.3s
+
+17 / 27 | {'max_depth': 15, 'max_features': 1.0, 'max_samples': 0.9} | RMSE: 63.4515 | Tempo: 49.5s
+
+18 / 27 | {'max_depth': 15, 'max_features': 1.0, 'max_samples': 1.0} | RMSE: 63.4542 | Tempo: 56.8s
+
+19 / 27 | {'max_depth': 20, 'max_features': 0.7, 'max_samples': 0.8} | RMSE: 63.3197 | Tempo: 52.2s
+
+20 / 27 | {'max_depth': 20, 'max_features': 0.7, 'max_samples': 0.9} | RMSE: 63.3279 | Tempo: 58.2s
+
+21 / 27 | {'max_depth': 20, 'max_features': 0.7, 'max_samples': 1.0} | RMSE: 63.3263 | Tempo: 64.7s
+
+22 / 27 | {'max_depth': 20, 'max_features': 0.9, 'max_samples': 0.8} | RMSE: 63.3441 | Tempo: 66.6s
+
+23 / 27 | {'max_depth': 20, 'max_features': 0.9, 'max_samples': 0.9} | RMSE: 63.3527 | Tempo: 74.3s
+
+24 / 27 | {'max_depth': 20, 'max_features': 0.9, 'max_samples': 1.0} | RMSE: 63.3608 | Tempo: 80.5s
+
+25 / 27 | {'max_depth': 20, 'max_features': 1.0, 'max_samples': 0.8} | RMSE: 63.3625 | Tempo: 64.5s
+
+26 / 27 | {'max_depth': 20, 'max_features': 1.0, 'max_samples': 0.9} | RMSE: 63.3759 | Tempo: 71.4s
+
+27 / 27 | {'max_depth': 20, 'max_features': 1.0, 'max_samples': 1.0} | RMSE: 63.3811 | Tempo: 79.3s
+
+-------------------------------------------- Matemática --------------------------------------------
+
+27 combinações de hiperparâmetros
+
+ 1 / 27 | {'max_depth': 10, 'max_features': 0.7, 'max_samples': 0.8} | RMSE: 97.4955 | Tempo: 23.8s
+
+ 2 / 27 | {'max_depth': 10, 'max_features': 0.7, 'max_samples': 0.9} | RMSE: 97.4989 | Tempo: 25.9s
+
+ 3 / 27 | {'max_depth': 10, 'max_features': 0.7, 'max_samples': 1.0} | RMSE: 97.5023 | Tempo: 28.2s
+
+ 4 / 27 | {'max_depth': 10, 'max_features': 0.9, 'max_samples': 0.8} | RMSE: 97.5513 | Tempo: 29.4s
+
+ 5 / 27 | {'max_depth': 10, 'max_features': 0.9, 'max_samples': 0.9} | RMSE: 97.5589 | Tempo: 33.3s
+
+ 6 / 27 | {'max_depth': 10, 'max_features': 0.9, 'max_samples': 1.0} | RMSE: 97.5670 | Tempo: 36.6s
+
+ 7 / 27 | {'max_depth': 10, 'max_features': 1.0, 'max_samples': 0.8} | RMSE: 97.5935 | Tempo: 28.6s
+
+ 8 / 27 | {'max_depth': 10, 'max_features': 1.0, 'max_samples': 0.9} | RMSE: 97.6055 | Tempo: 31.9s
+
+ 9 / 27 | {'max_depth': 10, 'max_features': 1.0, 'max_samples': 1.0} | RMSE: 97.6152 | Tempo: 35.4s
+
+10 / 27 | {'max_depth': 15, 'max_features': 0.7, 'max_samples': 0.8} | RMSE: 96.6447 | Tempo: 34.8s
+
+11 / 27 | {'max_depth': 15, 'max_features': 0.7, 'max_samples': 0.9} | RMSE: 96.6525 | Tempo: 39.5s
+
+12 / 27 | {'max_depth': 15, 'max_features': 0.7, 'max_samples': 1.0} | RMSE: 96.6576 | Tempo: 43.5s
+
+13 / 27 | {'max_depth': 15, 'max_features': 0.9, 'max_samples': 0.8} | RMSE: 96.6607 | Tempo: 44.5s
+
+14 / 27 | {'max_depth': 15, 'max_features': 0.9, 'max_samples': 0.9} | RMSE: 96.6676 | Tempo: 49.8s
+
+15 / 27 | {'max_depth': 15, 'max_features': 0.9, 'max_samples': 1.0} | RMSE: 96.6754 | Tempo: 53.9s
+
+16 / 27 | {'max_depth': 15, 'max_features': 1.0, 'max_samples': 0.8} | RMSE: 96.6714 | Tempo: 43.4s
+
+17 / 27 | {'max_depth': 15, 'max_features': 1.0, 'max_samples': 0.9} | RMSE: 96.6831 | Tempo: 48.6s
+
+18 / 27 | {'max_depth': 15, 'max_features': 1.0, 'max_samples': 1.0} | RMSE: 96.6937 | Tempo: 53.8s
+
+19 / 27 | {'max_depth': 20, 'max_features': 0.7, 'max_samples': 0.8} | RMSE: 96.4732 | Tempo: 49.2s
+
+20 / 27 | {'max_depth': 20, 'max_features': 0.7, 'max_samples': 0.9} | RMSE: 96.4797 | Tempo: 55.1s
+
+21 / 27 | {'max_depth': 20, 'max_features': 0.7, 'max_samples': 1.0} | RMSE: 96.4915 | Tempo: 60.2s
+
+22 / 27 | {'max_depth': 20, 'max_features': 0.9, 'max_samples': 0.8} | RMSE: 96.5100 | Tempo: 61.8s
+
+23 / 27 | {'max_depth': 20, 'max_features': 0.9, 'max_samples': 0.9} | RMSE: 96.5185 | Tempo: 69.0s
+
+24 / 27 | {'max_depth': 20, 'max_features': 0.9, 'max_samples': 1.0} | RMSE: 96.5316 | Tempo: 76.4s
+
+25 / 27 | {'max_depth': 20, 'max_features': 1.0, 'max_samples': 0.8} | RMSE: 96.5359 | Tempo: 60.8s
+
+26 / 27 | {'max_depth': 20, 'max_features': 1.0, 'max_samples': 0.9} | RMSE: 96.5465 | Tempo: 68.4s
+
+27 / 27 | {'max_depth': 20, 'max_features': 1.0, 'max_samples': 1.0} | RMSE: 96.5658 | Tempo: 74.8s
+
+--------------------------------------------- Redação ----------------------------------------------
+
+27 combinações de hiperparâmetros
+
+ 1 / 27 | {'max_depth': 10, 'max_features': 0.7, 'max_samples': 0.8} | RMSE: 150.0192 | Tempo: 24.7s
+
+ 2 / 27 | {'max_depth': 10, 'max_features': 0.7, 'max_samples': 0.9} | RMSE: 150.0223 | Tempo: 27.3s
+
+ 3 / 27 | {'max_depth': 10, 'max_features': 0.7, 'max_samples': 1.0} | RMSE: 150.0264 | Tempo: 29.8s
+
+ 4 / 27 | {'max_depth': 10, 'max_features': 0.9, 'max_samples': 0.8} | RMSE: 150.1279 | Tempo: 30.3s
+
+ 5 / 27 | {'max_depth': 10, 'max_features': 0.9, 'max_samples': 0.9} | RMSE: 150.1356 | Tempo: 33.4s
+
+ 6 / 27 | {'max_depth': 10, 'max_features': 0.9, 'max_samples': 1.0} | RMSE: 150.1420 | Tempo: 36.4s
+
+ 7 / 27 | {'max_depth': 10, 'max_features': 1.0, 'max_samples': 0.8} | RMSE: 150.2018 | Tempo: 29.7s
+
+ 8 / 27 | {'max_depth': 10, 'max_features': 1.0, 'max_samples': 0.9} | RMSE: 150.2099 | Tempo: 32.9s
+
+ 9 / 27 | {'max_depth': 10, 'max_features': 1.0, 'max_samples': 1.0} | RMSE: 150.2193 | Tempo: 36.4s
+
+10 / 27 | {'max_depth': 15, 'max_features': 0.7, 'max_samples': 0.8} | RMSE: 148.9060 | Tempo: 36.4s
+
+11 / 27 | {'max_depth': 15, 'max_features': 0.7, 'max_samples': 0.9} | RMSE: 148.9142 | Tempo: 39.6s
+
+12 / 27 | {'max_depth': 15, 'max_features': 0.7, 'max_samples': 1.0} | RMSE: 148.9235 | Tempo: 43.5s
+
+13 / 27 | {'max_depth': 15, 'max_features': 0.9, 'max_samples': 0.8} | RMSE: 148.9458 | Tempo: 45.3s
+
+14 / 27 | {'max_depth': 15, 'max_features': 0.9, 'max_samples': 0.9} | RMSE: 148.9623 | Tempo: 49.6s
+
+15 / 27 | {'max_depth': 15, 'max_features': 0.9, 'max_samples': 1.0} | RMSE: 148.9735 | Tempo: 56.8s
+
+16 / 27 | {'max_depth': 15, 'max_features': 1.0, 'max_samples': 0.8} | RMSE: 148.9806 | Tempo: 44.1s
+
+17 / 27 | {'max_depth': 15, 'max_features': 1.0, 'max_samples': 0.9} | RMSE: 148.9947 | Tempo: 47.5s
+
+18 / 27 | {'max_depth': 15, 'max_features': 1.0, 'max_samples': 1.0} | RMSE: 149.0092 | Tempo: 52.6s
+
+19 / 27 | {'max_depth': 20, 'max_features': 0.7, 'max_samples': 0.8} | RMSE: 148.6289 | Tempo: 49.8s
+
+20 / 27 | {'max_depth': 20, 'max_features': 0.7, 'max_samples': 0.9} | RMSE: 148.6433 | Tempo: 55.1s
+
+21 / 27 | {'max_depth': 20, 'max_features': 0.7, 'max_samples': 1.0} | RMSE: 148.6438 | Tempo: 61.2s
+
+22 / 27 | {'max_depth': 20, 'max_features': 0.9, 'max_samples': 0.8} | RMSE: 148.6947 | Tempo: 63.8s
+
+23 / 27 | {'max_depth': 20, 'max_features': 0.9, 'max_samples': 0.9} | RMSE: 148.7091 | Tempo: 69.5s
+
+24 / 27 | {'max_depth': 20, 'max_features': 0.9, 'max_samples': 1.0} | RMSE: 148.7325 | Tempo: 76.9s
+
+25 / 27 | {'max_depth': 20, 'max_features': 1.0, 'max_samples': 0.8} | RMSE: 148.7430 | Tempo: 59.7s
+
+26 / 27 | {'max_depth': 20, 'max_features': 1.0, 'max_samples': 0.9} | RMSE: 148.7592 | Tempo: 67.9s
+
+27 / 27 | {'max_depth': 20, 'max_features': 1.0, 'max_samples': 1.0} | RMSE: 148.7813 | Tempo: 75.4s
+

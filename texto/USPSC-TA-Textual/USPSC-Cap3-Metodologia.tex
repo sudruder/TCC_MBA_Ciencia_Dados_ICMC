@@ -46,17 +46,37 @@ Com os dados preparados, a etapa de modelagem envolve a análise exploratória d
 
 \subsection{Análise Exploratória dos Dados}\label{metodologia_exploracao_dados}
 
-A análise exploratória foi iniciada com o entendimento das variáveis respostas, buscando entender a distribuição das notas do ENEM. Em seguida, foi feito um teste de hipotese para se avaliar se as médias das notas variam significativamente entre as edições selecionadas para esse trabalho.
+A análise exploratória foi iniciada com o entendimento das variáveis respostas, buscando entender a distribuição das notas do ENEM. Em seguida, foi feito um teste de hipótese para se avaliar se as médias das notas variam significativamente entre as edições selecionadas para esse trabalho.
 
 Esse análise é necessária uma vez que as edições do ENEM podem apresentar variações no nível de dificuldade das provas, impactando as notas dos estudantes. Para isso, será utilizada a Estatística F de ANOVA (\textit{Analysis of Variance}) \cite{bussab2017} para comparar as médias das notas entre as diferentes edições do ENEM e o cálculo do tamanho do efeito para quantificar a magnitude das diferenças encontradas, utilizando a métrica SMD (\textit{Standardized Mean Difference}) utilizando os intervalos definidos por Jacob Cohen \cite{cohen1988}.
 
 A próxima etapa da análise exploratória foi a identificação de outliers nas variáveis respostas, utilizando o critério de 1.5 vezes o intervalo interquartil (IQR) \cite{bussab2017}. A identificação dos outliers é importante para entender a distribuição das notas e avaliar se esses valores extremos podem influenciar os resultados dos modelos preditivos.
 
-Finalizadas as análises das variáveis respostas, foi realizada uma análise descritiva das variáveis preditoras, buscando entender suas distribuições, identificar possíveis correlações entre elas e avaliar a presença de multicolinearidade que possa impactar o desempenho dos modelos preditivos.
+Finalizadas as análises das variáveis respostas, foram realizadas três análises sobre as variáveis preditoras: (i) análise de concentração de categorias, (ii) análise de correlação entre as variáveis preditoras e (iii) cálculo do \textit{Permutation Importance} para cada variável preditora.
 
-Para isso, foi utlizada a biblioteca \texttt{phik} \cite{KPMG_PhiK_2024} \cite{Baak2020Phik}, que permite calcular a correlação entre variáveis categóricas e numéricas, além de fornecer métricas para avaliar a força da correlação.
+Utilizando essas três informações, foi feita uma análise qualitativa para identificar possíveis variáveis preditoras a serem removidas do conjunto de dados, seja por apresentarem baixa correlação com as variáveis respostas, por apresentarem alta correlação com outras variáveis preditoras (multicolinearidade) ou por apresentarem baixa importância na predição das notas do ENEM.
+
+Para a correlação, foi utlizada a biblioteca \texttt{phik} \cite{KPMG_PhiK_2024} \cite{Baak2020Phik}, que permite calcular a correlação entre variáveis categóricas e numéricas, além de fornecer métricas para avaliar a força da correlação.
+
+Para o cálculo do \textit{Permutation Importance}, foi utilizado o modelo de \textit{Random Forest Regressor} do \texttt{cuml} \cite{NVIDIA_cuML_2023} e o método de \textit{permutation importance} da biblioteca \texttt{sklearn} \cite{scikit-learn}. Foi necessário já separar os conjuntos de dados em treino e teste, afim de evitar vazamento de dados e garantir que a avaliação da importância das variáveis seja feita de forma justa e realista.
+
+Para essa separação, foi utilizado o método \textit{train\_test\_split} da biblioteca \texttt{sklearn}, com uma proporção de 80\% dos dados para treino e 20\% para teste. A partir desse momento, não usamos mais o conjunto de dados completo, mas sim apenas o conjunto de treino para as análises das variáveis preditoras.
+
+\section{Treinamento dos Modelos}\label{metodologia_treinamento_modelos}
+
+Nesta seção serão detalhadas as técnicas de modelagem empregadas e os critérios utilizados para a seleção dos modelos. Como as nossas variáveis respostas são numéricas e contínuas, estamos em um problema de regressão de aprendizado supervisionado. Assim, é preciso selecionar modelos de regressão, que são os adequados para prever variáveis contínuas.
+
+Usaremos três modelos de regressão: (i) \textit{Random Forest Regressor}, (ii) \textit{XGBoost Regressor} e (iii) \textit{LightGBM Regressor}. Esses modelos são amplamente utilizados devido à sua eficácia e interpretabilidade, além de serem capazes de lidar com grandes volumes de dados e variáveis preditoras.
+
+Para otimizar o desempenho dos modelos selecionados, será realizada uma busca em grade (\textit{Grid Search}) para identificar os melhores hiperparâmetros. A busca não será realizada utilizando validação cruzada, devido ao alto volume de dados, mas sim um subconjunto do conjunto de treino equivalente a 10\% dos dados originais, garantindo que os resultados sejam robustos e generalizáveis.
+
+A implementação da busca em grade será feita manualmente, utilizando loops para iterar sobre os diferentes valores dos hiperparâmetros e avaliando o desempenho dos modelos utilizando o conjunto de validação.  Isso se dá para evitar o alto custo computacional associado à utilização de bibliotecas como \texttt{GridSearchCV} da \texttt{sklearn}, que realizam a busca em grade utilizando validação cruzada, o que pode ser inviável para grandes volumes de dados e modelos complexos.
+
+Definidos os hiperparâmetros ótimos, os modelos serão treinados utilizando o conjunto de dados preparado na Seção \ref{metodologia_preparacao_dados}, com uma quantidade maior de estimadores fracos (através do hiperparâmetro \textit{n\_estimators}) para garantir um melhor desempenho dos modelos. O treinamento será realizado utilizando o conjunto de treino completo, garantindo que os modelos sejam treinados com a maior quantidade possível de dados para melhorar sua capacidade de generalização.
 
 \section{Avaliação}\label{metodologia_avaliacao}
+
+
 
 \section{Implantação}\label{metodologia_implantacao}
 

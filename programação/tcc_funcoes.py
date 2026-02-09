@@ -17,6 +17,7 @@ def teste():
     Função de teste para verificar se o módulo foi importado corretamente.
     '''
 
+    print()
     print(" Módulo importado com sucesso ".center(100, "="), end="\n\n")
 
     return None

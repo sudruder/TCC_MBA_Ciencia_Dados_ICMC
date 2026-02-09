@@ -164,6 +164,16 @@ Dispon{\'\i}vel em: \url{https://phik.readthedocs.io/en/latest/}.}
 \textbf{Computational Statistics and Data Analysis}, v.~152, p. 107043, 2020.
 ISSN 0167-9473.}
 
+\bibitem{NVIDIA_cuML_2023}
+\abntrefinfo{{NVIDIA}}{{NVIDIA}}{2023}
+{{NVIDIA}. \textbf{Welcome to cuML's documentation!} 2023.
+Dispon{\'\i}vel em: \url{https://docs.rapids.ai/api/cuml/stable/}.}
+
+\bibitem{scikit-learn}
+\abntrefinfo{Pedregosa \textit{et al.}}{PEDREGOSA \textit{et al.}}{2011}
+{PEDREGOSA, F. \textit{et al.} Scikit-learn: Machine learning in {P}ython.
+\textbf{Journal of Machine Learning Research}, v.~12, p. 2825--2830, 2011.}
+
 \bibitem{Inep2024LeiaMeEnem}
 \abntrefinfo{{INEP}}{{INEP}}{2025}
 {{INEP}. \textbf{{Microdados do Enem 2024: Leia-Me}}.
@@ -192,15 +202,5 @@ Dispon{\'\i}vel em: \url{https://docs.rapids.ai/api/cudf/stable/}.}
   team}}{2025}
 {{The pandas development team}. \textbf{pandas documentation}. 2025.
 Dispon{\'\i}vel em: \url{https://pandas.pydata.org/docs/}.}
-
-\bibitem{NVIDIA_cuML_2023}
-\abntrefinfo{{NVIDIA}}{{NVIDIA}}{2023}
-{{NVIDIA}. \textbf{Welcome to cuML's documentation!} 2023.
-Dispon{\'\i}vel em: \url{https://docs.rapids.ai/api/cuml/stable/}.}
-
-\bibitem{scikit-learn}
-\abntrefinfo{Pedregosa \textit{et al.}}{PEDREGOSA \textit{et al.}}{2011}
-{PEDREGOSA, F. \textit{et al.} Scikit-learn: Machine learning in {P}ython.
-\textbf{Journal of Machine Learning Research}, v.~12, p. 2825--2830, 2011.}
 
 \end{thebibliography}

@@ -4,13 +4,21 @@
 \contentsline {figure}{\numberline {2}{\ignorespaces Exemplo de uma Árvore de Decisão com o \textit {dataset Iris}}}{37}{figure.2.2}%
 \contentsline {figure}{\numberline {3}{\ignorespaces Exemplo de uma \textit {Random Forest} com o \textit {dataset Iris}}}{38}{figure.2.3}%
 \contentsline {figure}{\numberline {4}{\ignorespaces Modelo CRISP-DM}}{39}{figure.3.4}%
-\contentsline {figure}{\numberline {5}{\ignorespaces Histograma das notas - Ciências Humanas}}{50}{figure.4.5}%
-\contentsline {figure}{\numberline {6}{\ignorespaces Histograma das notas - Ciências da Natureza}}{51}{figure.4.6}%
-\contentsline {figure}{\numberline {7}{\ignorespaces Histograma das notas - Linguagem e Código}}{51}{figure.4.7}%
-\contentsline {figure}{\numberline {8}{\ignorespaces Histograma das notas - Matemática}}{51}{figure.4.8}%
-\contentsline {figure}{\numberline {9}{\ignorespaces Histograma das notas - Redação}}{52}{figure.4.9}%
-\contentsline {figure}{\numberline {10}{\ignorespaces Boxplot das notas por edição - Ciências Humanas}}{53}{figure.4.10}%
-\contentsline {figure}{\numberline {11}{\ignorespaces Boxplot das notas - Ciências da Natureza}}{54}{figure.4.11}%
-\contentsline {figure}{\numberline {12}{\ignorespaces Boxplot das notas - Linguagem e Código}}{54}{figure.4.12}%
-\contentsline {figure}{\numberline {13}{\ignorespaces Boxplot das notas - Matemática}}{54}{figure.4.13}%
-\contentsline {figure}{\numberline {14}{\ignorespaces Boxplot das notas - Redação}}{55}{figure.4.14}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Histograma das notas - Ciências Humanas}}{52}{figure.4.5}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Histograma das notas - Ciências da Natureza}}{53}{figure.4.6}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Histograma das notas - Linguagem e Código}}{53}{figure.4.7}%
+\contentsline {figure}{\numberline {8}{\ignorespaces Histograma das notas - Matemática}}{53}{figure.4.8}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Histograma das notas - Redação}}{54}{figure.4.9}%
+\contentsline {figure}{\numberline {10}{\ignorespaces Boxplot das notas por edição - Ciências Humanas}}{55}{figure.4.10}%
+\contentsline {figure}{\numberline {11}{\ignorespaces Boxplot das notas - Ciências da Natureza}}{56}{figure.4.11}%
+\contentsline {figure}{\numberline {12}{\ignorespaces Boxplot das notas - Linguagem e Código}}{56}{figure.4.12}%
+\contentsline {figure}{\numberline {13}{\ignorespaces Boxplot das notas - Matemática}}{56}{figure.4.13}%
+\contentsline {figure}{\numberline {14}{\ignorespaces Boxplot das notas - Redação}}{57}{figure.4.14}%
+\contentsline {figure}{\numberline {15}{\ignorespaces Dez maiores \textit {Permutation Importance} - Humanas}}{61}{figure.4.15}%
+\contentsline {figure}{\numberline {16}{\ignorespaces Dez maiores \textit {Permutation Importance} - Natureza}}{62}{figure.4.16}%
+\contentsline {figure}{\numberline {17}{\ignorespaces Dez maiores \textit {Permutation Importance} - Linguagem}}{62}{figure.4.17}%
+\contentsline {figure}{\numberline {18}{\ignorespaces Dez maiores \textit {Permutation Importance} - Matemática}}{62}{figure.4.18}%
+\contentsline {figure}{\numberline {19}{\ignorespaces Dez maiores \textit {Permutation Importance} - Redação}}{63}{figure.4.19}%
+\contentsline {figure}{\numberline {20}{\ignorespaces Erro do \textit {Grid Search} - \textit {XGBoost}}}{66}{figure.4.20}%
+\contentsline {figure}{\numberline {21}{\ignorespaces Erro do \textit {Grid Search} - \textit {LightGBM}}}{67}{figure.4.21}%
+\contentsline {figure}{\numberline {22}{\ignorespaces Erro do \textit {Grid Search} - \textit {Random Forest}}}{67}{figure.4.22}%

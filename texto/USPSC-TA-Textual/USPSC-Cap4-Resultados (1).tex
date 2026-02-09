@@ -1,0 +1,655 @@
+
+\chapter{Resultados}\label{cap_resultados}
+
+Este capítulo apresenta os resultados obtidos a partir da aplicação da metodologia descrita no Capítulo \ref{cap_metodologia} - Metodologia. Os resultado serão apresentados na mesma ordem das etapas descritas na metodologia.
+
+\section{Entendimento de Negócio}\label{resultados_entendimento_negocio}
+
+Conforme mencionado no Capítulo \ref{cap_fundamentacao} - Fundamentação Teórica, o ENEM é um exame de grande relevância no contexto educacional brasileiro e compreender os fatores que impactam o desempenho dos estudantes é crucial para a formulação de políticas educacionais eficazes.
+
+Trabalhos anteriores citam algumas variáveis socioeconômicas como discriminadores de performance no ENEM. A Tabela \ref{tab_trabalhos_anteriores} apresenta essas variáveis identificadas na literatura, juntamente com suas respectivas referências.
+
+\begin{longtable}{|m{7cm}|m{4cm}|}
+
+    % --- TÍTULO E RÓTULO (1ª Página) ---
+    \caption{Variáveis socioeconômicas e suas referências} \label{tab_trabalhos_anteriores} \\
+    \hline
+    \textbf{Variável socioeconômica} & \textbf{Referência} \\ \hline
+    \endfirsthead
+
+    % --- CABEÇALHO (Páginas Seguintes) ---
+    \hline
+    \textbf{Variável socioeconômica} & \textbf{Referência} \\ \hline
+    \endhead
+
+    % --- RODAPÉ (Páginas Intermediárias) ---
+    \hline
+    \multicolumn{2}{r}{\footnotesize\textit{Continua na próxima página...}} \\
+    \endfoot
+
+    % --- RODAPÉ FINAL (Última Página) ---
+    \hline
+    \multicolumn{2}{c}{\footnotesize Fonte: elaborado pelo autor.} \\
+    \endlastfoot
+
+    % --- DADOS DA TABELA ---
+    Renda familiar & Melo \textit{et al.} \cite{ref_01} \newline Vasconcellos \cite{ref_06} \\ \hline
+    
+    Raça / Cor & Melo \textit{et al.} \cite{ref_01} \newline Moraes \textit{et al.} \cite{ref_03} \\ \hline
+    
+    Sexo & Moraes \textit{et al.} \cite{ref_03} \\ \hline
+    
+    Idade / Atraso Escolar & Jaloto e Primi \cite{ref_12} \\ \hline
+    
+    Administração: Pública vs. Privada & Moraes \textit{et al.} \cite{ref_03} \newline Jaloto e Primi \cite{ref_12} \newline Ortega \textit{et al.} \cite{ref_05} \\ \hline
+    
+    Atributos Escolares & Moraes \textit{et al.} \cite{ref_03} \\
+
+\end{longtable}
+
+Assim, ao avaliarmos os trabalhos anteriores disponíveis, concluímos que há uma variedade de fatores socioeconômicos que podem influenciar o desempenho dos estudantes no ENEM. Com base nisso, foram formuladas as seguintes perguntas de pesquisa:
+
+\begin{itemize}
+    \item \textbf{Pergunta 1:} Quais são os principais fatores socioeconômicos que influenciam o desempenho dos estudantes no ENEM?
+    \item \textbf{Pergunta 2:} Qual é a magnitude da influência de cada um desses conjuntos de fatores nas notas dos participantes?
+\end{itemize}
+
+\section{Entendimento dos dados}\label{resultados_entendimento_dados}
+
+\subsection{Escolha e Coleta dos Dados}\label{resultados_escolha_coleta_dados}
+
+Como descrito no Capítulo \ref{cap_metodologia} - Metodologia, foi necessário identificar dados que fossem relevantes para responder as pergunras de pesquisa formuladas. Foi realizada uma busca por bases de dados públicas que contivessem informações detalhadas sobre os participantes do ENEM, incluindo suas características socioeconômicas e desempenho no exame.
+
+Os microdados do ENEM, disponibilizados anualmente pelo Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira (INEP), foram escolhidos como a principal fonte de dados para este trabalho e podem ser acessados através do portal do INEP \cite{ref_08}.
+
+No mesmo portal, também estão disponíveis os dados do Censo Escolar, que fornecem informações adicionais sobre as escolas de todo o território nacional \cite{ref_07}. Esses foram escolhidos como fonte complementar por fornecerem um contexto mais amplo sobre o ambiente educacional.
+
+Foram então selecionadas as edições de 2020 a 2024 (as últimas cinco edições disponíveis) de ambos os conjuntos de dados e os arquivos disponibilizados foram baixados através de download simples e armazenados localmente para posterior leitura e manipulação.
+
+Como os dados escolhidos são públicos e anonimizados por quem os distribui, entendeu-se que não há limitações éticas para o uso desses dados neste trabalho e não foi necessário submeter o projeto a um comitê de ética em pesquisa.
+
+\subsection{Compreensão Inicial dos Dados}\label{resultados_compreensao_inicial_dados}
+
+Os arquivos de microdados do ENEM e do Censo Escolar são disponibilizados em formato compactado (.zip), separados pelo ano de aplicação do exame/censo.
+
+Dentre os arquivos existentes nos arquivos compactados dos microdados do ENEM, foram selecionados os arquivos CSV (\textit{Comma-Separated Values}) que contêm as informações dos participantes e suas notas e os os dicionários de dados de cada edição em formato XLSX (Formato nativo do \textit{Microsoft Excel}), que foi utilizado para interpretar os valores categóricos e identificar variáveis importantes.
+
+Para os arquivos compactados do Censo Escolar, foram selecionados os arquivos CSV que contêm as informações das escolas e os dicionários de dados em formato XLSX.
+
+\subsubsection{Edicão de 2024 do ENEM e LGPD}\label{resultados_enem_2024_lgpd}
+
+Na edição de 2024 dos microdados do ENEM, foi feita uma alteração no formato de disponibilização dos dados dos participantes e das notas, que passaram a ser disponibilizados em arquivos separados.
+
+Isso se deu "Devido à vigência da Lei Geral de Proteção de Dados (LGPD), incorporada ao ordenamento jurídico
+brasileiro por meio da Lei nº 13.709, de 14 de agosto de 2018" \cite{Inep2024LeiaMeEnem}, conforme descrito no arquivo auxiliar ¨Leia-Me" \cite{Inep2024LeiaMeEnem} disponibilizado junto com os microdados do ENEM 2024 .
+
+Assim, o formato dos arquivos de microdados do ENEM 2024 difere das edições anteriores, por mais que as informações contidas permanecem as mesmas. Houve a separação dos dados dos participantes e das notas em arquivos distintos e sem uma chave primária que permita a junção dos dois conjuntos de dados. Dessa forma, os dados da edição de 2024 do ENEM não puderam ser utilizados para este trabalho
+
+\subsection{Análise dos Dicionários de Dados}\label{resultados_analise_dicionarios_dados}
+
+Foram analisados os dicionários de dados dos microdados do ENEM e do Censo Escolar para identificar as variáveis disponíveis em cada conjunto de dados. Os dicionários completos estão disponíveis no Apêndice \ref{apendice_dicionario_enem} e \ref{apendice_dicionario_censo_escolar}. A partir dessa análise, foi possível identificar as variáveis que seriam relevantes para responder às perguntas de pesquisa formuladas na Seção \ref{resultados_entendimento_negocio}.
+
+Não foi possível localizar uma variável que permitisse a identificação única das escolas dos participantes do ENEM nos microdados do ENEM, o que impossibilitou correlacionar diretamente os dados dos participantes do ENEM com os dados das escolas do Censo Escolar para agregar informações das escolas aos dados dos participantes. Dessa forma, optou-se por utilizar apenas os dados dos microdados do ENEM para a realização deste trabalho.
+
+\subsection{Definição da Variável Resposta}\label{resultados_definicao_variavel_resposta}
+
+Como esse trabalho pretende avaliar o desempenho dos estudantes no ENEM e os fatores que influenciam esse desempenho, a variável resposta deve refletir esse objetivo. Assim, foram utilizadas como variáveis resposta as notas obtidas pelos estudantes nas quatro provas objetivas e na redação do ENEM.
+
+Ou seja, usamos cinco variáveis resposta distintas para análise: (i) Nota da prova de Ciências da Natureza; (ii) Nota da prova de Ciências Humanas; (iii) Nota da prova de Linguagens e Códigos; (iv) Nota da prova de Matemática; e (v) Nota da Redação.
+
+\section{Preparação dos dados}\label{resultados_preparacao_dados}
+
+\subsection{Preparação do Ambiente Tecnológico e Analítico}\label{resultados_preparacao_ambiente_analitico}
+
+Para a execução desse trabalho, foi utilizado um ambiente baseado em \texttt{Python} versão 3.11 através do gerenciador de ambientes virtuais Miniconda3 \cite{Anaconda_Miniconda_nd}. O computador utilizado possui uma CPU AMD Ryzen 7 9800X3D, 32 GB de memória RAM e uma GPU NVIDIA GeForce RTX 4070 Ti Super, com 16 GB de memória dedicada com sistemas operacionais Ubuntu 24.04 LTS e Windows 11 Pro.
+
+O ambiente foi especificamente configurado com o ecossistema NVIDIA CUDAX \cite{NVIDIA_CUDAX_nd} para posibilitar a execução utilizando a GPU do equipamento, visando acelerar o processamento dos dados e a modelagem. Esta suíte de bibliotecas de software permite executar pipelines de Ciência de Dados e análises inteiramente na GPU, minimizando a transferência de dados entre a CPU e a GPU.
+
+Foram utilizados seus principais componentes: \texttt{cudf} \cite{NVIDIA_cuDF_nd}, uma biblioteca para manipulação de \texttt{DataFrames} na GPU análoga ao \texttt{pandas} \cite{PandasTeam_PandasDocs_2025}, e \texttt{cuml} \cite{NVIDIA_cuML_2023}, que fornece implementações de algoritmos de \textit{Machine Learning} acelerados por GPU, análoga ao \texttt{scikit-learn} \cite{scikit-learn}. Todo o ambiente foi construído sobre a plataforma CUDA 13.0, com as bibliotecas e dependências gerenciadas diretamente pelo Conda.
+
+O arquivo YML de configuração do ambiente virtual utilizado está disponível no Apêndice \ref{apendice_ambiente_virtual}.
+
+\subsection{Leitura dos Dados}\label{resultados_leitura_dados}
+
+Os arquivos CSV dos microdados do ENEM foram lidos utilizando o método \texttt{read\_csv} da biblioteca \texttt{pandas} especificando o separador como ponto e vírgula (\texttt{sep = ';'}).
+
+Serão utilizados os dados das edições de 2020 a 2023 e possuem as quantidade de observações e variáveis descritas na Tabela \ref{tab_qtde_obs_variaveis_edicao}.
+
+\begin{longtable}{|c|c|c|}
+
+    % --- TÍTULO E RÓTULO (Aparece no topo da primeira página) ---
+    \caption{Quantidade de observações e variáveis por edição do ENEM} \label{tab_qtde_obs_variaveis_edicao} \\
+    \hline
+    \textbf{Edição} & \textbf{Observações} & \textbf{Variáveis} \\ \hline
+    \endfirsthead
+
+    % --- CABEÇALHO PARA PÁGINAS SEGUINTES (Se quebrar página) ---
+    \hline
+    \textbf{Edição} & \textbf{Observações} & \textbf{Variáveis} \\ \hline
+    \endhead
+
+    % --- RODAPÉ PARA PÁGINAS INTERMEDIÁRIAS (Antes de terminar) ---
+    \hline
+    \multicolumn{3}{r}{\footnotesize\textit{Continua na próxima página...}} \\
+    \endfoot
+
+    % --- RODAPÉ FINAL (Aparece apenas na última página) ---
+    \hline
+    \multicolumn{3}{c}{\footnotesize Fonte: microdados do INEP; elaborado pelo autor.} \\
+    \endlastfoot
+
+    % --- DADOS DA TABELA ---
+    2020 & 5.783.109 & 76 \\ \hline
+    2021 & 3.389.832 & 76 \\ \hline
+    2022 & 3.476.105 & 76 \\ \hline
+    2023 & 3.933.955 & 76 \\
+
+\end{longtable}
+
+\subsection{Integração dos Dados}\label{resultados_integracao_dados}
+
+Analisando o dicionário de dados de cada edição, foi possível observar que todas as edições possuem o mesmo esquema, ou seja, as mesmas variáveis com os mesmos nomes estão presentes em todas as edições selecionadas. Assim, a integração entre edições foi realizada por meio da concatenação vertical dos quatro conjuntos de dados, utilizando o método \texttt{concat} da biblioteca \texttt{pandas}.
+
+Em seguida, foi feita uma modificação no nome das variáveis para nomes que fossem mais intuitivos e de compreensão rápida do conteúdo. Essa modificação foi realizada utilizando o método \texttt{rename}, a partir de um dicionário que mapeava os nomes originais para os novos nomes desejados.
+
+Com o dicionário de dados analisado, foi diagnosticado que algumas variáveis categóricas estavam codificadas com valores numéricos que não eram intuitivos. Assim, seus valores foram transformados, substituindo os códigos numéricos por descrições textuais mais compreensíveis através do metodo \texttt{map} da biblioteca \texttt{pandas}, utilizando dicionários de mapeamento construídos especificamente para cada variável categórica que necessitava de transformação.
+
+\subsection{Tratamento de Valores Nulos}\label{resultados_tratamento_valores_nulos}
+
+Inicialmente, foi feito o cálculo do percentual de valores nulos por variável. A Tabela \ref{tab_valores_nulos_inicial} apresenta estes valores do conjunto de dados integrados, antes dos tratamentos.
+
+% Percentual de valores ausentes por variável
+
+%                          variavel    %_nulos
+% 0                 sigla_uf_escola  78.117200
+% 1            cod_municipio_escola  78.117200
+% 2                   tp_adm_escola  78.117200
+% 3            funcionamento_escola  78.117200
+% 4                 tp_local_escola  78.117200
+% 5                       tp_ensino  69.835984
+% 6                       tp_escola  68.248202
+% 7      ano_conclusao_ensino_medio  51.603048
+% 8          nota_ciencias_natureza  40.353944
+% 9                 nota_matematica  40.353944
+% 10          nota_ciencias_humanas  36.992080
+% 11                   nota_redacao  36.992080
+% 12         nota_linguagem_codigos  36.992080
+% 13                03_ocupacao_pai  12.518470
+% 14            01_escolaridade_pai   9.838316
+% 15                04_ocupacao_mae   8.991262
+% 16                   estado_civil   4.244533
+% 17            02_escolaridade_mae   3.516661
+% 18                       cor_raca   1.842121
+% 19                  10_qtde_carro   0.578713
+% 20              05_qtde_moradores   0.578713
+% 21              06_renda_familiar   0.578713
+% 22  07_dias_trabalhador_domestico   0.578713
+% 23               08_qtde_banheiro   0.578713
+% 24                 09_qtde_quarto   0.578713
+% 25           18_flag_aspirador_po   0.578713
+% 26            11_qtde_motocicleta   0.578713
+% 27              12_qtde_geladeira   0.578713
+% 28                13_qtde_freezer   0.578713
+% 29        14_qtde_maq_lavar_roupa   0.578713
+% 30        15_qtde_maq_secar_roupa   0.578713
+% 31            16_qtde_micro_ondas   0.578713
+% 32        17_qtde_maq_lavar_louca   0.578713
+% 33                22_qtde_celular   0.578713
+% 34                     19_qtde_tv   0.578713
+% 35           20_flag_aparelho_dvd   0.578713
+% 36          21_flag_tv_assinatura   0.578713
+% 37           24_qtde_computadores   0.578713
+% 38          23_flag_telefone_fixo   0.578713
+% 39               25_flag_internet   0.578713
+% 40                  nacionalidade   0.046861
+
+\begin{longtable}{|c|c|}
+
+    % --- TÍTULO E RÓTULO (Aparece no topo da primeira página) ---
+    \caption{Percentual de valores nulos por variável} \label{tab_valores_nulos_inicial} \\
+    \hline
+    \textbf{Variável} & \textbf{Percentual de nulos} \\ \hline
+    \endfirsthead
+
+    % --- CABEÇALHO PARA PÁGINAS SEGUINTES (Se quebrar página) ---
+    \hline
+    \textbf{Variável} & \textbf{Percentual de nulos} \\ \hline
+    \endhead
+
+    % --- RODAPÉ PARA PÁGINAS INTERMEDIÁRIAS (Antes de terminar) ---
+    \hline
+    \multicolumn{2}{r}{\footnotesize\textit{Continua na próxima página...}} \\
+    \endfoot
+
+    % --- RODAPÉ FINAL (Aparece apenas na última página) ---
+    \hline
+    \multicolumn{2}{c}{\footnotesize Fonte: elaborado pelo autor.} \\
+    \endlastfoot
+
+    % --- DADOS DA TABELA ---
+    sigla\_uf\_escola & 78,1\% \\ \hline
+    cod\_municipio\_escola & 78,1\% \\ \hline
+    tp\_adm\_escola & 78,1\% \\ \hline
+    funcionamento\_escola & 78,1\% \\ \hline
+    tp\_local\_escola & 78,1\% \\ \hline
+    tp\_ensino & 69,8\% \\ \hline
+    tp\_escola & 68,2\% \\ \hline
+    ano\_conclusao\_ensino\_medio & 51,6\% \\ \hline
+    nota\_ciencias\_natureza & 40,4\% \\ \hline
+    nota\_matematica & 40,4\% \\ \hline
+    nota\_ciencias\_humanas & 37,0\% \\ \hline
+    nota\_redacao & 37,0\% \\ \hline
+    nota\_linguagem\_codigos & 37,0\% \\ \hline
+    03\_ocupacao\_pai & 12,5\% \\ \hline
+    01\_escolaridade\_pai & 9,8\% \\ \hline
+    04\_ocupacao\_mae & 9,0\% \\ \hline
+    estado\_civil & 4,2\% \\ \hline
+    02\_escolaridade\_mae & 3,5\% \\ \hline
+    cor\_raca & 1,8\% \\ \hline
+    10\_qtde\_carro & 0,6\% \\ \hline
+    05\_qtde\_moradores & 0,6\% \\ \hline
+    06\_renda\_familiar & 0,6\% \\ \hline
+    07\_qtderabalhador\_domestico & 0,6\% \\ \hline
+    08\_qtde\_banheiro & 0,6\% \\ \hline
+    09\_qtde\_quarto & 0,6\% \\ \hline
+    18\_flag\_aspirador\_po & 0,6\% \\ \hline
+    11\_qtde\_motocicleta & 0,6\% \\ \hline
+    12\_qtde\_geladeira & 0,6\% \\ \hline
+    13\_qtde\_freezer & 0,6\% \\ \hline
+    14\_qtde\_maq\_lavar\_roupa & 0,6\% \\ \hline
+    15\_qtde\_maq\_secar\_roupa & 0,6\% \\ \hline
+    16\_qtde\_micro\_ondas & 0,6\% \\ \hline
+    17\_qtde\_maq\_lavar\_louca & 0,6\% \\ \hline
+    22\_qtde\_celular & 0,6\% \\ \hline
+    19\_qtdev & 0,6\% \\ \hline
+    20\_flag\_aparelho\_dvd & 0,6\% \\ \hline
+    21\_flagv\_assinatura & 0,6\% \\ \hline
+    24\_qtde\_computadores & 0,6\% \\ \hline
+    23\_flagelefone\_fixo & 0,6\% \\ \hline
+    25\_flag\_internet & 0,6\% \\ \hline
+    nacionalidade & 0,05\% \\
+
+\end{longtable}
+
+O percentual de valores nulos varia significativamente, com algumas variáveis apresentando mais de 70\% de valores nulos, enquanto outras possuem menos de 1\%. Variáveis com uma alta proporção de valores nulos podem comprometer a análise se for realizado alguma imputação de valores. Sendo assim, foi decidido remover as variáveis que apresentavam mais de 50\% de valores nulos, resultando na remoção de nove variáveis do conjunto de dados.
+
+Para as variáveis das notas, por serem as variáveis resposta deste trabalho, foi realizada uma análise mais detalhada. Primeiro, verificou-se a existência de valores zerados nessas variáveis e se possuem significado diferentes de valores nulos. Para isso, foi feita uma análise com a presença nas provas e o status da redação. Foi identificado que a nota zerada significa que o participante esteve presente na prova, mas obteve nota zero, enquanto o valor nulo indica que o participante ou não realizou a prova, ou foi eliminado, ou teve sua redação anulada. Dessa forma, optou-se por manter as observações com notas zeradas no conjunto de dados, removendo apenas as observações com notas nulas. A decisão de incorporar ou não as notas zero na análise será discutida na Seção \ref{resultados_modelagem}.
+
+Para as demais variáveis com valores nulos, foi realizada uma análise consolidada, ou seja, foram retiradas as observações que possuíam valor nulo em qualquer uma das variáveis restantes, o que resultou na retirada de 4.341.559 observações do conjunto de dados.
+
+Assim, restaram 12.241.442 observações e 45 variáveis no conjunto de dados após os tratamentos.
+
+\subsection{Separação dos Conjuntos de Dados por Variável Resposta}\label{resultados_separacao_conjuntos_dados}
+
+Após a separação dos conjuntos de dados por variável resposta, conforme descrito na Seção \ref{metodologia_preparacao_dados}, foram criados cinco conjuntos de dados distintos. A Tabela \ref{tab_conjunto_variaveis_resposta} apresenta a quantidade de observações e variáveis em cada conjunto de dados.
+
+% Ciências Humanas tem 7,895,093 linhas e 35 colunas.
+% Ciências Natureza tem 7,500,050 linhas e 35 colunas.
+% Linguagem e Código tem 7,895,093 linhas e 35 colunas.
+% Matemática tem 7,500,050 linhas e 35 colunas.
+% Redação tem 7,895,093 linhas e 35 colunas.
+
+\begin{longtable}{|l|c|c|}
+
+    % --- TÍTULO E RÓTULO (1ª Página) ---
+    \caption{Observações e variáveis por conjunto de dados} \label{tab_conjunto_variaveis_resposta} \\
+    \hline
+    \textbf{Conjunto de Dados} & \textbf{Observações} & \textbf{Variáveis} \\ \hline
+    \endfirsthead
+
+    % --- CABEÇALHO (Páginas Seguintes) ---
+    \hline
+    \textbf{Conjunto de Dados} & \textbf{Observações} & \textbf{Variáveis} \\ \hline
+    \endhead
+
+    % --- RODAPÉ (Páginas Intermediárias) ---
+    \hline
+    \multicolumn{3}{r}{\footnotesize\textit{Continua na próxima página...}} \\
+    \endfoot
+
+    % --- RODAPÉ FINAL (Última Página) ---
+    \hline
+    \multicolumn{3}{c}{\footnotesize Fonte: elaborado pelo autor.} \\
+    \endlastfoot
+
+    % --- DADOS DA TABELA ---
+    Ciências Humanas & 7.895.093 & 35 \\ \hline
+    Ciências da Natureza & 7.500.050 & 35 \\ \hline
+    Linguagem e Código & 7.895.093 & 35 \\ \hline
+    Matemática & 7.500.050 & 35 \\ \hline
+    Redação & 7.895.093 & 35 \\
+
+\end{longtable}
+
+A estrutura de dicionários foi utilizada para manter o controle dos conjuntos de dados, suas respectivas variáveis resposta e variáveis preditoras ao longo do trabalho.
+
+\section{Modelagem}\label{resultados_modelagem}
+
+\subsection{Análise Exploratória dos Dados - Variáveis Resposta}\label{resultados_analise_exploratoria_dados_vars_resposta}
+
+\subsubsection{Distribuições}\label{resultados_analise_exploratoria_dados_vars_resposta_distribuicoes}
+
+O primeiro passo da análise exploratória foi entender o domínio das variáveis respostas e foi constatado que para as notas das provas objetivas (Ciências Humanas, Ciências da Natureza, Linguagens e Códigos e Matemática) haviam mais de cinco mil notas distintas, com variações pequenas entre elas (décimos de pontos). Já para a nota da redação, o número de notas distintas era significativamente menor (apenas 50 notas) com variação de pontos.
+
+Essa diferença na granularidade das notas impacta diretamente na escolha dos modelos preditivos e nas métricas de avaliação, conforme será discutido na Seção \ref{resultados_escolha_modelos}. A tabela \ref{tab_describe_notas} apresenta as estatísticas descritivas das notas de cada prova, obtido através do método \texttt{describe}.
+
+% 	Ciências Humanas	Ciências Natureza	Linguagem e Código	Matemática	Redação
+% count	7.895093e+06	7.500050e+06	7.895093e+06	7.500050e+06	7.895093e+06
+% mean	5.238126e+02	4.968878e+02	5.190258e+02	5.386558e+02	6.166102e+02
+% std	9.131224e+01	8.146093e+01	7.693933e+01	1.214854e+02	2.046583e+02
+% min	0.000000e+00	0.000000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+% 25%	4.601000e+02	4.373000e+02	4.701000e+02	4.416000e+02	5.200000e+02
+% 50%	5.286000e+02	4.903000e+02	5.252000e+02	5.260000e+02	6.200000e+02
+% 75%	5.882000e+02	5.519000e+02	5.736000e+02	6.249000e+02	7.600000e+02
+% max	8.626000e+02	8.753000e+02	8.261000e+02	9.857000e+02	1.000000e+03
+
+\begin{longtable}{|l|c|c|c|c|c|}
+
+    % --- TÍTULO E RÓTULO (1ª Página) ---
+    \caption{Estatísticas descritivas por conjunto de dados} \label{tab_describe_notas} \\
+    \hline
+    \textbf{Estatística} & \textbf{Humanas} & \textbf{Natureza} & \textbf{Linguagem} & \textbf{Matemática} & \textbf{Redação} \\ \hline
+    \endfirsthead
+
+    % --- CABEÇALHO (Páginas Seguintes) ---
+    \hline
+    \textbf{Estatística} & \textbf{Humanas} & \textbf{Natureza} & \textbf{Linguagem} & \textbf{Matemática} & \textbf{Redação} \\ \hline
+    \endhead
+
+    % --- RODAPÉ (Páginas Intermediárias) ---
+    \hline
+    \multicolumn{6}{r}{\footnotesize\textit{Continua na próxima página...}} \\
+    \endfoot
+
+    % --- RODAPÉ FINAL (Última Página) ---
+    \hline
+    \multicolumn{6}{c}{\footnotesize Fonte: elaborado pelo autor.} \\
+    \endlastfoot
+
+    % --- DADOS DA TABELA ---
+    Contagem & 7.895.093 & 7.500.050 & 7.895.093 & 7.500.050 & 7.895.093 \\ \hline
+    Média & 523,8 & 496,9 & 519,0 & 538,7 & 616,6 \\ \hline
+    Desvio Padrão & 91,3 & 81,4 & 91,3 & 121,5 & 204,7 \\ \hline
+    Mínimo & 0,0 & 0,0 & 0,0 & 0,0 & 0,0 \\ \hline
+    25º Percentil & 460,1 & 437,3 & 460,1 & 441,6 & 520 \\ \hline
+    50º Percentil & 528,6 & 490,3 & 528,6 & 526 & 620 \\ \hline
+    75º Percentil & 588,2 & 551,9 & 588,2 & 624,9 & 760 \\ \hline
+    Máximo & 862,6 & 875,3 & 826,1 & 985,7 & 1000 \\
+
+\end{longtable}
+
+Em seguida, foram construídos histogramas de cada nota para entender a distribuição das notas. As Figuras \ref{fig:hist_humanas}, \ref{fig:hist_natureza}, \ref{fig:hist_linguagem_codigo}, \ref{fig:hist_matematica} e \ref{fig:hist_redacao} apresentam os histogramas das notas de cada prova. 
+
+\begin{figure}[H]
+    \centering
+    \caption{Histograma das notas - Ciências Humanas} \label{fig:hist_humanas}
+    \includegraphics[width=0.7\linewidth]{imagens/histograma_humanas.png}
+    \par\vspace{0.1cm}
+    % {\footnotesize Fonte: elaborado pelo autor.}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \caption{Histograma das notas - Ciências da Natureza} \label{fig:hist_natureza}
+    \includegraphics[width=0.7\linewidth]{imagens/histograma_natureza.png}
+    \par\vspace{0.1cm}
+    % {\footnotesize Fonte: elaborado pelo autor.}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \caption{Histograma das notas - Linguagem e Código} \label{fig:hist_linguagem_codigo}
+    \includegraphics[width=0.7\linewidth]{imagens/histograma_linguagem_codigo.png}
+    \par\vspace{0.1cm}
+    % {\footnotesize Fonte: elaborado pelo autor.}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \caption{Histograma das notas - Matemática} \label{fig:hist_matematica}
+    \includegraphics[width=0.7\linewidth]{imagens/histograma_matematica.png}
+    \par\vspace{0.1cm}
+    % {\footnotesize Fonte: elaborado pelo autor.}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \caption{Histograma das notas - Redação} \label{fig:hist_redacao}
+    \includegraphics[width=0.7\linewidth]{imagens/histograma_redacao.png}
+    \par\vspace{0.1cm}
+    {\footnotesize Fonte: elaborado pelo autor.}
+\end{figure}
+
+A tabela \ref{tab_assimetria_curtose} apresenta os valores de assimetria e curtose das notas de cada prova, obtidos através dos métodos \texttt{skew} e \texttt{kurtosis} da biblioteca \texttt{pandas}, e o percentual de notas zero em cada conjunto de dados.
+
+% Ciências Humanas - Assimetria: -0.3408 | Curtose: 1.1269
+% Ciências Natureza - Assimetria: 0.0321 | Curtose: 1.8372
+% Linguagem e Código - Assimetria: -0.5113 | Curtose: 1.1780
+% Matemática - Assimetria: 0.3138 | Curtose: 0.0850
+% Redação - Assimetria: -0.7457 | Curtose: 1.0488
+
+\begin{longtable}{|l|c|c|c|}
+
+    % --- TÍTULO E RÓTULO (1ª Página) ---
+    \caption{Assimetria, Curtose e Notas zeradas} \label{tab_assimetria_curtose} \\
+    \hline
+    \textbf{Variável} & \textbf{Assimetria} & \textbf{Curtose} & \textbf{Notas zeradas} \\ \hline
+    \endfirsthead
+
+    % --- CABEÇALHO (Páginas Seguintes) ---
+    \hline
+    \textbf{Variável} & \textbf{Assimetria} & \textbf{Curtose} & \textbf{Notas zeradas} \\ \hline
+    \endhead
+
+    % --- RODAPÉ (Páginas Intermediárias) ---
+    \hline
+    \multicolumn{4}{r}{\footnotesize\textit{Continua na próxima página...}} \\
+    \endfoot
+
+    % --- RODAPÉ FINAL (Última Página) ---
+    \hline
+    \multicolumn{4}{c}{\footnotesize Fonte: elaborado pelo autor.} \\
+    \endlastfoot
+
+    % --- DADOS DA TABELA ---
+    Humanas & -0,3408 & 1,1269 & 0,18\%\\ \hline
+    Natureza & 0,0321 & 1,8372 & 0,17\%\\ \hline
+    Linguagem & -0,5113 & 1,1780 & 0,08\%\\ \hline
+    Matemática & 0,3138 & 0,0850 & 0,17\%\\ \hline
+    Redação & -0,7457 & 1,0488 & 3,56\%\\ \hline
+\end{longtable}
+
+Analisando os valores de assimetria e curtose, é possível observar que as distribuições das notas possuem diferentes características.
+
+A assimetria da nota de redação é a mais negativa, o que indica que os alunos tivereram, em geral, o melhor desempenho, assim como nas provas de Linguagens e Códigos e Ciências Humanas, que também apresentam assimetria negativa, porém com valores menores. Na prova de Ciências da Natureza, a assimetria é praticamente nula, indicando uma distribuição mais simétrica das notas, enquanto a nota de matemática apresenta a assimetria mais positiva, indicando um desempenho relativamente pior dos alunos nessa prova.
+
+Analisando os valores da curtose, a prova de matemática foi a única a apresentar uma curtose próxima de zero, indicando uma distribuição mais próxima da normalidade. As outras provas apresentaram valores maiores que 1 indicando distribuições com caudas mais pesadas e picos mais acentuados.
+
+\subsubsection{Teste de Hipótese}\label{resultados_analise_exploratoria_dados_vars_resposta_teste_hipotese}
+
+Foi realizado o teste de hipótese ANOVA com nível de significância de $0,1\%$ para comparar as médias das notas por edição do ENEM em cada conjunto de dados, onde a hipótese nula $H_0$ é de que as médias são iguais entre as edições. A tabela \ref{tab_anova_notas_edicao} apresenta os valores de F, p-valor e a métrica SMD (\textit{Standardized Mean Difference}) obtidos para cada conjunto de dados.
+
+% Ciências Humanas | Estatística F: 13161.5488 | Rejeita-se H0: Sim | p-valor: 0.0000e+00 | SMD: 0.1850 | Insignificante
+% Ciências Natureza | Estatística F: 3431.3132 | Rejeita-se H0: Sim | p-valor: 0.0000e+00 | SMD: 0.0866 | Insignificante
+% Linguagem e Código | Estatística F: 26507.5898 | Rejeita-se H0: Sim | p-valor: 0.0000e+00 | SMD: 0.2686 | Pequeno
+% Matemática | Estatística F: 13041.6191 | Rejeita-se H0: Sim | p-valor: 0.0000e+00 | SMD: 0.1968 | Insignificante
+% Redação | Estatística F: 27498.2207 | Rejeita-se H0: Sim | p-valor: 0.0000e+00 | SMD: 0.2422 | Pequeno
+
+\begin{longtable}{|l|c|c|c|c|c|}
+
+    % --- TÍTULO E RÓTULO (1ª Página) ---
+    \caption{Teste ANOVA das médias das notas por edição} \label{tab_anova_notas_edicao} \\
+    \hline
+    \textbf{Variável} & \textbf{Valor F} & \textbf{Rejeita-se $H_0$?} & \textbf{p-valor} & \textbf{SMD} & \textbf{Tamanho do efeito} \\ \hline
+    \endfirsthead
+
+    % --- CABEÇALHO (Páginas Seguintes) ---
+    \hline
+    \textbf{Variável} & \textbf{Valor F} & \textbf{Rejeita-se $H_0$?} & \textbf{p-valor} & \textbf{SMD} & \textbf{Tamanho do efeito} \\ \hline
+    \endhead
+
+    % --- RODAPÉ (Páginas Intermediárias) ---
+    \hline
+    \multicolumn{6}{r}{\footnotesize\textit{Continua na próxima página...}} \\
+    \endfoot
+
+    % --- RODAPÉ FINAL (Última Página) ---
+    \hline
+    \multicolumn{6}{c}{\footnotesize Fonte: elaborado pelo autor.} \\
+    \endlastfoot
+
+    % --- DADOS DA TABELA ---
+    Humanas & 13.161 & Sim & 0,0000 & 0,185 & Insignificante \\ \hline
+    Natureza & 3.431 & Sim & 0,0000 & 0,087 & Insignificante \\ \hline
+    Linguagem & 26.506 & Sim & 0,0000 & 0,269 & Pequeno \\ \hline
+    Matemática & 13.041 & Sim & 0,0000 & 0,197 & Insignificante \\ \hline
+    Redação & 27.498 & Sim & 0,0000 & 0,242 & Pequeno \\ \hline
+
+\end{longtable}
+
+Foi decidido manter todas as edições do ENEM no conjunto de dados para a modelagem preditiva, sem a necessidade de segmentação por edição, uma vez que o tamanho do efeito é insignificante ou pequeno.
+
+\subsubsection{Análise de Outliers}\label{resultados_analise_exploratoria_dados_vars_resposta_outliers}
+
+Para a análise dos outliers, foram utilizados os boxplots das notas de cada prova, apresentados nas Figuras \ref{fig:boxplot_humanas}, \ref{fig:boxplot_natureza}, \ref{fig:boxplot_linguagem_codigo}, \ref{fig:boxplot_matematica} e \ref{fig:boxplot_redacao}.
+
+\begin{figure}[H]
+    \centering
+    \caption{Boxplot das notas por edição - Ciências Humanas} \label{fig:boxplot_humanas}
+    \includegraphics[width=0.7\linewidth]{imagens/boxplot_humanas.png}
+    \par\vspace{0.1cm}
+    % {\footnotesize Fonte: elaborado pelo autor.}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \caption{Boxplot das notas - Ciências da Natureza} \label{fig:boxplot_natureza}
+    \includegraphics[width=0.7\linewidth]{imagens/boxplot_natureza.png}
+    \par\vspace{0.1cm}
+    % {\footnotesize Fonte: elaborado pelo autor.}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \caption{Boxplot das notas - Linguagem e Código} \label{fig:boxplot_linguagem_codigo}
+    \includegraphics[width=0.7\linewidth]{imagens/boxplot_linguagem_codigo.png}
+    \par\vspace{0.1cm}
+    % {\footnotesize Fonte: elaborado pelo autor.}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \caption{Boxplot das notas - Matemática} \label{fig:boxplot_matematica}
+    \includegraphics[width=0.7\linewidth]{imagens/boxplot_matematica.png}
+    \par\vspace{0.1cm}
+    % {\footnotesize Fonte: elaborado pelo autor.}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \caption{Boxplot das notas - Redação} \label{fig:boxplot_redacao}
+    \includegraphics[width=0.7\linewidth]{imagens/boxplot_redacao.png}
+    \par\vspace{0.1cm}
+    {\footnotesize Fonte: elaborado pelo autor.}
+\end{figure}
+
+Foi utilizado o critério do intervalor interquartil (\textit{Interquartile Range} - IQR) para identificar os outliers nas notas de cada prova. Foram considerados outliers os valores que estavam abaixo de $Q1 - 1,5 \times IQR$ ou acima de $Q3 + 1,5 \times IQR$, onde Q1 é o primeiro quartil, Q3 é o terceiro quartil e IQR = Q3 - Q1. A Tabela \ref{tab_outliers_notas} apresenta o limite inferior, o limite superior, a quantidade e o percentual de outliers identificados em cada conjunto de dados.
+
+% Outliers - Ciências Humanas
+
+% Limite Superior: 780.35
+% Limite Inferior: 267.95
+
+% Superiores: 5,627 (0.07%)
+% Inferiores: 13,969 (0.18%)
+% Total: 19,596 (0.25%)
+
+% ==================================================
+
+% Outliers - Ciências Natureza
+
+% Limite Superior: 723.80
+% Limite Inferior: 265.40
+
+% Superiores: 36,402 (0.49%)
+% Inferiores: 12,615 (0.17%)
+% Total: 49,017 (0.65%)
+
+% ==================================================
+
+% Outliers - Linguagem e Código
+
+% Limite Superior: 728.85
+% Limite Inferior: 314.85
+
+% Superiores: 3,195 (0.04%)
+% Inferiores: 32,803 (0.42%)
+% Total: 35,998 (0.46%)
+
+% ==================================================
+
+% Outliers - Matemática
+
+% Limite Superior: 899.85
+% Limite Inferior: 166.65
+
+% Superiores: 15,096 (0.20%)
+% Inferiores: 12,848 (0.17%)
+% Total: 27,944 (0.37%)
+
+% ==================================================
+
+% Outliers - Redação
+
+% Limite Superior: 1000.00
+% Limite Inferior: 160.00
+
+% Superiores: 0 (0.00%)
+% Inferiores: 282,438 (3.58%)
+% Total: 282,438 (3.58%)
+
+\begin{longtable}{|l|c|c|c|}
+
+    % --- TÍTULO E RÓTULO (1ª Página) ---
+    \caption{Quantidade e percentual de outliers nas notas} \label{tab_outliers_notas} \\
+    \hline
+    \textbf{Variável} & \textbf{Limite Inferior} & \textbf{Limite Superior} & \textbf{Outliers} \\ \hline
+    \endfirsthead
+
+    % --- CABEÇALHO (Páginas Seguintes) ---
+    \hline
+    \textbf{Variável} & \textbf{Limite Inferior} & \textbf{Limite Superior} & \textbf{Outliers} \\ \hline
+    \endhead
+
+    % --- RODAPÉ (Páginas Intermediárias) ---
+    \hline
+    \multicolumn{4}{r}{\footnotesize\textit{Continua na próxima página...}} \\
+    \endfoot
+
+    % --- RODAPÉ FINAL (Última Página) ---
+    \hline
+    \multicolumn{4}{c}{\footnotesize Fonte: elaborado pelo autor.} \\
+    \endlastfoot
+
+    % --- DADOS DA TABELA ---
+    Humanas & 267,95 & 780,35 & 19.596 (0,25\%) \\ \hline
+    Natureza & 265,40 & 723,80 & 49.017 (0,65\%) \\ \hline
+    Linguagem & 314,85 & 728,85 & 35.998 (0,46\%) \\ \hline
+    Matemática & 166,65 & 899,85 & 27.944 (0,37\%) \\ \hline
+    Redação & 160,00 & 1000,00 & 282.438 (3,58\%) \\ \hline
+
+\end{longtable}
+
+\subsection{Análise Exploratória - Variáveis Preditoras}\label{resultados_analise_exploratoria_dados_vars_preditoras}
+
+\subsubsection{Análise de Outliers}\label{resultados_analise_exploratoria_dados_vars_preditoras_outliers}
+
+\subsubsection{Distribuições}\label{resultados_analise_exploratoria_dados_vars_preditoras_distribuicoes}
+
+\subsubsection{Teste de Hipótese}\label{resultados_analise_exploratoria_dados_vars_preditoras_teste_hipotese}
+
+
+
+\section{Escolha dos Modelos}\label{resultados_escolha_modelos}
+\section{Avaliação}\label{resultados_avaliacao}
+\section{Implantação}\label{resultados_implantacao}

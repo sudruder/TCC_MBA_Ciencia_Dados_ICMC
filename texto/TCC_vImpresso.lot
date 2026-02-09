@@ -1,10 +1,27 @@
 \babel@toc {brazil}{}\relax 
 \babel@toc {brazil}{}\relax 
-\contentsline {table}{\numberline {1}{Variáveis socioeconômicas e suas referências}}{43}{table.4.1}%
-\contentsline {table}{\numberline {2}{Quantidade de observações e variáveis por edição do ENEM}}{46}{table.4.2}%
-\contentsline {table}{\numberline {3}{Percentual de valores nulos por variável}}{47}{table.4.3}%
-\contentsline {table}{\numberline {4}{Observações e variáveis por conjunto de dados}}{49}{table.4.4}%
-\contentsline {table}{\numberline {5}{Estatísticas descritivas por conjunto de dados}}{50}{table.4.5}%
-\contentsline {table}{\numberline {6}{Assimetria, Curtose e Notas zeradas}}{52}{table.4.6}%
-\contentsline {table}{\numberline {7}{Teste ANOVA das médias das notas por edição}}{53}{table.4.7}%
-\contentsline {table}{\numberline {8}{Quantidade e percentual de outliers nas notas}}{55}{table.4.8}%
+\contentsline {table}{\numberline {1}{Variáveis socioeconômicas e suas referências}}{45}{table.4.1}%
+\contentsline {table}{\numberline {2}{Quantidade de observações e variáveis por edição do ENEM}}{48}{table.4.2}%
+\contentsline {table}{\numberline {3}{Percentual de valores nulos por variável}}{49}{table.4.3}%
+\contentsline {table}{\numberline {4}{Observações e variáveis por conjunto de dados}}{51}{table.4.4}%
+\contentsline {table}{\numberline {5}{Estatísticas descritivas por conjunto de dados}}{52}{table.4.5}%
+\contentsline {table}{\numberline {6}{Assimetria, Curtose e Notas zeradas}}{54}{table.4.6}%
+\contentsline {table}{\numberline {7}{Teste ANOVA das médias das notas por edição}}{55}{table.4.7}%
+\contentsline {table}{\numberline {8}{Quantidade e percentual de outliers nas notas}}{57}{table.4.8}%
+\contentsline {table}{\numberline {9}{Cinco maiores concentrações - Humanas}}{58}{table.4.9}%
+\contentsline {table}{\numberline {10}{Cinco maiores concentrações - Natureza}}{58}{table.4.10}%
+\contentsline {table}{\numberline {11}{Cinco maiores concentrações - Linguagem}}{58}{table.4.11}%
+\contentsline {table}{\numberline {12}{Cinco maiores concentrações - Matemática}}{59}{table.4.12}%
+\contentsline {table}{\numberline {13}{Cinco maiores concentrações - Redação}}{59}{table.4.13}%
+\contentsline {table}{\numberline {14}{Cinco maiores correlações Phik - Humanas}}{59}{table.4.14}%
+\contentsline {table}{\numberline {15}{Cinco maiores correlações Phik - Natureza}}{60}{table.4.15}%
+\contentsline {table}{\numberline {16}{Cinco maiores correlações Phik - Linguagem}}{60}{table.4.16}%
+\contentsline {table}{\numberline {17}{Cinco maiores correlações Phik - Matemática}}{60}{table.4.17}%
+\contentsline {table}{\numberline {18}{Cinco maiores correlações Phik - Redação}}{60}{table.4.18}%
+\contentsline {table}{\numberline {19}{Concentração cruzada - Redação}}{64}{table.4.19}%
+\contentsline {table}{\numberline {20}{\textit {Grid Search} - \textit {XGBoost}}}{65}{table.4.20}%
+\contentsline {table}{\numberline {21}{\textit {Grid Search} - \textit {LightGBM}}}{65}{table.4.21}%
+\contentsline {table}{\numberline {22}{\textit {Grid Search} - \textit {Random Forest}}}{66}{table.4.22}%
+\contentsline {table}{\numberline {23}{Hiperparâmetros Ajustados - \textit {XGBoost}}}{68}{table.4.23}%
+\contentsline {table}{\numberline {24}{Hiperparâmetros Ajustados - \textit {LightGBM}}}{68}{table.4.24}%
+\contentsline {table}{\numberline {25}{Hiperparâmetros Ajustados - \textit {Random Forest}}}{68}{table.4.25}%

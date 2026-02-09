@@ -1,0 +1,66 @@
+
+=================================== Módulo importado com sucesso ===================================
+
+============================================= XGBoost ==============================================
+
+----------------------------------------- Ciências Humanas -----------------------------------------
+
+243 combinações de hiperparâmetros
+
+ 1 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 75.7295 | Tempo: 1.6s
+
+ 2 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 75.7323 | Tempo: 1.6s
+
+ 3 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 75.7384 | Tempo: 1.5s
+
+ 4 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 75.7304 | Tempo: 1.6s
+
+ 5 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 75.7321 | Tempo: 1.6s
+
+ 6 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 75.7319 | Tempo: 1.5s
+
+ 7 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 75.7323 | Tempo: 1.5s
+
+ 8 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 75.7330 | Tempo: 1.6s
+
+ 9 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 75.7338 | Tempo: 1.5s
+
+10 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 75.7295 | Tempo: 1.6s
+
+11 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 75.7323 | Tempo: 1.6s
+
+12 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 75.7384 | Tempo: 1.5s
+
+13 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 75.7291 | Tempo: 1.5s
+
+14 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 75.7320 | Tempo: 1.5s
+
+15 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 75.7318 | Tempo: 1.5s
+
+16 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 75.7323 | Tempo: 1.5s
+
+17 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 75.7329 | Tempo: 1.5s
+
+18 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 75.7338 | Tempo: 1.4s
+
+19 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 75.7304 | Tempo: 1.5s
+
+20 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 75.7323 | Tempo: 1.5s
+
+21 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 1.0} | Traceback (most recent call last):
+  File "/mnt/windows/Google Drive - rc.ramos95@gmail.com/Importante/MBA ICMC-USP/TCC/programação/tcc_pt_05_xgb.py", line 92, in <module>
+    xgb.fit(x_treino, y_treino)
+  File "/home/ramon/miniconda3/envs/kernel_2/lib/python3.11/site-packages/xgboost/core.py", line 750, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "/home/ramon/miniconda3/envs/kernel_2/lib/python3.11/site-packages/xgboost/sklearn.py", line 1368, in fit
+    self._Booster = train(
+                    ^^^^^^
+  File "/home/ramon/miniconda3/envs/kernel_2/lib/python3.11/site-packages/xgboost/core.py", line 750, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "/home/ramon/miniconda3/envs/kernel_2/lib/python3.11/site-packages/xgboost/training.py", line 199, in train
+    bst.update(dtrain, iteration=i, fobj=obj)
+  File "/home/ramon/miniconda3/envs/kernel_2/lib/python3.11/site-packages/xgboost/core.py", line 2410, in update
+    _LIB.XGBoosterUpdateOneIter(
+KeyboardInterrupt

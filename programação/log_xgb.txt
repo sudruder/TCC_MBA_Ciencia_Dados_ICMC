@@ -1,0 +1,2456 @@
+nohup: ignorando entrada
+
+=================================== Módulo importado com sucesso ===================================
+
+============================================= XGBoost ==============================================
+
+----------------------------------------- Ciências Humanas -----------------------------------------
+
+243 combinações de hiperparâmetros
+
+ 1 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 75.7295 | Tempo: 1.6s
+
+ 2 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 75.7323 | Tempo: 1.5s
+
+ 3 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 75.7384 | Tempo: 1.5s
+
+ 4 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 75.7304 | Tempo: 1.6s
+
+ 5 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 75.7321 | Tempo: 1.6s
+
+ 6 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 75.7319 | Tempo: 1.6s
+
+ 7 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 75.7323 | Tempo: 1.6s
+
+ 8 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 75.7330 | Tempo: 1.6s
+
+ 9 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 75.7338 | Tempo: 1.6s
+
+10 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 75.7295 | Tempo: 1.6s
+
+11 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 75.7323 | Tempo: 1.6s
+
+12 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 75.7384 | Tempo: 1.6s
+
+13 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 75.7291 | Tempo: 1.6s
+
+14 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 75.7320 | Tempo: 1.6s
+
+15 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 75.7318 | Tempo: 1.6s
+
+16 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 75.7323 | Tempo: 1.6s
+
+17 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 75.7329 | Tempo: 1.6s
+
+18 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 75.7338 | Tempo: 1.6s
+
+19 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 75.7304 | Tempo: 1.6s
+
+20 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 75.7323 | Tempo: 1.6s
+
+21 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 75.7384 | Tempo: 1.6s
+
+22 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 75.7302 | Tempo: 1.6s
+
+23 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 75.7320 | Tempo: 1.6s
+
+24 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 75.7376 | Tempo: 1.6s
+
+25 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 75.7339 | Tempo: 1.6s
+
+26 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 75.7329 | Tempo: 1.6s
+
+27 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 75.7340 | Tempo: 1.6s
+
+28 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 75.5517 | Tempo: 2.2s
+
+29 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 75.5524 | Tempo: 2.2s
+
+30 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 75.5563 | Tempo: 2.1s
+
+31 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 75.5489 | Tempo: 2.2s
+
+32 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 75.5542 | Tempo: 2.2s
+
+33 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 75.5548 | Tempo: 2.1s
+
+34 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 75.5568 | Tempo: 2.1s
+
+35 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 75.5622 | Tempo: 2.1s
+
+36 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 75.5654 | Tempo: 2.1s
+
+37 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 75.5543 | Tempo: 2.2s
+
+38 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 75.5537 | Tempo: 2.2s
+
+39 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 75.5523 | Tempo: 2.1s
+
+40 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 75.5483 | Tempo: 2.2s
+
+41 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 75.5521 | Tempo: 2.2s
+
+42 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 75.5546 | Tempo: 2.1s
+
+43 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 75.5574 | Tempo: 2.1s
+
+44 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 75.5605 | Tempo: 2.1s
+
+45 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 75.5651 | Tempo: 2.1s
+
+46 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 75.5514 | Tempo: 2.2s
+
+47 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 75.5533 | Tempo: 2.2s
+
+48 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 75.5520 | Tempo: 2.1s
+
+49 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 75.5510 | Tempo: 2.1s
+
+50 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 75.5521 | Tempo: 2.1s
+
+51 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 75.5513 | Tempo: 2.1s
+
+52 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 75.5587 | Tempo: 2.1s
+
+53 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 75.5591 | Tempo: 2.1s
+
+54 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 75.5662 | Tempo: 2.1s
+
+55 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 75.4418 | Tempo: 3.1s
+
+56 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 75.4439 | Tempo: 3.1s
+
+57 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 75.4453 | Tempo: 3.0s
+
+58 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 75.4418 | Tempo: 3.1s
+
+59 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 75.4459 | Tempo: 3.1s
+
+60 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 75.4467 | Tempo: 3.0s
+
+61 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 75.4542 | Tempo: 3.1s
+
+62 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 75.4528 | Tempo: 3.1s
+
+63 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 75.4594 | Tempo: 3.0s
+
+64 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 75.4430 | Tempo: 3.1s
+
+65 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 75.4428 | Tempo: 3.1s
+
+66 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 75.4433 | Tempo: 3.0s
+
+67 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 75.4416 | Tempo: 3.1s
+
+68 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 75.4425 | Tempo: 3.1s
+
+69 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 75.4456 | Tempo: 3.0s
+
+70 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 75.4510 | Tempo: 3.1s
+
+71 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 75.4558 | Tempo: 3.1s
+
+72 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 75.4615 | Tempo: 3.0s
+
+73 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 75.4416 | Tempo: 3.1s
+
+74 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 75.4452 | Tempo: 3.1s
+
+75 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 75.4448 | Tempo: 3.0s
+
+76 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 75.4412 | Tempo: 3.1s
+
+77 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 75.4463 | Tempo: 3.1s
+
+78 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 75.4472 | Tempo: 3.0s
+
+79 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 75.4563 | Tempo: 3.1s
+
+80 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 75.4512 | Tempo: 3.1s
+
+81 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 75.4601 | Tempo: 3.0s
+
+82 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 75.5419 | Tempo: 1.5s
+
+83 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 75.5422 | Tempo: 1.5s
+
+84 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 75.5451 | Tempo: 1.4s
+
+85 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 75.5474 | Tempo: 1.5s
+
+86 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 75.5395 | Tempo: 1.5s
+
+87 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 75.5413 | Tempo: 1.4s
+
+88 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 75.5456 | Tempo: 1.5s
+
+89 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 75.5433 | Tempo: 1.5s
+
+90 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 75.5513 | Tempo: 1.4s
+
+91 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 75.5462 | Tempo: 1.5s
+
+92 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 75.5419 | Tempo: 1.5s
+
+93 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 75.5443 | Tempo: 1.5s
+
+94 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 75.5486 | Tempo: 1.5s
+
+95 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 75.5417 | Tempo: 1.5s
+
+96 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 75.5383 | Tempo: 1.4s
+
+97 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 75.5502 | Tempo: 1.5s
+
+98 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 75.5457 | Tempo: 1.5s
+
+99 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 75.5559 | Tempo: 1.4s
+
+100 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 75.5450 | Tempo: 1.5s
+
+101 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 75.5371 | Tempo: 1.5s
+
+102 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 75.5424 | Tempo: 1.4s
+
+103 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 75.5508 | Tempo: 1.5s
+
+104 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 75.5378 | Tempo: 1.5s
+
+105 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 75.5430 | Tempo: 1.4s
+
+106 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 75.5450 | Tempo: 1.5s
+
+107 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 75.5465 | Tempo: 1.5s
+
+108 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 75.5510 | Tempo: 1.4s
+
+109 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 75.4142 | Tempo: 1.9s
+
+110 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 75.4188 | Tempo: 1.9s
+
+111 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 75.4256 | Tempo: 1.9s
+
+112 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 75.4231 | Tempo: 1.9s
+
+113 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 75.4230 | Tempo: 1.9s
+
+114 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 75.4215 | Tempo: 1.9s
+
+115 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 75.4249 | Tempo: 1.9s
+
+116 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 75.4239 | Tempo: 1.9s
+
+117 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 75.4275 | Tempo: 1.9s
+
+118 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 75.4170 | Tempo: 1.9s
+
+119 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 75.4161 | Tempo: 1.9s
+
+120 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 75.4191 | Tempo: 1.9s
+
+121 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 75.4158 | Tempo: 1.9s
+
+122 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 75.4174 | Tempo: 1.9s
+
+123 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 75.4218 | Tempo: 1.9s
+
+124 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 75.4270 | Tempo: 1.9s
+
+125 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 75.4226 | Tempo: 1.9s
+
+126 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 75.4236 | Tempo: 1.9s
+
+127 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 75.4158 | Tempo: 1.9s
+
+128 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 75.4225 | Tempo: 1.9s
+
+129 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 75.4239 | Tempo: 1.9s
+
+130 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 75.4192 | Tempo: 1.9s
+
+131 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 75.4220 | Tempo: 1.9s
+
+132 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 75.4191 | Tempo: 1.9s
+
+133 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 75.4264 | Tempo: 1.9s
+
+134 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 75.4221 | Tempo: 1.9s
+
+135 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 75.4274 | Tempo: 1.9s
+
+136 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 75.3600 | Tempo: 2.7s
+
+137 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 75.3600 | Tempo: 2.7s
+
+138 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 75.3540 | Tempo: 2.7s
+
+139 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 75.3580 | Tempo: 2.7s
+
+140 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 75.3625 | Tempo: 2.7s
+
+141 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 75.3588 | Tempo: 2.6s
+
+142 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 75.3780 | Tempo: 2.7s
+
+143 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 75.3736 | Tempo: 2.7s
+
+144 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 75.3764 | Tempo: 2.6s
+
+145 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 75.3606 | Tempo: 2.7s
+
+146 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 75.3571 | Tempo: 2.7s
+
+147 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 75.3546 | Tempo: 2.6s
+
+148 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 75.3553 | Tempo: 2.7s
+
+149 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 75.3643 | Tempo: 2.7s
+
+150 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 75.3602 | Tempo: 2.6s
+
+151 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 75.3768 | Tempo: 2.7s
+
+152 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 75.3695 | Tempo: 2.5s
+
+153 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 75.3692 | Tempo: 2.5s
+
+154 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 75.3616 | Tempo: 2.5s
+
+155 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 75.3568 | Tempo: 2.5s
+
+156 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 75.3519 | Tempo: 2.5s
+
+157 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 75.3552 | Tempo: 2.5s
+
+158 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 75.3604 | Tempo: 2.5s
+
+159 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 75.3613 | Tempo: 2.5s
+
+160 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 75.3697 | Tempo: 2.6s
+
+161 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 75.3708 | Tempo: 2.7s
+
+162 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 75.3635 | Tempo: 2.6s
+
+163 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 75.4650 | Tempo: 1.4s
+
+164 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 75.4590 | Tempo: 1.4s
+
+165 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 75.4624 | Tempo: 1.3s
+
+166 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 75.4433 | Tempo: 1.4s
+
+167 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 75.4566 | Tempo: 1.4s
+
+168 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 75.4580 | Tempo: 1.3s
+
+169 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 75.4580 | Tempo: 1.4s
+
+170 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 75.4516 | Tempo: 1.4s
+
+171 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 75.4520 | Tempo: 1.3s
+
+172 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 75.4561 | Tempo: 1.4s
+
+173 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 75.4484 | Tempo: 1.4s
+
+174 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 75.4607 | Tempo: 1.3s
+
+175 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 75.4491 | Tempo: 1.4s
+
+176 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 75.4564 | Tempo: 1.4s
+
+177 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 75.4589 | Tempo: 1.3s
+
+178 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 75.4522 | Tempo: 1.4s
+
+179 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 75.4504 | Tempo: 1.4s
+
+180 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 75.4519 | Tempo: 1.3s
+
+181 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 75.4610 | Tempo: 1.4s
+
+182 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 75.4616 | Tempo: 1.4s
+
+183 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 75.4603 | Tempo: 1.3s
+
+184 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 75.4444 | Tempo: 1.4s
+
+185 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 75.4566 | Tempo: 1.4s
+
+186 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 75.4707 | Tempo: 1.3s
+
+187 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 75.4451 | Tempo: 1.4s
+
+188 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 75.4591 | Tempo: 1.4s
+
+189 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 75.4479 | Tempo: 1.3s
+
+190 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 75.3853 | Tempo: 1.8s
+
+191 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 75.3815 | Tempo: 1.8s
+
+192 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 75.3811 | Tempo: 1.7s
+
+193 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 75.3785 | Tempo: 1.8s
+
+194 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 75.3824 | Tempo: 1.8s
+
+195 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 75.3750 | Tempo: 1.8s
+
+196 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 75.3938 | Tempo: 1.8s
+
+197 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 75.3861 | Tempo: 1.8s
+
+198 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 75.3821 | Tempo: 1.7s
+
+199 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 75.3849 | Tempo: 1.8s
+
+200 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 75.3750 | Tempo: 1.8s
+
+201 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 75.3741 | Tempo: 1.7s
+
+202 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 75.3816 | Tempo: 1.8s
+
+203 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 75.3828 | Tempo: 1.8s
+
+204 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 75.3781 | Tempo: 1.7s
+
+205 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 75.3855 | Tempo: 1.8s
+
+206 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 75.3799 | Tempo: 1.8s
+
+207 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 75.3842 | Tempo: 1.7s
+
+208 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 75.3770 | Tempo: 1.8s
+
+209 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 75.3794 | Tempo: 1.8s
+
+210 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 75.3677 | Tempo: 1.7s
+
+211 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 75.3889 | Tempo: 1.8s
+
+212 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 75.3752 | Tempo: 1.8s
+
+213 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 75.3747 | Tempo: 1.7s
+
+214 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 75.3846 | Tempo: 1.8s
+
+215 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 75.3753 | Tempo: 1.8s
+
+216 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 75.3756 | Tempo: 1.8s
+
+217 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 75.4159 | Tempo: 2.5s
+
+218 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 75.3881 | Tempo: 2.5s
+
+219 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 75.3715 | Tempo: 2.4s
+
+220 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 75.4209 | Tempo: 2.5s
+
+221 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 75.3979 | Tempo: 2.5s
+
+222 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 75.3819 | Tempo: 2.4s
+
+223 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 75.4350 | Tempo: 2.5s
+
+224 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 75.4122 | Tempo: 2.5s
+
+225 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 75.3999 | Tempo: 2.4s
+
+226 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 75.3957 | Tempo: 2.5s
+
+227 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 75.3821 | Tempo: 2.5s
+
+228 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 75.3679 | Tempo: 2.4s
+
+229 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 75.4156 | Tempo: 2.4s
+
+230 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 75.3938 | Tempo: 2.5s
+
+231 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 75.3793 | Tempo: 2.4s
+
+232 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 75.4322 | Tempo: 2.5s
+
+233 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 75.4026 | Tempo: 2.5s
+
+234 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 75.3907 | Tempo: 2.2s
+
+235 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 75.3954 | Tempo: 2.3s
+
+236 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 75.3788 | Tempo: 2.4s
+
+237 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 75.3661 | Tempo: 2.3s
+
+238 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 75.4002 | Tempo: 2.3s
+
+239 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 75.3876 | Tempo: 2.3s
+
+240 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 75.3785 | Tempo: 2.3s
+
+241 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 75.4259 | Tempo: 2.4s
+
+242 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 75.4005 | Tempo: 2.4s
+
+243 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 75.3898 | Tempo: 2.4s
+
+---------------------------------------- Ciências Natureza -----------------------------------------
+
+243 combinações de hiperparâmetros
+
+ 1 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 65.4414 | Tempo: 1.6s
+
+ 2 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 65.4374 | Tempo: 1.6s
+
+ 3 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 65.4422 | Tempo: 1.5s
+
+ 4 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 65.4409 | Tempo: 1.5s
+
+ 5 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 65.4408 | Tempo: 1.5s
+
+ 6 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 65.4395 | Tempo: 1.5s
+
+ 7 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 65.4499 | Tempo: 1.5s
+
+ 8 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 65.4480 | Tempo: 1.5s
+
+ 9 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 65.4486 | Tempo: 1.5s
+
+10 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 65.4406 | Tempo: 1.5s
+
+11 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 65.4375 | Tempo: 1.6s
+
+12 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 65.4422 | Tempo: 1.5s
+
+13 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 65.4413 | Tempo: 1.6s
+
+14 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 65.4407 | Tempo: 1.6s
+
+15 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 65.4392 | Tempo: 1.5s
+
+16 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 65.4497 | Tempo: 1.5s
+
+17 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 65.4481 | Tempo: 1.5s
+
+18 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 65.4486 | Tempo: 1.5s
+
+19 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 65.4406 | Tempo: 1.6s
+
+20 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 65.4375 | Tempo: 1.6s
+
+21 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 65.4414 | Tempo: 1.5s
+
+22 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 65.4422 | Tempo: 1.6s
+
+23 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 65.4403 | Tempo: 1.6s
+
+24 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 65.4391 | Tempo: 1.5s
+
+25 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 65.4497 | Tempo: 1.5s
+
+26 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 65.4482 | Tempo: 1.5s
+
+27 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 65.4488 | Tempo: 1.5s
+
+28 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 65.2897 | Tempo: 2.1s
+
+29 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 65.2877 | Tempo: 2.1s
+
+30 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 65.2867 | Tempo: 2.0s
+
+31 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 65.2847 | Tempo: 2.0s
+
+32 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 65.2838 | Tempo: 2.1s
+
+33 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 65.2900 | Tempo: 2.0s
+
+34 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 65.2928 | Tempo: 2.1s
+
+35 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 65.2955 | Tempo: 2.0s
+
+36 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 65.2963 | Tempo: 2.0s
+
+37 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 65.2872 | Tempo: 2.1s
+
+38 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 65.2884 | Tempo: 2.1s
+
+39 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 65.2854 | Tempo: 2.0s
+
+40 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 65.2860 | Tempo: 2.1s
+
+41 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 65.2845 | Tempo: 2.1s
+
+42 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 65.2881 | Tempo: 2.0s
+
+43 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 65.2954 | Tempo: 2.0s
+
+44 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 65.2912 | Tempo: 2.1s
+
+45 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 65.2959 | Tempo: 2.0s
+
+46 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 65.2881 | Tempo: 2.1s
+
+47 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 65.2878 | Tempo: 2.1s
+
+48 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 65.2851 | Tempo: 2.0s
+
+49 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 65.2867 | Tempo: 2.1s
+
+50 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 65.2839 | Tempo: 2.1s
+
+51 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 65.2870 | Tempo: 2.0s
+
+52 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 65.2942 | Tempo: 2.0s
+
+53 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 65.2917 | Tempo: 2.1s
+
+54 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 65.2965 | Tempo: 2.0s
+
+55 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 65.1975 | Tempo: 3.0s
+
+56 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 65.1933 | Tempo: 3.0s
+
+57 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 65.1964 | Tempo: 2.9s
+
+58 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 65.2014 | Tempo: 3.0s
+
+59 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 65.1965 | Tempo: 3.0s
+
+60 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 65.1978 | Tempo: 2.9s
+
+61 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 65.2032 | Tempo: 3.0s
+
+62 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 65.2043 | Tempo: 3.0s
+
+63 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 65.2084 | Tempo: 2.9s
+
+64 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 65.1994 | Tempo: 2.9s
+
+65 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 65.1930 | Tempo: 3.0s
+
+66 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 65.1967 | Tempo: 2.9s
+
+67 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 65.1976 | Tempo: 2.9s
+
+68 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 65.1973 | Tempo: 2.9s
+
+69 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 65.2003 | Tempo: 2.8s
+
+70 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 65.2006 | Tempo: 2.9s
+
+71 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 65.2079 | Tempo: 3.0s
+
+72 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 65.2071 | Tempo: 2.9s
+
+73 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 65.1964 | Tempo: 2.9s
+
+74 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 65.1955 | Tempo: 3.0s
+
+75 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 65.1976 | Tempo: 2.9s
+
+76 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 65.1988 | Tempo: 2.9s
+
+77 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 65.1983 | Tempo: 3.0s
+
+78 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 65.1992 | Tempo: 2.9s
+
+79 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 65.2028 | Tempo: 3.0s
+
+80 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 65.2023 | Tempo: 2.9s
+
+81 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 65.2092 | Tempo: 2.9s
+
+82 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 65.2694 | Tempo: 1.4s
+
+83 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 65.2661 | Tempo: 1.4s
+
+84 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 65.2774 | Tempo: 1.4s
+
+85 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 65.2738 | Tempo: 1.4s
+
+86 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 65.2743 | Tempo: 1.4s
+
+87 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 65.2854 | Tempo: 1.4s
+
+88 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 65.2761 | Tempo: 1.4s
+
+89 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 65.2771 | Tempo: 1.4s
+
+90 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 65.2835 | Tempo: 1.4s
+
+91 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 65.2704 | Tempo: 1.4s
+
+92 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 65.2635 | Tempo: 1.4s
+
+93 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 65.2774 | Tempo: 1.4s
+
+94 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 65.2710 | Tempo: 1.4s
+
+95 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 65.2763 | Tempo: 1.4s
+
+96 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 65.2873 | Tempo: 1.4s
+
+97 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 65.2757 | Tempo: 1.4s
+
+98 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 65.2772 | Tempo: 1.4s
+
+99 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 65.2834 | Tempo: 1.4s
+
+100 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 65.2731 | Tempo: 1.4s
+
+101 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 65.2709 | Tempo: 1.4s
+
+102 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 65.2775 | Tempo: 1.4s
+
+103 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 65.2709 | Tempo: 1.4s
+
+104 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 65.2792 | Tempo: 1.4s
+
+105 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 65.2866 | Tempo: 1.4s
+
+106 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 65.2747 | Tempo: 1.4s
+
+107 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 65.2766 | Tempo: 1.4s
+
+108 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 65.2841 | Tempo: 1.4s
+
+109 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 65.1706 | Tempo: 1.9s
+
+110 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 65.1729 | Tempo: 1.8s
+
+111 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 65.1739 | Tempo: 1.7s
+
+112 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 65.1733 | Tempo: 1.8s
+
+113 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 65.1724 | Tempo: 1.7s
+
+114 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 65.1695 | Tempo: 1.8s
+
+115 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 65.1736 | Tempo: 1.8s
+
+116 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 65.1780 | Tempo: 1.8s
+
+117 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 65.1787 | Tempo: 1.8s
+
+118 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 65.1732 | Tempo: 1.9s
+
+119 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 65.1730 | Tempo: 1.9s
+
+120 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 65.1732 | Tempo: 1.8s
+
+121 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 65.1788 | Tempo: 1.9s
+
+122 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 65.1697 | Tempo: 1.8s
+
+123 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 65.1687 | Tempo: 1.8s
+
+124 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 65.1721 | Tempo: 1.8s
+
+125 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 65.1735 | Tempo: 1.8s
+
+126 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 65.1748 | Tempo: 1.8s
+
+127 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 65.1726 | Tempo: 1.9s
+
+128 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 65.1694 | Tempo: 1.8s
+
+129 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 65.1702 | Tempo: 1.8s
+
+130 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 65.1732 | Tempo: 1.8s
+
+131 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 65.1697 | Tempo: 1.9s
+
+132 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 65.1722 | Tempo: 1.8s
+
+133 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 65.1735 | Tempo: 1.8s
+
+134 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 65.1786 | Tempo: 1.8s
+
+135 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 65.1764 | Tempo: 1.8s
+
+136 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 65.1301 | Tempo: 2.6s
+
+137 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 65.1231 | Tempo: 2.6s
+
+138 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 65.1241 | Tempo: 2.6s
+
+139 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 65.1366 | Tempo: 2.6s
+
+140 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 65.1256 | Tempo: 2.6s
+
+141 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 65.1266 | Tempo: 2.6s
+
+142 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 65.1397 | Tempo: 2.6s
+
+143 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 65.1344 | Tempo: 2.6s
+
+144 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 65.1358 | Tempo: 2.6s
+
+145 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 65.1333 | Tempo: 2.6s
+
+146 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 65.1240 | Tempo: 2.6s
+
+147 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 65.1235 | Tempo: 2.5s
+
+148 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 65.1355 | Tempo: 2.6s
+
+149 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 65.1270 | Tempo: 2.6s
+
+150 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 65.1283 | Tempo: 2.6s
+
+151 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 65.1365 | Tempo: 2.6s
+
+152 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 65.1348 | Tempo: 2.6s
+
+153 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 65.1331 | Tempo: 2.5s
+
+154 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 65.1298 | Tempo: 2.6s
+
+155 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 65.1216 | Tempo: 2.6s
+
+156 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 65.1208 | Tempo: 2.6s
+
+157 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 65.1334 | Tempo: 2.6s
+
+158 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 65.1288 | Tempo: 2.6s
+
+159 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 65.1242 | Tempo: 2.6s
+
+160 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 65.1344 | Tempo: 2.6s
+
+161 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 65.1337 | Tempo: 2.6s
+
+162 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 65.1352 | Tempo: 2.5s
+
+163 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 65.2141 | Tempo: 1.3s
+
+164 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 65.2162 | Tempo: 1.3s
+
+165 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 65.2122 | Tempo: 1.3s
+
+166 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 65.2128 | Tempo: 1.3s
+
+167 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 65.2054 | Tempo: 1.3s
+
+168 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 65.2030 | Tempo: 1.3s
+
+169 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 65.2045 | Tempo: 1.3s
+
+170 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 65.2027 | Tempo: 1.3s
+
+171 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 65.2118 | Tempo: 1.3s
+
+172 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 65.2159 | Tempo: 1.3s
+
+173 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 65.2173 | Tempo: 1.3s
+
+174 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 65.2164 | Tempo: 1.3s
+
+175 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 65.2056 | Tempo: 1.3s
+
+176 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 65.2093 | Tempo: 1.3s
+
+177 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 65.2038 | Tempo: 1.3s
+
+178 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 65.2123 | Tempo: 1.3s
+
+179 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 65.2040 | Tempo: 1.3s
+
+180 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 65.2175 | Tempo: 1.3s
+
+181 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 65.2156 | Tempo: 1.3s
+
+182 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 65.2222 | Tempo: 1.3s
+
+183 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 65.2134 | Tempo: 1.3s
+
+184 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 65.2070 | Tempo: 1.3s
+
+185 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 65.2019 | Tempo: 1.3s
+
+186 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 65.2021 | Tempo: 1.3s
+
+187 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 65.2079 | Tempo: 1.3s
+
+188 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 65.2110 | Tempo: 1.3s
+
+189 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 65.2090 | Tempo: 1.3s
+
+190 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 65.1636 | Tempo: 1.7s
+
+191 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 65.1511 | Tempo: 1.7s
+
+192 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 65.1409 | Tempo: 1.7s
+
+193 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 65.1555 | Tempo: 1.7s
+
+194 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 65.1468 | Tempo: 1.7s
+
+195 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 65.1511 | Tempo: 1.6s
+
+196 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 65.1491 | Tempo: 1.7s
+
+197 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 65.1517 | Tempo: 1.7s
+
+198 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 65.1547 | Tempo: 1.7s
+
+199 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 65.1590 | Tempo: 1.7s
+
+200 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 65.1509 | Tempo: 1.7s
+
+201 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 65.1490 | Tempo: 1.6s
+
+202 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 65.1556 | Tempo: 1.7s
+
+203 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 65.1444 | Tempo: 1.7s
+
+204 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 65.1493 | Tempo: 1.7s
+
+205 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 65.1562 | Tempo: 1.7s
+
+206 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 65.1489 | Tempo: 1.7s
+
+207 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 65.1507 | Tempo: 1.7s
+
+208 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 65.1565 | Tempo: 1.7s
+
+209 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 65.1549 | Tempo: 1.7s
+
+210 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 65.1446 | Tempo: 1.7s
+
+211 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 65.1547 | Tempo: 1.7s
+
+212 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 65.1441 | Tempo: 1.7s
+
+213 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 65.1487 | Tempo: 1.7s
+
+214 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 65.1521 | Tempo: 1.7s
+
+215 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 65.1560 | Tempo: 1.7s
+
+216 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 65.1469 | Tempo: 1.7s
+
+217 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 65.1694 | Tempo: 2.4s
+
+218 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 65.1576 | Tempo: 2.4s
+
+219 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 65.1479 | Tempo: 2.3s
+
+220 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 65.1913 | Tempo: 2.4s
+
+221 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 65.1757 | Tempo: 2.4s
+
+222 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 65.1638 | Tempo: 2.3s
+
+223 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 65.2016 | Tempo: 2.4s
+
+224 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 65.1812 | Tempo: 2.4s
+
+225 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 65.1724 | Tempo: 2.4s
+
+226 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 65.1695 | Tempo: 2.4s
+
+227 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 65.1584 | Tempo: 2.4s
+
+228 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 65.1501 | Tempo: 2.3s
+
+229 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 65.1828 | Tempo: 2.4s
+
+230 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 65.1766 | Tempo: 2.4s
+
+231 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 65.1576 | Tempo: 2.3s
+
+232 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 65.1974 | Tempo: 2.4s
+
+233 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 65.1741 | Tempo: 2.4s
+
+234 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 65.1693 | Tempo: 2.3s
+
+235 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 65.1702 | Tempo: 2.4s
+
+236 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 65.1530 | Tempo: 2.3s
+
+237 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 65.1512 | Tempo: 2.3s
+
+238 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 65.1889 | Tempo: 2.3s
+
+239 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 65.1702 | Tempo: 2.3s
+
+240 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 65.1607 | Tempo: 2.3s
+
+241 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 65.1939 | Tempo: 2.4s
+
+242 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 65.1722 | Tempo: 2.3s
+
+243 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 65.1739 | Tempo: 2.3s
+
+---------------------------------------- Linguagem e Código ----------------------------------------
+
+243 combinações de hiperparâmetros
+
+ 1 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 63.4046 | Tempo: 1.6s
+
+ 2 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 63.4086 | Tempo: 1.6s
+
+ 3 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 63.4140 | Tempo: 1.6s
+
+ 4 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 63.4128 | Tempo: 1.6s
+
+ 5 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 63.4132 | Tempo: 1.6s
+
+ 6 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 63.4171 | Tempo: 1.6s
+
+ 7 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 63.4117 | Tempo: 1.6s
+
+ 8 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 63.4164 | Tempo: 1.6s
+
+ 9 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 63.4191 | Tempo: 1.6s
+
+10 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 63.4046 | Tempo: 1.6s
+
+11 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 63.4086 | Tempo: 1.6s
+
+12 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 63.4140 | Tempo: 1.6s
+
+13 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 63.4158 | Tempo: 1.6s
+
+14 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 63.4132 | Tempo: 1.6s
+
+15 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 63.4171 | Tempo: 1.6s
+
+16 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 63.4105 | Tempo: 1.6s
+
+17 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 63.4164 | Tempo: 1.6s
+
+18 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 63.4191 | Tempo: 1.6s
+
+19 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 63.4045 | Tempo: 1.6s
+
+20 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 63.4086 | Tempo: 1.6s
+
+21 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 63.4184 | Tempo: 1.6s
+
+22 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 63.4152 | Tempo: 1.6s
+
+23 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 63.4132 | Tempo: 1.6s
+
+24 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 63.4172 | Tempo: 1.6s
+
+25 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 63.4116 | Tempo: 1.6s
+
+26 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 63.4164 | Tempo: 1.6s
+
+27 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 63.4164 | Tempo: 1.6s
+
+28 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 63.2363 | Tempo: 2.2s
+
+29 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 63.2352 | Tempo: 2.2s
+
+30 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 63.2349 | Tempo: 2.1s
+
+31 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 63.2375 | Tempo: 2.2s
+
+32 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 63.2384 | Tempo: 2.2s
+
+33 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 63.2400 | Tempo: 2.1s
+
+34 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 63.2489 | Tempo: 2.1s
+
+35 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 63.2470 | Tempo: 2.1s
+
+36 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 63.2499 | Tempo: 2.1s
+
+37 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 63.2356 | Tempo: 2.2s
+
+38 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 63.2334 | Tempo: 2.2s
+
+39 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 63.2376 | Tempo: 2.1s
+
+40 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 63.2393 | Tempo: 2.2s
+
+41 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 63.2397 | Tempo: 2.2s
+
+42 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 63.2420 | Tempo: 2.1s
+
+43 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 63.2499 | Tempo: 2.1s
+
+44 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 63.2456 | Tempo: 2.1s
+
+45 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 63.2509 | Tempo: 2.1s
+
+46 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 63.2343 | Tempo: 2.2s
+
+47 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 63.2334 | Tempo: 2.2s
+
+48 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 63.2375 | Tempo: 2.1s
+
+49 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 63.2388 | Tempo: 2.1s
+
+50 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 63.2403 | Tempo: 2.1s
+
+51 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 63.2429 | Tempo: 2.1s
+
+52 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 63.2450 | Tempo: 2.1s
+
+53 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 63.2480 | Tempo: 2.1s
+
+54 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 63.2504 | Tempo: 2.1s
+
+55 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 63.1296 | Tempo: 3.1s
+
+56 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 63.1347 | Tempo: 3.1s
+
+57 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 63.1320 | Tempo: 3.0s
+
+58 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 63.1369 | Tempo: 3.1s
+
+59 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 63.1357 | Tempo: 3.1s
+
+60 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 63.1359 | Tempo: 3.0s
+
+61 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 63.1441 | Tempo: 3.0s
+
+62 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 63.1424 | Tempo: 3.1s
+
+63 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 63.1497 | Tempo: 3.0s
+
+64 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 63.1278 | Tempo: 3.1s
+
+65 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 63.1320 | Tempo: 3.1s
+
+66 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 63.1324 | Tempo: 3.0s
+
+67 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 63.1369 | Tempo: 3.0s
+
+68 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 63.1348 | Tempo: 3.1s
+
+69 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 63.1359 | Tempo: 3.0s
+
+70 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 63.1409 | Tempo: 3.0s
+
+71 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 63.1427 | Tempo: 3.1s
+
+72 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 63.1494 | Tempo: 3.0s
+
+73 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 63.1270 | Tempo: 3.1s
+
+74 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 63.1330 | Tempo: 3.1s
+
+75 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 63.1308 | Tempo: 3.0s
+
+76 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 63.1379 | Tempo: 3.0s
+
+77 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 63.1357 | Tempo: 2.9s
+
+78 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 63.1345 | Tempo: 2.9s
+
+79 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 63.1418 | Tempo: 2.9s
+
+80 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 63.1430 | Tempo: 2.9s
+
+81 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 63.1471 | Tempo: 2.9s
+
+82 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 63.2321 | Tempo: 1.4s
+
+83 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 63.2262 | Tempo: 1.4s
+
+84 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 63.2322 | Tempo: 1.3s
+
+85 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 63.2313 | Tempo: 1.4s
+
+86 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 63.2289 | Tempo: 1.5s
+
+87 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 63.2294 | Tempo: 1.4s
+
+88 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 63.2323 | Tempo: 1.4s
+
+89 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 63.2343 | Tempo: 1.4s
+
+90 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 63.2328 | Tempo: 1.3s
+
+91 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 63.2350 | Tempo: 1.4s
+
+92 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 63.2276 | Tempo: 1.4s
+
+93 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 63.2306 | Tempo: 1.4s
+
+94 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 63.2271 | Tempo: 1.4s
+
+95 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 63.2289 | Tempo: 1.4s
+
+96 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 63.2297 | Tempo: 1.4s
+
+97 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 63.2320 | Tempo: 1.4s
+
+98 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 63.2387 | Tempo: 1.4s
+
+99 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 63.2331 | Tempo: 1.4s
+
+100 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 63.2327 | Tempo: 1.4s
+
+101 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 63.2299 | Tempo: 1.4s
+
+102 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 63.2300 | Tempo: 1.4s
+
+103 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 63.2327 | Tempo: 1.4s
+
+104 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 63.2267 | Tempo: 1.4s
+
+105 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 63.2322 | Tempo: 1.4s
+
+106 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 63.2306 | Tempo: 1.4s
+
+107 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 63.2355 | Tempo: 1.4s
+
+108 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 63.2345 | Tempo: 1.3s
+
+109 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 63.1046 | Tempo: 1.8s
+
+110 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 63.1054 | Tempo: 1.8s
+
+111 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 63.1108 | Tempo: 1.8s
+
+112 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 63.1104 | Tempo: 1.8s
+
+113 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 63.1134 | Tempo: 1.8s
+
+114 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 63.1115 | Tempo: 1.8s
+
+115 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 63.1204 | Tempo: 1.8s
+
+116 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 63.1277 | Tempo: 1.9s
+
+117 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 63.1126 | Tempo: 1.8s
+
+118 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 63.1075 | Tempo: 1.9s
+
+119 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 63.1091 | Tempo: 1.9s
+
+120 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 63.1098 | Tempo: 1.8s
+
+121 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 63.1130 | Tempo: 1.9s
+
+122 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 63.1129 | Tempo: 1.9s
+
+123 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 63.1153 | Tempo: 1.8s
+
+124 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 63.1183 | Tempo: 1.9s
+
+125 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 63.1230 | Tempo: 1.9s
+
+126 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 63.1174 | Tempo: 1.8s
+
+127 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 63.1117 | Tempo: 1.9s
+
+128 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 63.1138 | Tempo: 1.9s
+
+129 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 63.1116 | Tempo: 1.8s
+
+130 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 63.1124 | Tempo: 1.9s
+
+131 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 63.1106 | Tempo: 1.9s
+
+132 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 63.1102 | Tempo: 1.8s
+
+133 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 63.1233 | Tempo: 1.8s
+
+134 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 63.1230 | Tempo: 1.9s
+
+135 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 63.1179 | Tempo: 1.8s
+
+136 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 63.0592 | Tempo: 2.6s
+
+137 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 63.0564 | Tempo: 2.7s
+
+138 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 63.0515 | Tempo: 2.6s
+
+139 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 63.0600 | Tempo: 2.7s
+
+140 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 63.0632 | Tempo: 2.7s
+
+141 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 63.0601 | Tempo: 2.6s
+
+142 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 63.0721 | Tempo: 2.6s
+
+143 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 63.0681 | Tempo: 2.6s
+
+144 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 63.0679 | Tempo: 2.6s
+
+145 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 63.0531 | Tempo: 2.6s
+
+146 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 63.0528 | Tempo: 2.7s
+
+147 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 63.0527 | Tempo: 2.6s
+
+148 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 63.0609 | Tempo: 2.6s
+
+149 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 63.0560 | Tempo: 2.6s
+
+150 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 63.0583 | Tempo: 2.6s
+
+151 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 63.0675 | Tempo: 2.6s
+
+152 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 63.0693 | Tempo: 2.6s
+
+153 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 63.0688 | Tempo: 2.6s
+
+154 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 63.0579 | Tempo: 2.6s
+
+155 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 63.0523 | Tempo: 2.6s
+
+156 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 63.0527 | Tempo: 2.5s
+
+157 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 63.0570 | Tempo: 2.5s
+
+158 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 63.0588 | Tempo: 2.5s
+
+159 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 63.0549 | Tempo: 2.6s
+
+160 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 63.0691 | Tempo: 2.6s
+
+161 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 63.0698 | Tempo: 2.7s
+
+162 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 63.0649 | Tempo: 2.6s
+
+163 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 63.1573 | Tempo: 1.4s
+
+164 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 63.1529 | Tempo: 1.4s
+
+165 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 63.1532 | Tempo: 1.3s
+
+166 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 63.1514 | Tempo: 1.4s
+
+167 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 63.1499 | Tempo: 1.3s
+
+168 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 63.1532 | Tempo: 1.3s
+
+169 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 63.1559 | Tempo: 1.4s
+
+170 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 63.1557 | Tempo: 1.4s
+
+171 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 63.1581 | Tempo: 1.3s
+
+172 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 63.1557 | Tempo: 1.4s
+
+173 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 63.1537 | Tempo: 1.4s
+
+174 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 63.1509 | Tempo: 1.3s
+
+175 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 63.1455 | Tempo: 1.4s
+
+176 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 63.1482 | Tempo: 1.4s
+
+177 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 63.1541 | Tempo: 1.3s
+
+178 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 63.1554 | Tempo: 1.4s
+
+179 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 63.1529 | Tempo: 1.3s
+
+180 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 63.1556 | Tempo: 1.3s
+
+181 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 63.1559 | Tempo: 1.4s
+
+182 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 63.1564 | Tempo: 1.4s
+
+183 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 63.1517 | Tempo: 1.3s
+
+184 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 63.1539 | Tempo: 1.4s
+
+185 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 63.1491 | Tempo: 1.4s
+
+186 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 63.1538 | Tempo: 1.3s
+
+187 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 63.1550 | Tempo: 1.4s
+
+188 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 63.1473 | Tempo: 1.4s
+
+189 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 63.1585 | Tempo: 1.3s
+
+190 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 63.0748 | Tempo: 1.8s
+
+191 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 63.0721 | Tempo: 1.8s
+
+192 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 63.0765 | Tempo: 1.7s
+
+193 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 63.0782 | Tempo: 1.8s
+
+194 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 63.0819 | Tempo: 1.8s
+
+195 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 63.0750 | Tempo: 1.7s
+
+196 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 63.0917 | Tempo: 1.8s
+
+197 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 63.0799 | Tempo: 1.8s
+
+198 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 63.0860 | Tempo: 1.7s
+
+199 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 63.0789 | Tempo: 1.8s
+
+200 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 63.0743 | Tempo: 1.8s
+
+201 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 63.0723 | Tempo: 1.7s
+
+202 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 63.0817 | Tempo: 1.8s
+
+203 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 63.0770 | Tempo: 1.8s
+
+204 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 63.0771 | Tempo: 1.7s
+
+205 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 63.0893 | Tempo: 1.7s
+
+206 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 63.0833 | Tempo: 1.7s
+
+207 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 63.0886 | Tempo: 1.7s
+
+208 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 63.0780 | Tempo: 1.7s
+
+209 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 63.0683 | Tempo: 1.8s
+
+210 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 63.0791 | Tempo: 1.7s
+
+211 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 63.0791 | Tempo: 1.8s
+
+212 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 63.0716 | Tempo: 1.7s
+
+213 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 63.0757 | Tempo: 1.7s
+
+214 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 63.0912 | Tempo: 1.7s
+
+215 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 63.0846 | Tempo: 1.7s
+
+216 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 63.0858 | Tempo: 1.7s
+
+217 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 63.0958 | Tempo: 2.5s
+
+218 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 63.0751 | Tempo: 2.4s
+
+219 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 63.0657 | Tempo: 2.4s
+
+220 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 63.1033 | Tempo: 2.5s
+
+221 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 63.0823 | Tempo: 2.4s
+
+222 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 63.0696 | Tempo: 2.3s
+
+223 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 63.1135 | Tempo: 2.4s
+
+224 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 63.1002 | Tempo: 2.4s
+
+225 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 63.0935 | Tempo: 2.3s
+
+226 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 63.0917 | Tempo: 2.4s
+
+227 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 63.0719 | Tempo: 2.4s
+
+228 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 63.0698 | Tempo: 2.3s
+
+229 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 63.1045 | Tempo: 2.4s
+
+230 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 63.0917 | Tempo: 2.4s
+
+231 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 63.0669 | Tempo: 2.3s
+
+232 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 63.1118 | Tempo: 2.4s
+
+233 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 63.0956 | Tempo: 2.4s
+
+234 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 63.0861 | Tempo: 2.3s
+
+235 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 63.0878 | Tempo: 2.4s
+
+236 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 63.0718 | Tempo: 2.4s
+
+237 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 63.0602 | Tempo: 2.4s
+
+238 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 63.0988 | Tempo: 2.4s
+
+239 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 63.0752 | Tempo: 2.4s
+
+240 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 63.0629 | Tempo: 2.3s
+
+241 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 63.1100 | Tempo: 2.4s
+
+242 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 63.0886 | Tempo: 2.4s
+
+243 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 63.0815 | Tempo: 2.3s
+
+-------------------------------------------- Matemática --------------------------------------------
+
+243 combinações de hiperparâmetros
+
+ 1 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 96.5709 | Tempo: 1.5s
+
+ 2 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 96.5737 | Tempo: 1.5s
+
+ 3 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 96.5833 | Tempo: 1.5s
+
+ 4 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 96.5876 | Tempo: 1.5s
+
+ 5 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 96.5848 | Tempo: 1.5s
+
+ 6 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 96.5846 | Tempo: 1.5s
+
+ 7 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 96.6017 | Tempo: 1.5s
+
+ 8 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 96.6000 | Tempo: 1.5s
+
+ 9 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 96.6011 | Tempo: 1.5s
+
+10 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 96.5709 | Tempo: 1.5s
+
+11 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 96.5737 | Tempo: 1.5s
+
+12 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 96.5846 | Tempo: 1.5s
+
+13 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 96.5863 | Tempo: 1.5s
+
+14 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 96.5856 | Tempo: 1.5s
+
+15 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 96.5845 | Tempo: 1.5s
+
+16 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 96.6017 | Tempo: 1.5s
+
+17 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 96.6000 | Tempo: 1.5s
+
+18 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 96.6011 | Tempo: 1.5s
+
+19 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 96.5717 | Tempo: 1.5s
+
+20 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 96.5704 | Tempo: 1.5s
+
+21 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 96.5830 | Tempo: 1.5s
+
+22 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 96.5864 | Tempo: 1.5s
+
+23 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 96.5848 | Tempo: 1.5s
+
+24 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 96.5846 | Tempo: 1.5s
+
+25 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 96.6015 | Tempo: 1.5s
+
+26 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 96.5993 | Tempo: 1.5s
+
+27 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 96.6015 | Tempo: 1.5s
+
+28 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 96.3005 | Tempo: 2.0s
+
+29 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 96.2965 | Tempo: 2.0s
+
+30 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 96.3004 | Tempo: 2.0s
+
+31 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 96.2992 | Tempo: 2.0s
+
+32 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 96.3052 | Tempo: 2.0s
+
+33 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 96.3045 | Tempo: 2.0s
+
+34 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 96.3106 | Tempo: 2.0s
+
+35 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 96.3154 | Tempo: 2.0s
+
+36 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 96.3203 | Tempo: 2.0s
+
+37 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 96.3019 | Tempo: 2.0s
+
+38 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 96.2945 | Tempo: 2.0s
+
+39 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 96.2990 | Tempo: 2.0s
+
+40 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 96.3016 | Tempo: 2.0s
+
+41 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 96.3043 | Tempo: 2.0s
+
+42 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 96.3084 | Tempo: 2.0s
+
+43 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 96.3075 | Tempo: 2.0s
+
+44 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 96.3148 | Tempo: 2.0s
+
+45 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 96.3206 | Tempo: 2.0s
+
+46 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 96.2997 | Tempo: 2.0s
+
+47 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 96.2983 | Tempo: 2.0s
+
+48 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 96.2989 | Tempo: 2.0s
+
+49 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 96.3012 | Tempo: 2.0s
+
+50 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 96.3037 | Tempo: 2.0s
+
+51 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 96.3108 | Tempo: 2.0s
+
+52 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 96.3074 | Tempo: 2.0s
+
+53 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 96.3152 | Tempo: 2.0s
+
+54 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 96.3215 | Tempo: 2.0s
+
+55 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 96.1307 | Tempo: 2.9s
+
+56 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 96.1322 | Tempo: 2.9s
+
+57 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 96.1317 | Tempo: 2.8s
+
+58 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 96.1336 | Tempo: 2.9s
+
+59 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 96.1410 | Tempo: 2.9s
+
+60 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 96.1377 | Tempo: 2.8s
+
+61 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 96.1429 | Tempo: 2.9s
+
+62 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 96.1563 | Tempo: 3.0s
+
+63 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 96.1563 | Tempo: 2.9s
+
+64 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 96.1314 | Tempo: 2.9s
+
+65 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 96.1285 | Tempo: 2.9s
+
+66 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 96.1284 | Tempo: 3.0s
+
+67 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 96.1369 | Tempo: 3.0s
+
+68 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 96.1354 | Tempo: 3.0s
+
+69 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 96.1361 | Tempo: 2.9s
+
+70 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 96.1418 | Tempo: 3.0s
+
+71 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 96.1496 | Tempo: 2.9s
+
+72 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 96.1520 | Tempo: 2.9s
+
+73 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 96.1283 | Tempo: 2.9s
+
+74 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 96.1314 | Tempo: 2.9s
+
+75 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 96.1251 | Tempo: 2.9s
+
+76 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 96.1342 | Tempo: 2.9s
+
+77 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 96.1394 | Tempo: 2.9s
+
+78 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 96.1382 | Tempo: 2.9s
+
+79 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 96.1400 | Tempo: 2.9s
+
+80 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 96.1482 | Tempo: 2.9s
+
+81 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 96.1545 | Tempo: 2.9s
+
+82 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 96.2745 | Tempo: 1.4s
+
+83 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 96.2730 | Tempo: 1.4s
+
+84 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 96.2740 | Tempo: 1.4s
+
+85 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 96.2788 | Tempo: 1.4s
+
+86 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 96.2700 | Tempo: 1.4s
+
+87 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 96.2680 | Tempo: 1.4s
+
+88 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 96.2860 | Tempo: 1.4s
+
+89 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 96.2750 | Tempo: 1.4s
+
+90 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 96.2776 | Tempo: 1.3s
+
+91 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 96.2719 | Tempo: 1.4s
+
+92 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 96.2723 | Tempo: 1.4s
+
+93 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 96.2720 | Tempo: 1.4s
+
+94 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 96.2771 | Tempo: 1.4s
+
+95 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 96.2702 | Tempo: 1.4s
+
+96 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 96.2624 | Tempo: 1.4s
+
+97 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 96.2793 | Tempo: 1.4s
+
+98 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 96.2755 | Tempo: 1.4s
+
+99 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 96.2808 | Tempo: 1.3s
+
+100 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 96.2747 | Tempo: 1.4s
+
+101 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 96.2683 | Tempo: 1.4s
+
+102 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 96.2715 | Tempo: 1.4s
+
+103 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 96.2742 | Tempo: 1.4s
+
+104 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 96.2796 | Tempo: 1.4s
+
+105 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 96.2672 | Tempo: 1.4s
+
+106 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 96.2840 | Tempo: 1.4s
+
+107 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 96.2760 | Tempo: 1.4s
+
+108 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 96.2726 | Tempo: 1.4s
+
+109 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 96.0744 | Tempo: 1.9s
+
+110 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 96.0786 | Tempo: 1.8s
+
+111 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 96.0875 | Tempo: 1.8s
+
+112 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 96.0783 | Tempo: 1.9s
+
+113 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 96.0825 | Tempo: 1.9s
+
+114 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 96.0858 | Tempo: 1.8s
+
+115 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 96.0881 | Tempo: 1.8s
+
+116 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 96.0858 | Tempo: 1.8s
+
+117 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 96.0979 | Tempo: 1.8s
+
+118 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 96.0778 | Tempo: 1.9s
+
+119 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 96.0801 | Tempo: 1.8s
+
+120 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 96.0846 | Tempo: 1.8s
+
+121 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 96.0891 | Tempo: 1.8s
+
+122 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 96.0781 | Tempo: 1.8s
+
+123 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 96.0834 | Tempo: 1.8s
+
+124 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 96.0886 | Tempo: 1.8s
+
+125 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 96.0897 | Tempo: 1.8s
+
+126 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 96.0960 | Tempo: 1.8s
+
+127 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 96.0724 | Tempo: 1.8s
+
+128 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 96.0817 | Tempo: 1.8s
+
+129 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 96.0803 | Tempo: 1.8s
+
+130 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 96.0783 | Tempo: 1.9s
+
+131 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 96.0777 | Tempo: 1.8s
+
+132 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 96.0816 | Tempo: 1.8s
+
+133 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 96.0865 | Tempo: 1.8s
+
+134 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 96.0870 | Tempo: 1.8s
+
+135 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 96.0979 | Tempo: 1.8s
+
+136 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 96.0041 | Tempo: 2.6s
+
+137 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 95.9909 | Tempo: 2.6s
+
+138 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 95.9843 | Tempo: 2.6s
+
+139 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 96.0092 | Tempo: 2.6s
+
+140 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 96.0005 | Tempo: 2.6s
+
+141 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 95.9885 | Tempo: 2.6s
+
+142 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 96.0217 | Tempo: 2.6s
+
+143 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 96.0122 | Tempo: 2.6s
+
+144 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 96.0079 | Tempo: 2.6s
+
+145 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 95.9930 | Tempo: 2.6s
+
+146 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 95.9805 | Tempo: 2.6s
+
+147 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 95.9761 | Tempo: 2.6s
+
+148 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 96.0039 | Tempo: 2.6s
+
+149 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 96.0025 | Tempo: 2.6s
+
+150 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 95.9906 | Tempo: 2.5s
+
+151 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 96.0226 | Tempo: 2.6s
+
+152 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 96.0195 | Tempo: 2.6s
+
+153 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 96.0033 | Tempo: 2.6s
+
+154 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 95.9864 | Tempo: 2.6s
+
+155 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 95.9792 | Tempo: 2.6s
+
+156 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 95.9823 | Tempo: 2.5s
+
+157 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 96.0061 | Tempo: 2.6s
+
+158 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 95.9987 | Tempo: 2.6s
+
+159 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 95.9889 | Tempo: 2.6s
+
+160 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 96.0255 | Tempo: 2.6s
+
+161 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 96.0076 | Tempo: 2.6s
+
+162 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 96.0086 | Tempo: 2.5s
+
+163 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 96.1601 | Tempo: 1.3s
+
+164 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 96.1660 | Tempo: 1.3s
+
+165 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 96.1727 | Tempo: 1.3s
+
+166 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 96.1607 | Tempo: 1.3s
+
+167 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 96.1592 | Tempo: 1.3s
+
+168 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 96.1658 | Tempo: 1.3s
+
+169 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 96.1510 | Tempo: 1.3s
+
+170 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 96.1489 | Tempo: 1.3s
+
+171 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 96.1678 | Tempo: 1.3s
+
+172 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 96.1630 | Tempo: 1.3s
+
+173 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 96.1606 | Tempo: 1.3s
+
+174 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 96.1491 | Tempo: 1.3s
+
+175 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 96.1608 | Tempo: 1.3s
+
+176 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 96.1655 | Tempo: 1.3s
+
+177 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 96.1670 | Tempo: 1.3s
+
+178 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 96.1563 | Tempo: 1.3s
+
+179 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 96.1539 | Tempo: 1.3s
+
+180 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 96.1582 | Tempo: 1.3s
+
+181 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 96.1511 | Tempo: 1.3s
+
+182 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 96.1685 | Tempo: 1.3s
+
+183 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 96.1566 | Tempo: 1.3s
+
+184 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 96.1688 | Tempo: 1.3s
+
+185 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 96.1589 | Tempo: 1.3s
+
+186 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 96.1694 | Tempo: 1.3s
+
+187 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 96.1435 | Tempo: 1.3s
+
+188 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 96.1489 | Tempo: 1.3s
+
+189 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 96.1581 | Tempo: 1.3s
+
+190 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 96.0367 | Tempo: 1.7s
+
+191 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 96.0295 | Tempo: 1.7s
+
+192 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 96.0267 | Tempo: 1.7s
+
+193 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 96.0491 | Tempo: 1.7s
+
+194 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 96.0434 | Tempo: 1.7s
+
+195 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 96.0359 | Tempo: 1.6s
+
+196 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 96.0529 | Tempo: 1.7s
+
+197 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 96.0356 | Tempo: 1.7s
+
+198 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 96.0384 | Tempo: 1.6s
+
+199 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 96.0395 | Tempo: 1.7s
+
+200 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 96.0296 | Tempo: 1.7s
+
+201 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 96.0358 | Tempo: 1.7s
+
+202 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 96.0417 | Tempo: 1.7s
+
+203 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 96.0515 | Tempo: 1.7s
+
+204 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 96.0424 | Tempo: 1.7s
+
+205 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 96.0527 | Tempo: 1.7s
+
+206 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 96.0402 | Tempo: 1.7s
+
+207 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 96.0529 | Tempo: 1.6s
+
+208 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 96.0352 | Tempo: 1.7s
+
+209 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 96.0262 | Tempo: 1.7s
+
+210 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 96.0311 | Tempo: 1.7s
+
+211 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 96.0396 | Tempo: 1.7s
+
+212 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 96.0436 | Tempo: 1.7s
+
+213 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 96.0374 | Tempo: 1.6s
+
+214 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 96.0537 | Tempo: 1.7s
+
+215 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 96.0383 | Tempo: 1.7s
+
+216 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 96.0368 | Tempo: 1.6s
+
+217 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 96.0598 | Tempo: 2.4s
+
+218 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 96.0252 | Tempo: 2.4s
+
+219 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 96.0218 | Tempo: 2.3s
+
+220 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 96.0825 | Tempo: 2.4s
+
+221 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 96.0557 | Tempo: 2.4s
+
+222 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 96.0356 | Tempo: 2.3s
+
+223 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 96.1101 | Tempo: 2.4s
+
+224 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 96.0707 | Tempo: 2.4s
+
+225 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 96.0496 | Tempo: 2.3s
+
+226 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 96.0436 | Tempo: 2.4s
+
+227 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 96.0208 | Tempo: 2.4s
+
+228 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 96.0023 | Tempo: 2.3s
+
+229 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 96.0701 | Tempo: 2.4s
+
+230 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 96.0488 | Tempo: 2.4s
+
+231 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 96.0279 | Tempo: 2.3s
+
+232 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 96.0923 | Tempo: 2.4s
+
+233 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 96.0552 | Tempo: 2.4s
+
+234 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 96.0504 | Tempo: 2.3s
+
+235 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 96.0370 | Tempo: 2.4s
+
+236 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 96.0166 | Tempo: 2.4s
+
+237 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 96.0088 | Tempo: 2.3s
+
+238 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 96.0664 | Tempo: 2.3s
+
+239 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 96.0400 | Tempo: 2.3s
+
+240 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 96.0268 | Tempo: 2.3s
+
+241 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 96.0822 | Tempo: 2.3s
+
+242 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 96.0663 | Tempo: 2.3s
+
+243 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 96.0447 | Tempo: 2.3s
+
+--------------------------------------------- Redação ----------------------------------------------
+
+243 combinações de hiperparâmetros
+
+ 1 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 148.8869 | Tempo: 1.5s
+
+ 2 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 148.8895 | Tempo: 1.5s
+
+ 3 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 148.8807 | Tempo: 1.5s
+
+ 4 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 148.8931 | Tempo: 1.6s
+
+ 5 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 148.8892 | Tempo: 1.6s
+
+ 6 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 148.8992 | Tempo: 1.5s
+
+ 7 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 148.8821 | Tempo: 1.5s
+
+ 8 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 148.8987 | Tempo: 1.5s
+
+ 9 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 148.8881 | Tempo: 1.5s
+
+10 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 148.8864 | Tempo: 1.5s
+
+11 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 148.8895 | Tempo: 1.5s
+
+12 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 148.8806 | Tempo: 1.5s
+
+13 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 148.8930 | Tempo: 1.5s
+
+14 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 148.8893 | Tempo: 1.5s
+
+15 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 148.8992 | Tempo: 1.5s
+
+16 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 148.8820 | Tempo: 1.6s
+
+17 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 148.8987 | Tempo: 1.6s
+
+18 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 148.8882 | Tempo: 1.5s
+
+19 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 148.8864 | Tempo: 1.6s
+
+20 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 148.8895 | Tempo: 1.5s
+
+21 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 148.8807 | Tempo: 1.6s
+
+22 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 148.8930 | Tempo: 1.6s
+
+23 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 148.8892 | Tempo: 1.6s
+
+24 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 148.8992 | Tempo: 1.5s
+
+25 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 148.8820 | Tempo: 1.6s
+
+26 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 148.9026 | Tempo: 1.6s
+
+27 / 243 | {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 148.8881 | Tempo: 1.5s
+
+28 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 148.5301 | Tempo: 2.1s
+
+29 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 148.5306 | Tempo: 2.1s
+
+30 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 148.5333 | Tempo: 2.0s
+
+31 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 148.5300 | Tempo: 2.0s
+
+32 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 148.5334 | Tempo: 2.0s
+
+33 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 148.5341 | Tempo: 1.9s
+
+34 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 148.5459 | Tempo: 2.0s
+
+35 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 148.5422 | Tempo: 2.1s
+
+36 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 148.5433 | Tempo: 2.0s
+
+37 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 148.5255 | Tempo: 2.1s
+
+38 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 148.5307 | Tempo: 2.1s
+
+39 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 148.5334 | Tempo: 2.0s
+
+40 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 148.5307 | Tempo: 2.1s
+
+41 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 148.5359 | Tempo: 2.1s
+
+42 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 148.5306 | Tempo: 2.0s
+
+43 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 148.5430 | Tempo: 2.1s
+
+44 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 148.5471 | Tempo: 2.1s
+
+45 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 148.5461 | Tempo: 2.1s
+
+46 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 148.5272 | Tempo: 2.1s
+
+47 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 148.5309 | Tempo: 2.1s
+
+48 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 148.5352 | Tempo: 2.0s
+
+49 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 148.5269 | Tempo: 2.1s
+
+50 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 148.5355 | Tempo: 2.0s
+
+51 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 148.5315 | Tempo: 1.9s
+
+52 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 148.5489 | Tempo: 2.0s
+
+53 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 148.5441 | Tempo: 2.0s
+
+54 / 243 | {'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 148.5392 | Tempo: 1.9s
+
+55 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 148.3156 | Tempo: 2.8s
+
+56 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 148.3200 | Tempo: 2.8s
+
+57 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 148.3198 | Tempo: 2.8s
+
+58 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 148.3220 | Tempo: 2.8s
+
+59 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 148.3294 | Tempo: 2.9s
+
+60 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 148.3309 | Tempo: 2.9s
+
+61 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 148.3318 | Tempo: 3.0s
+
+62 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 148.3353 | Tempo: 3.0s
+
+63 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 148.3450 | Tempo: 2.9s
+
+64 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 148.3125 | Tempo: 2.9s
+
+65 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 148.3173 | Tempo: 2.9s
+
+66 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 148.3228 | Tempo: 2.9s
+
+67 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 148.3255 | Tempo: 2.9s
+
+68 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 148.3278 | Tempo: 2.9s
+
+69 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 148.3320 | Tempo: 2.8s
+
+70 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 148.3342 | Tempo: 2.8s
+
+71 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 148.3370 | Tempo: 2.8s
+
+72 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 148.3467 | Tempo: 2.7s
+
+73 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 148.3188 | Tempo: 2.8s
+
+74 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 148.3144 | Tempo: 2.7s
+
+75 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 148.3165 | Tempo: 2.7s
+
+76 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 148.3244 | Tempo: 2.8s
+
+77 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 148.3264 | Tempo: 2.8s
+
+78 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 148.3219 | Tempo: 2.7s
+
+79 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 148.3240 | Tempo: 2.8s
+
+80 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 148.3371 | Tempo: 2.8s
+
+81 / 243 | {'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 148.3528 | Tempo: 2.7s
+
+82 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 148.4680 | Tempo: 1.4s
+
+83 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 148.4626 | Tempo: 1.4s
+
+84 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 148.4648 | Tempo: 1.3s
+
+85 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 148.4732 | Tempo: 1.4s
+
+86 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 148.4755 | Tempo: 1.4s
+
+87 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 148.4885 | Tempo: 1.3s
+
+88 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 148.4774 | Tempo: 1.4s
+
+89 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 148.4623 | Tempo: 1.5s
+
+90 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 148.4751 | Tempo: 1.4s
+
+91 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 148.4699 | Tempo: 1.5s
+
+92 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 148.4570 | Tempo: 1.5s
+
+93 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 148.4618 | Tempo: 1.4s
+
+94 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 148.4704 | Tempo: 1.5s
+
+95 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 148.4667 | Tempo: 1.5s
+
+96 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 148.4827 | Tempo: 1.4s
+
+97 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 148.4733 | Tempo: 1.5s
+
+98 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 148.4690 | Tempo: 1.5s
+
+99 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 148.4789 | Tempo: 1.4s
+
+100 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 148.4632 | Tempo: 1.5s
+
+101 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 148.4639 | Tempo: 1.4s
+
+102 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 148.4615 | Tempo: 1.3s
+
+103 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 148.4731 | Tempo: 1.4s
+
+104 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 148.4750 | Tempo: 1.4s
+
+105 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 148.4871 | Tempo: 1.3s
+
+106 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 148.4789 | Tempo: 1.3s
+
+107 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 148.4719 | Tempo: 1.4s
+
+108 / 243 | {'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 148.4726 | Tempo: 1.3s
+
+109 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 148.2509 | Tempo: 1.8s
+
+110 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 148.2415 | Tempo: 1.8s
+
+111 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 148.2501 | Tempo: 1.8s
+
+112 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 148.2547 | Tempo: 1.8s
+
+113 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 148.2398 | Tempo: 1.8s
+
+114 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 148.2447 | Tempo: 1.8s
+
+115 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 148.2613 | Tempo: 1.8s
+
+116 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 148.2663 | Tempo: 1.8s
+
+117 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 148.2592 | Tempo: 1.8s
+
+118 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 148.2492 | Tempo: 1.8s
+
+119 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 148.2476 | Tempo: 1.9s
+
+120 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 148.2488 | Tempo: 1.8s
+
+121 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 148.2559 | Tempo: 1.8s
+
+122 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 148.2458 | Tempo: 1.8s
+
+123 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 148.2539 | Tempo: 1.8s
+
+124 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 148.2574 | Tempo: 1.8s
+
+125 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 148.2576 | Tempo: 1.8s
+
+126 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 148.2676 | Tempo: 1.8s
+
+127 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 148.2467 | Tempo: 1.8s
+
+128 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 148.2475 | Tempo: 1.8s
+
+129 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 148.2461 | Tempo: 1.8s
+
+130 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 148.2584 | Tempo: 1.7s
+
+131 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 148.2446 | Tempo: 1.8s
+
+132 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 148.2537 | Tempo: 1.8s
+
+133 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 148.2603 | Tempo: 1.8s
+
+134 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 148.2519 | Tempo: 1.8s
+
+135 / 243 | {'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 148.2624 | Tempo: 1.7s
+
+136 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 148.1405 | Tempo: 2.5s
+
+137 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 148.1202 | Tempo: 2.5s
+
+138 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 148.1240 | Tempo: 2.5s
+
+139 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 148.1492 | Tempo: 2.5s
+
+140 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 148.1495 | Tempo: 2.5s
+
+141 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 148.1399 | Tempo: 2.4s
+
+142 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 148.1670 | Tempo: 2.4s
+
+143 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 148.1614 | Tempo: 2.5s
+
+144 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 148.1624 | Tempo: 2.4s
+
+145 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 148.1427 | Tempo: 2.5s
+
+146 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 148.1263 | Tempo: 2.6s
+
+147 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 148.1194 | Tempo: 2.6s
+
+148 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 148.1526 | Tempo: 2.6s
+
+149 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 148.1435 | Tempo: 2.5s
+
+150 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 148.1451 | Tempo: 2.5s
+
+151 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 148.1617 | Tempo: 2.5s
+
+152 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 148.1586 | Tempo: 2.5s
+
+153 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 148.1689 | Tempo: 2.5s
+
+154 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 148.1311 | Tempo: 2.5s
+
+155 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 148.1241 | Tempo: 2.5s
+
+156 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 148.1254 | Tempo: 2.5s
+
+157 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 148.1481 | Tempo: 2.6s
+
+158 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 148.1402 | Tempo: 2.6s
+
+159 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 148.1542 | Tempo: 2.5s
+
+160 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 148.1646 | Tempo: 2.6s
+
+161 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 148.1674 | Tempo: 2.6s
+
+162 / 243 | {'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 148.1594 | Tempo: 2.5s
+
+163 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 148.3266 | Tempo: 1.3s
+
+164 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 148.3166 | Tempo: 1.3s
+
+165 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 148.3102 | Tempo: 1.2s
+
+166 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 148.3284 | Tempo: 1.3s
+
+167 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 148.3171 | Tempo: 1.3s
+
+168 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 148.3332 | Tempo: 1.3s
+
+169 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 148.3339 | Tempo: 1.3s
+
+170 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 148.3302 | Tempo: 1.3s
+
+171 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 148.3080 | Tempo: 1.3s
+
+172 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 148.3287 | Tempo: 1.5s
+
+173 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 148.3180 | Tempo: 1.5s
+
+174 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 148.3147 | Tempo: 1.4s
+
+175 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 148.3261 | Tempo: 1.4s
+
+176 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 148.3182 | Tempo: 1.4s
+
+177 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 148.3378 | Tempo: 1.4s
+
+178 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 148.3365 | Tempo: 1.4s
+
+179 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 148.3250 | Tempo: 1.4s
+
+180 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 148.3055 | Tempo: 1.4s
+
+181 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 148.3152 | Tempo: 1.5s
+
+182 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 148.3148 | Tempo: 1.5s
+
+183 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 148.3154 | Tempo: 1.4s
+
+184 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 148.3265 | Tempo: 1.4s
+
+185 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 148.3177 | Tempo: 1.4s
+
+186 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 148.3291 | Tempo: 1.4s
+
+187 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 148.3324 | Tempo: 1.4s
+
+188 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 148.3151 | Tempo: 1.4s
+
+189 / 243 | {'learning_rate': 0.2, 'max_depth': 6, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 148.3202 | Tempo: 1.4s
+
+190 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 148.1828 | Tempo: 1.9s
+
+191 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 148.1590 | Tempo: 1.9s
+
+192 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 148.1659 | Tempo: 1.8s
+
+193 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 148.2118 | Tempo: 1.9s
+
+194 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 148.1946 | Tempo: 1.9s
+
+195 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 148.1765 | Tempo: 1.8s
+
+196 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 148.2068 | Tempo: 1.8s
+
+197 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 148.1914 | Tempo: 1.9s
+
+198 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 148.1994 | Tempo: 1.8s
+
+199 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 148.1889 | Tempo: 1.9s
+
+200 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 148.1602 | Tempo: 1.9s
+
+201 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 148.1728 | Tempo: 1.8s
+
+202 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 148.2113 | Tempo: 1.9s
+
+203 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 148.1940 | Tempo: 1.9s
+
+204 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 148.1983 | Tempo: 1.8s
+
+205 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 148.2117 | Tempo: 1.9s
+
+206 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 148.1944 | Tempo: 1.9s
+
+207 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 148.1904 | Tempo: 1.8s
+
+208 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 148.1818 | Tempo: 1.9s
+
+209 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 148.1699 | Tempo: 1.9s
+
+210 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 148.1693 | Tempo: 1.8s
+
+211 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 148.2143 | Tempo: 1.9s
+
+212 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 148.1831 | Tempo: 1.8s
+
+213 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 148.1922 | Tempo: 1.8s
+
+214 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 148.1986 | Tempo: 1.8s
+
+215 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 148.1925 | Tempo: 1.8s
+
+216 / 243 | {'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 148.1835 | Tempo: 1.8s
+
+217 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 148.2155 | Tempo: 2.6s
+
+218 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 148.1853 | Tempo: 2.6s
+
+219 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 148.1915 | Tempo: 2.5s
+
+220 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 148.2695 | Tempo: 2.6s
+
+221 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 148.2249 | Tempo: 2.6s
+
+222 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 148.1973 | Tempo: 2.5s
+
+223 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 148.2967 | Tempo: 2.6s
+
+224 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 148.2590 | Tempo: 2.6s
+
+225 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 1, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 148.2332 | Tempo: 2.5s
+
+226 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 148.2077 | Tempo: 2.6s
+
+227 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 148.1803 | Tempo: 2.6s
+
+228 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 148.1755 | Tempo: 2.5s
+
+229 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 148.2515 | Tempo: 2.6s
+
+230 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 148.2172 | Tempo: 2.6s
+
+231 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 148.1989 | Tempo: 2.5s
+
+232 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 148.2902 | Tempo: 2.5s
+
+233 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 148.2355 | Tempo: 2.5s
+
+234 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 5, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 148.2354 | Tempo: 2.5s
+
+235 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 0.7} | RMSE: 148.2160 | Tempo: 2.6s
+
+236 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 0.85} | RMSE: 148.1662 | Tempo: 2.6s
+
+237 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 0.7, 'subsample': 1.0} | RMSE: 148.1727 | Tempo: 2.5s
+
+238 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 0.7} | RMSE: 148.2441 | Tempo: 2.5s
+
+239 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 0.85} | RMSE: 148.2168 | Tempo: 2.5s
+
+240 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 0.85, 'subsample': 1.0} | RMSE: 148.1938 | Tempo: 2.5s
+
+241 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 0.7} | RMSE: 148.2603 | Tempo: 2.5s
+
+242 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 0.85} | RMSE: 148.2337 | Tempo: 2.6s
+
+243 / 243 | {'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 10, 'colsample_bytree': 1.0, 'subsample': 1.0} | RMSE: 148.2413 | Tempo: 2.5s
+
