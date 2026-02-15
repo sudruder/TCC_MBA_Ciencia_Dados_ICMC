@@ -1,7 +1,6 @@
 
 from cudf import DataFrame as cudf_DataFrame
 
-import duckdb as db
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -26,7 +25,9 @@ teste()
 
 ####################################################################################################
 
-def otimizar_memoria(df):
+def otimizar_memoria(
+    df: pd.DataFrame
+) -> pd.DataFrame:
 
     '''
     Reduz o uso de memória convertendo tipos de dados
@@ -155,5 +156,19 @@ def calcula_missing(
         print(f"Não há valores ausentes.")
 
     return cols_missing
+
+####################################################################################################
+
+def arredonda_redacao(
+    nota: float
+) -> int:
+    
+    '''
+    Arredonda a nota de redação para o múltiplo de 20 mais próximo
+    '''
+
+    passo = 20 
+
+    return np.round(nota / passo) * passo
 
 ####################################################################################################

@@ -46,7 +46,7 @@ Com os dados preparados, a etapa de modelagem envolve a análise exploratória d
 
 \subsection{Análise Exploratória dos Dados}\label{metodologia_exploracao_dados}
 
-A análise exploratória foi iniciada com o entendimento das variáveis respostas, buscando entender a distribuição das notas do ENEM. Em seguida, foi feito um teste de hipótese para se avaliar se as médias das notas variam significativamente entre as edições selecionadas para esse trabalho.
+A análise exploratória foi iniciada com o entendimento da variáveis respostas, buscando entender a distribuição das notas do ENEM. Em seguida, foi feito um teste de hipótese para se avaliar se as médias das notas variam significativamente entre as edições selecionadas para esse trabalho.
 
 Esse análise é necessária uma vez que as edições do ENEM podem apresentar variações no nível de dificuldade das provas, impactando as notas dos estudantes. Para isso, será utilizada a Estatística F de ANOVA (\textit{Analysis of Variance}) \cite{bussab2017} para comparar as médias das notas entre as diferentes edições do ENEM e o cálculo do tamanho do efeito para quantificar a magnitude das diferenças encontradas, utilizando a métrica SMD (\textit{Standardized Mean Difference}) utilizando os intervalos definidos por Jacob Cohen \cite{cohen1988}.
 
@@ -74,65 +74,38 @@ A implementação da busca em grade será feita manualmente, utilizando loops pa
 
 Definidos os hiperparâmetros ótimos, os modelos serão treinados utilizando o conjunto de dados preparado na Seção \ref{metodologia_preparacao_dados}, com uma quantidade maior de estimadores fracos (através do hiperparâmetro \textit{n\_estimators}) para garantir um melhor desempenho dos modelos. O treinamento será realizado utilizando o conjunto de treino completo, garantindo que os modelos sejam treinados com a maior quantidade possível de dados para melhorar sua capacidade de generalização.
 
-\section{Avaliação}\label{metodologia_avaliacao}
+Finalizando a etapa de treinamento, serão criados modelos de ensemble utilizando a técnica de \textit{bagging}, onde os modelos de regressão individuais serão combinados para criar um modelo mais robusto e preciso. A combinação será feita utilizando a média das previsões dos modelos individuais, garantindo que o modelo de ensemble aproveite as forças de cada modelo individual para melhorar a precisão das previsões.
 
+\section{Avaliação dos Modelos}\label{metodologia_avaliacao_modelos}
 
+Feito o treinamento final dos modelos, iremos avaliá-los utilizando o conjunto de teste e duas métrias de desempenho apropriadas para problemas de regressão: a Raiz do Erro Quadrático Médio (\textit{Root Mean Squared Error} - RMSE) e Erro Percentual Absoluto Médio (\textit{Mean Absolute Percentage Error} - MAPE). Essas métricas fornecem uma visão clara da precisão das previsões dos modelos em relação aos valores reais das notas do ENEM.
 
-\section{Implantação}\label{metodologia_implantacao}
+Para a nota da Redação, como estas apresentam uma quantidade limitada de valores possíveis (de 0 a 1000, com incrementos de 20 pontos), será realizado um tratamento adicional para arredondar as previsões dos modelos para os valores possíveis antes do cálculo das métricas, garantindo que as previsões sejam coerentes com a escala de notas do ENEM, com o código abaixo:
 
+\begin{verbatim}
+    def arredonda_redacao(
+        nota: float
+    ) -> int:
+        
+        '''
+        Arredonda a nota de redação para o múltiplo de 20 mais próximo
+        '''
 
+        passo = 20 
 
+        return np.round(nota / passo) * passo
+\end{verbatim}
 
+Após o cálculo das métricas de desempenho, duas análise serão realizadas: (i) uma análise entre o erro de treinamento e o erro de teste para avaliar se os modelos estão sofrendo de \textit{overfitting} e (ii) uma análise entre os modelos para identificar qual modelo apresenta o melhor desempenho na previsão das notas do ENEM.
 
+Na análise de \textit{overfitting}, será adotado um critério sobre a razão do erro RMSE de teste em relação ao erro RMSE de treinamento. Uma razão maior que 15\% será considerada um indicativo de \textit{overfitting}, sugerindo que o modelo está se ajustando demais aos dados de treinamento e não generalizando bem para os dados de teste.
 
+Na análise comparativa entre os modelos, para se escolher o melhor modelo para cada variável resposta, será considerado o modelo que apresentar o menor erro MAPE no conjunto de teste, garantindo que o modelo selecionado seja aquele que tem a melhor capacidade de prever as notas do ENEM com precisão.
 
+\section{Influência das Variáveis Preditoras}\label{medicao_efeito_variaveis}
 
+Nesta seção, buscamos responder às perguntas de pesquisa que foram formuladas na seção \ref{resultados_entendimento_negocio}, utilizando técnicas de interpretação de modelos e análise de sensibilidade para medir a magnitude da influência das variáveis preditoras nas variáveis resposta.
 
+Primeiramente, será realizada uma análise de importância das variáveis preditoras do modelo final selecionado para cada variável resposta. Essa análise permitirá identificar quais variáveis preditoras têm a maior influência na previsão das notas do ENEM, fornecendo insights sobre os fatores socioeconômicos que mais impactam o desempenho dos estudantes.
 
-
-
-
-
-
-
-% \section{Análise de correlação das Variáveis Preditoras}\label{analise_correlacao_variaveis}
-
-% Antes de iniciar a modelagem, foi realizada uma análise de correlação entre as variáveis preditoras para identificar possíveis multicolinearidades que poderiam afetar o desempenho dos modelos. A correlação foi avaliada utilizando a biblioteca \texttt{phik} \cite{KPMG_PhiK_2024} \cite{Baak2020Phik}, que permite calcular a correlação entre variáveis categóricas e numéricas.
-
-
-
-% \section{Modelagem}\label{modelagem}
-
-% A modelagem é a etapa onde os dados preparados são utilizados para construir modelos preditivos que possam responder às perguntas de pesquisa formuladas na Seção \ref{entendimento_negocio}. Nesta seção, serão detalhadas as técnicas de modelagem empregadas e os critérios utilizados para a seleção dos modelos.
-
-% \subsection{Seleção de Modelos}\label{selecao_modelos}
-
-% Como as nossas variáveis respostas são numéricas e contínuas, estamos em um problema de regressão de aprendizado supervisionado. Assim, é preciso selecionar modelos de regressão, que são os adequados para prever variáveis contínuas. Os modelos escolhidos foram a Regressão Linear com Regularizações (como \textit{benchmark}) e o XGBoost Regressor \cite{XGBoostDevelopers_Tutorials_2025}, ambos amplamente utilizados devido à sua eficácia e interpretabilidade.
-
-% \subsection{Otimização dos Hiperparâmetros}\label{otimizacao_hiperparametros}
-
-% Para otimizar o desempenho dos modelos selecionados, foi realizada uma busca em grade (\textit{Grid Search}) para identificar os melhores hiperparâmetros. A busca foi realizada utilizando validação cruzada para garantir que os resultados fossem robustos e generalizáveis.
-
-% \subsection{Treino dos Modelos}\label{treino_modelos}
-
-% Definidos os hiperparâmetros ótimos, os modelos foram treinados utilizando o conjunto de dados preparado na Seção \ref{preparacao_dados}. O treinamento foi realizado em validação cruzada de cinco \textit{folds}, utilizando a biblioteca \texttt{cuml} para se beneficiar da aceleração por GPU. Foi selecionado como modelo final aquele modelo que apresentou o melhor desempenho médio nos \textit{folds} de validação para cada variável resposta.
-
-% \subsection{Avaliação dos Modelos}\label{avaliacao_modelos}
-
-% A avaliação dos modelos foi realizada utilizando métricas de desempenho apropriadas para problemas de regressão, como a Raiz do Erro Quadrático Médio (RMSE) e o Coeficiente de Determinação (R²). Essas métricas fornecem uma visão clara da precisão das previsões dos modelos em relação aos valores reais das notas do ENEM.
-
-% Também foram realizadas análises de resíduos para verificar a adequação dos modelos e identificar possíveis padrões não capturados pelas previsões, bem como a análise gráfica das previsões versus os valores reais para avaliar visualmente o desempenho dos modelos.
-
-% \section{Magnitude da Influência das Variáveis Preditoras}\label{medicao_efeito_variaveis}
-
-% Para medir o efeito de cada variável preditora nas notas do ENEM, foram utilizadas técnicas de interpretação de modelos, que permitem identificar quais variáveis têm maior impacto nas previsões dos modelos e como elas influenciam as notas dos estudantes. Entre as técnicas empregadas estão a importância das características (\textit{feature importance}), a análise dos valores SHAP (\textit{SHapley Additive exPlanations}) e os gráficos de dependência parcial (\textit{partial dependence plots}).
-
-% Além disso, foi realizada uma análise de sensibilidade para avaliar como mudanças nas variáveis preditoras afetam as previsões dos modelos. Para isso, foi construída uma matriz de cenários hipotéticos, onde cada variável preditora é alterada sistematicamente enquanto as outras são mantidas constantes. As previsões resultantes foram então analisadas para quantificar o impacto de cada variável nas notas do ENEM.
-
-% \section{Limitações e Considerações Éticas}\label{limitacoes_eticas}
-
-% Algumas limitações devem ser destacadas. Primeiro, apesar do grande volume de dados, a presença de vieses de seleção (por exemplo, diferença entre participantes regulares e treineiros, ou entre ausentes e presentes nas provas) pode influenciar as inferências; as análises procuram mitigar esses efeitos, mas não os eliminam completamente. Segundo, variáveis censuradas, inconsistências de registro e códigos especiais para ausência exigiram tratamentos que podem introduzir perdas de informação.
-
-% Quanto às considerações éticas, todos os dados utilizados são microdados públicos disponibilizados pelo INEP, já anonimizados para preservar a privacidade dos participantes. Recomenda-se cautela na interpretação dos resultados para evitar conclusões simplistas sobre individualidades dos estudantes ou estigmatização de grupos e instituições.
-
-% No Capítulo \ref{cap_resultados} serão apresentados os resultados empíricos da metodologia empregada: (i) a descrição dos dados após o pré-processamento, (ii) a análise de correlação entre as variáveis preditoras, (iii) o desempenho dos modelos preditivos na previsão das notas do ENEM, e (iv) a análise da magnitude da influência das variáveis preditoras nas notas dos estudantes.
+Em seguinda, será realizada uma análise de sensibilidade para avaliar como as variações nas variáveis preditoras afetam as previsões dos modelos. Será construída uma base sintética de dados, onde algumas variáveis preditoras selecionadas serão as variáveis de interesse e as demais variáveis preditoras serão preenchidas com o valor mais frequente do conjunto de treino. A ideia é buscar entender como as variações nas variáveis de interesse impactam as previsões dos modelos, mantendo as demais variáveis constantes.

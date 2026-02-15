@@ -95,7 +95,7 @@ Não foi possível localizar uma variável que permitisse a identificação úni
 
 Como esse trabalho pretende avaliar o desempenho dos estudantes no ENEM e os fatores que influenciam esse desempenho, a variável resposta deve refletir esse objetivo. Assim, foram utilizadas como variáveis resposta as notas obtidas pelos estudantes nas quatro provas objetivas e na redação do ENEM.
 
-Ou seja, usamos cinco variáveis resposta distintas para análise: (i) Nota da prova de Ciências da Natureza; (ii) Nota da prova de Ciências Humanas; (iii) Nota da prova de Linguagens e Códigos; (iv) Nota da prova de Matemática; e (v) Nota da Redação.
+Ou seja, usamos cinco variáveis resposta distintas para análise: (i) Nota da prova de Ciências da Natureza; (ii) Nota da prova de Ciências Humanas; (iii) Nota da prova de Linguagem e Códigos; (iv) Nota da prova de Matemática; e (v) Nota da Redação.
 
 \section{Preparação dos dados}\label{resultados_preparacao_dados}
 
@@ -333,7 +333,7 @@ A estrutura de dicionários foi utilizada para manter o controle dos conjuntos d
 
 \subsubsection{Distribuições}\label{resultados_analise_exploratoria_dados_vars_resposta_distribuicoes}
 
-O primeiro passo da análise exploratória foi entender o domínio das variáveis respostas e foi constatado que para as notas das provas objetivas (Ciências Humanas, Ciências da Natureza, Linguagens e Códigos e Matemática) haviam mais de cinco mil notas distintas, com variações pequenas entre elas (décimos de pontos). Já para a nota da redação, o número de notas distintas era significativamente menor (apenas 50 notas) com variação de pontos de 20 em 20 pontos.
+O primeiro passo da análise exploratória foi entender o domínio das variáveis respostas e foi constatado que para as notas das provas objetivas (Ciências Humanas, Ciências da Natureza, Linguagem e Códigos e Matemática) haviam mais de cinco mil notas distintas, com variações pequenas entre elas (décimos de pontos). Já para a nota da redação, o número de notas distintas era significativamente menor (apenas 50 notas) com variação de pontos de 20 em 20 pontos.
 
 A tabela \ref{tab_describe_notas} apresenta as estatísticas descritivas das notas de cada prova, obtido através do método \texttt{describe}.
 
@@ -392,44 +392,44 @@ A tabela \ref{tab_describe_notas} apresenta as estatísticas descritivas das not
 
 \end{longtable}
 
-Em seguida, foram construídos histogramas de cada nota para entender a distribuição das notas. As Figuras \ref{fig:hist_humanas}, \ref{fig:hist_natureza}, \ref{fig:hist_linguagem_codigo}, \ref{fig:hist_matematica} e \ref{fig:hist_redacao} apresentam os histogramas das notas de cada prova. 
+Em seguida, foram construídos histogramas de cada nota para entender a distribuição das notas. As Figuras \ref{fig:hist_humanas}, \ref{fig:hist_natureza}, \ref{fig:hist_linguagem_codigo}, \ref{fig:hist_matematica} e \ref{fig:hist_redacao} apresentam os histogramas das notas de cada prova.
 
 \begin{figure}[H]
     \centering
     \caption{Histograma das notas - Ciências Humanas} \label{fig:hist_humanas}
-    \includegraphics[width=0.7\linewidth]{imagens/histograma_humanas.png}
+    \includegraphics[width=0.9\linewidth]{imagens/histograma_humanas.png}
     \par\vspace{0.1cm}
-    % {\footnotesize Fonte: elaborado pelo autor.}
+    {\footnotesize Fonte: elaborado pelo autor.}
 \end{figure}
 
 \begin{figure}[H]
     \centering
     \caption{Histograma das notas - Ciências da Natureza} \label{fig:hist_natureza}
-    \includegraphics[width=0.7\linewidth]{imagens/histograma_natureza.png}
+    \includegraphics[width=0.9\linewidth]{imagens/histograma_natureza.png}
     \par\vspace{0.1cm}
-    % {\footnotesize Fonte: elaborado pelo autor.}
+    {\footnotesize Fonte: elaborado pelo autor.}
 \end{figure}
 
 \begin{figure}[H]
     \centering
     \caption{Histograma das notas - Linguagem e Código} \label{fig:hist_linguagem_codigo}
-    \includegraphics[width=0.7\linewidth]{imagens/histograma_linguagem_codigo.png}
+    \includegraphics[width=0.9\linewidth]{imagens/histograma_linguagem_codigo.png}
     \par\vspace{0.1cm}
-    % {\footnotesize Fonte: elaborado pelo autor.}
+    {\footnotesize Fonte: elaborado pelo autor.}
 \end{figure}
 
 \begin{figure}[H]
     \centering
     \caption{Histograma das notas - Matemática} \label{fig:hist_matematica}
-    \includegraphics[width=0.7\linewidth]{imagens/histograma_matematica.png}
+    \includegraphics[width=0.9\linewidth]{imagens/histograma_matematica.png}
     \par\vspace{0.1cm}
-    % {\footnotesize Fonte: elaborado pelo autor.}
+    {\footnotesize Fonte: elaborado pelo autor.}
 \end{figure}
 
 \begin{figure}[H]
     \centering
     \caption{Histograma das notas - Redação} \label{fig:hist_redacao}
-    \includegraphics[width=0.7\linewidth]{imagens/histograma_redacao.png}
+    \includegraphics[width=0.9\linewidth]{imagens/histograma_redacao.png}
     \par\vspace{0.1cm}
     {\footnotesize Fonte: elaborado pelo autor.}
 \end{figure}
@@ -475,9 +475,9 @@ A tabela \ref{tab_assimetria_curtose} apresenta os valores de assimetria e curto
 
 Analisando os valores de assimetria e curtose, é possível observar que as distribuições das notas possuem diferentes características.
 
-A assimetria da nota de redação é a mais negativa, o que indica que os alunos tivereram, em geral, o melhor desempenho, assim como nas provas de Linguagens e Códigos e Ciências Humanas, que também apresentam assimetria negativa, porém com valores menores. Na prova de Ciências da Natureza, a assimetria é praticamente nula, indicando uma distribuição mais simétrica das notas, enquanto a nota de matemática apresenta a assimetria mais positiva, indicando um desempenho relativamente pior dos alunos nessa prova.
+A assimetria da nota de redação é a mais negativa, o que indica que os alunos tivereram, em geral, o melhor desempenho, assim como nas provas de Linguagem e Códigos e Ciências Humanas, que também apresentam assimetria negativa, porém com valores menores. Na prova de Ciências da Natureza, a assimetria é praticamente nula, indicando uma distribuição mais simétrica das notas, enquanto a nota de Matemática apresenta a assimetria mais positiva, indicando um desempenho relativamente pior dos alunos nessa prova.
 
-Analisando os valores da curtose, a prova de matemática foi a única a apresentar uma curtose próxima de zero, indicando uma distribuição mais próxima da normalidade. As outras provas apresentaram valores maiores que 1 indicando distribuições com caudas mais pesadas e picos mais acentuados.
+Analisando os valores da curtose, a prova de Matemática foi a única a apresentar uma curtose próxima de zero, indicando uma distribuição mais próxima da normalidade. As outras provas apresentaram valores maiores que 1 indicando distribuições com caudas mais pesadas e picos mais acentuados.
 
 \subsubsection{Teste de Hipótese}\label{resultados_analise_exploratoria_dados_vars_resposta_teste_hipotese}
 
@@ -530,7 +530,7 @@ Para a análise dos outliers, foram utilizados os boxplots das notas de cada pro
 \begin{figure}[H]
     \centering
     \caption{Boxplot das notas por edição - Ciências Humanas} \label{fig:boxplot_humanas}
-    \includegraphics[width=0.7\linewidth]{imagens/boxplot_humanas.png}
+    \includegraphics[width=0.9\linewidth]{imagens/boxplot_humanas.png}
     \par\vspace{0.1cm}
     % {\footnotesize Fonte: elaborado pelo autor.}
 \end{figure}
@@ -538,7 +538,7 @@ Para a análise dos outliers, foram utilizados os boxplots das notas de cada pro
 \begin{figure}[H]
     \centering
     \caption{Boxplot das notas - Ciências da Natureza} \label{fig:boxplot_natureza}
-    \includegraphics[width=0.7\linewidth]{imagens/boxplot_natureza.png}
+    \includegraphics[width=0.9\linewidth]{imagens/boxplot_natureza.png}
     \par\vspace{0.1cm}
     % {\footnotesize Fonte: elaborado pelo autor.}
 \end{figure}
@@ -546,7 +546,7 @@ Para a análise dos outliers, foram utilizados os boxplots das notas de cada pro
 \begin{figure}[H]
     \centering
     \caption{Boxplot das notas - Linguagem e Código} \label{fig:boxplot_linguagem_codigo}
-    \includegraphics[width=0.7\linewidth]{imagens/boxplot_linguagem_codigo.png}
+    \includegraphics[width=0.9\linewidth]{imagens/boxplot_linguagem_codigo.png}
     \par\vspace{0.1cm}
     % {\footnotesize Fonte: elaborado pelo autor.}
 \end{figure}
@@ -554,7 +554,7 @@ Para a análise dos outliers, foram utilizados os boxplots das notas de cada pro
 \begin{figure}[H]
     \centering
     \caption{Boxplot das notas - Matemática} \label{fig:boxplot_matematica}
-    \includegraphics[width=0.7\linewidth]{imagens/boxplot_matematica.png}
+    \includegraphics[width=0.9\linewidth]{imagens/boxplot_matematica.png}
     \par\vspace{0.1cm}
     % {\footnotesize Fonte: elaborado pelo autor.}
 \end{figure}
@@ -562,7 +562,7 @@ Para a análise dos outliers, foram utilizados os boxplots das notas de cada pro
 \begin{figure}[H]
     \centering
     \caption{Boxplot das notas - Redação} \label{fig:boxplot_redacao}
-    \includegraphics[width=0.7\linewidth]{imagens/boxplot_redacao.png}
+    \includegraphics[width=0.9\linewidth]{imagens/boxplot_redacao.png}
     \par\vspace{0.1cm}
     {\footnotesize Fonte: elaborado pelo autor.}
 \end{figure}
@@ -1100,7 +1100,7 @@ As Figuras \ref{fig_permutation_importance_humanas} a \ref{fig_permutation_impor
 \begin{figure}[H]
     \centering
     \caption{Dez maiores \textit{Permutation Importance} - Humanas} \label{fig_permutation_importance_humanas}
-    \includegraphics[width=0.7\linewidth]{imagens/permutation_importance_humanas.png}
+    \includegraphics[width=0.9\linewidth]{imagens/permutation_importance_humanas.png}
     \par\vspace{0.1cm}
     % {\footnotesize Fonte: elaborado pelo autor.}
 \end{figure}
@@ -1108,7 +1108,7 @@ As Figuras \ref{fig_permutation_importance_humanas} a \ref{fig_permutation_impor
 \begin{figure}[H]
     \centering
     \caption{Dez maiores \textit{Permutation Importance} - Natureza} \label{fig_permutation_importance_natureza}
-    \includegraphics[width=0.7\linewidth]{imagens/permutation_importance_natureza.png}
+    \includegraphics[width=0.9\linewidth]{imagens/permutation_importance_natureza.png}
     \par\vspace{0.1cm}
     % {\footnotesize Fonte: elaborado pelo autor.}
 \end{figure}
@@ -1116,7 +1116,7 @@ As Figuras \ref{fig_permutation_importance_humanas} a \ref{fig_permutation_impor
 \begin{figure}[H]
     \centering
     \caption{Dez maiores \textit{Permutation Importance} - Linguagem} \label{fig_permutation_importance_linguagem_codigo}
-    \includegraphics[width=0.7\linewidth]{imagens/permutation_importance_linguagem_codigo.png}
+    \includegraphics[width=0.9\linewidth]{imagens/permutation_importance_linguagem_codigo.png}
     \par\vspace{0.1cm}
     % {\footnotesize Fonte: elaborado pelo autor.}
 \end{figure}
@@ -1124,7 +1124,7 @@ As Figuras \ref{fig_permutation_importance_humanas} a \ref{fig_permutation_impor
 \begin{figure}[H]
     \centering
     \caption{Dez maiores \textit{Permutation Importance} - Matemática} \label{fig_permutation_importance_matematica}
-    \includegraphics[width=0.7\linewidth]{imagens/permutation_importance_matematica.png}
+    \includegraphics[width=0.9\linewidth]{imagens/permutation_importance_matematica.png}
     \par\vspace{0.1cm}
     % {\footnotesize Fonte: elaborado pelo autor.}
 \end{figure}
@@ -1132,7 +1132,7 @@ As Figuras \ref{fig_permutation_importance_humanas} a \ref{fig_permutation_impor
 \begin{figure}[H]
     \centering
     \caption{Dez maiores \textit{Permutation Importance} - Redação} \label{fig_permutation_importance_redacao}
-    \includegraphics[width=0.7\linewidth]{imagens/permutation_importance_redacao.png}
+    \includegraphics[width=0.9\linewidth]{imagens/permutation_importance_redacao.png}
     \par\vspace{0.1cm}
     {\footnotesize Fonte: elaborado pelo autor.}
 \end{figure}
@@ -1385,16 +1385,14 @@ Para cada algortimo, foi estabelecido um conjunto de hiperparâmetros e seus res
 
 \end{longtable}
 
+Foram então treinados 243 combinações de hiperparâmetros para os algoritmos de \textit{XGBoost} e \textit{LightGBM} (5 hiperparâmetros com 3 valores cada) e 27 combinações de hiperparâmetros para o algoritmo de \textit{Random Forest} (3 hiperparâmetros com 3 valores cada) totalizando 270 modelos treinados para cada conjunto de dados (Humanas, Natureza, Linguagem, Matemática e Redação) e 1.350 modelos treinados no total, o que levou aproximadamente 5 horas para ser executado.
 
-
-Foram então treinados 243 combinações de hiperparâmetros para os algoritmos de \textit{XGBoost} e \textit{LightGBM} (5 hiperparâmetros com 3 valores cada) e 27 combinações de hiperparâmetros para o algoritmo de \textit{Random Forest} (3 hiperparâmetros com 3 valores cada)totalizando 270 modelos treinados para cada conjunto de dados (Humanas, Natureza, Linguagem, Matemática e Redação) e 1.350 modelos treinados no total, o que levou aproximadamente 5 horas para ser executado.
-
-Os gráficos \ref{fig_erro_grid_xgb} a \ref{fig_erro_grid_rf} apresentam o erro RMSE para cada combinação de hiperparâmetros testada para cada modelo e conjunto de dados, com as interações do \textit{Grid Search} ordenadas em ordem decrescente de erro.
+Os gráficos \ref{fig_erro_grid_xgb} a \ref{fig_erro_grid_rf} apresentam o erro RMSE para as combinações de hiperparâmetros testadas para cada modelo e conjunto de dados, com as interações do \textit{Grid Search} ordenadas em ordem decrescente de erro. Para melhor visualização, os valores do erro foram relativizados ao maior erro RMSE encontrado para cada modelo e conjunto de dados, ou seja, o maior erro RMSE encontrado para cada modelo e conjunto de dados foi considerado como 100\% e os demais erros foram relativizados em relação a esse valor.
 
 \begin{figure}[H]
     \centering
     \caption{Erro do \textit{Grid Search} - \textit{XGBoost}} \label{fig_erro_grid_xgb}
-    \includegraphics[width=0.7\linewidth]{imagens/erro_grid_xgb.png}
+    \includegraphics[width=0.9\linewidth]{imagens/erro_grid_xgb.png}
     \par\vspace{0.1cm}
     % {\footnotesize Fonte: elaborado pelo autor.}
     {\footnotesize Obs.: apenas metade dos dados foi plotada para melhor visualização.}
@@ -1403,7 +1401,7 @@ Os gráficos \ref{fig_erro_grid_xgb} a \ref{fig_erro_grid_rf} apresentam o erro 
 \begin{figure}[H]
     \centering
     \caption{Erro do \textit{Grid Search} - \textit{LightGBM}} \label{fig_erro_grid_lgbm}
-    \includegraphics[width=0.7\linewidth]{imagens/erro_grid_lgbm.png}
+    \includegraphics[width=0.9\linewidth]{imagens/erro_grid_lgbm.png}
     \par\vspace{0.1cm}
     % {\footnotesize Fonte: elaborado pelo autor.}
     {\footnotesize Obs.: apenas metade dos dados foi plotada para melhor visualização.}
@@ -1412,7 +1410,7 @@ Os gráficos \ref{fig_erro_grid_xgb} a \ref{fig_erro_grid_rf} apresentam o erro 
 \begin{figure}[H]
     \centering
     \caption{Erro do \textit{Grid Search} - \textit{Random Forest}} \label{fig_erro_grid_rf}
-    \includegraphics[width=0.7\linewidth]{imagens/erro_grid_rf.png}
+    \includegraphics[width=0.9\linewidth]{imagens/erro_grid_rf.png}
     \par\vspace{0.1cm}
     {\footnotesize Fonte: elaborado pelo autor.}
 \end{figure}
@@ -1570,5 +1568,459 @@ As tabelas \ref{tab_hiperparametros_ajustados_xgb} a \ref{tab_hiperparametros_aj
 
 \end{longtable}
 
-\section{Avaliação}\label{resultados_avaliacao}
-\section{Implantação}\label{resultados_implantacao}
+\subsection{Treinamento final dos modelos}\label{resultados_treinamento_final_modelos}
+
+Conforme descrito na Seção \ref{metodologia_treinamento_modelos}, o ajuste do hiperparâmetro \texttt{n\_estimators} (número de estimadores) será realizado na próxima etapa, juntamente com o treinamento final dos modelos. Para os modelos de \textit{XGBoost} e \textit{LightGBM}, serão testados os valores de 100, 500, 1.000 e 3.000 estimadores. Para o modelo de \textit{Random Forest}, só foi possível treinar o modelo com 100 e 500 estimadores, uma vez que a execução do código para as combinações com 1.000 e 3.000 estimadores foi interrompida subitamente algumas vezes, também possivelmente devido ao alto consumo de memória da GPU.
+
+As Figuras \ref{fig_erro_final_xgb} e \ref{fig_erro_final_lgbm} apresentam o erro MAPE do conjunto de teste, relativo ao maior erro MAPE encontrado para cada modelo e conjunto de dados, para os modelos de \textit{XGBoost} e \textit{LightGBM} com os melhores hiperparâmetros encontrados na etapa de ajuste dos hiperparâmetros, considerando o número de estimadores como 100, 500, 1.000 e 3.000. A tabela \ref{tab_erro_final_rf} apresenta o erro MAPE do conjunto de teste para o modelo de \textit{Random Forest} com os melhores hiperparâmetros encontrados na etapa de ajuste dos hiperparâmetros, considerando o número de estimadores como 100 e 500.
+
+\begin{figure}[H]
+    \centering
+    \caption{Erro MAPE - \textit{XGBoost}} \label{fig_erro_final_xgb}
+    \includegraphics[width=0.9\linewidth]{imagens/erro_final_xgb.png}
+    \par\vspace{0.1cm}
+    % {\footnotesize Fonte: elaborado pelo autor.}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \caption{Erro MAPE - \textit{LightGBM}} \label{fig_erro_final_lgbm}
+    \includegraphics[width=0.9\linewidth]{imagens/erro_final_lgbm.png}
+    \par\vspace{0.1cm}
+    % {\footnotesize Fonte: elaborado pelo autor.}
+\end{figure}
+
+% Prova | 100 estimadores | 500 estimadores
+% Ciências Humanas | 12.369% | 12.364% | 
+% Ciências Natureza | 10.924% | 10.920% | 
+% Linguagem e Código | 10.264% | 10.260% | 
+% Matemática | 15.160% | 15.154% | 
+% Redação | 21.327% | 21.320% |
+
+\begin{longtable}{|l|c|c|}
+
+    % --- TÍTULO E RÓTULO (1ª Página) ---
+    \caption{Erro MAPE - \textit{Random Forest}} \label{tab_erro_final_rf} \\
+    \hline
+    \textbf{Área} & \textbf{100 estimadores} & \textbf{500 estimadores} \\ \hline
+    \endfirsthead
+
+    % --- CABEÇALHO (Páginas Seguintes) ---
+    \hline
+    \textbf{Área} & \textbf{100 estimadores} & \textbf{500 estimadores} \\ \hline
+    \endhead
+
+    % --- RODAPÉ (Páginas Intermediárias) ---
+    \hline
+    \multicolumn{3}{r}{\footnotesize\textit{Continua na próxima página...}} \\
+    \endfoot
+
+    % --- RODAPÉ FINAL (Última Página) ---
+    \hline
+    \multicolumn{3}{c}{\footnotesize Fonte: elaborado pelo autor.} \\
+    \endlastfoot
+
+    % --- DADOS DA TABELA ---a
+    Ciências Humanas & 12.369\% & 12.364\% \\ \hline
+    Ciências Natureza & 10.924\% & 10.920\% \\ \hline
+    Linguagem e Código & 10.264\% & 10.260\% \\ \hline
+    Matemática & 15.160\% & 15.154\% \\ \hline
+    Redação & 21.327\% & 21.320\% \\ \hline
+
+\end{longtable}
+
+É possível notar que assim como aconteceu no ajuste dos hiperparâmetros, a redução no erro MAPE para diferentes números de estimadores acabou não sendo tão significativa para os três modelos. Para o modelo de \textit{XGBoost}, a maior redução no erro MAPE foi de foi 0.4258\% na prova de Linguagem e Código. Para o modelo de \textit{LightGBM}, a maior redução no erro MAPE foi de 0.2286\% na prova de Linguagem e Código. Para o modelo de \textit{Random Forest}, a maior redução no erro MAPE foi de 0.0068\% na prova de Redação.
+
+\subsection{Construção dos modelos de \textit{ensemble}}\label{resultados_treinamento_modelos_ensemble}
+
+A partir dos três modelos treinados, foram construídos dois modelos de \textit{ensemble} usando a técnica de \textit{bagging}: (i) um modelo de \textit{ensemble} utilizando os modelos de \textit{XGBoost} e \textit{LightGBM} e (ii) um modelo de \textit{ensemble} utilizando os modelos de \textit{XGBoost}, \textit{LightGBM} e \textit{Random Forest}. Para ambos os modelos de \textit{ensemble}, foi utilizada a média aritmética das previsões dos modelos individuais para obter a previsão final do modelo de \textit{ensemble}.
+
+As Figuras \ref{fig_erro_ensemble} e \ref{fig_erro_ensemble_2} apresentam o erro MAPE do conjunto de teste, relativo ao maior erro MAPE encontrado para cada modelo e conjunto de dados, para os modelos de \textit{ensemble} construídos a partir dos modelos de \textit{XGBoost}, \textit{LightGBM} e \textit{Random Forest} com os melhores hiperparâmetros encontrados na etapa de ajuste dos hiperparâmetros, considerando o número de estimadores como 100, 500, 1.000 e 3.000 para os modelos de \textit{XGBoost} e \textit{LightGBM} e 100 e 500 para o modelo de \textit{Random Forest}.
+
+\begin{figure}[H]
+    \centering
+    \caption{Erro MAPE - \textit{Ensemble} (\textit{XGBoost} + \textit{LightGBM})} \label{fig_erro_ensemble}
+    \includegraphics[width=0.9\linewidth]{imagens/erro_final_ensemble.png}
+    \par\vspace{0.1cm}
+    % {\footnotesize Fonte: elaborado pelo autor.}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \caption{Erro MAPE - \textit{Ensemble} (\textit{XGBoost} + \textit{LightGBM} + \textit{Random Forest})} \label{fig_erro_ensemble_2}
+    \includegraphics[width=0.9\linewidth]{imagens/erro_final_ensemble_2.png}
+    \par\vspace{0.1cm}
+    {\footnotesize Fonte: elaborado pelo autor.}
+\end{figure}
+
+Novamente, a redução no erro MAPE para os modelos de \textit{ensemble} acabou não sendo tão significativa para os diferentes números de estimadores. Para o modelo de \textit{ensemble} utilizando os modelos de \textit{XGBoost} e \textit{LightGBM}, a maior redução no erro MAPE foi de 0.2103\% na prova de Redação. Para o modelo de \textit{ensemble} utilizando os modelos de \textit{XGBoost}, \textit{LightGBM} e \textit{Random Forest}, a maior redução no erro MAPE foi de 0.1883\% na prova de Redação.
+
+\subsection{Avaliação dos modelos}\label{resultados_comparacao_modelos}
+
+Nessa etapa, a primeira análise realizada foi sobre um possível \textit{overfitting} dos modelos. Conforme o critério adotado e explicado na Seção \ref{metodologia_avaliacao_modelos}, nenhum dos modelos apresentou \textit{overfitting} segundo esse critério, ou seja, nenhum dos modelos apresentou um erro do conjunto de teste 15\% maior que o erro do conjunto de treino.
+
+Em seguida, foi feita a comparação dos modelos entre si para cada conjunto de dados, a fim de se encontrar o melhor modelo para cada conjunto de dados. Para isso, foi adotado o critério do menor erro MAPE do conjunto de teste, ou seja, o modelo com o menor erro MAPE do conjunto de teste foi considerado o melhor modelo para aquele conjunto de dados. As Tabelas \ref{tab_comparacao_modelos_humanas} a \ref{tab_comparacao_modelos_redacao} apresentam os cinco modelos que apresentaram os menores erros MAPE do conjunto de teste para cada conjunto de dados, ordenados do menor para o maior erro MAPE.
+
+\pagebreak
+
+% ===================== Ciências Humanas =====================
+
+%              modelo n_estimators  mape_teste
+% 71       XGB + LGBM          500   12.302290
+% 72       XGB + LGBM         1000   12.303594
+% 1           XGBoost          500   12.306396
+% 51  XGB + LGBM + RF          500   12.309288
+% 2           XGBoost         1000   12.312470
+
+\begin{longtable}{|l|c|c|}
+
+    % --- TÍTULO E RÓTULO (1ª Página) ---
+    \caption{Cinco melhores modelos - Humanas} \label{tab_comparacao_modelos_humanas} \\
+    \hline
+    \textbf{Modelo} & \textbf{Qtd. estimadores} & \textbf{MAPE teste} \\ \hline
+    \endfirsthead
+
+    % --- CABEÇALHO (Páginas Seguintes) ---
+    \hline
+    \textbf{Modelo} & \textbf{Qtd. estimadores} & \textbf{MAPE teste} \\ \hline
+    \endhead
+
+    % --- RODAPÉ (Páginas Intermediárias) ---
+    \hline
+    \multicolumn{3}{r}{\footnotesize\textit{Continua na próxima página...}} \\
+    \endfoot
+
+    % --- RODAPÉ FINAL (Última Página) ---
+    \hline
+    % \multicolumn{3}{c}{\footnotesize Fonte: elaborado pelo autor.} \\
+    \endlastfoot
+
+    % --- DADOS DA TABELA ---
+    XGB + LGBM & 500 & 12.302290\% \\ \hline
+    XGB + LGBM & 1000 & 12.303594\% \\ \hline
+    XGBoost & 500 & 12.306396\% \\ \hline
+    XGB + LGBM + RF & 500 & 12.309288\% \\ \hline
+    XGBoost & 1000 & 12.312470\% \\ \hline
+
+\end{longtable}
+
+% ==================== Ciências Natureza =====================
+
+%              modelo n_estimators  mape_teste
+% 75       XGB + LGBM          500   10.862886
+% 76       XGB + LGBM         1000   10.865162
+% 5           XGBoost          500   10.867356
+% 55  XGB + LGBM + RF          500   10.869213
+% 25         LightGBM          500   10.872770
+
+\begin{longtable}{|l|c|c|}
+
+    % --- TÍTULO E RÓTULO (1ª Página) ---
+    \caption{Cinco melhores modelos - Natureza} \label{tab_comparacao_modelos_natureza} \\
+    \hline
+    \textbf{Modelo} & \textbf{Qtd. estimadores} & \textbf{MAPE teste} \\ \hline
+    \endfirsthead
+
+    % --- CABEÇALHO (Páginas Seguintes) ---
+    \hline
+    \textbf{Modelo} & \textbf{Qtd. estimadores} & \textbf{MAPE teste} \\ \hline
+    \endhead
+
+    % --- RODAPÉ (Páginas Intermediárias) ---
+    \hline
+    \multicolumn{3}{r}{\footnotesize\textit{Continua na próxima página...}} \\
+    \endfoot
+
+    % --- RODAPÉ FINAL (Última Página) ---
+    \hline
+    % \multicolumn{3}{c}{\footnotesize Fonte: elaborado pelo autor.} \\
+    \endlastfoot
+
+    % --- DADOS DA TABELA ---
+    XGB + LGBM & 500 & 10.862886\% \\ \hline
+    XGB + LGBM & 1000 & 10.865162\% \\ \hline
+    XGBoost & 500 & 10.867356\% \\ \hline
+    XGB + LGBM + RF & 500 & 10.869213\% \\ \hline
+    LightGBM & 500 & 10.872770\% \\ \hline
+
+\end{longtable}
+
+% ==================== Linguagem e Código ====================
+
+%              modelo n_estimators  mape_teste
+% 79       XGB + LGBM          500   10.205704
+% 80       XGB + LGBM         1000   10.207500
+% 9           XGBoost          500   10.209998
+% 59  XGB + LGBM + RF          500   10.210127
+% 78       XGB + LGBM          100   10.216225
+
+\begin{longtable}{|l|c|c|}
+
+    % --- TÍTULO E RÓTULO (1ª Página) ---
+    \caption{Cinco melhores modelos - Linguagem} \label{tab_comparacao_modelos_linguagem_codigo} \\
+    \hline
+    \textbf{Modelo} & \textbf{Qtd. estimadores} & \textbf{MAPE teste} \\ \hline
+    \endfirsthead
+
+    % --- CABEÇALHO (Páginas Seguintes) ---
+    \hline
+    \textbf{Modelo} & \textbf{Qtd. estimadores} & \textbf{MAPE teste} \\ \hline
+    \endhead
+
+    % --- RODAPÉ (Páginas Intermediárias) ---
+    \hline
+    \multicolumn{3}{r}{\footnotesize\textit{Continua na próxima página...}} \\
+    \endfoot
+
+    % --- RODAPÉ FINAL (Última Página) ---
+    \hline
+    % \multicolumn{3}{c}{\footnotesize Fonte: elaborado pelo autor.} \\
+    \endlastfoot
+
+    % --- DADOS DA TABELA ---
+    XGB + LGBM & 500 & 10.205704\% \\ \hline
+    XGB + LGBM & 1000 & 10.207500\% \\ \hline
+    XGBoost & 500 & 10.209998\% \\ \hline
+    XGB + LGBM + RF & 500 & 10.210127\% \\ \hline
+    XGB + LGBM & 100 & 10.216225\% \\ \hline
+
+\end{longtable}
+
+% ======================== Matemática ========================
+
+%              modelo n_estimators  mape_teste
+% 83       XGB + LGBM          500   15.045981
+% 84       XGB + LGBM         1000   15.046495
+% 13          XGBoost          500   15.052611
+% 33         LightGBM          500   15.059630
+% 14          XGBoost         1000   15.060808
+
+\begin{longtable}{|l|c|c|}
+
+    % --- TÍTULO E RÓTULO (1ª Página) ---
+    \caption{Cinco melhores modelos - Matemática} \label{tab_comparacao_modelos_matematica} \\
+    \hline
+    \textbf{Modelo} & \textbf{Qtd. estimadores} & \textbf{MAPE teste} \\ \hline
+    \endfirsthead
+
+    % --- CABEÇALHO (Páginas Seguintes) ---
+    \hline
+    \textbf{Modelo} & \textbf{Qtd. estimadores} & \textbf{MAPE teste} \\ \hline
+    \endhead
+
+    % --- RODAPÉ (Páginas Intermediárias) ---
+    \hline
+    \multicolumn{3}{r}{\footnotesize\textit{Continua na próxima página...}} \\
+    \endfoot
+
+    % --- RODAPÉ FINAL (Última Página) ---
+    \hline
+    \multicolumn{3}{c}{\footnotesize Fonte: elaborado pelo autor.} \\
+    \endlastfoot
+
+    % --- DADOS DA TABELA ---
+    XGB + LGBM & 500 & 15.045981\% \\ \hline
+    XGB + LGBM & 1000 & 15.046495\% \\ \hline
+    XGBoost & 500 & 15.052611\% \\ \hline
+    LightGBM & 500 & 15.059630\% \\ \hline
+    XGBoost & 1000 & 15.060808\% \\ \hline
+
+\end{longtable}
+
+\pagebreak
+
+% ========================= Redação ==========================
+
+%              modelo n_estimators  mape_teste
+% 87       XGB + LGBM          500   21.208775
+% 88       XGB + LGBM         1000   21.213456
+% 17          XGBoost          500   21.214043
+% 37         LightGBM          500   21.219782
+% 67  XGB + LGBM + RF          500   21.220464
+
+\begin{longtable}{|l|c|c|}
+
+    % --- TÍTULO E RÓTULO (1ª Página) ---
+    \caption{Cinco melhores modelos - Redação} \label{tab_comparacao_modelos_redacao} \\
+    \hline
+    \textbf{Modelo} & \textbf{Qtd. estimadores} & \textbf{MAPE teste} \\ \hline
+    \endfirsthead
+
+    % --- CABEÇALHO (Páginas Seguintes) ---
+    \hline
+    \textbf{Modelo} & \textbf{Qtd. estimadores} & \textbf{MAPE teste} \\ \hline
+    \endhead
+
+    % --- RODAPÉ (Páginas Intermediárias) ---
+    \hline
+    \multicolumn{3}{r}{\footnotesize\textit{Continua na próxima página...}} \\
+    \endfoot
+
+    % --- RODAPÉ FINAL (Última Página) ---
+    \hline
+    \multicolumn{3}{c}{\footnotesize Fonte: elaborado pelo autor.} \\
+    \endlastfoot
+
+    % --- DADOS DA TABELA ---
+    XGB + LGBM & 500 & 21.208775\% \\ \hline
+    XGB + LGBM & 1000 & 21.213456\% \\ \hline
+    XGBoost & 500 & 21.214043\% \\ \hline
+    LightGBM & 500 & 21.219782\% \\ \hline
+    XGB + LGBM + RF & 500 & 21.220464\% \\ \hline
+
+\end{longtable}
+
+Foram então escolhidos os seguintes modelos como os melhores para cada conjunto de dados, considerando o modelo com o menor erro MAPE do conjunto de teste:
+
+\begin{itemize}
+    \item Humanas: modelo de \textit{ensemble} utilizando os modelos de \textit{XGBoost} e \textit{LightGBM} com 500 estimadores;
+    \item Natureza: modelo de \textit{ensemble} utilizando os modelos de \textit{XGBoost} e \textit{LightGBM} com 500 estimadores;
+    \item Linguagem e Código: modelo de \textit{ensemble} utilizando os modelos de \textit{XGBoost} e \textit{LightGBM} com 500 estimadores;
+    \item Matemática: modelo de \textit{ensemble} utilizando os modelos de \textit{XGBoost} e \textit{LightGBM} com 500 estimadores;
+    \item Redação: modelo de \textit{ensemble} utilizando os modelos de \textit{XGBoost} e \textit{LightGBM} com 500 estimadores.
+\end{itemize}
+
+Essa escolha vai em linha com o apresentado até o momento, onde os modelos individuaisapresentaram o menor erro MAPE com 500 estimadores e os modelos de \textit{ensemble} apresentaram o menor erro MAPE em relação aos modelos individuais.
+
+\section{Influência das Variáveis Preditoras}\label{resultados_influencia_preditoras}
+
+\subsection{Importância}\label{resultados_influencia_importancia}
+
+Com o modelo final em mãos, foi possível analisar a importância das variáveis preditoras para cada modelo. Para isso, foi utilizado o método \texttt{feature\_importances\_} dos algortimos para se extrair a importância de cada variável preditora para cada modelo. Como o modelo final é um modelo de \textit{ensemble} utilizando os modelos de \textit{XGBoost} e \textit{LightGBM}, a importância de cada variável preditora para o modelo de \textit{ensemble} foi calculada usando um método de ranking, onde a importância de cada variável preditora para o modelo de \textit{ensemble} foi calculada como a média do ranking da importância de cada variável preditora para os modelos de \textit{XGBoost} e \textit{LightGBM}. As Figuras \ref{fig_importancia_humanas} a \ref{fig_importancia_redacao} apresentam a importância das variáveis preditoras para cada modelo final, ordenadas da maior para a menor importância.
+
+\begin{figure}[H]
+    \centering
+    \caption{Rank de Importância - Humanas} \label{fig_importancia_humanas}
+    \includegraphics[width=0.9\linewidth]{imagens/importancia_ensemble_humanas.png}
+    \par\vspace{0.1cm}
+    % {\footnotesize Fonte: elaborado pelo autor.}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \caption{Rank de Importância - Natureza} \label{fig_importancia_natureza}
+    \includegraphics[width=0.9\linewidth]{imagens/importancia_ensemble_natureza.png}
+    \par\vspace{0.1cm}
+    % {\footnotesize Fonte: elaborado pelo autor.}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \caption{Rank de Importância - Linguagem e Código} \label{fig_importancia_linguagem_codigo}
+    \includegraphics[width=0.9\linewidth]{imagens/importancia_ensemble_linguagem_codigo.png}
+    \par\vspace{0.1cm}
+    % {\footnotesize Fonte: elaborado pelo autor.}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \caption{Rank de Importância - Matemática} \label{fig_importancia_matematica}
+    \includegraphics[width=0.9\linewidth]{imagens/importancia_ensemble_matematica.png}
+    \par\vspace{0.1cm}
+    % {\footnotesize Fonte: elaborado pelo autor.}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \caption{Rank de Importância - Redação} \label{fig_importancia_redacao}
+    \includegraphics[width=0.9\linewidth]{imagens/importancia_ensemble_redacao.png}
+        \par\vspace{0.1cm}
+    {\footnotesize Fonte: elaborado pelo autor.}
+\end{figure}
+
+As variáveis preditoras de renda familiar, quantidade de computadores em casa, ocupação do pai e escolaridade da mãe apareceram entre as 5 variáveis mais importantes para os cinco modelos finais. A variável da faixa etária do estudante apareceu para os modelos finais de Linguagem e Código, Matemática e Redação, mas não apareceu para os demais. A quinta variável para o modelo final de Ciências da Natureza foi a variável de escolaridade do pai e para o modelo final de Ciências Humanas foi a variável de cor/raça do estudante.
+
+\subsection{Sensibilidade das Variáveis Respostas}\label{resultados_influencia_sensibilidade}
+
+Para se analisar a sensibilidade das variáveis respostas em relação às alterações nas variáveis preditoras, foi criada uma base sintética de dados, onde oito variáveis preditoras foram preenchidas com todos os seus possíveis valores e as demais 21 variáveis preditoras foram preenchidas com os seus valores mais frequentes. As variáveis preditoras selecionadas foram:
+
+\begin{itemize}
+    \item \texttt{fx\_etaria}: faixa etária do estudante;
+    \item \texttt{sexo}: sexo do estudante;
+    \item \texttt{cor\_raca}: cor/raça do estudante;
+    \item \texttt{01\_escolaridade\_pai}: escolaridade do pai do estudante;
+    \item \texttt{02\_escolaridade\_mae}: escolaridade da mãe do estudante;
+    \item \texttt{03\_ocupacao\_pai}: ocupação do pai do estudante;
+    \item \texttt{04\_ocupacao\_mae}: ocupação da mãe do estudante;
+    \item \texttt{06\_renda\_familiar}: renda familiar do estudante.
+\end{itemize}
+
+Foram selecionadas essas oito variáveis preditoras para a análise de sensibilidade por serem de interesse para a análise e por apresentarem uma quantidade razoável de valores distintos, o que possibilita uma análise mais detalhada da sensibilidade das variáveis respostas em relação às alterações nessas variáveis preditoras.
+
+As figuras \ref{fig_sensibilidade_fx_etaria} a \ref{fig_sensibilidade_renda_familiar} apresentam as curvas de sensibilidade de cada Variável resposta em relação às alterações nas variáveis preditoras, onde cada curva representa a média das previsões do modelo final para cada valor da variável preditora, mantendo as demais variáveis preditoras fixas em seus valores mais frequentes.
+
+As curvas de sensibilidade foram normalizadas ao primeiro ponto da curva, ou seja, o valor da curva para o primeiro ponto da variável preditora foi definido como 0 e os demais pontos foram calculados como o aumento percentual da curva para cada ponto em relação ao primeiro ponto.
+
+% fig_sensibilidade_fx_etaria.png
+% fig_sensibilidade_sexo.png
+% fig_sensibilidade_cor_raca.png
+% fig_sensibilidade_01_escolaridade_pai.png
+% fig_sensibilidade_02_escolaridade_mae.png
+% fig_sensibilidade_03_ocupacao_pai.png
+% fig_sensibilidade_04_ocupacao_mae.png
+% fig_sensibilidade_06_renda_familiar.png
+
+\begin{figure}[H]
+    \centering
+    \caption{Curva de Sensibilidade - Faixa Etária} \label{fig_sensibilidade_fx_etaria}
+    \includegraphics[width=0.9\linewidth]{imagens/fig_sensibilidade_fx_etaria.png}
+    \par\vspace{0.1cm}
+    % {\footnotesize Fonte: elaborado pelo autor.}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \caption{Curva de Sensibilidade - Sexo} \label{fig_sensibilidade_sexo}
+    \includegraphics[width=0.9\linewidth]{imagens/fig_sensibilidade_sexo.png}
+    \par\vspace{0.1cm}
+    % {\footnotesize Fonte: elaborado pelo autor.}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \caption{Curva de Sensibilidade - Cor/Raça} \label{fig_sensibilidade_cor_raca}
+    \includegraphics[width=0.9\linewidth]{imagens/fig_sensibilidade_cor_raca.png}
+    \par\vspace{0.1cm}
+    % {\footnotesize Fonte: elaborado pelo autor.}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \caption{Curva de Sensibilidade - Escolaridade do Pai} \label{fig_sensibilidade_01_escolaridade_pai}
+    \includegraphics[width=0.9\linewidth]{imagens/fig_sensibilidade_01_escolaridade_pai.png}
+    \par\vspace{0.1cm}
+    % {\footnotesize Fonte: elaborado pelo autor.}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \caption{Curva de Sensibilidade - Escolaridade da Mãe} \label{fig_sensibilidade_02_escolaridade_mae}
+    \includegraphics[width=0.9\linewidth]{imagens/fig_sensibilidade_02_escolaridade_mae.png}
+    \par\vspace{0.1cm}
+    % {\footnotesize Fonte: elaborado pelo autor.}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \caption{Curva de Sensibilidade - Ocupação do Pai} \label{fig_sensibilidade_03_ocupacao_pai}
+    \includegraphics[width=0.9\linewidth]{imagens/fig_sensibilidade_03_ocupacao_pai.png}
+    \par\vspace{0.1cm}
+    % {\footnotesize Fonte: elaborado pelo autor.}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \caption{Curva de Sensibilidade - Ocupação da Mãe} \label{fig_sensibilidade_04_ocupacao_mae}
+    \includegraphics[width=0.9\linewidth]{imagens/fig_sensibilidade_04_ocupacao_mae.png}
+    \par\vspace{0.1cm}
+    % {\footnotesize Fonte: elaborado pelo autor.}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \caption{Curva de Sensibilidade - Renda Familiar} \label{fig_sensibilidade_renda_familiar}
+    \includegraphics[width=0.9\linewidth]{imagens/fig_sensibilidade_06_renda_familiar.png}
+    \par\vspace{0.1cm}
+    {\footnotesize Fonte: elaborado pelo autor.}
+\end{figure}
+

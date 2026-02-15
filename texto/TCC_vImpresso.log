@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.3)  9 FEB 2026 00:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.3)  15 FEB 2026 01:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1988,19 +1988,19 @@ Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 
 (pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
  [16
 
-]) (TCC_vImpresso.lof)
+]) (TCC_vImpresso.lof
 File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
 <use USPSC-img/CapaICMC.jpg>
-Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 261.
+Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 40.
 (pdftex.def)             Requested size: 596.44875pt x 845.04933pt.
 File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
 <use USPSC-img/USPSC-PaginaEmBranco.jpg>
-Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 261.
+Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 40.
 (pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
  [17
 
 
-]
+])
 File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
 <use USPSC-img/CapaICMC.jpg>
 Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 261.
@@ -2009,9 +2009,7 @@ File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
 <use USPSC-img/USPSC-PaginaEmBranco.jpg>
 Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 261.
 (pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
- [18
-
-] (TCC_vImpresso.lot)
+ [18] (TCC_vImpresso.lot)
 File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
 <use USPSC-img/CapaICMC.jpg>
 Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 266.
@@ -2020,7 +2018,9 @@ File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
 <use USPSC-img/USPSC-PaginaEmBranco.jpg>
 Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 266.
 (pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
- [19]
+ [19
+
+]
 File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
 <use USPSC-img/CapaICMC.jpg>
 Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 266.
@@ -2123,11 +2123,11 @@ Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 
 
 ]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 73.
+(Font)              <14.4> on input line 77.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 73.
+(Font)              <10> on input line 77.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 73.
+(Font)              <7> on input line 77.
 )
 File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
 <use USPSC-img/CapaICMC.jpg>
@@ -2222,7 +2222,7 @@ File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
 Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 102.
 (pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
  [35{/home/ramon/.miktex/texmfs/install/fonts/enc/dvips/lm/lm-rm.enc}]
-<imagens/regressao_linear.png, id=505, 387.3672pt x 295.5843pt>
+<imagens/regressao_linear.png, id=559, 387.3672pt x 295.5843pt>
 File: imagens/regressao_linear.png Graphic file (type png)
 <use imagens/regressao_linear.png>
 Package pdftex.def Info: imagens/regressao_linear.png  used on input line 106.
@@ -2241,12 +2241,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1}) h
                                                   \__shipout_drop_firstpage_...
 l.118 
        <./imagens/regressao_linear.png>]
-<imagens/arvore_decisao_iris.png, id=512, 702.625pt x 348.30125pt>
+<imagens/arvore_decisao_iris.png, id=566, 702.625pt x 348.30125pt>
 File: imagens/arvore_decisao_iris.png Graphic file (type png)
 <use imagens/arvore_decisao_iris.png>
 Package pdftex.def Info: imagens/arvore_decisao_iris.png  used on input line 122.
 (pdftex.def)             Requested size: 364.00139pt x 180.44804pt.
-<imagens/random_forest_iris.png, id=513, 521.69907pt x 464.4853pt>
+<imagens/random_forest_iris.png, id=567, 521.69907pt x 464.4853pt>
 File: imagens/random_forest_iris.png Graphic file (type png)
 <use imagens/random_forest_iris.png>
 Package pdftex.def Info: imagens/random_forest_iris.png  used on input line 138.
@@ -2283,7 +2283,7 @@ l.295 ...SPSC-TA-Textual/USPSC-Cap2-Fundamentacao}
 
  (USPSC-TA-Textual/USPSC-Cap3-Metodologia.tex
 Cap\'{\i }tulo 3.
-<imagens/crisp-dm.png, id=526, 550.30594pt x 518.6878pt>
+<imagens/crisp-dm.png, id=580, 550.30594pt x 518.6878pt>
 File: imagens/crisp-dm.png Graphic file (type png)
 <use imagens/crisp-dm.png>
 Package pdftex.def Info: imagens/crisp-dm.png  used on input line 11.
@@ -2332,42 +2332,37 @@ File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
 <use USPSC-img/USPSC-PaginaEmBranco.jpg>
 Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 62.
 (pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
- [41])
+ [41]
 File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
 <use USPSC-img/CapaICMC.jpg>
-Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 298.
+Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 78.
 (pdftex.def)             Requested size: 596.44875pt x 845.04933pt.
 File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
 <use USPSC-img/USPSC-PaginaEmBranco.jpg>
-Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 298.
+Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 78.
 (pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
  [42]
 File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
 <use USPSC-img/CapaICMC.jpg>
+Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 104.
+(pdftex.def)             Requested size: 596.44875pt x 845.04933pt.
+File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
+<use USPSC-img/USPSC-PaginaEmBranco.jpg>
+Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 104.
+(pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
+ [43])
+File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
+<use USPSC-img/CapaICMC.jpg>
 Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 298.
 (pdftex.def)             Requested size: 596.44875pt x 845.04933pt.
 File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
 <use USPSC-img/USPSC-PaginaEmBranco.jpg>
 Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 298.
 (pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
- [43]
+ [44]
 \openout2 = `USPSC-TA-Textual/USPSC-Cap4-Resultados.aux'.
 
  (USPSC-TA-Textual/USPSC-Cap4-Resultados.tex
-File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
-<use USPSC-img/CapaICMC.jpg>
-Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 2.
-(pdftex.def)             Requested size: 596.44875pt x 845.04933pt.
-File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
-<use USPSC-img/USPSC-PaginaEmBranco.jpg>
-Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 2.
-(pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
- [44
-
-
-
-
-]
 Cap\'{\i }tulo 4.
 File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
 <use USPSC-img/CapaICMC.jpg>
@@ -2377,7 +2372,12 @@ File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
 <use USPSC-img/USPSC-PaginaEmBranco.jpg>
 Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 62.
 (pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
-[45]
+[45
+
+
+
+
+]
 File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
 <use USPSC-img/CapaICMC.jpg>
 Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 83.
@@ -2433,16 +2433,16 @@ File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
 Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 393.
 (pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
  [51]
-<imagens/histograma_humanas.png, id=644, 498.663pt x 283.2984pt>
+<imagens/histograma_humanas.png, id=699, 498.663pt x 283.2984pt>
 File: imagens/histograma_humanas.png Graphic file (type png)
 <use imagens/histograma_humanas.png>
 Package pdftex.def Info: imagens/histograma_humanas.png  used on input line 400.
-(pdftex.def)             Requested size: 318.49861pt x 180.94292pt.
-<imagens/histograma_natureza.png, id=645, 498.663pt x 283.2984pt>
+(pdftex.def)             Requested size: 409.49722pt x 232.64336pt.
+<imagens/histograma_natureza.png, id=700, 498.663pt x 283.2984pt>
 File: imagens/histograma_natureza.png Graphic file (type png)
 <use imagens/histograma_natureza.png>
 Package pdftex.def Info: imagens/histograma_natureza.png  used on input line 408.
-(pdftex.def)             Requested size: 318.49861pt x 180.94292pt.
+(pdftex.def)             Requested size: 409.49722pt x 232.64336pt.
 File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
 <use USPSC-img/CapaICMC.jpg>
 Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 412.
@@ -2457,69 +2457,78 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.5}) h
                                                   \__shipout_drop_firstpage_...
 l.412 
        <./imagens/histograma_humanas.png>]
-<imagens/histograma_linguagem_codigo.png, id=651, 498.663pt x 283.2984pt>
+<imagens/histograma_linguagem_codigo.png, id=706, 498.663pt x 283.2984pt>
 File: imagens/histograma_linguagem_codigo.png Graphic file (type png)
 <use imagens/histograma_linguagem_codigo.png>
 Package pdftex.def Info: imagens/histograma_linguagem_codigo.png  used on input line 416.
-(pdftex.def)             Requested size: 318.49861pt x 180.94292pt.
-<imagens/histograma_matematica.png, id=652, 498.663pt x 283.2984pt>
+(pdftex.def)             Requested size: 409.49722pt x 232.64336pt.
+<imagens/histograma_matematica.png, id=707, 498.663pt x 283.2984pt>
 File: imagens/histograma_matematica.png Graphic file (type png)
 <use imagens/histograma_matematica.png>
 Package pdftex.def Info: imagens/histograma_matematica.png  used on input line 424.
-(pdftex.def)             Requested size: 318.49861pt x 180.94292pt.
-<imagens/histograma_redacao.png, id=653, 498.663pt x 283.2984pt>
-File: imagens/histograma_redacao.png Graphic file (type png)
-<use imagens/histograma_redacao.png>
-Package pdftex.def Info: imagens/histograma_redacao.png  used on input line 432.
-(pdftex.def)             Requested size: 318.49861pt x 180.94292pt.
+(pdftex.def)             Requested size: 409.49722pt x 232.64336pt.
 File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
 <use USPSC-img/CapaICMC.jpg>
-Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 436.
+Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 428.
 (pdftex.def)             Requested size: 596.44875pt x 845.04933pt.
 File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
 <use USPSC-img/USPSC-PaginaEmBranco.jpg>
-Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 436.
+Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 428.
 (pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
  [53
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4.6}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.436 
+l.428 
       
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4.7}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.436 
-      
-pdfTeX warning (ext4): destination with the same identifier (name{figure.4.8}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.436 
-       <./imagens/histograma_natureza.png> <./imagens/histograma_linguagem_codigo.png> <./imagens/histograma_matematica.png>]
+l.428 
+       <./imagens/histograma_natureza.png> <./imagens/histograma_linguagem_codigo.png>]
+<imagens/histograma_redacao.png, id=714, 498.663pt x 283.2984pt>
+File: imagens/histograma_redacao.png Graphic file (type png)
+<use imagens/histograma_redacao.png>
+Package pdftex.def Info: imagens/histograma_redacao.png  used on input line 432.
+(pdftex.def)             Requested size: 409.49722pt x 232.64336pt.
 File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
 <use USPSC-img/CapaICMC.jpg>
-Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 482.
+Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 474.
 (pdftex.def)             Requested size: 596.44875pt x 845.04933pt.
 File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
 <use USPSC-img/USPSC-PaginaEmBranco.jpg>
-Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 482.
+Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 474.
 (pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
  [54
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4.8}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.474 \end{longtable}
+                     
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4.9}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.482 \subsubsection
-                    {Teste de Hipótese}\label{resultados_analise_explorator... <./imagens/histograma_redacao.png>]
-<imagens/boxplot_humanas.png, id=673, 452.6511pt x 267.1581pt>
+l.474 \end{longtable}
+                      <./imagens/histograma_matematica.png> <./imagens/histograma_redacao.png>]
+File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
+<use USPSC-img/CapaICMC.jpg>
+Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 525.
+(pdftex.def)             Requested size: 596.44875pt x 845.04933pt.
+File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
+<use USPSC-img/USPSC-PaginaEmBranco.jpg>
+Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 525.
+(pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
+ [55]
+<imagens/boxplot_humanas.png, id=733, 452.6511pt x 267.1581pt>
 File: imagens/boxplot_humanas.png Graphic file (type png)
 <use imagens/boxplot_humanas.png>
 Package pdftex.def Info: imagens/boxplot_humanas.png  used on input line 533.
-(pdftex.def)             Requested size: 318.49861pt x 187.98775pt.
-<imagens/boxplot_natureza.png, id=674, 452.6511pt x 267.1581pt>
+(pdftex.def)             Requested size: 409.49722pt x 241.69969pt.
+<imagens/boxplot_natureza.png, id=734, 452.6511pt x 267.1581pt>
 File: imagens/boxplot_natureza.png Graphic file (type png)
 <use imagens/boxplot_natureza.png>
 Package pdftex.def Info: imagens/boxplot_natureza.png  used on input line 541.
-(pdftex.def)             Requested size: 318.49861pt x 187.98775pt.
+(pdftex.def)             Requested size: 409.49722pt x 241.69969pt.
 File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
 <use USPSC-img/CapaICMC.jpg>
 Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 545.
@@ -2528,74 +2537,83 @@ File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
 <use USPSC-img/USPSC-PaginaEmBranco.jpg>
 Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 545.
 (pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
- [55
+ [56
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4.10}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.545 
        <./imagens/boxplot_humanas.png>]
-<imagens/boxplot_linguagem_codigo.png, id=681, 452.6511pt x 267.1581pt>
+<imagens/boxplot_linguagem_codigo.png, id=740, 452.6511pt x 267.1581pt>
 File: imagens/boxplot_linguagem_codigo.png Graphic file (type png)
 <use imagens/boxplot_linguagem_codigo.png>
 Package pdftex.def Info: imagens/boxplot_linguagem_codigo.png  used on input line 549.
-(pdftex.def)             Requested size: 318.49861pt x 187.98775pt.
-<imagens/boxplot_matematica.png, id=682, 452.6511pt x 267.1581pt>
+(pdftex.def)             Requested size: 409.49722pt x 241.69969pt.
+<imagens/boxplot_matematica.png, id=741, 452.6511pt x 267.1581pt>
 File: imagens/boxplot_matematica.png Graphic file (type png)
 <use imagens/boxplot_matematica.png>
 Package pdftex.def Info: imagens/boxplot_matematica.png  used on input line 557.
-(pdftex.def)             Requested size: 318.49861pt x 187.98775pt.
-<imagens/boxplot_redacao.png, id=683, 452.6511pt x 267.1581pt>
-File: imagens/boxplot_redacao.png Graphic file (type png)
-<use imagens/boxplot_redacao.png>
-Package pdftex.def Info: imagens/boxplot_redacao.png  used on input line 565.
-(pdftex.def)             Requested size: 318.49861pt x 187.98775pt.
+(pdftex.def)             Requested size: 409.49722pt x 241.69969pt.
 File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
 <use USPSC-img/CapaICMC.jpg>
-Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 569.
+Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 561.
 (pdftex.def)             Requested size: 596.44875pt x 845.04933pt.
 File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
 <use USPSC-img/USPSC-PaginaEmBranco.jpg>
-Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 569.
+Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 561.
 (pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
- [56
+ [57
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4.11}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.569 
+l.561 
       
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4.12}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.569 
-      
+l.561 
+       <./imagens/boxplot_natureza.png> <./imagens/boxplot_linguagem_codigo.png>]
+<imagens/boxplot_redacao.png, id=748, 452.6511pt x 267.1581pt>
+File: imagens/boxplot_redacao.png Graphic file (type png)
+<use imagens/boxplot_redacao.png>
+Package pdftex.def Info: imagens/boxplot_redacao.png  used on input line 565.
+(pdftex.def)             Requested size: 409.49722pt x 241.69969pt.
+File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
+<use USPSC-img/CapaICMC.jpg>
+Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 659.
+(pdftex.def)             Requested size: 596.44875pt x 845.04933pt.
+File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
+<use USPSC-img/USPSC-PaginaEmBranco.jpg>
+Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 659.
+(pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
+ [58
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4.13}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.569 
-       <./imagens/boxplot_natureza.png> <./imagens/boxplot_linguagem_codigo.png> <./imagens/boxplot_matematica.png>]
-File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
-<use USPSC-img/CapaICMC.jpg>
-Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 670.
-(pdftex.def)             Requested size: 596.44875pt x 845.04933pt.
-File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
-<use USPSC-img/USPSC-PaginaEmBranco.jpg>
-Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 670.
-(pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
- [57
+l.659 \end{longtable}
+                     
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4.14}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.670 
-       <./imagens/boxplot_redacao.png>]
+l.659 \end{longtable}
+                      <./imagens/boxplot_matematica.png> <./imagens/boxplot_redacao.png>]
 File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
 <use USPSC-img/CapaICMC.jpg>
-Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 833.
+Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 751.
 (pdftex.def)             Requested size: 596.44875pt x 845.04933pt.
 File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
 <use USPSC-img/USPSC-PaginaEmBranco.jpg>
-Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 833.
+Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 751.
 (pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
- [58]
+ [59]
+File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
+<use USPSC-img/CapaICMC.jpg>
+Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 879.
+(pdftex.def)             Requested size: 596.44875pt x 845.04933pt.
+File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
+<use USPSC-img/USPSC-PaginaEmBranco.jpg>
+Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 879.
+(pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
+ [60]
 File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
 <use USPSC-img/CapaICMC.jpg>
 Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 934.
@@ -2604,7 +2622,7 @@ File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
 <use USPSC-img/USPSC-PaginaEmBranco.jpg>
 Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 934.
 (pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
- [59]
+ [61]
 File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
 <use USPSC-img/CapaICMC.jpg>
 Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 1092.
@@ -2613,17 +2631,17 @@ File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
 <use USPSC-img/USPSC-PaginaEmBranco.jpg>
 Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 1092.
 (pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
- [60]
-<imagens/permutation_importance_humanas.png, id=717, 562.9833pt x 308.5929pt>
+ [62]
+<imagens/permutation_importance_humanas.png, id=781, 562.9833pt x 308.5929pt>
 File: imagens/permutation_importance_humanas.png Graphic file (type png)
 <use imagens/permutation_importance_humanas.png>
 Package pdftex.def Info: imagens/permutation_importance_humanas.png  used on input line 1103.
-(pdftex.def)             Requested size: 318.49861pt x 174.58131pt.
-<imagens/permutation_importance_natureza.png, id=718, 562.9833pt x 308.5929pt>
+(pdftex.def)             Requested size: 409.49722pt x 224.46573pt.
+<imagens/permutation_importance_natureza.png, id=782, 562.9833pt x 308.5929pt>
 File: imagens/permutation_importance_natureza.png Graphic file (type png)
 <use imagens/permutation_importance_natureza.png>
 Package pdftex.def Info: imagens/permutation_importance_natureza.png  used on input line 1111.
-(pdftex.def)             Requested size: 318.49861pt x 174.58131pt.
+(pdftex.def)             Requested size: 409.49722pt x 224.46573pt.
 File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
 <use USPSC-img/CapaICMC.jpg>
 Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 1115.
@@ -2632,51 +2650,66 @@ File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
 <use USPSC-img/USPSC-PaginaEmBranco.jpg>
 Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 1115.
 (pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
- [61
+ [63
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4.15}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.1115 
         <./imagens/permutation_importance_humanas.png>]
-<imagens/permutation_importance_linguagem_codigo.png, id=725, 562.9833pt x 308.5929pt>
+<imagens/permutation_importance_linguagem_codigo.png, id=788, 562.9833pt x 308.5929pt>
 File: imagens/permutation_importance_linguagem_codigo.png Graphic file (type png)
 <use imagens/permutation_importance_linguagem_codigo.png>
 Package pdftex.def Info: imagens/permutation_importance_linguagem_codigo.png  used on input line 1119.
-(pdftex.def)             Requested size: 318.49861pt x 174.58131pt.
-<imagens/permutation_importance_matematica.png, id=726, 562.9833pt x 308.5929pt>
+(pdftex.def)             Requested size: 409.49722pt x 224.46573pt.
+<imagens/permutation_importance_matematica.png, id=789, 562.9833pt x 308.5929pt>
 File: imagens/permutation_importance_matematica.png Graphic file (type png)
 <use imagens/permutation_importance_matematica.png>
 Package pdftex.def Info: imagens/permutation_importance_matematica.png  used on input line 1127.
-(pdftex.def)             Requested size: 318.49861pt x 174.58131pt.
-<imagens/permutation_importance_redacao.png, id=727, 562.9833pt x 308.5929pt>
-File: imagens/permutation_importance_redacao.png Graphic file (type png)
-<use imagens/permutation_importance_redacao.png>
-Package pdftex.def Info: imagens/permutation_importance_redacao.png  used on input line 1135.
-(pdftex.def)             Requested size: 318.49861pt x 174.58131pt.
+(pdftex.def)             Requested size: 409.49722pt x 224.46573pt.
 File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
 <use USPSC-img/CapaICMC.jpg>
-Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 1139.
+Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 1131.
 (pdftex.def)             Requested size: 596.44875pt x 845.04933pt.
 File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
 <use USPSC-img/USPSC-PaginaEmBranco.jpg>
-Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 1139.
+Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 1131.
 (pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
- [62
+ [64
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4.16}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1139 
+l.1131 
        
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4.17}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1139 
-       
+l.1131 
+        <./imagens/permutation_importance_natureza.png> <./imagens/permutation_importance_linguagem_codigo.png>]
+<imagens/permutation_importance_redacao.png, id=796, 562.9833pt x 308.5929pt>
+File: imagens/permutation_importance_redacao.png Graphic file (type png)
+<use imagens/permutation_importance_redacao.png>
+Package pdftex.def Info: imagens/permutation_importance_redacao.png  used on input line 1135.
+(pdftex.def)             Requested size: 409.49722pt x 224.46573pt.
+File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
+<use USPSC-img/CapaICMC.jpg>
+Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 1147.
+(pdftex.def)             Requested size: 596.44875pt x 845.04933pt.
+File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
+<use USPSC-img/USPSC-PaginaEmBranco.jpg>
+Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 1147.
+(pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
+ [65
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4.18}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1139 
-        <./imagens/permutation_importance_natureza.png> <./imagens/permutation_importance_linguagem_codigo.png> <./imagens/permutation_importance_matematica.png>]
+l.1147 
+       
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4.19}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1147 
+        <./imagens/permutation_importance_matematica.png> <./imagens/permutation_importance_redacao.png>]
+USPSC-TA-Textual/USPSC-Cap4-Resultados.tex:1221: ignored error: Infinite glue shrinkage found in box being split
 File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
 <use USPSC-img/CapaICMC.jpg>
 Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 1221.
@@ -2685,153 +2718,440 @@ File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
 <use USPSC-img/USPSC-PaginaEmBranco.jpg>
 Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 1221.
 (pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
- [63
-pdfTeX warning (ext4): destination with the same identifier (name{figure.4.19}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.1221 \end{longtable}
-                       <./imagens/permutation_importance_redacao.png>]
+ [66]
+USPSC-TA-Textual/USPSC-Cap4-Resultados.tex:1285: ignored error: Infinite glue shrinkage found in box being split
 File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
 <use USPSC-img/CapaICMC.jpg>
-Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 1233.
+Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 1285.
 (pdftex.def)             Requested size: 596.44875pt x 845.04933pt.
 File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
 <use USPSC-img/USPSC-PaginaEmBranco.jpg>
-Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 1233.
+Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 1285.
 (pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
- [64]
+ [67]
 File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
 <use USPSC-img/CapaICMC.jpg>
-Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 1386.
+Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 1389.
 (pdftex.def)             Requested size: 596.44875pt x 845.04933pt.
 File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
 <use USPSC-img/USPSC-PaginaEmBranco.jpg>
-Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 1386.
+Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 1389.
 (pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
- [65]
-<imagens/erro_grid_xgb.png, id=754, 519.6213pt x 364.9635pt>
+ [68]
+<imagens/erro_grid_xgb.png, id=822, 519.6213pt x 364.9635pt>
 File: imagens/erro_grid_xgb.png Graphic file (type png)
 <use imagens/erro_grid_xgb.png>
-Package pdftex.def Info: imagens/erro_grid_xgb.png  used on input line 1397.
-(pdftex.def)             Requested size: 318.49861pt x 223.71333pt.
-<imagens/erro_grid_lgbm.png, id=755, 519.6213pt x 364.9635pt>
+Package pdftex.def Info: imagens/erro_grid_xgb.png  used on input line 1395.
+(pdftex.def)             Requested size: 409.49722pt x 287.62746pt.
+<imagens/erro_grid_lgbm.png, id=823, 519.6213pt x 364.9635pt>
 File: imagens/erro_grid_lgbm.png Graphic file (type png)
 <use imagens/erro_grid_lgbm.png>
-Package pdftex.def Info: imagens/erro_grid_lgbm.png  used on input line 1406.
-(pdftex.def)             Requested size: 318.49861pt x 223.71333pt.
+Package pdftex.def Info: imagens/erro_grid_lgbm.png  used on input line 1404.
+(pdftex.def)             Requested size: 409.49722pt x 287.62746pt.
 File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
 <use USPSC-img/CapaICMC.jpg>
-Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 1411.
+Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 1409.
 (pdftex.def)             Requested size: 596.44875pt x 845.04933pt.
 File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
 <use USPSC-img/USPSC-PaginaEmBranco.jpg>
-Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 1411.
+Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 1409.
 (pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
- [66
+ [69
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4.20}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1411 
+l.1409 
         <./imagens/erro_grid_xgb.png>]
-<imagens/erro_grid_rf.png, id=761, 519.6213pt x 364.9635pt>
+<imagens/erro_grid_rf.png, id=829, 519.6213pt x 364.9635pt>
 File: imagens/erro_grid_rf.png Graphic file (type png)
 <use imagens/erro_grid_rf.png>
-Package pdftex.def Info: imagens/erro_grid_rf.png  used on input line 1415.
-(pdftex.def)             Requested size: 318.49861pt x 223.71333pt.
+Package pdftex.def Info: imagens/erro_grid_rf.png  used on input line 1413.
+(pdftex.def)             Requested size: 409.49722pt x 287.62746pt.
 File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
 <use USPSC-img/CapaICMC.jpg>
-Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 1423.
+Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 1419.
 (pdftex.def)             Requested size: 596.44875pt x 845.04933pt.
 File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
 <use USPSC-img/USPSC-PaginaEmBranco.jpg>
-Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 1423.
+Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 1419.
 (pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
- [67
+ [70
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4.21}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1423 
+l.1419 
        
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4.22}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1423 
+l.1419 
         <./imagens/erro_grid_lgbm.png> <./imagens/erro_grid_rf.png>]
-Overfull \hbox (12.61594pt too wide) in alignment at lines 1444--1450
+Overfull \hbox (12.61594pt too wide) in alignment at lines 1442--1448
  [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (12.61594pt too wide) in alignment at lines 1450--1455
+Overfull \hbox (12.61594pt too wide) in alignment at lines 1448--1453
  [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (12.61594pt too wide) in alignment at lines 1455--1460
+Overfull \hbox (12.61594pt too wide) in alignment at lines 1453--1458
  [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (12.61594pt too wide) in alignment at lines 1460--1465
+Overfull \hbox (12.61594pt too wide) in alignment at lines 1458--1463
  [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (12.61594pt too wide) in alignment at lines 1465--1475
+Overfull \hbox (12.61594pt too wide) in alignment at lines 1463--1473
  [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (18.79094pt too wide) in alignment at lines 1495--1501
+Overfull \hbox (18.79094pt too wide) in alignment at lines 1493--1499
  [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (18.79094pt too wide) in alignment at lines 1501--1506
+Overfull \hbox (18.79094pt too wide) in alignment at lines 1499--1504
  [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (18.79094pt too wide) in alignment at lines 1506--1511
+Overfull \hbox (18.79094pt too wide) in alignment at lines 1504--1509
  [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (18.79094pt too wide) in alignment at lines 1511--1516
+Overfull \hbox (18.79094pt too wide) in alignment at lines 1509--1514
  [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (18.79094pt too wide) in alignment at lines 1516--1526
+Overfull \hbox (18.79094pt too wide) in alignment at lines 1514--1524
  [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (8.73282pt too wide) in alignment at lines 1542--1548
+Overfull \hbox (8.73282pt too wide) in alignment at lines 1540--1546
  [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (8.73282pt too wide) in alignment at lines 1548--1553
+Overfull \hbox (8.73282pt too wide) in alignment at lines 1546--1551
  [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (8.73282pt too wide) in alignment at lines 1553--1558
+Overfull \hbox (8.73282pt too wide) in alignment at lines 1551--1556
  [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (8.73282pt too wide) in alignment at lines 1558--1563
+Overfull \hbox (8.73282pt too wide) in alignment at lines 1556--1561
  [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (8.73282pt too wide) in alignment at lines 1563--1571
+Overfull \hbox (8.73282pt too wide) in alignment at lines 1561--1569
  [] [] [] [] [] [] 
  []
 
-)
+USPSC-TA-Textual/USPSC-Cap4-Resultados.tex:1569: ignored error: Infinite glue shrinkage found in box being split
+File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
+<use USPSC-img/CapaICMC.jpg>
+Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 1569.
+(pdftex.def)             Requested size: 596.44875pt x 845.04933pt.
+File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
+<use USPSC-img/USPSC-PaginaEmBranco.jpg>
+Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 1569.
+(pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
+ [71]
+<imagens/erro_final_xgb.png, id=846, 631.6398pt x 382.3083pt>
+File: imagens/erro_final_xgb.png Graphic file (type png)
+<use imagens/erro_final_xgb.png>
+Package pdftex.def Info: imagens/erro_final_xgb.png  used on input line 1580.
+(pdftex.def)             Requested size: 409.49722pt x 247.85576pt.
+<imagens/erro_final_lgbm.png, id=847, 631.6398pt x 382.3083pt>
+File: imagens/erro_final_lgbm.png Graphic file (type png)
+<use imagens/erro_final_lgbm.png>
+Package pdftex.def Info: imagens/erro_final_lgbm.png  used on input line 1588.
+(pdftex.def)             Requested size: 409.49722pt x 247.85576pt.
+File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
+<use USPSC-img/CapaICMC.jpg>
+Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 1592.
+(pdftex.def)             Requested size: 596.44875pt x 845.04933pt.
+File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
+<use USPSC-img/USPSC-PaginaEmBranco.jpg>
+Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 1592.
+(pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
+ [72
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4.23}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1592 
+        <./imagens/erro_final_xgb.png>]
+File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
+<use USPSC-img/CapaICMC.jpg>
+Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 1639.
+(pdftex.def)             Requested size: 596.44875pt x 845.04933pt.
+File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
+<use USPSC-img/USPSC-PaginaEmBranco.jpg>
+Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 1639.
+(pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
+ [73
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4.24}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1639 
+        <./imagens/erro_final_lgbm.png>]
+<imagens/erro_final_ensemble.png, id=861, 631.6398pt x 382.3083pt>
+File: imagens/erro_final_ensemble.png Graphic file (type png)
+<use imagens/erro_final_ensemble.png>
+Package pdftex.def Info: imagens/erro_final_ensemble.png  used on input line 1643.
+(pdftex.def)             Requested size: 409.49722pt x 247.85576pt.
+<imagens/erro_final_ensemble_2.png, id=862, 631.6398pt x 382.3083pt>
+File: imagens/erro_final_ensemble_2.png Graphic file (type png)
+<use imagens/erro_final_ensemble_2.png>
+Package pdftex.def Info: imagens/erro_final_ensemble_2.png  used on input line 1651.
+(pdftex.def)             Requested size: 409.49722pt x 247.85576pt.
+File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
+<use USPSC-img/CapaICMC.jpg>
+Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 1657.
+(pdftex.def)             Requested size: 596.44875pt x 845.04933pt.
+File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
+<use USPSC-img/USPSC-PaginaEmBranco.jpg>
+Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 1657.
+(pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
+ [74
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4.25}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1657 
+       
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4.26}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1657 
+        <./imagens/erro_final_ensemble.png> <./imagens/erro_final_ensemble_2.png>]
+File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
+<use USPSC-img/CapaICMC.jpg>
+Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 1665.
+(pdftex.def)             Requested size: 596.44875pt x 845.04933pt.
+File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
+<use USPSC-img/USPSC-PaginaEmBranco.jpg>
+Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 1665.
+(pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
+ [75]
+File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
+<use USPSC-img/CapaICMC.jpg>
+Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 1831.
+(pdftex.def)             Requested size: 596.44875pt x 845.04933pt.
+File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
+<use USPSC-img/USPSC-PaginaEmBranco.jpg>
+Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 1831.
+(pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
+ [76]
+File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
+<use USPSC-img/CapaICMC.jpg>
+Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 1890.
+(pdftex.def)             Requested size: 596.44875pt x 845.04933pt.
+File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
+<use USPSC-img/USPSC-PaginaEmBranco.jpg>
+Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 1890.
+(pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
+ [77]
+<imagens/importancia_ensemble_humanas.png, id=886, 610.9224pt x 308.5929pt>
+File: imagens/importancia_ensemble_humanas.png Graphic file (type png)
+<use imagens/importancia_ensemble_humanas.png>
+Package pdftex.def Info: imagens/importancia_ensemble_humanas.png  used on input line 1894.
+(pdftex.def)             Requested size: 409.49722pt x 206.85033pt.
+<imagens/importancia_ensemble_natureza.png, id=887, 610.9224pt x 308.5929pt>
+File: imagens/importancia_ensemble_natureza.png Graphic file (type png)
+<use imagens/importancia_ensemble_natureza.png>
+Package pdftex.def Info: imagens/importancia_ensemble_natureza.png  used on input line 1902.
+(pdftex.def)             Requested size: 409.49722pt x 206.85033pt.
+<imagens/importancia_ensemble_linguagem_codigo.png, id=888, 610.9224pt x 308.5929pt>
+File: imagens/importancia_ensemble_linguagem_codigo.png Graphic file (type png)
+<use imagens/importancia_ensemble_linguagem_codigo.png>
+Package pdftex.def Info: imagens/importancia_ensemble_linguagem_codigo.png  used on input line 1910.
+(pdftex.def)             Requested size: 409.49722pt x 206.85033pt.
+File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
+<use USPSC-img/CapaICMC.jpg>
+Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 1914.
+(pdftex.def)             Requested size: 596.44875pt x 845.04933pt.
+File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
+<use USPSC-img/USPSC-PaginaEmBranco.jpg>
+Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 1914.
+(pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
+ [78
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4.27}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1914 
+       
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4.28}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1914 
+        <./imagens/importancia_ensemble_humanas.png> <./imagens/importancia_ensemble_natureza.png>]
+<imagens/importancia_ensemble_matematica.png, id=895, 610.9224pt x 308.5929pt>
+File: imagens/importancia_ensemble_matematica.png Graphic file (type png)
+<use imagens/importancia_ensemble_matematica.png>
+Package pdftex.def Info: imagens/importancia_ensemble_matematica.png  used on input line 1918.
+(pdftex.def)             Requested size: 409.49722pt x 206.85033pt.
+<imagens/importancia_ensemble_redacao.png, id=896, 610.9224pt x 308.5929pt>
+File: imagens/importancia_ensemble_redacao.png Graphic file (type png)
+<use imagens/importancia_ensemble_redacao.png>
+Package pdftex.def Info: imagens/importancia_ensemble_redacao.png  used on input line 1926.
+(pdftex.def)             Requested size: 409.49722pt x 206.85033pt.
+File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
+<use USPSC-img/CapaICMC.jpg>
+Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 1930.
+(pdftex.def)             Requested size: 596.44875pt x 845.04933pt.
+File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
+<use USPSC-img/USPSC-PaginaEmBranco.jpg>
+Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 1930.
+(pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
+ [79
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4.29}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1930 
+       
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4.30}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1930 
+        <./imagens/importancia_ensemble_linguagem_codigo.png> <./imagens/importancia_ensemble_matematica.png>]
+File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
+<use USPSC-img/CapaICMC.jpg>
+Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 1946.
+(pdftex.def)             Requested size: 596.44875pt x 845.04933pt.
+File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
+<use USPSC-img/USPSC-PaginaEmBranco.jpg>
+Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 1946.
+(pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
+ [80
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4.31}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1946 \end{itemize}
+                     <./imagens/importancia_ensemble_redacao.png>]
+<imagens/fig_sensibilidade_fx_etaria.png, id=911, 730.4088pt x 333.8874pt>
+File: imagens/fig_sensibilidade_fx_etaria.png Graphic file (type png)
+<use imagens/fig_sensibilidade_fx_etaria.png>
+Package pdftex.def Info: imagens/fig_sensibilidade_fx_etaria.png  used on input line 1966.
+(pdftex.def)             Requested size: 409.49722pt x 187.18964pt.
+<imagens/fig_sensibilidade_sexo.png, id=912, 724.1454pt x 315.0972pt>
+File: imagens/fig_sensibilidade_sexo.png Graphic file (type png)
+<use imagens/fig_sensibilidade_sexo.png>
+Package pdftex.def Info: imagens/fig_sensibilidade_sexo.png  used on input line 1974.
+(pdftex.def)             Requested size: 409.49722pt x 178.1889pt.
+File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
+<use USPSC-img/CapaICMC.jpg>
+Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 1978.
+(pdftex.def)             Requested size: 596.44875pt x 845.04933pt.
+File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
+<use USPSC-img/USPSC-PaginaEmBranco.jpg>
+Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 1978.
+(pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
+ [81
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4.32}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1978 
+        <./imagens/fig_sensibilidade_fx_etaria.png>]
+<imagens/fig_sensibilidade_cor_raca.png, id=918, 724.1454pt x 344.487pt>
+File: imagens/fig_sensibilidade_cor_raca.png Graphic file (type png)
+<use imagens/fig_sensibilidade_cor_raca.png>
+Package pdftex.def Info: imagens/fig_sensibilidade_cor_raca.png  used on input line 1982.
+(pdftex.def)             Requested size: 409.49722pt x 194.80898pt.
+<imagens/fig_sensibilidade_01_escolaridade_pai.png, id=919, 716.1957pt x 461.8053pt>
+File: imagens/fig_sensibilidade_01_escolaridade_pai.png Graphic file (type png)
+<use imagens/fig_sensibilidade_01_escolaridade_pai.png>
+Package pdftex.def Info: imagens/fig_sensibilidade_01_escolaridade_pai.png  used on input line 1990.
+(pdftex.def)             Requested size: 409.49722pt x 264.0421pt.
+File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
+<use USPSC-img/CapaICMC.jpg>
+Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 1994.
+(pdftex.def)             Requested size: 596.44875pt x 845.04933pt.
+File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
+<use USPSC-img/USPSC-PaginaEmBranco.jpg>
+Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 1994.
+(pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
+ [82
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4.33}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1994 
+       
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4.34}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1994 
+        <./imagens/fig_sensibilidade_sexo.png> <./imagens/fig_sensibilidade_cor_raca.png>]
+<imagens/fig_sensibilidade_02_escolaridade_mae.png, id=926, 716.1957pt x 461.8053pt>
+File: imagens/fig_sensibilidade_02_escolaridade_mae.png Graphic file (type png)
+<use imagens/fig_sensibilidade_02_escolaridade_mae.png>
+Package pdftex.def Info: imagens/fig_sensibilidade_02_escolaridade_mae.png  used on input line 1998.
+(pdftex.def)             Requested size: 409.49722pt x 264.0421pt.
+<imagens/fig_sensibilidade_03_ocupacao_pai.png, id=927, 738.5994pt x 448.3149pt>
+File: imagens/fig_sensibilidade_03_ocupacao_pai.png Graphic file (type png)
+<use imagens/fig_sensibilidade_03_ocupacao_pai.png>
+Package pdftex.def Info: imagens/fig_sensibilidade_03_ocupacao_pai.png  used on input line 2006.
+(pdftex.def)             Requested size: 409.49722pt x 248.55775pt.
+File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
+<use USPSC-img/CapaICMC.jpg>
+Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 2010.
+(pdftex.def)             Requested size: 596.44875pt x 845.04933pt.
+File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
+<use USPSC-img/USPSC-PaginaEmBranco.jpg>
+Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 2010.
+(pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
+ [83
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4.35}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.2010 
+       
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4.36}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.2010 
+        <./imagens/fig_sensibilidade_01_escolaridade_pai.png> <./imagens/fig_sensibilidade_02_escolaridade_mae.png>]
+<imagens/fig_sensibilidade_04_ocupacao_mae.png, id=934, 738.5994pt x 448.3149pt>
+File: imagens/fig_sensibilidade_04_ocupacao_mae.png Graphic file (type png)
+<use imagens/fig_sensibilidade_04_ocupacao_mae.png>
+Package pdftex.def Info: imagens/fig_sensibilidade_04_ocupacao_mae.png  used on input line 2014.
+(pdftex.def)             Requested size: 409.49722pt x 248.55775pt.
+<imagens/fig_sensibilidade_06_renda_familiar.png, id=935, 731.6133pt x 356.532pt>
+File: imagens/fig_sensibilidade_06_renda_familiar.png Graphic file (type png)
+<use imagens/fig_sensibilidade_06_renda_familiar.png>
+Package pdftex.def Info: imagens/fig_sensibilidade_06_renda_familiar.png  used on input line 2022.
+(pdftex.def)             Requested size: 409.49722pt x 199.55862pt.
+File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
+<use USPSC-img/CapaICMC.jpg>
+Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 2026.
+(pdftex.def)             Requested size: 596.44875pt x 845.04933pt.
+File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
+<use USPSC-img/USPSC-PaginaEmBranco.jpg>
+Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 2026.
+(pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
+ [84
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4.37}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.2026 
+       
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4.38}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.2026 
+        <./imagens/fig_sensibilidade_03_ocupacao_pai.png> <./imagens/fig_sensibilidade_04_ocupacao_mae.png>])
 File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
 <use USPSC-img/CapaICMC.jpg>
 Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 302.
@@ -2840,10 +3160,29 @@ File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
 <use USPSC-img/USPSC-PaginaEmBranco.jpg>
 Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 302.
 (pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
- [68]
+ [85
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4.39}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.302 ...e{USPSC-TA-Textual/USPSC-Cap4-Resultados}
+                                                   <./imagens/fig_sensibilidade_06_renda_familiar.png>]
 \openout2 = `USPSC-TA-Textual/USPSC-CapN-Conclusao.aux'.
 
  (USPSC-TA-Textual/USPSC-CapN-Conclusao.tex
+File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
+<use USPSC-img/CapaICMC.jpg>
+Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 5.
+(pdftex.def)             Requested size: 596.44875pt x 845.04933pt.
+File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
+<use USPSC-img/USPSC-PaginaEmBranco.jpg>
+Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 5.
+(pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
+ [86
+
+
+
+
+]
 Cap\'{\i }tulo 5.
 )
 File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
@@ -2854,12 +3193,7 @@ File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
 <use USPSC-img/USPSC-PaginaEmBranco.jpg>
 Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 305.
 (pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
- [69
-
-
-
-
-] (TCC_vImpresso.bbl
+ [87] (TCC_vImpresso.bbl
 File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
 <use USPSC-img/CapaICMC.jpg>
 Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 3.
@@ -2868,7 +3202,7 @@ File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
 <use USPSC-img/USPSC-PaginaEmBranco.jpg>
 Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 3.
 (pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
- [70
+ [88
 
 
 
@@ -2886,7 +3220,7 @@ File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
 <use USPSC-img/USPSC-PaginaEmBranco.jpg>
 Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 100.
 (pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
-[71]
+[89]
 File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
 <use USPSC-img/CapaICMC.jpg>
 Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 199.
@@ -2895,7 +3229,7 @@ File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
 <use USPSC-img/USPSC-PaginaEmBranco.jpg>
 Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 199.
 (pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
- [72])
+ [90])
 File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
 <use USPSC-img/CapaICMC.jpg>
 Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 316.
@@ -2904,7 +3238,7 @@ File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
 <use USPSC-img/USPSC-PaginaEmBranco.jpg>
 Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 316.
 (pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
- [73]
+ [91]
 \openout2 = `USPSC-TA-PosTextual/USPSC-Apendices.aux'.
 
  (USPSC-TA-PosTextual/USPSC-Apendices.tex
@@ -2916,7 +3250,7 @@ File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
 <use USPSC-img/USPSC-PaginaEmBranco.jpg>
 Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 4.
 (pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
- [74
+ [92
 
 
 ]
@@ -2932,7 +3266,7 @@ File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
 <use USPSC-img/USPSC-PaginaEmBranco.jpg>
 Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 4.
 (pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
-[75
+[93
 
 ]
 File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
@@ -2943,7 +3277,7 @@ File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
 <use USPSC-img/USPSC-PaginaEmBranco.jpg>
 Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 4.
 (pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
- [76]
+ [94]
 AP\^ENDICE A.
 File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
 <use USPSC-img/CapaICMC.jpg>
@@ -2953,7 +3287,7 @@ File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
 <use USPSC-img/USPSC-PaginaEmBranco.jpg>
 Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 7.
 (pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
-[77
+[95
 
 ]
 File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
@@ -2964,7 +3298,7 @@ File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
 <use USPSC-img/USPSC-PaginaEmBranco.jpg>
 Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 7.
 (pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
- [78
+ [96
 
 ]
 AP\^ENDICE B.
@@ -2976,7 +3310,7 @@ File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
 <use USPSC-img/USPSC-PaginaEmBranco.jpg>
 Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 9.
 (pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
-[79]
+[97]
 File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
 <use USPSC-img/CapaICMC.jpg>
 Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 9.
@@ -2985,7 +3319,7 @@ File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
 <use USPSC-img/USPSC-PaginaEmBranco.jpg>
 Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 9.
 (pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
- [80
+ [98
 
 ]
 AP\^ENDICE C.
@@ -2999,7 +3333,7 @@ File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
 <use USPSC-img/USPSC-PaginaEmBranco.jpg>
 Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 57.
 (pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
- [81]
+ [99]
 File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
 <use USPSC-img/CapaICMC.jpg>
 Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 117.
@@ -3008,7 +3342,7 @@ File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
 <use USPSC-img/USPSC-PaginaEmBranco.jpg>
 Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 117.
 (pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
- [82]
+ [100]
 File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
 <use USPSC-img/CapaICMC.jpg>
 Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 177.
@@ -3017,7 +3351,7 @@ File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
 <use USPSC-img/USPSC-PaginaEmBranco.jpg>
 Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 177.
 (pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
- [83]
+ [101]
 File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
 <use USPSC-img/CapaICMC.jpg>
 Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 237.
@@ -3026,7 +3360,7 @@ File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
 <use USPSC-img/USPSC-PaginaEmBranco.jpg>
 Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 237.
 (pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
- [84]
+ [102]
 File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
 <use USPSC-img/CapaICMC.jpg>
 Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 297.
@@ -3035,7 +3369,7 @@ File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
 <use USPSC-img/USPSC-PaginaEmBranco.jpg>
 Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 297.
 (pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
- [85]
+ [103]
 File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
 <use USPSC-img/CapaICMC.jpg>
 Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 357.
@@ -3044,7 +3378,7 @@ File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
 <use USPSC-img/USPSC-PaginaEmBranco.jpg>
 Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 357.
 (pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
- [86]
+ [104]
 File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
 <use USPSC-img/CapaICMC.jpg>
 Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 417.
@@ -3053,7 +3387,7 @@ File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
 <use USPSC-img/USPSC-PaginaEmBranco.jpg>
 Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 417.
 (pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
- [87]
+ [105]
 File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
 <use USPSC-img/CapaICMC.jpg>
 Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 477.
@@ -3062,7 +3396,7 @@ File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
 <use USPSC-img/USPSC-PaginaEmBranco.jpg>
 Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 477.
 (pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
- [88]
+ [106]
 File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
 <use USPSC-img/CapaICMC.jpg>
 Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 537.
@@ -3071,7 +3405,7 @@ File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
 <use USPSC-img/USPSC-PaginaEmBranco.jpg>
 Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 537.
 (pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
- [89]))
+ [107]))
 File: USPSC-img/CapaICMC.jpg Graphic file (type jpg)
 <use USPSC-img/CapaICMC.jpg>
 Package pdftex.def Info: USPSC-img/CapaICMC.jpg  used on input line 316.
@@ -3080,7 +3414,7 @@ File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type jpg)
 <use USPSC-img/USPSC-PaginaEmBranco.jpg>
 Package pdftex.def Info: USPSC-img/USPSC-PaginaEmBranco.jpg  used on input line 316.
 (pdftex.def)             Requested size: 597.4799pt x 845.04517pt.
- [90]
+ [108]
 \tf@lof=\write7
 \openout7 = `TCC_vImpresso.lof'.
 
@@ -3102,17 +3436,17 @@ L3 programming layer <2020/03/25>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 47867 strings out of 469783
- 1013196 string characters out of 5469945
- 1554094 words of memory out of 5000000
- 74563 multiletter control sequences out of 15000+600000
- 733298 words of font info for 235 fonts, out of 8000000 for 9000
+ 48082 strings out of 469783
+ 1020312 string characters out of 5469945
+ 1556239 words of memory out of 5000000
+ 74721 multiletter control sequences out of 15000+600000
+ 734040 words of font info for 241 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  99i,17n,108p,1200b,2944s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </home/ramon/.miktex/texmfs/install/fonts/type1/public/lm/lmbx12.pfb></home/ramon/.miktex/texmfs/install/fonts/type1/public/lm/lmbx8.pfb></home/ramon/.miktex/texmfs/install/fonts/type1/public/lm/lmmi12.pfb></home/ramon/.miktex/texmfs/install/fonts/type1/public/lm/lmmi8.pfb></home/ramon/.miktex/texmfs/install/fonts/type1/public/lm/lmr10.pfb></home/ramon/.miktex/texmfs/install/fonts/type1/public/lm/lmr12.pfb></home/ramon/.miktex/texmfs/install/fonts/type1/public/lm/lmr8.pfb></home/ramon/.miktex/texmfs/install/fonts/type1/public/lm/lmri10.pfb></home/ramon/.miktex/texmfs/install/fonts/type1/public/lm/lmri12.pfb></home/ramon/.miktex/texmfs/install/fonts/type1/public/lm/lmss12.pfb></home/ramon/.miktex/texmfs/install/fonts/type1/public/lm/lmssbo10.pfb></home/ramon/.miktex/texmfs/install/fonts/type1/public/lm/lmssbx10.pfb></home/ramon/.miktex/texmfs/install/fonts/type1/public/lm/lmsso12.pfb></home/ramon/.miktex/texmfs/install/fonts/type1/public/lm/lmsy10.pfb></home/ramon/.miktex/texmfs/install/fonts/type1/public/lm/lmtt12.pfb>
-Output written on TCC_vImpresso.pdf (90 pages, 3159189 bytes).
+Output written on TCC_vImpresso.pdf (108 pages, 6694884 bytes).
 PDF statistics:
- 1924 PDF objects out of 2073 (max. 8388607)
- 832 named destinations out of 1000 (max. 500000)
- 60634 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 2123 PDF objects out of 2487 (max. 8388607)
+ 877 named destinations out of 1000 (max. 500000)
+ 60751 words of extra memory for PDF output out of 61914 (max. 10000000)
 
