@@ -58,7 +58,7 @@ Assim, ao avaliarmos os trabalhos anteriores disponíveis, concluímos que há u
 
 \subsection{Escolha e Coleta dos Dados}\label{resultados_escolha_coleta_dados}
 
-Como descrito no Capítulo \ref{cap_metodologia} - Metodologia, foi necessário identificar dados que fossem relevantes para responder as pergunras de pesquisa formuladas. Foi realizada uma busca por bases de dados públicas que contivessem informações detalhadas sobre os participantes do ENEM, incluindo suas características socioeconômicas e desempenho no exame.
+Como descrito no Capítulo \ref{cap_metodologia} - Metodologia, foi necessário identificar dados que fossem relevantes para responder às perguntas de pesquisa formuladas. Foi realizada uma busca por bases de dados públicas que contivessem informações detalhadas sobre os participantes do ENEM, incluindo suas características socioeconômicas e desempenho no exame.
 
 Os microdados do ENEM, disponibilizados anualmente pelo Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira (INEP), foram escolhidos como a principal fonte de dados para este trabalho e podem ser acessados através do portal do INEP \cite{ref_08}.
 
@@ -103,7 +103,7 @@ Ou seja, usamos cinco variáveis resposta distintas para análise: (i) Nota da p
 
 Para a execução desse trabalho, foi utilizado um ambiente baseado em \texttt{Python} versão 3.11 através do gerenciador de ambientes virtuais Miniconda3 \cite{Anaconda_Miniconda_nd}. O computador utilizado possui uma CPU AMD Ryzen 7 9800X3D, 32 GB de memória RAM e uma GPU NVIDIA GeForce RTX 4070 Ti Super, com 16 GB de memória dedicada com sistemas operacionais Ubuntu 24.04 LTS e Windows 11 Pro.
 
-O ambiente foi especificamente configurado com o ecossistema NVIDIA CUDAX \cite{NVIDIA_CUDAX_nd} para posibilitar a execução utilizando a GPU do equipamento, visando acelerar o processamento dos dados e a modelagem. Esta suíte de bibliotecas de software permite executar pipelines de Ciência de Dados e análises inteiramente na GPU, minimizando a transferência de dados entre a CPU e a GPU.
+O ambiente foi especificamente configurado com o ecossistema NVIDIA CUDAX \cite{NVIDIA_CUDAX_nd} para possibilitar a execução utilizando a GPU do equipamento, visando acelerar o processamento dos dados e a modelagem. Esta suíte de bibliotecas de software permite executar pipelines de Ciência de Dados e análises inteiramente na GPU, minimizando a transferência de dados entre a CPU e a GPU.
 
 Foram utilizados seus principais componentes: \texttt{cudf} \cite{NVIDIA_cuDF_nd}, uma biblioteca para manipulação de \texttt{DataFrames} na GPU, análoga ao \texttt{pandas} \cite{PandasTeam_PandasDocs_2025}, e \texttt{cuml} \cite{NVIDIA_cuML_2023}, que fornece implementações de algoritmos de \textit{Machine Learning} acelerados por GPU, análoga ao \texttt{scikit-learn} \cite{scikit-learn}. Todo o ambiente foi construído sobre a plataforma CUDA 13.0, com as bibliotecas e dependências gerenciadas diretamente pelo Conda.
 
@@ -275,7 +275,7 @@ Inicialmente, foi feito o cálculo do percentual de valores nulos por variável.
 
 \end{longtable}
 
-O percentual de valores nulos varia significativamente, com algumas variáveis apresentando mais de 70\% de valores nulos, enquanto outras possuem menos de 1\%. Variáveis com uma alta proporção de valores nulos podem comprometer a análise se for realizado alguma imputação de valores. Sendo assim, foi decidido remover as variáveis que apresentavam mais de 50\% de valores nulos, resultando na remoção de nove variáveis do conjunto de dados.
+O percentual de valores nulos varia significativamente, com algumas variáveis apresentando mais de 70\% de valores nulos, enquanto outras possuem menos de 1\%. Variáveis com uma alta proporção de valores nulos podem comprometer a análise se for realizada alguma imputação de valores. Sendo assim, foi decidido remover as variáveis que apresentavam mais de 50\% de valores nulos, resultando na remoção de nove variáveis do conjunto de dados.
 
 Para as variáveis das notas, por serem as variáveis resposta deste trabalho, foi realizada uma análise mais detalhada. Primeiro, verificou-se a existência de valores zerados nessas variáveis e se possuem significado diferentes de valores nulos. Para isso, foi feita uma análise com a presença nas provas e o status da redação. Foi identificado que a nota zerada significa que o participante esteve presente na prova, mas obteve nota zero, enquanto o valor nulo indica que o participante ou não realizou a prova, ou foi eliminado, ou teve sua redação anulada. Dessa forma, optou-se por manter as observações com notas zeradas no conjunto de dados, removendo apenas as observações com notas nulas. A decisão de incorporar ou não as notas zero na análise será discutida na Seção \ref{resultados_modelagem}.
 
@@ -396,7 +396,7 @@ Em seguida, foram construídos histogramas de cada nota para entender a distribu
 
 \begin{figure}[H]
     \centering
-    \caption{Histograma das notas - Ciências Humanas} \label{fig:hist_humanas}
+    \caption{Histograma das notas - Humanas} \label{fig:hist_humanas}
     \includegraphics[width=0.9\linewidth]{imagens/histograma_humanas.png}
     \par\vspace{0.1cm}
     {\footnotesize Fonte: elaborado pelo autor.}
@@ -404,7 +404,7 @@ Em seguida, foram construídos histogramas de cada nota para entender a distribu
 
 \begin{figure}[H]
     \centering
-    \caption{Histograma das notas - Ciências da Natureza} \label{fig:hist_natureza}
+    \caption{Histograma das notas - Natureza} \label{fig:hist_natureza}
     \includegraphics[width=0.9\linewidth]{imagens/histograma_natureza.png}
     \par\vspace{0.1cm}
     {\footnotesize Fonte: elaborado pelo autor.}
@@ -412,7 +412,7 @@ Em seguida, foram construídos histogramas de cada nota para entender a distribu
 
 \begin{figure}[H]
     \centering
-    \caption{Histograma das notas - Linguagem e Código} \label{fig:hist_linguagem_codigo}
+    \caption{Histograma das notas - Linguagem} \label{fig:hist_linguagem_codigo}
     \includegraphics[width=0.9\linewidth]{imagens/histograma_linguagem_codigo.png}
     \par\vspace{0.1cm}
     {\footnotesize Fonte: elaborado pelo autor.}
@@ -529,7 +529,7 @@ Para a análise dos outliers, foram utilizados os boxplots das notas de cada pro
 
 \begin{figure}[H]
     \centering
-    \caption{Boxplot das notas por edição - Ciências Humanas} \label{fig:boxplot_humanas}
+    \caption{Boxplot das notas por edição - Humanas} \label{fig:boxplot_humanas}
     \includegraphics[width=0.9\linewidth]{imagens/boxplot_humanas.png}
     \par\vspace{0.1cm}
     % {\footnotesize Fonte: elaborado pelo autor.}
@@ -537,7 +537,7 @@ Para a análise dos outliers, foram utilizados os boxplots das notas de cada pro
 
 \begin{figure}[H]
     \centering
-    \caption{Boxplot das notas - Ciências da Natureza} \label{fig:boxplot_natureza}
+    \caption{Boxplot das notas - Natureza} \label{fig:boxplot_natureza}
     \includegraphics[width=0.9\linewidth]{imagens/boxplot_natureza.png}
     \par\vspace{0.1cm}
     % {\footnotesize Fonte: elaborado pelo autor.}
@@ -545,7 +545,7 @@ Para a análise dos outliers, foram utilizados os boxplots das notas de cada pro
 
 \begin{figure}[H]
     \centering
-    \caption{Boxplot das notas - Linguagem e Código} \label{fig:boxplot_linguagem_codigo}
+    \caption{Boxplot das notas - Linguagem} \label{fig:boxplot_linguagem_codigo}
     \includegraphics[width=0.9\linewidth]{imagens/boxplot_linguagem_codigo.png}
     \par\vspace{0.1cm}
     % {\footnotesize Fonte: elaborado pelo autor.}
@@ -662,7 +662,7 @@ Ao analisarmos os intervalos dos outliers da nota da Redação, vemos que a nota
 
 \subsection{Análise Exploratória - Variáveis Preditoras}\label{resultados_analise_exploratoria_dados_vars_preditoras}
 
-A análise exploratória das variáveis preditoras seguiu três etapas: (i) concentração, (ii) correlação e (iii) \textit{Permutration Importance}, conforme descrito na Seção \ref{metodologia_exploracao_dados}.
+A análise exploratória das variáveis preditoras seguiu três etapas: (i) concentração, (ii) correlação e (iii) \textit{Permutation Importance}, conforme descrito na Seção \ref{metodologia_exploracao_dados}.
 
 \subsubsection{Concentração}\label{resultados_analise_exploratoria_dados_vars_preditoras_concentracao}
 
@@ -1231,7 +1231,7 @@ estabelecido um dicionário com os hiperparâmetros e seus respectivos valores a
 
 Para gerar o conjunto de dados de validação, foi feita uma separação no conjunto de dados de treino de forma que o conjunto de validação tenha 10\% dos dados originais, considerando o conjunto de teste que já foi separado. O desempenho do modelo foi avaliado utilizando a métrica \textit{Root Mean Squared Error} - RMSE (raiz quadrada do erro quadrático médio).
 
-Para cada algortimo, foi estabelecido um conjunto de hiperparâmetros e seus respectivos valores a serem testados, assim como hiperparâmetros fixos em valores pré-definidos. As tabelas \ref{tab_hiperparametros_grid_xgb} a \ref{tab_hiperparametros_grid_rf} apresentam os hiperparâmetros e seus respectivos valores a serem testados para cada modelo, bem como os hiperparâmetros fixados em valores pré-definidos.
+Para cada algoritmo, foi estabelecido um conjunto de hiperparâmetros e seus respectivos valores a serem testados, assim como hiperparâmetros fixos em valores pré-definidos. As tabelas \ref{tab_hiperparametros_grid_xgb} a \ref{tab_hiperparametros_grid_rf} apresentam os hiperparâmetros e seus respectivos valores a serem testados para cada modelo, bem como os hiperparâmetros fixados em valores pré-definidos.
 
 % -------------------- XGBoost ---------------------
 %                      0     1     2
@@ -1387,7 +1387,7 @@ Para cada algortimo, foi estabelecido um conjunto de hiperparâmetros e seus res
 
 Foram então treinados 243 combinações de hiperparâmetros para os algoritmos de \textit{XGBoost} e \textit{LightGBM} (5 hiperparâmetros com 3 valores cada) e 27 combinações de hiperparâmetros para o algoritmo de \textit{Random Forest} (3 hiperparâmetros com 3 valores cada) totalizando 270 modelos treinados para cada conjunto de dados (Humanas, Natureza, Linguagem, Matemática e Redação) e 1.350 modelos treinados no total, o que levou aproximadamente 5 horas para ser executado.
 
-Os gráficos \ref{fig_erro_grid_xgb} a \ref{fig_erro_grid_rf} apresentam o erro RMSE para as combinações de hiperparâmetros testadas para cada modelo e conjunto de dados, com as interações do \textit{Grid Search} ordenadas em ordem decrescente de erro. Para melhor visualização, os valores do erro foram relativizados ao maior erro RMSE encontrado para cada modelo e conjunto de dados, ou seja, o maior erro RMSE encontrado para cada modelo e conjunto de dados foi considerado como 100\% e os demais erros foram relativizados em relação a esse valor.
+Os gráficos \ref{fig_erro_grid_xgb} a \ref{fig_erro_grid_rf} apresentam o erro RMSE para as combinações de hiperparâmetros testadas para cada modelo e conjunto de dados, com as iterações do \textit{Grid Search} ordenadas em ordem decrescente de erro. Para melhor visualização, os valores do erro foram relativizados ao maior erro RMSE encontrado para cada modelo e conjunto de dados, ou seja, o maior erro RMSE encontrado para cada modelo e conjunto de dados foi considerado como 100\% e os demais erros foram relativizados em relação a esse valor.
 
 \begin{figure}[H]
     \centering
@@ -1886,7 +1886,7 @@ Essa escolha vai em linha com o apresentado até o momento, onde os modelos indi
 
 \subsection{Importância}\label{resultados_influencia_importancia}
 
-Com o modelo final em mãos, foi possível analisar a importância das variáveis preditoras para cada modelo. Para isso, foi utilizado o método \texttt{feature\_importances\_} dos algortimos para se extrair a importância de cada variável preditora para cada modelo. Como o modelo final é um modelo de \textit{ensemble} utilizando os modelos de \textit{XGBoost} e \textit{LightGBM}, a importância de cada variável preditora para o modelo de \textit{ensemble} foi calculada usando um método de ranking, onde a importância de cada variável preditora para o modelo de \textit{ensemble} foi calculada como a média do ranking da importância de cada variável preditora para os modelos de \textit{XGBoost} e \textit{LightGBM}. As Figuras \ref{fig_importancia_humanas} a \ref{fig_importancia_redacao} apresentam a importância das variáveis preditoras para cada modelo final, ordenadas da maior para a menor importância.
+Com o modelo final em mãos, foi possível analisar a importância das variáveis preditoras para cada modelo. Para isso, foi utilizado o método \texttt{feature\_importances\_} dos algoritmos para se extrair a importância de cada variável preditora para cada modelo. Como o modelo final é um modelo de \textit{ensemble} utilizando os modelos de \textit{XGBoost} e \textit{LightGBM}, a importância de cada variável preditora para o modelo de \textit{ensemble} foi calculada usando um método de ranking, onde a importância de cada variável preditora para o modelo de \textit{ensemble} foi calculada como a média do ranking da importância de cada variável preditora para os modelos de \textit{XGBoost} e \textit{LightGBM}. As Figuras \ref{fig_importancia_humanas} a \ref{fig_importancia_redacao} apresentam a importância das variáveis preditoras para cada modelo final, ordenadas da maior para a menor importância.
 
 \begin{figure}[H]
     \centering
@@ -1906,7 +1906,7 @@ Com o modelo final em mãos, foi possível analisar a importância das variávei
 
 \begin{figure}[H]
     \centering
-    \caption{Rank de Importância - Linguagem e Código} \label{fig_importancia_linguagem_codigo}
+    \caption{Rank de Importância - Linguagem} \label{fig_importancia_linguagem}
     \includegraphics[width=0.9\linewidth]{imagens/importancia_ensemble_linguagem_codigo.png}
     \par\vspace{0.1cm}
     % {\footnotesize Fonte: elaborado pelo autor.}

@@ -4,9 +4,9 @@
 \contentsline {figure}{\numberline {2}{\ignorespaces Exemplo de uma Árvore de Decisão com o \textit {dataset Iris}}}{37}{figure.2.2}%
 \contentsline {figure}{\numberline {3}{\ignorespaces Exemplo de uma \textit {Random Forest} com o \textit {dataset Iris}}}{38}{figure.2.3}%
 \contentsline {figure}{\numberline {4}{\ignorespaces Modelo CRISP-DM}}{39}{figure.3.4}%
-\contentsline {figure}{\numberline {5}{\ignorespaces Histograma das notas - Ciências Humanas}}{52}{figure.4.5}%
-\contentsline {figure}{\numberline {6}{\ignorespaces Histograma das notas - Ciências da Natureza}}{53}{figure.4.6}%
-\contentsline {figure}{\numberline {7}{\ignorespaces Histograma das notas - Linguagem e Código}}{53}{figure.4.7}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Histograma das notas - Humanas}}{52}{figure.4.5}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Histograma das notas - Natureza}}{53}{figure.4.6}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Histograma das notas - Linguagem}}{53}{figure.4.7}%
 \contentsline {figure}{\numberline {8}{\ignorespaces Histograma das notas - Matemática}}{54}{figure.4.8}%
 \contentsline {figure}{\numberline {9}{\ignorespaces Histograma das notas - Redação}}{54}{figure.4.9}%
 \contentsline {figure}{\numberline {10}{\ignorespaces Boxplot das notas por edição - Ciências Humanas}}{56}{figure.4.10}%
