@@ -1,9 +1,43 @@
-%% USPSC-Cap3-Conclusao.tex
-% ---
-% Conclusão
-% ---
-\chapter{Conclusão}
-% ---
-% O comando abaixo insere parágrafos aleatórios só para exemplificar
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+\chapter{Conclusão}\label{cap_conclusao}
 
+Este trabalho dedicou-se a investigar e quantificar a influência de fatores socioeconômicos no desempenho dos estudantes no Exame Nacional do Ensino Médio (ENEM), utilizando técnicas avançadas de Ciência de Dados e \textit{Machine Learning}.
+A partir da integração de microdados de múltiplas edições e da aplicação do processo CRISP-DM, foi possível não apenas prever as notas, mas, principalmente, interpretar os modelos para compreender as dinâmicas de desigualdade educacional no Brasil.
+
+\section{Síntese dos Resultados}
+
+Em resposta às perguntas de pesquisa formuladas, conclui-se que o desempenho no ENEM é fortemente determinado pelo contexto socioeconômico do participante.
+As análises de \textit{Permutation Importance} e as curvas de sensibilidade demonstraram que a \textbf{Renda Familiar}, a \textbf{Quantidade de Computadores} e a \textbf{Escolaridade dos Pais} (especialmente a materna) são os preditores mais influentes nas notas, superando variáveis demográficas isoladas.
+
+A validação da teoria do Capital Cultural de Pierre Bourdieu foi evidenciada pela relação monotônica crescente entre a escolaridade dos pais e o desempenho dos filhos.
+Os dados confirmam que o sistema de avaliação, embora padronizado, reflete disparidades de origem: filhos de pais com ensino superior e maior renda partem de um patamar significativamente mais elevado, perpetuando o ciclo de reprodução social.
+
+Um achado particular deste estudo foi a magnitude da influência da variável \textbf{Quantidade de Computadores}.
+Identificada como um dos principais discriminadores de desempenho, essa variável aponta para a exclusão digital como uma barreira crítica moderna.
+No contexto pós-pandemia, o acesso a equipamentos de tecnologia da informação deixou de ser um diferencial para se tornar um pré-requisito para a competitividade no exame.
+
+Do ponto de vista técnico, a abordagem de \textit{ensemble} (combinando \textit{XGBoost} e \textit{LightGBM}) mostrou-se superior aos modelos individuais, atingindo erros percentuais (MAPE) na casa dos 10\%.
+Isso demonstra que a relação entre fatores sociais e desempenho educacional é complexa e não-linear, exigindo modelos robustos capazes de capturar saturações (como o teto de influência da renda) e interações entre variáveis.
+
+\section{Limitações do Estudo}
+
+Apesar dos resultados robustos, este trabalho encontrou limitações, principalmente relacionadas à disponibilidade e formato dos dados:
+
+\begin{itemize}
+    \item \textbf{Dados de 2024 e LGPD:} A alteração na estrutura dos microdados de 2024, em adequação à Lei Geral de Proteção de Dados (LGPD), impediu a junção direta entre as informações socioeconômicas e as notas dos participantes, impossibilitando o uso da edição mais recente do exame neste estudo.
+    \item \textbf{Identificação das Escolas:} A ausência de uma chave estrangeira nos microdados públicos do ENEM que permitisse o vínculo direto com o Censo Escolar limitou a análise do ``Efeito Escola''. Não foi possível incorporar variáveis estruturais das instituições (como infraestrutura predial ou formação docente) aos modelos preditivos dos alunos.
+    \item \textbf{Hardware:} Embora o ambiente com GPU tenha acelerado o processamento, o volume massivo de dados exigiu adaptações, como a implementação manual do \textit{Grid Search} e a limitação de estimadores em certas etapas para evitar estouro de memória.
+\end{itemize}
+
+\section{Trabalhos Futuros}
+
+Para a continuidade desta pesquisa e aprofundamento no tema, sugerem-se as seguintes abordagens:
+
+\begin{itemize}
+    \item \textbf{Análise Espacial Georreferenciada:} Incorporar dados geográficos para analisar como as desigualdades se distribuem espacialmente entre municípios e regiões, cruzando as notas com o IDH ou PIB local.
+    \item \textbf{Processamento de Linguagem Natural (PLN):} Aplicar técnicas de PLN nos temas das redações e, se disponíveis, nos espelhos das redações, para investigar se determinados temas favorecem grupos socioeconômicos específicos.
+    \item \textbf{Análise Longitudinal:} Caso o INEP restabeleça o vínculo dos dados sob a LGPD, realizar um estudo longitudinal acompanhando coortes de alunos para verificar a evolução da desigualdade ao longo de uma década completa.
+    \item \textbf{Políticas Públicas:} Utilizar os modelos preditivos para simular o impacto de políticas de inclusão, como a distribuição de computadores ou programas de reforço escolar focados em grupos demográficos específicos identificados como vulneráveis pelas curvas de sensibilidade.
+\end{itemize}
+
+Por fim, este trabalho reafirma que a Ciência de Dados é uma ferramenta poderosa para as Ciências Sociais.
+Ao quantificar o peso das desigualdades, oferece-se não apenas um diagnóstico técnico, mas um argumento estatístico sólido para a defesa de políticas públicas que visem democratizar, de fato, o acesso ao ensino superior no Brasil.

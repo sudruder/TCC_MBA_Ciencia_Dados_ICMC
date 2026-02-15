@@ -164,6 +164,16 @@ Dispon{\'\i}vel em: \url{https://phik.readthedocs.io/en/latest/}.}
 \textbf{Computational Statistics and Data Analysis}, v.~152, p. 107043, 2020.
 ISSN 0167-9473.}
 
+\bibitem{NVIDIA_cuML_2023}
+\abntrefinfo{{NVIDIA}}{{NVIDIA}}{2023}
+{{NVIDIA}. \textbf{Welcome to cuML's documentation!} 2023.
+Dispon{\'\i}vel em: \url{https://docs.rapids.ai/api/cuml/stable/}.}
+
+\bibitem{scikit-learn}
+\abntrefinfo{Pedregosa \textit{et al.}}{PEDREGOSA \textit{et al.}}{2011}
+{PEDREGOSA, F. \textit{et al.} Scikit-learn: Machine learning in {P}ython.
+\textbf{Journal of Machine Learning Research}, v.~12, p. 2825--2830, 2011.}
+
 \bibitem{Inep2024LeiaMeEnem}
 \abntrefinfo{{INEP}}{{INEP}}{2025}
 {{INEP}. \textbf{{Microdados do Enem 2024: Leia-Me}}.
@@ -193,14 +203,39 @@ Dispon{\'\i}vel em: \url{https://docs.rapids.ai/api/cudf/stable/}.}
 {{The pandas development team}. \textbf{pandas documentation}. 2025.
 Dispon{\'\i}vel em: \url{https://pandas.pydata.org/docs/}.}
 
-\bibitem{NVIDIA_cuML_2023}
-\abntrefinfo{{NVIDIA}}{{NVIDIA}}{2023}
-{{NVIDIA}. \textbf{Welcome to cuML's documentation!} 2023.
-Dispon{\'\i}vel em: \url{https://docs.rapids.ai/api/cuml/stable/}.}
+\bibitem{brasil_genero_trabalho}
+\abntrefinfo{Brasil}{BRASIL}{s.d.}
+{BRASIL. \textbf{De um lado, os papéis de gênero tradicionais e a divisão
+  sexual do trabalho}. s.d.
+Dispon{\'\i}vel em:
+  \url{https://www.gov.br/mdh/pt-br/navegue-por-temas/politicas-para-mulheres/arquivo/assuntos/poder-e-participacao-politica/programas-acoes/de-um-lado-os-papeis-de-genero-tradicionais-e-a-divisao-sexual-do-trabalho}.
+  Acesso em: 15 fev. 2026.}
 
-\bibitem{scikit-learn}
-\abntrefinfo{Pedregosa \textit{et al.}}{PEDREGOSA \textit{et al.}}{2011}
-{PEDREGOSA, F. \textit{et al.} Scikit-learn: Machine learning in {P}ython.
-\textbf{Journal of Machine Learning Research}, v.~12, p. 2825--2830, 2011.}
+\bibitem{idoeta_2021_g1}
+\abntrefinfo{Idoeta}{IDOETA}{2021}
+{IDOETA, P.~A. \textbf{'Aluno dividia celular com dois irmãos': 51\% na rede
+  pública ainda não têm acesso a computador com internet}. 2021.
+Dispon{\'\i}vel em:
+  \url{https://g1.globo.com/educacao/noticia/2021/11/08/aluno-dividia-celular-com-dois-irmaos-51-na-rede-publica-ainda-nao-tem-acesso-a-computador-com-internet.ghtml}.
+  Acesso em: 15 fev. 2026.}
+
+\bibitem{ibge_sis_2023}
+\abntrefinfo{IBGE}{IBGE}{2023}
+{IBGE. \textbf{Síntese de indicadores sociais: uma análise das condições de
+  vida da população brasileira: 2023}. Rio de Janeiro: IBGE, 2023.
+  Coordenação de População e Indicadores Sociais. Dispon{\'\i}vel em:
+  \url{https://biblioteca.ibge.gov.br/visualizacao/livros/liv102008.pdf}.}
+
+\bibitem{corrochano_2018}
+\abntrefinfo{Corrochano e Abramo}{CORROCHANO; ABRAMO}{2018}
+{CORROCHANO, M.~C.; ABRAMO, H.~W. O trabalho e a escolarização de jovens no
+  ensino médio: desafios e perspectivas.
+\textbf{Ensino Médio em Revista}, v.~1, p. 3--16, 2018.
+Dispon{\'\i}vel em: \url{http://www.revista.ensinomedio.org.br}.}
+
+\bibitem{almeida_racismo_estrutural}
+\abntrefinfo{Almeida}{ALMEIDA}{2019}
+{ALMEIDA, S. L.~d. \textbf{Racismo estrutural}. S{\~a}o Paulo: Su{\'e}li
+  Carneiro; P{\'o}len, 2019.  (Feminismos Plurais).}
 
 \end{thebibliography}

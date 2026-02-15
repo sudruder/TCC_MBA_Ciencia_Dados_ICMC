@@ -9,33 +9,33 @@
 \contentsline {figure}{\numberline {7}{\ignorespaces Histograma das notas - Linguagem}}{53}{figure.4.7}%
 \contentsline {figure}{\numberline {8}{\ignorespaces Histograma das notas - Matemática}}{54}{figure.4.8}%
 \contentsline {figure}{\numberline {9}{\ignorespaces Histograma das notas - Redação}}{54}{figure.4.9}%
-\contentsline {figure}{\numberline {10}{\ignorespaces Boxplot das notas por edição - Ciências Humanas}}{56}{figure.4.10}%
-\contentsline {figure}{\numberline {11}{\ignorespaces Boxplot das notas - Ciências da Natureza}}{57}{figure.4.11}%
-\contentsline {figure}{\numberline {12}{\ignorespaces Boxplot das notas - Linguagem e Código}}{57}{figure.4.12}%
-\contentsline {figure}{\numberline {13}{\ignorespaces Boxplot das notas - Matemática}}{58}{figure.4.13}%
+\contentsline {figure}{\numberline {10}{\ignorespaces Boxplot das notas por edição - Humanas}}{56}{figure.4.10}%
+\contentsline {figure}{\numberline {11}{\ignorespaces Boxplot das notas - Natureza}}{57}{figure.4.11}%
+\contentsline {figure}{\numberline {12}{\ignorespaces Boxplot das notas - Linguagem}}{57}{figure.4.12}%
+\contentsline {figure}{\numberline {13}{\ignorespaces Boxplot das notas - Matemática}}{57}{figure.4.13}%
 \contentsline {figure}{\numberline {14}{\ignorespaces Boxplot das notas - Redação}}{58}{figure.4.14}%
 \contentsline {figure}{\numberline {15}{\ignorespaces Dez maiores \textit {Permutation Importance} - Humanas}}{63}{figure.4.15}%
-\contentsline {figure}{\numberline {16}{\ignorespaces Dez maiores \textit {Permutation Importance} - Natureza}}{64}{figure.4.16}%
+\contentsline {figure}{\numberline {16}{\ignorespaces Dez maiores \textit {Permutation Importance} - Natureza}}{63}{figure.4.16}%
 \contentsline {figure}{\numberline {17}{\ignorespaces Dez maiores \textit {Permutation Importance} - Linguagem}}{64}{figure.4.17}%
-\contentsline {figure}{\numberline {18}{\ignorespaces Dez maiores \textit {Permutation Importance} - Matemática}}{65}{figure.4.18}%
-\contentsline {figure}{\numberline {19}{\ignorespaces Dez maiores \textit {Permutation Importance} - Redação}}{65}{figure.4.19}%
+\contentsline {figure}{\numberline {18}{\ignorespaces Dez maiores \textit {Permutation Importance} - Matemática}}{64}{figure.4.18}%
+\contentsline {figure}{\numberline {19}{\ignorespaces Dez maiores \textit {Permutation Importance} - Redação}}{64}{figure.4.19}%
 \contentsline {figure}{\numberline {20}{\ignorespaces Erro do \textit {Grid Search} - \textit {XGBoost}}}{69}{figure.4.20}%
-\contentsline {figure}{\numberline {21}{\ignorespaces Erro do \textit {Grid Search} - \textit {LightGBM}}}{70}{figure.4.21}%
+\contentsline {figure}{\numberline {21}{\ignorespaces Erro do \textit {Grid Search} - \textit {LightGBM}}}{69}{figure.4.21}%
 \contentsline {figure}{\numberline {22}{\ignorespaces Erro do \textit {Grid Search} - \textit {Random Forest}}}{70}{figure.4.22}%
 \contentsline {figure}{\numberline {23}{\ignorespaces Erro MAPE - \textit {XGBoost}}}{72}{figure.4.23}%
-\contentsline {figure}{\numberline {24}{\ignorespaces Erro MAPE - \textit {LightGBM}}}{73}{figure.4.24}%
+\contentsline {figure}{\numberline {24}{\ignorespaces Erro MAPE - \textit {LightGBM}}}{72}{figure.4.24}%
 \contentsline {figure}{\numberline {25}{\ignorespaces Erro MAPE - \textit {Ensemble} (\textit {XGBoost} + \textit {LightGBM})}}{74}{figure.4.25}%
 \contentsline {figure}{\numberline {26}{\ignorespaces Erro MAPE - \textit {Ensemble} (\textit {XGBoost} + \textit {LightGBM} + \textit {Random Forest})}}{74}{figure.4.26}%
-\contentsline {figure}{\numberline {27}{\ignorespaces Rank de Importância - Humanas}}{78}{figure.4.27}%
-\contentsline {figure}{\numberline {28}{\ignorespaces Rank de Importância - Natureza}}{78}{figure.4.28}%
-\contentsline {figure}{\numberline {29}{\ignorespaces Rank de Importância - Linguagem e Código}}{79}{figure.4.29}%
-\contentsline {figure}{\numberline {30}{\ignorespaces Rank de Importância - Matemática}}{79}{figure.4.30}%
-\contentsline {figure}{\numberline {31}{\ignorespaces Rank de Importância - Redação}}{80}{figure.4.31}%
-\contentsline {figure}{\numberline {32}{\ignorespaces Curva de Sensibilidade - Faixa Etária}}{81}{figure.4.32}%
-\contentsline {figure}{\numberline {33}{\ignorespaces Curva de Sensibilidade - Sexo}}{82}{figure.4.33}%
-\contentsline {figure}{\numberline {34}{\ignorespaces Curva de Sensibilidade - Cor/Raça}}{82}{figure.4.34}%
-\contentsline {figure}{\numberline {35}{\ignorespaces Curva de Sensibilidade - Escolaridade do Pai}}{83}{figure.4.35}%
+\contentsline {figure}{\numberline {27}{\ignorespaces Rank de Importância - Humanas}}{77}{figure.4.27}%
+\contentsline {figure}{\numberline {28}{\ignorespaces Rank de Importância - Natureza}}{77}{figure.4.28}%
+\contentsline {figure}{\numberline {29}{\ignorespaces Rank de Importância - Linguagem}}{78}{figure.4.29}%
+\contentsline {figure}{\numberline {30}{\ignorespaces Rank de Importância - Matemática}}{78}{figure.4.30}%
+\contentsline {figure}{\numberline {31}{\ignorespaces Rank de Importância - Redação}}{78}{figure.4.31}%
+\contentsline {figure}{\numberline {32}{\ignorespaces Curva de Sensibilidade - Faixa Etária}}{80}{figure.4.32}%
+\contentsline {figure}{\numberline {33}{\ignorespaces Curva de Sensibilidade - Sexo}}{80}{figure.4.33}%
+\contentsline {figure}{\numberline {34}{\ignorespaces Curva de Sensibilidade - Cor/Raça}}{81}{figure.4.34}%
+\contentsline {figure}{\numberline {35}{\ignorespaces Curva de Sensibilidade - Escolaridade do Pai}}{82}{figure.4.35}%
 \contentsline {figure}{\numberline {36}{\ignorespaces Curva de Sensibilidade - Escolaridade da Mãe}}{83}{figure.4.36}%
 \contentsline {figure}{\numberline {37}{\ignorespaces Curva de Sensibilidade - Ocupação do Pai}}{84}{figure.4.37}%
-\contentsline {figure}{\numberline {38}{\ignorespaces Curva de Sensibilidade - Ocupação da Mãe}}{84}{figure.4.38}%
-\contentsline {figure}{\numberline {39}{\ignorespaces Curva de Sensibilidade - Renda Familiar}}{85}{figure.4.39}%
+\contentsline {figure}{\numberline {38}{\ignorespaces Curva de Sensibilidade - Ocupação da Mãe}}{85}{figure.4.38}%
+\contentsline {figure}{\numberline {39}{\ignorespaces Curva de Sensibilidade - Renda Familiar}}{86}{figure.4.39}%

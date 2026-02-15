@@ -9,45 +9,71 @@ Conforme mencionado no Capítulo \ref{cap_fundamentacao} - Fundamentação Teór
 
 Trabalhos anteriores citam algumas variáveis socioeconômicas como discriminadores de performance no ENEM. A Tabela \ref{tab_trabalhos_anteriores} apresenta essas variáveis identificadas na literatura, juntamente com suas respectivas referências.
 
-\begin{longtable}{|m{7cm}|m{4cm}|}
+\begin{table}[H]
+	\centering
+	\caption{Variáveis socioeconômicas e suas referências}
+	\label{tab_trabalhos_anteriores}
+	\begin{tabular}{ll}
+		\toprule
+		\textbf{Variável socioeconômica} & \textbf{Referência} \\
+		\midrule
+		Renda Familiar & Melo \textit{et al.} \cite{ref_01}, Vasconcellos \cite{ref_06} \\
+        \\
+		Raça/Cor & Melo \textit{et al.} \cite{ref_01}, Moraes \textit{et al.} \cite{ref_03} \\
+        \\
+		Sexo & Moraes \textit{et al.} \cite{ref_03} \\
+        \\
+		Idade/Atraso Escolar & Jaloto e Primi \cite{ref_12}, Moraes \textit{et al.} \cite{ref_03} \\
+        \\
+		Administração: Pública vs. Privada & Ortega \textit{et al.} \cite{ref_05}, Jaloto e Primi \cite{ref_12} \\
+        & e Moraes \textit{et al.} \cite{ref_03} \\
+        \\
+		Atributos Escolares & Moraes \textit{et al.} \cite{ref_03} \\
+		\bottomrule
+	\end{tabular}
+	\par\vspace{0.1cm}
+	{\footnotesize Fonte: elaborado pelo autor.}
+\end{table}
 
-    % --- TÍTULO E RÓTULO (1ª Página) ---
-    \caption{Variáveis socioeconômicas e suas referências} \label{tab_trabalhos_anteriores} \\
-    \hline
-    \textbf{Variável socioeconômica} & \textbf{Referência} \\ \hline
-    \endfirsthead
+% \begin{longtable}{|m{7cm}|m{4cm}|}
 
-    % --- CABEÇALHO (Páginas Seguintes) ---
-    \hline
-    \textbf{Variável socioeconômica} & \textbf{Referência} \\ \hline
-    \endhead
+%     % --- TÍTULO E RÓTULO (1ª Página) ---
+%     \caption{Variáveis socioeconômicas e suas referências} \label{tab_trabalhos_anteriores} \\
+%     \hline
+%     \textbf{Variável socioeconômica} & \textbf{Referência} \\ \hline
+%     \endfirsthead
 
-    % --- RODAPÉ (Páginas Intermediárias) ---
-    \hline
-    \multicolumn{2}{r}{\footnotesize\textit{Continua na próxima página...}} \\
-    \endfoot
+%     % --- CABEÇALHO (Páginas Seguintes) ---
+%     \hline
+%     \textbf{Variável socioeconômica} & \textbf{Referência} \\ \hline
+%     \endhead
 
-    % --- RODAPÉ FINAL (Última Página) ---
-    \hline
-    \multicolumn{2}{c}{\footnotesize Fonte: elaborado pelo autor.} \\
-    \endlastfoot
+%     % --- RODAPÉ (Páginas Intermediárias) ---
+%     \hline
+%     \multicolumn{2}{r}{\footnotesize\textit{Continua na próxima página...}} \\
+%     \endfoot
 
-    % --- DADOS DA TABELA ---
-    Renda familiar & Melo \textit{et al.} \cite{ref_01} \newline Vasconcellos \cite{ref_06} \\ \hline
+%     % --- RODAPÉ FINAL (Última Página) ---
+%     \hline
+%     \multicolumn{2}{c}{\footnotesize Fonte: elaborado pelo autor.} \\
+%     \endlastfoot
+
+%     % --- DADOS DA TABELA ---
+%     Renda familiar & Melo \textit{et al.} \cite{ref_01} \newline Vasconcellos \cite{ref_06} \\ \hline
     
-    Raça / Cor & Melo \textit{et al.} \cite{ref_01} \newline Moraes \textit{et al.} \cite{ref_03} \\ \hline
+%     Raça / Cor & Melo \textit{et al.} \cite{ref_01} \newline Moraes \textit{et al.} \cite{ref_03} \\ \hline
     
-    Sexo & Moraes \textit{et al.} \cite{ref_03} \\ \hline
+%     Sexo & Moraes \textit{et al.} \cite{ref_03} \\ \hline
     
-    Idade / Atraso Escolar & Jaloto e Primi \cite{ref_12} \\ \hline
+%     Idade / Atraso Escolar & Jaloto e Primi \cite{ref_12} \\ \hline
     
-    Administração: Pública vs. Privada & Moraes \textit{et al.} \cite{ref_03} \newline Jaloto e Primi \cite{ref_12} \newline Ortega \textit{et al.} \cite{ref_05} \\ \hline
+%     Administração: Pública vs. Privada & Moraes \textit{et al.} \cite{ref_03} \newline Jaloto e Primi \cite{ref_12} \newline Ortega \textit{et al.} \cite{ref_05} \\ \hline
     
-    Atributos Escolares & Moraes \textit{et al.} \cite{ref_03} \\
+%     Atributos Escolares & Moraes \textit{et al.} \cite{ref_03} \\
 
-\end{longtable}
+% \end{longtable}
 
-Assim, ao avaliarmos os trabalhos anteriores disponíveis, concluímos que há uma variedade de fatores socioeconômicos que podem influenciar o desempenho dos estudantes no ENEM. Com base nisso, foram formuladas as seguintes perguntas de pesquisa:
+Ao avaliarmos os trabalhos anteriores disponíveis, concluiu-se que há uma variedade de fatores socioeconômicos que podem influenciar o desempenho dos estudantes no ENEM. Com base nisso, foram formuladas as seguintes perguntas de pesquisa:
 
 \begin{itemize}
     \item \textbf{Pergunta 1:} Quais são os principais fatores socioeconômicos que influenciam o desempenho dos estudantes no ENEM?
@@ -58,91 +84,90 @@ Assim, ao avaliarmos os trabalhos anteriores disponíveis, concluímos que há u
 
 \subsection{Escolha e Coleta dos Dados}\label{resultados_escolha_coleta_dados}
 
-Como descrito no Capítulo \ref{cap_metodologia} - Metodologia, foi necessário identificar dados que fossem relevantes para responder às perguntas de pesquisa formuladas. Foi realizada uma busca por bases de dados públicas que contivessem informações detalhadas sobre os participantes do ENEM, incluindo suas características socioeconômicas e desempenho no exame.
+Como descrito na Seção \ref{metodologia_entendimento_dados}, foi necessário identificar dados que fossem relevantes para responder às perguntas de pesquisa formuladas. Foi realizada uma busca por bases de dados públicas que contivessem informações detalhadas sobre os participantes do ENEM, incluindo suas características socioeconômicas e desempenho no exame.
 
 Os microdados do ENEM, disponibilizados anualmente pelo Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira (INEP), foram escolhidos como a principal fonte de dados para este trabalho e podem ser acessados através do portal do INEP \cite{ref_08}.
 
 No mesmo portal, também estão disponíveis os dados do Censo Escolar, que fornecem informações adicionais sobre as escolas de todo o território nacional \cite{ref_07}. Esses foram escolhidos como fonte complementar por fornecerem um contexto mais amplo sobre o ambiente educacional.
 
-Foram então selecionadas as edições de 2020 a 2024 (as últimas cinco edições disponíveis) de ambos os conjuntos de dados e os arquivos disponibilizados foram baixados através de download simples e armazenados localmente para posterior leitura e manipulação.
+Foram então selecionadas as edições de 2020 a 2024 (as últimas cinco edições disponíveis) de ambos os conjuntos de dados e os arquivos disponibilizados foram baixados através de \textit{download} simples e armazenados localmente para posterior leitura e manipulação.
 
 Como os dados escolhidos são públicos e anonimizados por quem os distribui, entendeu-se que não há limitações éticas para o uso desses dados neste trabalho e não foi necessário submeter o projeto a um comitê de ética em pesquisa.
 
 \subsection{Compreensão Inicial dos Dados}\label{resultados_compreensao_inicial_dados}
 
-Os arquivos de microdados do ENEM e do Censo Escolar são disponibilizados em formato compactado (.zip), separados pelo ano de aplicação do exame/censo.
+Os arquivos de microdados do ENEM e do Censo Escolar são disponibilizados em formato compactado (\texttt{.zip}), separados pelo ano de aplicação do exame/censo.
 
-Dentre os arquivos existentes nos arquivos compactados dos microdados do ENEM, foram selecionados os arquivos CSV (\textit{Comma-Separated Values}) que contêm as informações dos participantes e suas notas e os os dicionários de dados de cada edição em formato XLSX (Formato nativo do \textit{Microsoft Excel}), que foi utilizado para interpretar os valores categóricos e identificar variáveis importantes.
+Dentre os arquivos existentes nos arquivos compactados dos microdados do ENEM, foram selecionados os arquivos \texttt{.csv} (\textit{Comma-Separated Values}) que contêm as informações dos participantes e suas notas e os dicionários de dados de cada edição em formato \texttt{.xlsx} (Formato nativo do Microsoft Excel), que foram utilizados para interpretar os valores categóricos e identificar variáveis importantes.
 
-Para os arquivos compactados do Censo Escolar, foram selecionados os arquivos CSV que contêm as informações das escolas e os dicionários de dados em formato XLSX.
+Para os arquivos compactados do Censo Escolar, foram selecionados os arquivos \texttt{.csv} que contêm as informações das escolas e os dicionários de dados em formato \texttt{.xlsx}.
 
 \subsubsection{Edicão de 2024 do ENEM e LGPD}\label{resultados_enem_2024_lgpd}
 
 Na edição de 2024 dos microdados do ENEM, foi feita uma alteração no formato de disponibilização dos dados dos participantes e das notas, que passaram a ser disponibilizados em arquivos separados.
 
-Isso se deu "Devido à vigência da Lei Geral de Proteção de Dados (LGPD), incorporada ao ordenamento jurídico
-brasileiro por meio da Lei nº 13.709, de 14 de agosto de 2018" \cite{Inep2024LeiaMeEnem}, conforme descrito no arquivo auxiliar ¨Leia-Me" \cite{Inep2024LeiaMeEnem} disponibilizado junto com os microdados do ENEM 2024 .
+Isso se deu ``Devido à vigência da Lei Geral de Proteção de Dados (LGPD), incorporada ao ordenamento jurídico brasileiro por meio da Lei nº 13.709, de 14 de agosto de 2018'' \cite{Inep2024LeiaMeEnem}, conforme descrito no arquivo auxiliar ``Leia-Me'' \cite{Inep2024LeiaMeEnem} disponibilizado junto com os microdados do ENEM 2024.
 
-Assim, o formato dos arquivos de microdados do ENEM 2024 difere das edições anteriores, por mais que as informações contidas permanecem as mesmas. Houve a separação dos dados dos participantes e das notas em arquivos distintos e sem uma chave primária que permita a junção dos dois conjuntos de dados. Dessa forma, os dados da edição de 2024 do ENEM não puderam ser utilizados para este trabalho
+Ou seja, o formato dos arquivos de microdados do ENEM 2024 difere das edições anteriores, por mais que as informações contidas permanecem as mesmas. Houve a separação dos dados dos participantes e das notas em arquivos distintos e sem uma chave primária que permita a junção dos dois conjuntos de dados. Dessa forma, os dados da edição de 2024 do ENEM não puderam ser utilizados para este trabalho.
 
 \subsection{Análise dos Dicionários de Dados}\label{resultados_analise_dicionarios_dados}
 
 Foram analisados os dicionários de dados dos microdados do ENEM e do Censo Escolar para identificar as variáveis disponíveis em cada conjunto de dados. Os dicionários completos estão disponíveis no Apêndice \ref{apendice_dicionario_enem} e \ref{apendice_dicionario_censo_escolar}. A partir dessa análise, foi possível identificar as variáveis que seriam relevantes para responder às perguntas de pesquisa formuladas na Seção \ref{resultados_entendimento_negocio}.
 
-Não foi possível localizar uma variável que permitisse a identificação única das escolas dos participantes do ENEM nos microdados do ENEM, o que impossibilitou correlacionar diretamente os dados dos participantes do ENEM com os dados das escolas do Censo Escolar para agregar informações das escolas aos dados dos participantes. Dessa forma, optou-se por utilizar apenas os dados dos microdados do ENEM para a realização deste trabalho.
+Não foi possível localizar uma variável que permitisse a identificação única das escolas dos participantes do ENEM nos microdados do exame, o que impossibilitou correlacionar diretamente os dados dos participantes do ENEM com os dados das escolas do Censo Escolar para agregar informações das escolas aos dados dos participantes. Dessa forma, optou-se por utilizar apenas os microdados do ENEM para a realização deste trabalho.
 
 \subsection{Definição da Variável Resposta}\label{resultados_definicao_variavel_resposta}
 
-Como esse trabalho pretende avaliar o desempenho dos estudantes no ENEM e os fatores que influenciam esse desempenho, a variável resposta deve refletir esse objetivo. Assim, foram utilizadas como variáveis resposta as notas obtidas pelos estudantes nas quatro provas objetivas e na redação do ENEM.
+Como este trabalho pretende avaliar o desempenho dos estudantes no ENEM e os fatores que influenciam esse desempenho, a variável resposta deve refletir esse objetivo. Assim, foram utilizadas como variáveis resposta as notas obtidas pelos estudantes nas quatro provas objetivas e na redação do ENEM.
 
-Ou seja, usamos cinco variáveis resposta distintas para análise: (i) Nota da prova de Ciências da Natureza; (ii) Nota da prova de Ciências Humanas; (iii) Nota da prova de Linguagem e Códigos; (iv) Nota da prova de Matemática; e (v) Nota da Redação.
+Ou seja, foram usadas cinco variáveis resposta distintas para análise: (i) Nota da prova de Ciências Humanas; (ii) Nota da prova de Ciências da Natureza; (iii) Nota da prova de Linguagem e Código; (iv) Nota da prova de Matemática; e (v) Nota da Redação.
 
 \section{Preparação dos dados}\label{resultados_preparacao_dados}
 
 \subsection{Preparação do Ambiente Tecnológico e Analítico}\label{resultados_preparacao_ambiente_analitico}
 
-Para a execução desse trabalho, foi utilizado um ambiente baseado em \texttt{Python} versão 3.11 através do gerenciador de ambientes virtuais Miniconda3 \cite{Anaconda_Miniconda_nd}. O computador utilizado possui uma CPU AMD Ryzen 7 9800X3D, 32 GB de memória RAM e uma GPU NVIDIA GeForce RTX 4070 Ti Super, com 16 GB de memória dedicada com sistemas operacionais Ubuntu 24.04 LTS e Windows 11 Pro.
+Para a execução deste trabalho, foi utilizado um ambiente baseado em Python versão 3.11 através do gerenciador de ambientes virtuais Miniconda3 \cite{Anaconda_Miniconda_nd}. O computador utilizado possui uma CPU AMD Ryzen 7 9800X3D, 32 GB de memória RAM e uma GPU NVIDIA GeForce RTX 4070 Ti Super, com 16 GB de memória dedicada com sistemas operacionais Ubuntu 24.04 LTS e Windows 11 Pro.
 
-O ambiente foi especificamente configurado com o ecossistema NVIDIA CUDAX \cite{NVIDIA_CUDAX_nd} para possibilitar a execução utilizando a GPU do equipamento, visando acelerar o processamento dos dados e a modelagem. Esta suíte de bibliotecas de software permite executar pipelines de Ciência de Dados e análises inteiramente na GPU, minimizando a transferência de dados entre a CPU e a GPU.
+O ambiente foi especificamente configurado com o ecossistema NVIDIA CUDA-X \cite{NVIDIA_CUDAX_nd} para possibilitar a execução utilizando a GPU do equipamento, visando acelerar o processamento dos dados e a modelagem. Esta suíte de bibliotecas de software permite executar \textit{pipelines} de Ciência de Dados e análises inteiramente na GPU, minimizando a transferência de dados entre a CPU e a GPU.
 
-Foram utilizados seus principais componentes: \texttt{cudf} \cite{NVIDIA_cuDF_nd}, uma biblioteca para manipulação de \texttt{DataFrames} na GPU, análoga ao \texttt{pandas} \cite{PandasTeam_PandasDocs_2025}, e \texttt{cuml} \cite{NVIDIA_cuML_2023}, que fornece implementações de algoritmos de \textit{Machine Learning} acelerados por GPU, análoga ao \texttt{scikit-learn} \cite{scikit-learn}. Todo o ambiente foi construído sobre a plataforma CUDA 13.0, com as bibliotecas e dependências gerenciadas diretamente pelo Conda.
+Foram utilizados seus principais componentes: \texttt{cudf} \cite{NVIDIA_cuDF_nd}, uma biblioteca para manipulação de \texttt{DataFrames} na GPU, análoga ao \texttt{pandas} \cite{PandasTeam_PandasDocs_2025}, e \texttt{cuml} \cite{NVIDIA_cuML_2023}, que fornece implementações de algoritmos de \textit{Machine Learning} acelerados por GPU, análoga ao \texttt{scikit-learn} \cite{scikit-learn}. Todo o ambiente foi construído sobre a plataforma CUDA 13.1, com as bibliotecas e dependências gerenciadas diretamente pelo Conda.
 
 O arquivo YML de configuração do ambiente virtual utilizado está disponível no Apêndice \ref{apendice_ambiente_virtual}.
 
 \subsection{Leitura dos Dados}\label{resultados_leitura_dados}
 
-Os arquivos CSV dos microdados do ENEM foram lidos utilizando o método \texttt{read\_csv} da biblioteca \texttt{pandas} especificando o separador como ponto e vírgula (\texttt{sep = ';'}).
+Os arquivos \texttt{.csv} dos microdados do ENEM foram lidos utilizando o método \texttt{read\_csv} da biblioteca \texttt{pandas}, especificando o separador como ponto e vírgula (\texttt{sep=';'}).
 
-Serão utilizados os dados das edições de 2020 a 2023 e possuem as quantidade de observações e variáveis descritas na Tabela \ref{tab_qtde_obs_variaveis_edicao}. As tabelas foram carregadas já desconsiderando colunas que não agregam ao modelo, como o número de inscrição do participante, por exemplo.
+Foram utilizados os dados das edições de 2020 a 2023, que possuem a quantidade de observações e variáveis descritas na Tabela \ref{tab_qtde_obs_variaveis_edicao}. As tabelas foram carregadas já desconsiderando colunas que não agregam ao modelo, como o número de inscrição do participante, por exemplo.
 
-\begin{longtable}{|c|c|c|}
+\begin{longtable}{ccc}
 
     % --- TÍTULO E RÓTULO (Aparece no topo da primeira página) ---
-    \caption{Quantidade de observações e variáveis por edição do ENEM} \label{tab_qtde_obs_variaveis_edicao} \\
-    \hline
-    \textbf{Edição} & \textbf{Observações} & \textbf{Variáveis} \\ \hline
+    \caption{Observações e variáveis por edição do ENEM} \label{tab_qtde_obs_variaveis_edicao} \\
+    \toprule
+    \textbf{Edição} & \textbf{Observações} & \textbf{Variáveis} \\ \midrule
     \endfirsthead
 
     % --- CABEÇALHO PARA PÁGINAS SEGUINTES (Se quebrar página) ---
-    \hline
-    \textbf{Edição} & \textbf{Observações} & \textbf{Variáveis} \\ \hline
+    \toprule
+    \textbf{Edição} & \textbf{Observações} & \textbf{Variáveis} \\ \midrule
     \endhead
 
     % --- RODAPÉ PARA PÁGINAS INTERMEDIÁRIAS (Antes de terminar) ---
-    \hline
+    \bottomrule
     \multicolumn{3}{r}{\footnotesize\textit{Continua na próxima página...}} \\
     \endfoot
 
     % --- RODAPÉ FINAL (Aparece apenas na última página) ---
-    \hline
-    \multicolumn{3}{c}{\footnotesize Fonte: microdados do INEP; elaborado pelo autor.} \\
+    \bottomrule
+    \multicolumn{3}{c}{\footnotesize Fonte: elaborado pelo autor.} \\
     \endlastfoot
 
     % --- DADOS DA TABELA ---
-    2020 & 5.783.109 & 52 \\ \hline
-    2021 & 3.389.832 & 52 \\ \hline
-    2022 & 3.476.105 & 52 \\ \hline
-    2023 & 3.933.955 & 52 \\
+		2020 & 5.783.109 & 52 \\
+		2021 & 3.389.832 & 52 \\
+		2022 & 3.476.105 & 52 \\
+		2023 & 3.933.955 & 52 \\
 
 \end{longtable}
 
@@ -150,9 +175,11 @@ Serão utilizados os dados das edições de 2020 a 2023 e possuem as quantidade 
 
 Analisando o dicionário de dados de cada edição, foi possível observar que todas as edições possuem o mesmo esquema, ou seja, as mesmas variáveis com os mesmos nomes estão presentes em todas as edições selecionadas. Assim, a integração entre edições foi realizada por meio da concatenação vertical dos quatro conjuntos de dados, utilizando o método \texttt{concat} da biblioteca \texttt{pandas}.
 
-Em seguida, foi feita uma modificação no nome das variáveis para nomes que fossem mais intuitivos e de compreensão rápida do conteúdo. Essa modificação foi realizada utilizando o método \texttt{rename}, a partir de um dicionário que mapeava os nomes originais para os novos nomes desejados.
+Em seguida, foi feita uma modificação no nome das variáveis para nomes que fossem mais intuitivos e de compreensão rápida do conteúdo.
+Essa modificação foi realizada utilizando o método \texttt{rename}, a partir de um dicionário que mapeava os nomes originais para os novos nomes desejados.
 
-Com o dicionário de dados analisado, foi diagnosticado que algumas variáveis categóricas estavam codificadas com valores numéricos que não eram intuitivos. Assim, seus valores foram transformados, substituindo os códigos numéricos por descrições textuais mais compreensíveis através do metodo \texttt{map} da biblioteca \texttt{pandas}, utilizando dicionários de mapeamento construídos especificamente para cada variável categórica que necessitava de transformação.
+Com o dicionário de dados analisado, foi diagnosticado que algumas variáveis categóricas estavam codificadas com valores numéricos que não eram intuitivos.
+Assim, seus valores foram transformados, substituindo os códigos numéricos por descrições textuais mais compreensíveis através do método \texttt{map} da biblioteca \texttt{pandas}, utilizando dicionários de mapeamento construídos especificamente para cada variável categórica que necessitava de transformação.
 
 \subsection{Tratamento de Valores Nulos}\label{resultados_tratamento_valores_nulos}
 
@@ -207,77 +234,79 @@ Inicialmente, foi feito o cálculo do percentual de valores nulos por variável.
 
 % ==================================================
 
-\begin{longtable}{|c|c|}
+\begin{longtable}{cc}
 
     % --- TÍTULO E RÓTULO (Aparece no topo da primeira página) ---
     \caption{Percentual de valores nulos por variável} \label{tab_valores_nulos_inicial} \\
-    \hline
-    \textbf{Variável} & \textbf{Percentual de nulos} \\ \hline
+    \toprule
+    \textbf{Variável} & \textbf{Percentual de nulos} \\ \midrule
     \endfirsthead
 
     % --- CABEÇALHO PARA PÁGINAS SEGUINTES (Se quebrar página) ---
-    \hline
-    \textbf{Variável} & \textbf{Percentual de nulos} \\ \hline
+    \toprule
+    \textbf{Variável} & \textbf{Percentual de nulos} \\ \midrule
     \endhead
 
     % --- RODAPÉ PARA PÁGINAS INTERMEDIÁRIAS (Antes de terminar) ---
-    \hline
+    \bottomrule
     \multicolumn{2}{r}{\footnotesize\textit{Continua na próxima página...}} \\
     \endfoot
 
     % --- RODAPÉ FINAL (Aparece apenas na última página) ---
-    \hline
+    \bottomrule
     \multicolumn{2}{c}{\footnotesize Fonte: elaborado pelo autor.} \\
     \endlastfoot
 
     % --- DADOS DA TABELA ---
-    sigla\_uf\_escola & 78,1\% \\ \hline
-    cod\_municipio\_escola & 78,1\% \\ \hline
-    tp\_adm\_escola & 78,1\% \\ \hline
-    funcionamento\_escola & 78,1\% \\ \hline
-    tp\_local\_escola & 78,1\% \\ \hline
-    tp\_ensino & 69,8\% \\ \hline
-    tp\_escola & 68,2\% \\ \hline
-    ano\_conclusao\_ensino\_medio & 51,6\% \\ \hline
-    nota\_ciencias\_natureza & 40,4\% \\ \hline
-    nota\_matematica & 40,4\% \\ \hline
-    nota\_ciencias\_humanas & 37,0\% \\ \hline
-    nota\_redacao & 37,0\% \\ \hline
-    nota\_linguagem\_codigos & 37,0\% \\ \hline
-    03\_ocupacao\_pai & 12,5\% \\ \hline
-    01\_escolaridade\_pai & 9,8\% \\ \hline
-    04\_ocupacao\_mae & 9,0\% \\ \hline
-    estado\_civil & 4,2\% \\ \hline
-    02\_escolaridade\_mae & 3,5\% \\ \hline
-    cor\_raca & 1,8\% \\ \hline
-    10\_qtde\_carro & 0,6\% \\ \hline
-    05\_qtde\_moradores & 0,6\% \\ \hline
-    06\_renda\_familiar & 0,6\% \\ \hline
-    07\_dias\_trabalhador\_domestico & 0,6\% \\ \hline
-    08\_qtde\_banheiro & 0,6\% \\ \hline
-    09\_qtde\_quarto & 0,6\% \\ \hline
-    18\_flag\_aspirador\_po & 0,6\% \\ \hline
-    11\_qtde\_motocicleta & 0,6\% \\ \hline
-    12\_qtde\_geladeira & 0,6\% \\ \hline
-    13\_qtde\_freezer & 0,6\% \\ \hline
-    14\_qtde\_maq\_lavar\_roupa & 0,6\% \\ \hline
-    15\_qtde\_maq\_secar\_roupa & 0,6\% \\ \hline
-    16\_qtde\_micro\_ondas & 0,6\% \\ \hline
-    17\_qtde\_maq\_lavar\_louca & 0,6\% \\ \hline
-    22\_qtde\_celular & 0,6\% \\ \hline
-    19\_qtde\_tv & 0,6\% \\ \hline
-    20\_flag\_aparelho\_dvd & 0,6\% \\ \hline
-    21\_flag\_tv\_assinatura & 0,6\% \\ \hline
-    24\_qtde\_computadores & 0,6\% \\ \hline
-    23\_flag\_telefone\_fixo & 0,6\% \\ \hline
-    25\_flag\_internet & 0,6\% \\ \hline
+    sigla\_uf\_escola & 78,1\% \\
+    cod\_municipio\_escola & 78,1\% \\
+    tp\_adm\_escola & 78,1\% \\
+    funcionamento\_escola & 78,1\% \\
+    tp\_local\_escola & 78,1\% \\
+    tp\_ensino & 69,8\% \\
+    tp\_escola & 68,2\% \\
+    ano\_conclusao\_ensino\_medio & 51,6\% \\
+    nota\_ciencias\_natureza & 40,4\% \\
+    nota\_matematica & 40,4\% \\
+    nota\_ciencias\_humanas & 37,0\% \\
+    nota\_redacao & 37,0\% \\
+    nota\_linguagem\_codigos & 37,0\% \\
+    03\_ocupacao\_pai & 12,5\% \\
+    01\_escolaridade\_pai & 9,8\% \\
+    04\_ocupacao\_mae & 9,0\% \\
+    estado\_civil & 4,2\% \\
+    02\_escolaridade\_mae & 3,5\% \\
+    cor\_raca & 1,8\% \\
+    10\_qtde\_carro & 0,6\% \\
+    05\_qtde\_moradores & 0,6\% \\
+    06\_renda\_familiar & 0,6\% \\
+    07\_dias\_trabalhador\_domestico & 0,6\% \\
+    08\_qtde\_banheiro & 0,6\% \\
+    09\_qtde\_quarto & 0,6\% \\
+    18\_flag\_aspirador\_po & 0,6\% \\
+    11\_qtde\_motocicleta & 0,6\% \\
+    12\_qtde\_geladeira & 0,6\% \\
+    13\_qtde\_freezer & 0,6\% \\
+    14\_qtde\_maq\_lavar\_roupa & 0,6\% \\
+    15\_qtde\_maq\_secar\_roupa & 0,6\% \\
+    16\_qtde\_micro\_ondas & 0,6\% \\
+    17\_qtde\_maq\_lavar\_louca & 0,6\% \\
+    22\_qtde\_celular & 0,6\% \\
+    19\_qtde\_tv & 0,6\% \\
+    20\_flag\_aparelho\_dvd & 0,6\% \\
+    21\_flag\_tv\_assinatura & 0,6\% \\
+    24\_qtde\_computadores & 0,6\% \\
+    23\_flag\_telefone\_fixo & 0,6\% \\
+    25\_flag\_internet & 0,6\% \\
     nacionalidade & 0,05\% \\
 
 \end{longtable}
 
 O percentual de valores nulos varia significativamente, com algumas variáveis apresentando mais de 70\% de valores nulos, enquanto outras possuem menos de 1\%. Variáveis com uma alta proporção de valores nulos podem comprometer a análise se for realizada alguma imputação de valores. Sendo assim, foi decidido remover as variáveis que apresentavam mais de 50\% de valores nulos, resultando na remoção de nove variáveis do conjunto de dados.
 
-Para as variáveis das notas, por serem as variáveis resposta deste trabalho, foi realizada uma análise mais detalhada. Primeiro, verificou-se a existência de valores zerados nessas variáveis e se possuem significado diferentes de valores nulos. Para isso, foi feita uma análise com a presença nas provas e o status da redação. Foi identificado que a nota zerada significa que o participante esteve presente na prova, mas obteve nota zero, enquanto o valor nulo indica que o participante ou não realizou a prova, ou foi eliminado, ou teve sua redação anulada. Dessa forma, optou-se por manter as observações com notas zeradas no conjunto de dados, removendo apenas as observações com notas nulas. A decisão de incorporar ou não as notas zero na análise será discutida na Seção \ref{resultados_modelagem}.
+Para as variáveis das notas, por serem as variáveis resposta deste trabalho, foi realizada uma análise mais detalhada. Primeiro, verificou-se a existência de valores zerados nessas variáveis e se possuem significados diferentes de valores nulos. Para isso, foi feita uma análise com a presença nas provas e o status da redação.
+
+Foi identificado que a nota zerada significa que o participante esteve presente na prova, mas obteve nota zero, enquanto o valor nulo indica que o participante ou não realizou a prova, ou foi eliminado, ou teve sua redação anulada. Dessa forma, optou-se por manter as observações com notas zeradas no conjunto de dados, removendo apenas as observações com notas nulas. A decisão de incorporar ou não as notas zero na análise é discutida na Seção \ref{resultados_analise_exploratoria_dados_vars_resposta_outliers}.
 
 Para as demais variáveis com valores nulos, foi realizada uma análise consolidada, ou seja, foram retiradas as observações que possuíam valor nulo em qualquer uma das variáveis restantes, o que resultou na retirada de 4.341.559 observações do conjunto de dados.
 
@@ -293,34 +322,34 @@ Após a separação dos conjuntos de dados por variável resposta, conforme desc
 % Matemática tem 7,500,050 linhas e 35 colunas.
 % Redação tem 7,895,093 linhas e 35 colunas.
 
-\begin{longtable}{|l|c|c|}
+\begin{longtable}{ccc}
 
-    % --- TÍTULO E RÓTULO (1ª Página) ---
+    % --- TÍTULO E RÓTULO (Aparece no topo da primeira página) ---
     \caption{Observações e variáveis por conjunto de dados} \label{tab_conjunto_variaveis_resposta} \\
-    \hline
-    \textbf{Conjunto de Dados} & \textbf{Observações} & \textbf{Variáveis} \\ \hline
+    \toprule
+    \textbf{Conjunto de Dados} & \textbf{Observações} & \textbf{Variáveis} \\ \midrule
     \endfirsthead
 
-    % --- CABEÇALHO (Páginas Seguintes) ---
-    \hline
-    \textbf{Conjunto de Dados} & \textbf{Observações} & \textbf{Variáveis} \\ \hline
+    % --- CABEÇALHO PARA PÁGINAS SEGUINTES (Se quebrar página) ---
+    \toprule
+    \textbf{Conjunto de Dados} & \textbf{Observações} & \textbf{Variáveis} \\ \midrule
     \endhead
 
-    % --- RODAPÉ (Páginas Intermediárias) ---
-    \hline
+    % --- RODAPÉ PARA PÁGINAS INTERMEDIÁRIAS (Antes de terminar) ---
+    \bottomrule
     \multicolumn{3}{r}{\footnotesize\textit{Continua na próxima página...}} \\
     \endfoot
 
-    % --- RODAPÉ FINAL (Última Página) ---
-    \hline
+    % --- RODAPÉ FINAL (Aparece apenas na última página) ---
+    \bottomrule
     \multicolumn{3}{c}{\footnotesize Fonte: elaborado pelo autor.} \\
     \endlastfoot
 
     % --- DADOS DA TABELA ---
-    Ciências Humanas & 7.895.093 & 35 \\ \hline
-    Ciências da Natureza & 7.500.050 & 35 \\ \hline
-    Linguagem e Código & 7.895.093 & 35 \\ \hline
-    Matemática & 7.500.050 & 35 \\ \hline
+    Ciências Humanas & 7.895.093 & 35 \\
+    Ciências da Natureza & 7.500.050 & 35 \\
+    Linguagem e Código & 7.895.093 & 35 \\
+    Matemática & 7.500.050 & 35 \\
     Redação & 7.895.093 & 35 \\
 
 \end{longtable}
@@ -333,9 +362,9 @@ A estrutura de dicionários foi utilizada para manter o controle dos conjuntos d
 
 \subsubsection{Distribuições}\label{resultados_analise_exploratoria_dados_vars_resposta_distribuicoes}
 
-O primeiro passo da análise exploratória foi entender o domínio das variáveis respostas e foi constatado que para as notas das provas objetivas (Ciências Humanas, Ciências da Natureza, Linguagem e Códigos e Matemática) haviam mais de cinco mil notas distintas, com variações pequenas entre elas (décimos de pontos). Já para a nota da redação, o número de notas distintas era significativamente menor (apenas 50 notas) com variação de pontos de 20 em 20 pontos.
+O primeiro passo da análise exploratória foi entender o domínio das variáveis respostas e constatou-se que, para as notas das provas objetivas (Ciências Humanas, Ciências da Natureza, Linguagem e Código e Matemática), havia mais de cinco mil notas distintas, com variações pequenas entre elas (décimos de pontos). Já para a nota da Redação, o número de notas distintas era significativamente menor (apenas 50 notas) com variação de 20 em 20 pontos.
 
-A tabela \ref{tab_describe_notas} apresenta as estatísticas descritivas das notas de cada prova, obtido através do método \texttt{describe}.
+A tabela \ref{tab_describe_notas} apresenta as estatísticas descritivas das notas de cada prova, obtido através do método \texttt{describe} da biblioteca \texttt{pandas}.
 
 % Ciências Humanas  Ciências Natureza  Linguagem e Código    Matemática  \
 % count      7.895093e+06       7.500050e+06        7.895093e+06  7.500050e+06   
@@ -357,42 +386,42 @@ A tabela \ref{tab_describe_notas} apresenta as estatísticas descritivas das not
 % 75%    7.600000e+02  
 % max    1.000000e+03
 
-\begin{longtable}{|l|c|c|c|c|c|}
+\begin{longtable}{lccccc}
 
-    % --- TÍTULO E RÓTULO (1ª Página) ---
+    % --- TÍTULO E RÓTULO (Aparece no topo da primeira página) ---
     \caption{Estatísticas descritivas por conjunto de dados} \label{tab_describe_notas} \\
-    \hline
-    \textbf{Estatística} & \textbf{Humanas} & \textbf{Natureza} & \textbf{Linguagem} & \textbf{Matemática} & \textbf{Redação} \\ \hline
+    \toprule
+    \textbf{Estatística} & \textbf{Humanas} & \textbf{Natureza} & \textbf{Linguagem} & \textbf{Matemática} & \textbf{Redação} \\ \midrule
     \endfirsthead
 
-    % --- CABEÇALHO (Páginas Seguintes) ---
-    \hline
-    \textbf{Estatística} & \textbf{Humanas} & \textbf{Natureza} & \textbf{Linguagem} & \textbf{Matemática} & \textbf{Redação} \\ \hline
+    % --- CABEÇALHO PARA PÁGINAS SEGUINTES (Se quebrar página) ---
+    \toprule
+    \textbf{Estatística} & \textbf{Humanas} & \textbf{Natureza} & \textbf{Linguagem} & \textbf{Matemática} & \textbf{Redação} \\ \midrule
     \endhead
 
-    % --- RODAPÉ (Páginas Intermediárias) ---
-    \hline
+    % --- RODAPÉ PARA PÁGINAS INTERMEDIÁRIAS (Antes de terminar) ---
+    \bottomrule
     \multicolumn{6}{r}{\footnotesize\textit{Continua na próxima página...}} \\
     \endfoot
 
-    % --- RODAPÉ FINAL (Última Página) ---
-    \hline
+    % --- RODAPÉ FINAL (Aparece apenas na última página) ---
+    \bottomrule
     \multicolumn{6}{c}{\footnotesize Fonte: elaborado pelo autor.} \\
     \endlastfoot
 
     % --- DADOS DA TABELA ---
-    Contagem & 7.895.093 & 7.500.050 & 7.895.093 & 7.500.050 & 7.895.093 \\ \hline
-    Média & 523,8 & 496,9 & 519,0 & 538,7 & 616,6 \\ \hline
-    Desvio Padrão & 91,3 & 81,4 & 91,3 & 121,5 & 204,7 \\ \hline
-    Mínimo & 0,0 & 0,0 & 0,0 & 0,0 & 0,0 \\ \hline
-    25º Percentil & 460,1 & 437,3 & 460,1 & 441,6 & 520 \\ \hline
-    50º Percentil & 528,6 & 490,3 & 528,6 & 526 & 620 \\ \hline
-    75º Percentil & 588,2 & 551,9 & 588,2 & 624,9 & 760 \\ \hline
+    Contagem & 7.895.093 & 7.500.050 & 7.895.093 & 7.500.050 & 7.895.093 \\
+    Média & 523,8 & 496,9 & 519,0 & 538,7 & 616,6 \\
+    Desvio Padrão & 91,3 & 81,4 & 91,3 & 121,5 & 204,7 \\
+    Mínimo & 0,0 & 0,0 & 0,0 & 0,0 & 0,0 \\
+    25º Percentil & 460,1 & 437,3 & 460,1 & 441,6 & 520 \\
+    50º Percentil & 528,6 & 490,3 & 528,6 & 526 & 620 \\
+    75º Percentil & 588,2 & 551,9 & 588,2 & 624,9 & 760 \\
     Máximo & 862,6 & 875,3 & 826,1 & 985,7 & 1000 \\
 
 \end{longtable}
 
-Em seguida, foram construídos histogramas de cada nota para entender a distribuição das notas. As Figuras \ref{fig:hist_humanas}, \ref{fig:hist_natureza}, \ref{fig:hist_linguagem_codigo}, \ref{fig:hist_matematica} e \ref{fig:hist_redacao} apresentam os histogramas das notas de cada prova.
+Em seguida, foram construídos histogramas de cada nota para entender a distribuição. As Figuras \ref{fig:hist_humanas} a \ref{fig:hist_redacao} apresentam os histogramas das notas de cada prova.
 
 \begin{figure}[H]
     \centering
@@ -442,46 +471,52 @@ A tabela \ref{tab_assimetria_curtose} apresenta os valores de assimetria e curto
 % Matemática - Assimetria: 0.3138 | Curtose: 0.0850
 % Redação - Assimetria: -0.7457 | Curtose: 1.0488
 
-\begin{longtable}{|l|c|c|c|}
+\begin{longtable}{lccc}
 
-    % --- TÍTULO E RÓTULO (1ª Página) ---
+    % --- TÍTULO E RÓTULO (Aparece no topo da primeira página) ---
     \caption{Assimetria, Curtose e Notas zeradas} \label{tab_assimetria_curtose} \\
-    \hline
-    \textbf{Variável} & \textbf{Assimetria} & \textbf{Curtose} & \textbf{Notas zeradas} \\ \hline
+    \toprule
+    \textbf{Variável} & \textbf{Assimetria} & \textbf{Curtose} & \textbf{Notas zeradas} \\ \midrule
     \endfirsthead
 
-    % --- CABEÇALHO (Páginas Seguintes) ---
-    \hline
-    \textbf{Variável} & \textbf{Assimetria} & \textbf{Curtose} & \textbf{Notas zeradas} \\ \hline
+    % --- CABEÇALHO PARA PÁGINAS SEGUINTES (Se quebrar página) ---
+    \toprule
+    \textbf{Variável} & \textbf{Assimetria} & \textbf{Curtose} & \textbf{Notas zeradas} \\ \midrule\midrule
     \endhead
 
-    % --- RODAPÉ (Páginas Intermediárias) ---
-    \hline
+    % --- RODAPÉ PARA PÁGINAS INTERMEDIÁRIAS (Antes de terminar) ---
+    \bottomrule
     \multicolumn{4}{r}{\footnotesize\textit{Continua na próxima página...}} \\
     \endfoot
 
-    % --- RODAPÉ FINAL (Última Página) ---
-    \hline
+    % --- RODAPÉ FINAL (Aparece apenas na última página) ---
+    \bottomrule
     \multicolumn{4}{c}{\footnotesize Fonte: elaborado pelo autor.} \\
     \endlastfoot
 
     % --- DADOS DA TABELA ---
-    Humanas & -0,3408 & 1,1269 & 0,18\%\\ \hline
-    Natureza & 0,0321 & 1,8372 & 0,17\%\\ \hline
-    Linguagem & -0,5113 & 1,1780 & 0,08\%\\ \hline
-    Matemática & 0,3138 & 0,0850 & 0,17\%\\ \hline
-    Redação & -0,7457 & 1,0488 & 3,56\%\\ \hline
+    Humanas & -0,3408 & 1,1269 & 0,18\%\\
+    Natureza & 0,0321 & 1,8372 & 0,17\%\\
+    Linguagem & -0,5113 & 1,1780 & 0,08\%\\
+    Matemática & 0,3138 & 0,0850 & 0,17\%\\
+    Redação & -0,7457 & 1,0488 & 3,56\%\\
+
 \end{longtable}
 
 Analisando os valores de assimetria e curtose, é possível observar que as distribuições das notas possuem diferentes características.
 
-A assimetria da nota de redação é a mais negativa, o que indica que os alunos tivereram, em geral, o melhor desempenho, assim como nas provas de Linguagem e Códigos e Ciências Humanas, que também apresentam assimetria negativa, porém com valores menores. Na prova de Ciências da Natureza, a assimetria é praticamente nula, indicando uma distribuição mais simétrica das notas, enquanto a nota de Matemática apresenta a assimetria mais positiva, indicando um desempenho relativamente pior dos alunos nessa prova.
+A assimetria da nota de Redação é a mais negativa, o que indica que os alunos tiveram, em geral, o melhor desempenho, assim como nas provas de Linguagem e Código e Ciências Humanas, que também apresentam assimetria negativa, porém com valores menores.
 
-Analisando os valores da curtose, a prova de Matemática foi a única a apresentar uma curtose próxima de zero, indicando uma distribuição mais próxima da normalidade. As outras provas apresentaram valores maiores que 1 indicando distribuições com caudas mais pesadas e picos mais acentuados.
+Na prova de Ciências da Natureza, a assimetria é praticamente nula, indicando uma distribuição mais simétrica das notas, enquanto a nota de Matemática apresenta a assimetria mais positiva, indicando um desempenho relativamente pior dos alunos nessa prova.
+
+Analisando os valores da curtose, a prova de Matemática foi a única a apresentar uma curtose próxima de zero, indicando uma distribuição mais próxima da normalidade. As outras provas apresentaram valores maiores que 1, indicando distribuições com caudas mais pesadas e picos mais acentuados.
+
+A quantidade de notas zeradas é relativamente baixa, variando entre 0,08\% e 3,56\%, sendo a nota de Redação a que possui o maior percentual de notas zeradas.
 
 \subsubsection{Teste de Hipótese}\label{resultados_analise_exploratoria_dados_vars_resposta_teste_hipotese}
 
-Foi realizado o teste de hipótese ANOVA com nível de significância de $0,1\%$ para comparar as médias das notas por edição do ENEM em cada conjunto de dados, onde a hipótese nula $H_0$ é de que as médias são iguais entre as edições. A tabela \ref{tab_anova_notas_edicao} apresenta os valores de F, p-valor e a métrica SMD (\textit{Standardized Mean Difference}) obtidos para cada conjunto de dados.
+Foi realizado o teste de hipótese ANOVA com nível de significância de 0,1\% para comparar as médias das notas por edição do ENEM em cada conjunto de dados, onde a hipótese nula $H_{0}$ é de que as médias são iguais entre as edições.
+A Tabela \ref{tab_anova_notas_edicao} apresenta os valores de F, p-valor e a métrica SMD (\textit{Standardized Mean Difference}) obtidos para cada conjunto de dados.
 
 % Ciências Humanas | Estatística F: 13161.5488 | Rejeita-se H0: Sim | p-valor: 0.0000e+00 | SMD: 0.1850 | Insignificante
 % Ciências Natureza | Estatística F: 3431.3132 | Rejeita-se H0: Sim | p-valor: 0.0000e+00 | SMD: 0.0866 | Insignificante
@@ -489,58 +524,62 @@ Foi realizado o teste de hipótese ANOVA com nível de significância de $0,1\%$
 % Matemática | Estatística F: 13041.6191 | Rejeita-se H0: Sim | p-valor: 0.0000e+00 | SMD: 0.1968 | Insignificante
 % Redação | Estatística F: 27498.2207 | Rejeita-se H0: Sim | p-valor: 0.0000e+00 | SMD: 0.2422 | Pequeno
 
-\begin{longtable}{|l|c|c|c|c|c|}
+\begin{longtable}{lccccc}
 
-    % --- TÍTULO E RÓTULO (1ª Página) ---
+    % --- TÍTULO E RÓTULO (Aparece no topo da primeira página) ---
     \caption{Teste ANOVA das médias das notas por edição} \label{tab_anova_notas_edicao} \\
-    \hline
-    \textbf{Variável} & \textbf{Valor F} & \textbf{Rejeita-se $H_0$?} & \textbf{p-valor} & \textbf{SMD} & \textbf{Tamanho do efeito} \\ \hline
+    \toprule
+    \textbf{Variável} & \textbf{Valor F} & \textbf{Rejeita-se $H_0$?} & \textbf{p-valor} & \textbf{SMD} & \textbf{Tamanho do efeito} \\ \midrule
     \endfirsthead
 
-    % --- CABEÇALHO (Páginas Seguintes) ---
-    \hline
-    \textbf{Variável} & \textbf{Valor F} & \textbf{Rejeita-se $H_0$?} & \textbf{p-valor} & \textbf{SMD} & \textbf{Tamanho do efeito} \\ \hline
+    % --- CABEÇALHO PARA PÁGINAS SEGUINTES (Se quebrar página) ---
+    \toprule
+    \textbf{Variável} & \textbf{Valor F} & \textbf{Rejeita-se $H_0$?} & \textbf{p-valor} & \textbf{SMD} & \textbf{Tamanho do efeito} \\ \midrule
     \endhead
 
-    % --- RODAPÉ (Páginas Intermediárias) ---
-    \hline
+    % --- RODAPÉ PARA PÁGINAS INTERMEDIÁRIAS (Antes de terminar) ---
+    \bottomrule
     \multicolumn{6}{r}{\footnotesize\textit{Continua na próxima página...}} \\
     \endfoot
 
-    % --- RODAPÉ FINAL (Última Página) ---
-    \hline
+    % --- RODAPÉ FINAL (Aparece apenas na última página) ---
+    \bottomrule
     \multicolumn{6}{c}{\footnotesize Fonte: elaborado pelo autor.} \\
     \endlastfoot
 
     % --- DADOS DA TABELA ---
-    Humanas & 13.161 & Sim & 0,0000 & 0,185 & Insignificante \\ \hline
-    Natureza & 3.431 & Sim & 0,0000 & 0,087 & Insignificante \\ \hline
-    Linguagem & 26.506 & Sim & 0,0000 & 0,269 & Pequeno \\ \hline
-    Matemática & 13.041 & Sim & 0,0000 & 0,197 & Insignificante \\ \hline
-    Redação & 27.498 & Sim & 0,0000 & 0,242 & Pequeno \\ \hline
+    Humanas & 13.161 & Sim & 0,0000 & 0,185 & Insignificante \\
+    Natureza & 3.431 & Sim & 0,0000 & 0,087 & Insignificante \\
+    Linguagem & 26.506 & Sim & 0,0000 & 0,269 & Pequeno \\
+    Matemática & 13.041 & Sim & 0,0000 & 0,197 & Insignificante \\
+    Redação & 27.498 & Sim & 0,0000 & 0,242 & Pequeno \\
 
 \end{longtable}
 
-Foi decidido manter todas as edições do ENEM no conjunto de dados para a modelagem preditiva e sem a necessidade de segmentação por edição, uma vez que o tamanho do efeito é insignificante ou pequeno.
+O teste de hipótese ANOVA indicou que há diferenças estatisticamente significativas entre as médias das notas por edição do ENEM em todos os conjuntos de dados, uma vez que o p-valor é menor que o nível de significância de 0,1\%. Porém, ao analisar o tamanho do efeito através da métrica SMD, foi possível constatar que as diferenças entre as edições são insignificantes ou pequenas, o que indica que as edições do ENEM não tiveram um impacto relevante nas notas dos participantes.
+
+Dessa forma, foi decidido manter todas as edições do ENEM no conjunto de dados para a modelagem preditiva e sem a necessidade de segmentação por edição.
 
 \subsubsection{Análise de Outliers}\label{resultados_analise_exploratoria_dados_vars_resposta_outliers}
 
-Para a análise dos outliers, foram utilizados os boxplots das notas de cada prova, apresentados nas Figuras \ref{fig:boxplot_humanas}, \ref{fig:boxplot_natureza}, \ref{fig:boxplot_linguagem_codigo}, \ref{fig:boxplot_matematica} e \ref{fig:boxplot_redacao}.
+Para a análise dos outliers, foram utilizados os boxplots das notas de cada prova, apresentados nas Figuras \ref{fig:boxplot_humanas} a \ref{fig:boxplot_redacao}.
 
 \begin{figure}[H]
     \centering
     \caption{Boxplot das notas por edição - Humanas} \label{fig:boxplot_humanas}
     \includegraphics[width=0.9\linewidth]{imagens/boxplot_humanas.png}
     \par\vspace{0.1cm}
-    % {\footnotesize Fonte: elaborado pelo autor.}
+    {\footnotesize Fonte: elaborado pelo autor.}
 \end{figure}
+
+\pagebreak
 
 \begin{figure}[H]
     \centering
     \caption{Boxplot das notas - Natureza} \label{fig:boxplot_natureza}
     \includegraphics[width=0.9\linewidth]{imagens/boxplot_natureza.png}
     \par\vspace{0.1cm}
-    % {\footnotesize Fonte: elaborado pelo autor.}
+    {\footnotesize Fonte: elaborado pelo autor.}
 \end{figure}
 
 \begin{figure}[H]
@@ -548,7 +587,7 @@ Para a análise dos outliers, foram utilizados os boxplots das notas de cada pro
     \caption{Boxplot das notas - Linguagem} \label{fig:boxplot_linguagem_codigo}
     \includegraphics[width=0.9\linewidth]{imagens/boxplot_linguagem_codigo.png}
     \par\vspace{0.1cm}
-    % {\footnotesize Fonte: elaborado pelo autor.}
+    {\footnotesize Fonte: elaborado pelo autor.}
 \end{figure}
 
 \begin{figure}[H]
@@ -556,8 +595,10 @@ Para a análise dos outliers, foram utilizados os boxplots das notas de cada pro
     \caption{Boxplot das notas - Matemática} \label{fig:boxplot_matematica}
     \includegraphics[width=0.9\linewidth]{imagens/boxplot_matematica.png}
     \par\vspace{0.1cm}
-    % {\footnotesize Fonte: elaborado pelo autor.}
+    {\footnotesize Fonte: elaborado pelo autor.}
 \end{figure}
+
+\pagebreak
 
 \begin{figure}[H]
     \centering
@@ -567,7 +608,9 @@ Para a análise dos outliers, foram utilizados os boxplots das notas de cada pro
     {\footnotesize Fonte: elaborado pelo autor.}
 \end{figure}
 
-Foi utilizado o critério do intervalor interquartil (\textit{Interquartile Range} - IQR) para identificar os outliers nas notas de cada prova. Foram considerados outliers os valores que estavam abaixo de $Q1 - 1,5 \times IQR$ ou acima de $Q3 + 1,5 \times IQR$, onde Q1 é o primeiro quartil, Q3 é o terceiro quartil e IQR = Q3 - Q1. A Tabela \ref{tab_outliers_notas} apresenta o limite inferior, o limite superior, a quantidade e o percentual de outliers identificados em cada conjunto de dados.
+Foi utilizado o critério do intervalo interquartil (\textit{Interquartile Range} - IQR) para identificar os \textit{outliers} nas notas de cada prova.
+Foram considerados \textit{outliers} os valores que estavam abaixo de $Q1 - 1,5 \times IQR$ ou acima de $Q3 + 1,5 \times IQR$, onde $Q1$ é o primeiro quartil, $Q3$ é o terceiro quartil e $IQR = Q3 - Q1$.
+A Tabela \ref{tab_outliers_notas} apresenta o limite inferior, o limite superior, a quantidade e o percentual de \textit{outliers} identificados em cada conjunto de dados.
 
 % ==================================================
 
@@ -626,39 +669,41 @@ Foi utilizado o critério do intervalor interquartil (\textit{Interquartile Rang
 
 % ==================================================
 
-\begin{longtable}{|l|c|c|c|}
+\begin{longtable}{lccc}
 
-    % --- TÍTULO E RÓTULO (1ª Página) ---
+    % --- TÍTULO E RÓTULO (Aparece no topo da primeira página) ---
     \caption{Quantidade e percentual de outliers nas notas} \label{tab_outliers_notas} \\
-    \hline
-    \textbf{Variável} & \textbf{Limite Inferior} & \textbf{Limite Superior} & \textbf{Outliers} \\ \hline
+    \toprule
+    \textbf{Variável} & \textbf{Limite Inferior} & \textbf{Limite Superior} & \textbf{Outliers} \\ \midrule
     \endfirsthead
 
-    % --- CABEÇALHO (Páginas Seguintes) ---
-    \hline
-    \textbf{Variável} & \textbf{Limite Inferior} & \textbf{Limite Superior} & \textbf{Outliers} \\ \hline
+    % --- CABEÇALHO PARA PÁGINAS SEGUINTES (Se quebrar página) ---
+    \toprule
+    \textbf{Variável} & \textbf{Limite Inferior} & \textbf{Limite Superior} & \textbf{Outliers} \\ \midrule\\ \midrule
     \endhead
 
-    % --- RODAPÉ (Páginas Intermediárias) ---
-    \hline
+    % --- RODAPÉ PARA PÁGINAS INTERMEDIÁRIAS (Antes de terminar) ---
+    \bottomrule
     \multicolumn{4}{r}{\footnotesize\textit{Continua na próxima página...}} \\
     \endfoot
 
-    % --- RODAPÉ FINAL (Última Página) ---
-    \hline
+    % --- RODAPÉ FINAL (Aparece apenas na última página) ---
+    \bottomrule
     \multicolumn{4}{c}{\footnotesize Fonte: elaborado pelo autor.} \\
     \endlastfoot
 
     % --- DADOS DA TABELA ---
-    Humanas & 267,95 & 780,35 & 19.596 (0,25\%) \\ \hline
-    Natureza & 265,40 & 723,80 & 49.017 (0,65\%) \\ \hline
-    Linguagem & 314,85 & 728,85 & 35.998 (0,46\%) \\ \hline
-    Matemática & 166,65 & 899,85 & 27.944 (0,37\%) \\ \hline
-    Redação & 160,00 & 1000,00 & 282.438 (3,58\%) \\ \hline
+    Humanas & 267,95 & 780,35 & 19.596 (0,25\%) \\
+    Natureza & 265,40 & 723,80 & 49.017 (0,65\%) \\
+    Linguagem & 314,85 & 728,85 & 35.998 (0,46\%) \\
+    Matemática & 166,65 & 899,85 & 27.944 (0,37\%) \\
+    Redação & 160,00 & 1000,00 & 282.438 (3,58\%) \\
 
 \end{longtable}
 
-Ao analisarmos os intervalos dos outliers da nota da Redação, vemos que a nota máxima (1.000 pontos) não foi considerada outlier. Porém, tendo o contexto do ENEM em mente e analisando a distribuição das notas, é razoável retirarmos as notas máximas do conjunto de dados, uma vez que são notas extremamente raras. Isso resulta em mais 116 observações removidas do conjunto de dados da nota de Redação.
+Os intervalos dos \textit{outliers} removeu as notas zero de todas as provas, o que é consistente com a análise realizada na Seção \ref{resultados_analise_exploratoria_dados_vars_resposta_distribuicoes}, onde vemos nos histogramas que as notas zero são valores atípicos. 
+
+Para a nota da Redação, o intervalo dos \textit{outliers} manteve a nota máxima de 1.000 pontos. Porém, ao analisar a distribuição das notas de Redação e tendo o contexto do ENEM em mente, é razoável considerar as notas máximas como \textit{outliers}, uma vez que são notas extremamente raras. Dessa forma, optou-se por retirar as observações com nota máxima do conjunto de dados da nota de Redação, o que resultou na remoção de mais 116 observações desse conjunto de dados.
 
 \subsection{Análise Exploratória - Variáveis Preditoras}\label{resultados_analise_exploratoria_dados_vars_preditoras}
 
@@ -666,7 +711,8 @@ A análise exploratória das variáveis preditoras seguiu três etapas: (i) conc
 
 \subsubsection{Concentração}\label{resultados_analise_exploratoria_dados_vars_preditoras_concentracao}
 
-Ao calcularmos a proporção de observações para cada categoria das variáveis categóricas, foi possível identifcar três variáveis que apresentavam uma concentração acima de 93\%. Devido a essa alta concentração, foi decidido remover essas variáveis do conjunto de dados. As tabelas \ref{tab_concentracao_vars_categoricas_humanas} a \ref{tab_concentracao_vars_categoricas_redacao} apresentam as cinco variáveis categóricas com maior concentração e suas respectivas proporções da categoria de maior Concentração para cada conjunto de dados.
+Ao calcular a proporção de observações para cada categoria das variáveis categóricas, foi possível identificar três variáveis que apresentavam uma concentração acima de 93\%. Devido a essa alta concentração, foi decidido remover essas variáveis do conjunto de dados por não fornecerem informações relevantes para a modelagem preditiva.
+As Tabelas \ref{tab_concentracao_vars_categoricas_humanas} a \ref{tab_concentracao_vars_categoricas_redacao} apresentam as cinco variáveis categóricas com maior concentração e suas respectivas proporções da categoria de maior concentração para cada conjunto de dados.
 
 % ===================== Ciências Humanas =====================
 
@@ -677,35 +723,35 @@ Ao calcularmos a proporção de observações para cada categoria das variáveis
 % 3        15\_qtde\_maq\_secar\_roupa      0.865083
 % 4          23\_flag\_telefone\_fixo      0.841536
 
-\begin{longtable}{|l|c|}
+\begin{longtable}{lc}
 
-    % --- TÍTULO E RÓTULO (1ª Página) ---
+    % --- TÍTULO E RÓTULO (Aparece no topo da primeira página) ---
     \caption{Cinco maiores concentrações - Humanas} \label{tab_concentracao_vars_categoricas_humanas} \\
-    \hline
-    \textbf{Variável} & \textbf{Maior Concentração} \\ \hline
+    \toprule
+    \textbf{Variável} & \textbf{Maior Concentração} \\ \midrule
     \endfirsthead
 
-    % --- CABEÇALHO (Páginas Seguintes) ---
-    \hline
-    \textbf{Variável} & \textbf{Maior Concentração} \\ \hline
+    % --- CABEÇALHO PARA PÁGINAS SEGUINTES (Se quebrar página) ---
+    \toprule
+    \textbf{Variável} & \textbf{Maior Concentração} \\ \midrule
     \endhead
 
-    % --- RODAPÉ (Páginas Intermediárias) ---
-    \hline
+    % --- RODAPÉ PARA PÁGINAS INTERMEDIÁRIAS (Antes de terminar) ---
+    \bottomrule
     \multicolumn{2}{r}{\footnotesize\textit{Continua na próxima página...}} \\
     \endfoot
 
-    % --- RODAPÉ FINAL (Última Página) ---
-    \hline
+    % --- RODAPÉ FINAL (Aparece apenas na última página) ---
+    \bottomrule
     \multicolumn{2}{c}{\footnotesize Fonte: elaborado pelo autor.} \\
     \endlastfoot
 
     % --- DADOS DA TABELA ---
-    12\_qtde\_geladeira & 92.8\% \\ \hline
-    07\_dias\_trabalhador\_domestico & 90.2\% \\ \hline
-    25\_flag\_internet & 89.9\% \\ \hline
-    15\_qtde\_maq\_secar\_roupa & 86.5\% \\ \hline
-    23\_flag\_telefone\_fixo & 84.1\% \\ \hline
+    12\_qtde\_geladeira & 92.8\% \\
+    07\_dias\_trabalhador\_domestico & 90.2\% \\
+    25\_flag\_internet & 89.9\% \\ 
+    15\_qtde\_maq\_secar\_roupa & 86.5\% \\ 
+    23\_flag\_telefone\_fixo & 84.1\% \\ 
 
 \end{longtable}
 
@@ -718,37 +764,39 @@ Ao calcularmos a proporção de observações para cada categoria das variáveis
 % 3        15\_qtde\_maq\_secar\_roupa      0.865654
 % 4          23\_flag\_telefone\_fixo      0.840437
 
-\begin{longtable}{|l|c|}
+\begin{longtable}{lc}
 
-    % --- TÍTULO E RÓTULO (1ª Página) ---
+    % --- TÍTULO E RÓTULO (Aparece no topo da primeira página) ---
     \caption{Cinco maiores concentrações - Natureza} \label{tab_concentracao_vars_categoricas_natureza} \\
-    \hline
-    \textbf{Variável} & \textbf{Maior Concentração} \\ \hline
+    \toprule
+    \textbf{Variável} & \textbf{Maior Concentração} \\ \midrule
     \endfirsthead
 
-    % --- CABEÇALHO (Páginas Seguintes) ---
-    \hline
-    \textbf{Variável} & \textbf{Maior Concentração} \\ \hline
+    % --- CABEÇALHO PARA PÁGINAS SEGUINTES (Se quebrar página) ---
+    \toprule
+    \textbf{Variável} & \textbf{Maior Concentração} \\ \midrule
     \endhead
 
-    % --- RODAPÉ (Páginas Intermediárias) ---
-    \hline
+    % --- RODAPÉ PARA PÁGINAS INTERMEDIÁRIAS (Antes de terminar) ---
+    \bottomrule
     \multicolumn{2}{r}{\footnotesize\textit{Continua na próxima página...}} \\
     \endfoot
 
-    % --- RODAPÉ FINAL (Última Página) ---
-    \hline
+    % --- RODAPÉ FINAL (Aparece apenas na última página) ---
+    \bottomrule
     \multicolumn{2}{c}{\footnotesize Fonte: elaborado pelo autor.} \\
     \endlastfoot
 
     % --- DADOS DA TABELA ---
-    12\_qtde\_geladeira & 92.9\% \\ \hline
-    07\_dias\_trabalhador\_domestico & 90.3\% \\ \hline
-    25\_flag\_internet & 89.9\% \\ \hline
-    15\_qtde\_maq\_secar\_roupa & 86.6\% \\ \hline
-    23\_flag\_telefone\_fixo & 84.0\% \\ \hline
+    12\_qtde\_geladeira & 92.9\% \\ 
+    07\_dias\_trabalhador\_domestico & 90.3\% \\
+    25\_flag\_internet & 89.9\% \\ 
+    15\_qtde\_maq\_secar\_roupa & 86.6\% \\ 
+    23\_flag\_telefone\_fixo & 84.0\% \\ 
 
 \end{longtable}
+
+\pagebreak
 
 % ==================== Linguagem e Código ====================
 
@@ -759,35 +807,35 @@ Ao calcularmos a proporção de observações para cada categoria das variáveis
 % 3        15\_qtde\_maq\_secar\_roupa      0.864880
 % 4          23\_flag\_telefone\_fixo      0.841141
 
-\begin{longtable}{|l|c|}
+\begin{longtable}{lc}
 
-    % --- TÍTULO E RÓTULO (1ª Página) ---
+    % --- TÍTULO E RÓTULO (Aparece no topo da primeira página) ---
     \caption{Cinco maiores concentrações - Linguagem} \label{tab_concentracao_vars_categoricas_linguagem} \\
-    \hline
-    \textbf{Variável} & \textbf{Maior Concentração} \\ \hline
+    \toprule
+    \textbf{Variável} & \textbf{Maior Concentração} \\ \midrule
     \endfirsthead
 
-    % --- CABEÇALHO (Páginas Seguintes) ---
-    \hline
-    \textbf{Variável} & \textbf{Maior Concentração} \\ \hline
+    % --- CABEÇALHO PARA PÁGINAS SEGUINTES (Se quebrar página) ---
+    \toprule
+    \textbf{Variável} & \textbf{Maior Concentração} \\ \midrule
     \endhead
 
-    % --- RODAPÉ (Páginas Intermediárias) ---
-    \hline
+    % --- RODAPÉ PARA PÁGINAS INTERMEDIÁRIAS (Antes de terminar) ---
+    \bottomrule
     \multicolumn{2}{r}{\footnotesize\textit{Continua na próxima página...}} \\
     \endfoot
 
-    % --- RODAPÉ FINAL (Última Página) ---
-    \hline
+    % --- RODAPÉ FINAL (Aparece apenas na última página) ---
+    \bottomrule
     \multicolumn{2}{c}{\footnotesize Fonte: elaborado pelo autor.} \\
     \endlastfoot
 
     % --- DADOS DA TABELA ---
-    12\_qtde\_geladeira & 92.9\% \\ \hline
-    07\_dias\_trabalhador\_domestico & 90.2\% \\ \hline
-    25\_flag\_internet & 89.9\% \\ \hline
-    15\_qtde\_maq\_secar\_roupa & 86.5\% \\ \hline
-    23\_flag\_telefone\_fixo & 84.1\% \\ \hline
+    12\_qtde\_geladeira & 92.9\% \\ 
+    07\_dias\_trabalhador\_domestico & 90.2\% \\ 
+    25\_flag\_internet & 89.9\% \\ 
+    15\_qtde\_maq\_secar\_roupa & 86.5\% \\ 
+    23\_flag\_telefone\_fixo & 84.1\% \\
 
 \end{longtable}
 
@@ -800,35 +848,35 @@ Ao calcularmos a proporção de observações para cada categoria das variáveis
 % 3        15\_qtde\_maq\_secar\_roupa      0.865169
 % 4          23\_flag\_telefone\_fixo      0.839908
 
-\begin{longtable}{|l|c|}
+\begin{longtable}{lc}
 
-    % --- TÍTULO E RÓTULO (1ª Página) ---
+    % --- TÍTULO E RÓTULO (Aparece no topo da primeira página) ---
     \caption{Cinco maiores concentrações - Matemática} \label{tab_concentracao_vars_categoricas_matematica} \\
-    \hline
-    \textbf{Variável} & \textbf{Maior Concentração} \\ \hline
+    \toprule
+    \textbf{Variável} & \textbf{Maior Concentração} \\ \midrule
     \endfirsthead
 
-    % --- CABEÇALHO (Páginas Seguintes) ---
-    \hline
-    \textbf{Variável} & \textbf{Maior Concentração} \\ \hline
+    % --- CABEÇALHO PARA PÁGINAS SEGUINTES (Se quebrar página) ---
+    \toprule
+    \textbf{Variável} & \textbf{Maior Concentração} \\ \midrule
     \endhead
 
-    % --- RODAPÉ (Páginas Intermediárias) ---
-    \hline
+    % --- RODAPÉ PARA PÁGINAS INTERMEDIÁRIAS (Antes de terminar) ---
+    \bottomrule
     \multicolumn{2}{r}{\footnotesize\textit{Continua na próxima página...}} \\
     \endfoot
 
-    % --- RODAPÉ FINAL (Última Página) ---
-    \hline
+    % --- RODAPÉ FINAL (Aparece apenas na última página) ---
+    \bottomrule
     \multicolumn{2}{c}{\footnotesize Fonte: elaborado pelo autor.} \\
     \endlastfoot
 
     % --- DADOS DA TABELA ---
-    12\_qtde\_geladeira & 92.8\% \\ \hline
-    07\_dias\_trabalhador\_domestico & 90.2\% \\ \hline
-    25\_flag\_internet & 90.0\% \\ \hline
-    15\_qtde\_maq\_secar\_roupa & 86.5\% \\ \hline
-    23\_flag\_telefone\_fixo & 84.0\% \\ \hline
+    12\_qtde\_geladeira & 92.8\% \\ 
+    07\_dias\_trabalhador\_domestico & 90.2\% \\ 
+    25\_flag\_internet & 90.0\% \\ 
+    15\_qtde\_maq\_secar\_roupa & 86.5\% \\ 
+    23\_flag\_telefone\_fixo & 84.0\% \\ 
 
 \end{longtable}
 
@@ -841,41 +889,41 @@ Ao calcularmos a proporção de observações para cada categoria das variáveis
 % 3        15\_qtde\_maq\_secar\_roupa      0.863696
 % 4          23\_flag\_telefone\_fixo      0.839008
 
-\begin{longtable}{|l|c|}
+\begin{longtable}{lc}
 
-    % --- TÍTULO E RÓTULO (1ª Página) ---
+    % --- TÍTULO E RÓTULO (Aparece no topo da primeira página) ---
     \caption{Cinco maiores concentrações - Redação} \label{tab_concentracao_vars_categoricas_redacao} \\
-    \hline
-    \textbf{Variável} & \textbf{Maior Concentração} \\ \hline
+    \toprule
+    \textbf{Variável} & \textbf{Maior Concentração} \\ \midrule
     \endfirsthead
 
-    % --- CABEÇALHO (Páginas Seguintes) ---
-    \hline
-    \textbf{Variável} & \textbf{Maior Concentração} \\ \hline
+    % --- CABEÇALHO PARA PÁGINAS SEGUINTES (Se quebrar página) ---
+    \toprule
+    \textbf{Variável} & \textbf{Maior Concentração} \\ \midrule
     \endhead
 
-    % --- RODAPÉ (Páginas Intermediárias) ---
-    \hline
+    % --- RODAPÉ PARA PÁGINAS INTERMEDIÁRIAS (Antes de terminar) ---
+    \bottomrule
     \multicolumn{2}{r}{\footnotesize\textit{Continua na próxima página...}} \\
     \endfoot
 
-    % --- RODAPÉ FINAL (Última Página) ---
-    \hline
+    % --- RODAPÉ FINAL (Aparece apenas na última página) ---
+    \bottomrule
     \multicolumn{2}{c}{\footnotesize Fonte: elaborado pelo autor.} \\
     \endlastfoot
 
     % --- DADOS DA TABELA ---
-    12\_qtde\_geladeira & 92.8\% \\ \hline
-    07\_dias\_trabalhador\_domestico & 90.1\% \\ \hline
-    25\_flag\_internet & 90.1\% \\ \hline
-    15\_qtde\_maq\_secar\_roupa & 86.4\% \\ \hline
-    23\_flag\_telefone\_fixo & 83.9\% \\ \hline
+    12\_qtde\_geladeira & 92.8\% \\ 
+    07\_dias\_trabalhador\_domestico & 90.1\% \\ 
+    25\_flag\_internet & 90.1\% \\ 
+    15\_qtde\_maq\_secar\_roupa & 86.4\% \\ 
+    23\_flag\_telefone\_fixo & 83.9\% \\ 
 
 \end{longtable}
 
-\subsubsection{Correlação Phik}\label{resultados_analise_exploratoria_dados_vars_preditoras_correlacao_phik}
+\subsubsection{Correlação}\label{resultados_analise_exploratoria_dados_vars_preditoras_correlacao_phik}
 
-A próxima etapa da análise exploratória das variáveis preditoras foi a análise de correlação utilizando a métrica Phik. As tabelas \ref{tab_correlacao_phik_humanas} a \ref{tab_correlacao_phik_redacao} apresentam as cinco variáveis com maior correlação Phik com a variável resposta em cada conjunto de dados.
+A próxima etapa da análise exploratória das variáveis preditoras foi a análise de correlação utilizando a métrica \textit{Phik} \cite{KPMG_PhiK_2024} \cite{Baak2020Phik}. As Tabelas \ref{tab_correlacao_phik_humanas} a \ref{tab_correlacao_phik_redacao} apresentam as cinco variáveis com maior correlação \textit{Phik} com a variável resposta em cada conjunto de dados.
 
 % ===================== Ciências Humanas =====================
 
@@ -886,37 +934,35 @@ A próxima etapa da análise exploratória das variáveis preditoras foi a anál
 % 433      08\_qtde\_banheiro  0.356501
 % 712  18\_flag\_aspirador\_po  0.354332
 
+\begin{longtable}{lc}
 
-\begin{longtable}{|l|c|}
-
-    % --- TÍTULO E RÓTULO (1ª Página) ---
-    \caption{Cinco maiores correlações Phik - Humanas} \label{tab_correlacao_phik_humanas} \\
-
-    \hline
-    \textbf{Variável} & \textbf{Correlação Phik} \\ \hline
+    % --- TÍTULO E RÓTULO (Aparece no topo da primeira página) ---
+    \caption{Cinco maiores correlações \textit{Phik} - Humanas} \label{tab_correlacao_phik_humanas} \\
+    \toprule
+    \textbf{Variável} & \textbf{Correlação \textit{Phik}} \\ \midrule
     \endfirsthead
 
-    % --- CABEÇALHO (Páginas Seguintes) ---
-    \hline
-    \textbf{Variável} & \textbf{Correlação Phik} \\ \hline
+    % --- CABEÇALHO PARA PÁGINAS SEGUINTES (Se quebrar página) ---
+    \toprule
+    \textbf{Variável} & \textbf{Correlação \textit{Phik}} \\ \midrule
     \endhead
 
-    % --- RODAPÉ (Páginas Intermediárias) ---
-    \hline
+    % --- RODAPÉ PARA PÁGINAS INTERMEDIÁRIAS (Antes de terminar) ---
+    \bottomrule
     \multicolumn{2}{r}{\footnotesize\textit{Continua na próxima página...}} \\
     \endfoot
 
-    % --- RODAPÉ FINAL (Última Página) ---
-    \hline
+    % --- RODAPÉ FINAL (Aparece apenas na última página) ---
+    \bottomrule
     \multicolumn{2}{c}{\footnotesize Fonte: elaborado pelo autor.} \\
     \endlastfoot
 
     % --- DADOS DA TABELA ---
-    24\_qtde\_computadores & 44,5\% \\ \hline
-    03\_ocupacao\_pai & 39,7\% \\ \hline
-    04\_ocupacao\_mae & 37,6\% \\ \hline
-    08\_qtde\_banheiro & 35,7\% \\ \hline
-    18\_flag\_aspirador\_po & 35,4\% \\ \hline
+    24\_qtde\_computadores & 44,5\% \\
+    03\_ocupacao\_pai & 39,7\% \\ 
+    04\_ocupacao\_mae & 37,6\% \\ 
+    08\_qtde\_banheiro & 35,7\% \\ 
+    18\_flag\_aspirador\_po & 35,4\% \\ 
 
 \end{longtable}
 
@@ -929,38 +975,35 @@ A próxima etapa da análise exploratória das variáveis preditoras foi a anál
 % 433      08\_qtde\_banheiro  0.374039
 % 712  18\_flag\_aspirador\_po  0.364154
 
-% \vspace{1cm} % para quebrar a página
-\pagebreak
+\begin{longtable}{lc}
 
-\begin{longtable}{|l|c|}
-
-    % --- TÍTULO E RÓTULO (1ª Página) ---
-    \caption{Cinco maiores correlações Phik - Natureza} \label{tab_correlacao_phik_natureza} \\
-    \hline
-    \textbf{Variável} & \textbf{Correlação Phik} \\ \hline
+    % --- TÍTULO E RÓTULO (Aparece no topo da primeira página) ---
+    \caption{Cinco maiores correlações \textit{Phik} - Natureza} \label{tab_correlacao_phik_natureza} \\
+    \toprule
+    \textbf{Variável} & \textbf{Correlação \textit{Phik}} \\ \midrule
     \endfirsthead
 
-    % --- CABEÇALHO (Páginas Seguintes) ---
-    \hline
-    \textbf{Variável} & \textbf{Correlação Phik} \\ \hline
+    % --- CABEÇALHO PARA PÁGINAS SEGUINTES (Se quebrar página) ---
+    \toprule
+    \textbf{Variável} & \textbf{Correlação \textit{Phik}} \\ \midrule
     \endhead
 
-    % --- RODAPÉ (Páginas Intermediárias) ---
-    \hline
+    % --- RODAPÉ PARA PÁGINAS INTERMEDIÁRIAS (Antes de terminar) ---
+    \bottomrule
     \multicolumn{2}{r}{\footnotesize\textit{Continua na próxima página...}} \\
     \endfoot
 
-    % --- RODAPÉ FINAL (Última Página) ---
-    \hline
+    % --- RODAPÉ FINAL (Aparece apenas na última página) ---
+    \bottomrule
     \multicolumn{2}{c}{\footnotesize Fonte: elaborado pelo autor.} \\
     \endlastfoot
 
     % --- DADOS DA TABELA ---
-    24\_qtde\_computadores & 44,6\% \\ \hline
-    03\_ocupacao\_pai & 40,2\% \\ \hline
-    04\_ocupacao\_mae & 38,0\% \\ \hline
-    08\_qtde\_banheiro & 37,4\% \\ \hline
-    18\_flag\_aspirador\_po & 36,4\% \\ \hline
+    24\_qtde\_computadores & 44,6\% \\
+    03\_ocupacao\_pai & 40,2\% \\ 
+    04\_ocupacao\_mae & 38,0\% \\ 
+    08\_qtde\_banheiro & 37,4\% \\ 
+    18\_flag\_aspirador\_po & 36,4\% \\ 
 
 \end{longtable}
 
@@ -973,37 +1016,39 @@ A próxima etapa da análise exploratória das variáveis preditoras foi a anál
 % 185    lingua_estrangeira  0.367523
 % 712  18\_flag\_aspirador\_po  0.361188
 
-\begin{longtable}{|l|c|}
+\begin{longtable}{lc}
 
-    % --- TÍTULO E RÓTULO (1ª Página) ---
-    \caption{Cinco maiores correlações Phik - Linguagem} \label{tab_correlacao_phik_linguagem} \\
-    \hline
-    \textbf{Variável} & \textbf{Correlação Phik} \\ \hline
+    % --- TÍTULO E RÓTULO (Aparece no topo da primeira página) ---
+    \caption{Cinco maiores correlações \textit{Phik} - Linguagem} \label{tab_correlacao_phik_linguagem} \\
+    \toprule
+    \textbf{Variável} & \textbf{Correlação \textit{Phik}} \\ \midrule
     \endfirsthead
 
-    % --- CABEÇALHO (Páginas Seguintes) ---
-    \hline
-    \textbf{Variável} & \textbf{Correlação Phik} \\ \hline
+    % --- CABEÇALHO PARA PÁGINAS SEGUINTES (Se quebrar página) ---
+    \toprule
+    \textbf{Variável} & \textbf{Correlação \textit{Phik}} \\ \midrule
     \endhead
 
-    % --- RODAPÉ (Páginas Intermediárias) ---
-    \hline
+    % --- RODAPÉ PARA PÁGINAS INTERMEDIÁRIAS (Antes de terminar) ---
+    \bottomrule
     \multicolumn{2}{r}{\footnotesize\textit{Continua na próxima página...}} \\
     \endfoot
 
-    % --- RODAPÉ FINAL (Última Página) ---
-    \hline
+    % --- RODAPÉ FINAL (Aparece apenas na última página) ---
+    \bottomrule
     \multicolumn{2}{c}{\footnotesize Fonte: elaborado pelo autor.} \\
     \endlastfoot
 
     % --- DADOS DA TABELA ---
-    24\_qtde\_computadores & 44,1\% \\ \hline
-    03\_ocupacao\_pai & 41,7\% \\ \hline
-    04\_ocupacao\_mae & 39,9\% \\ \hline
-    08\_qtde\_banheiro & 36,8\% \\ \hline
-    18\_flag\_aspirador\_po & 36,1\% \\ \hline
+    24\_qtde\_computadores & 44,1\% \\ 
+    03\_ocupacao\_pai & 41,7\% \\ 
+    04\_ocupacao\_mae & 39,9\% \\ 
+    08\_qtde\_banheiro & 36,8\% \\ 
+    18\_flag\_aspirador\_po & 36,1\% \\ 
 
 \end{longtable}
+
+\pagebreak
 
 % ======================== Matemática ========================
 
@@ -1014,35 +1059,35 @@ A próxima etapa da análise exploratória das variáveis preditoras foi a anál
 % 433      08\_qtde\_banheiro  0.419609
 % 712  18\_flag\_aspirador\_po  0.404733
 
-\begin{longtable}{|l|c|}
+\begin{longtable}{lc}
 
-    % --- TÍTULO E RÓTULO (1ª Página) ---
-    \caption{Cinco maiores correlações Phik - Matemática} \label{tab_correlacao_phik_matematica} \\
-    \hline
-    \textbf{Variável} & \textbf{Correlação Phik} \\ \hline
+    % --- TÍTULO E RÓTULO (Aparece no topo da primeira página) ---
+    \caption{Cinco maiores correlações \textit{Phik} - Matemática} \label{tab_correlacao_phik_matematica} \\
+    \toprule
+    \textbf{Variável} & \textbf{Correlação \textit{Phik}} \\ \midrule
     \endfirsthead
 
-    % --- CABEÇALHO (Páginas Seguintes) ---
-    \hline
-    \textbf{Variável} & \textbf{Correlação Phik} \\ \hline
+    % --- CABEÇALHO PARA PÁGINAS SEGUINTES (Se quebrar página) ---
+    \toprule
+    \textbf{Variável} & \textbf{Correlação \textit{Phik}} \\ \midrule
     \endhead
 
-    % --- RODAPÉ (Páginas Intermediárias) ---
-    \hline
+    % --- RODAPÉ PARA PÁGINAS INTERMEDIÁRIAS (Antes de terminar) ---
+    \bottomrule
     \multicolumn{2}{r}{\footnotesize\textit{Continua na próxima página...}} \\
     \endfoot
 
-    % --- RODAPÉ FINAL (Última Página) ---
-    \hline
+    % --- RODAPÉ FINAL (Aparece apenas na última página) ---
+    \bottomrule
     \multicolumn{2}{c}{\footnotesize Fonte: elaborado pelo autor.} \\
     \endlastfoot
 
     % --- DADOS DA TABELA ---
-    24\_qtde\_computadores & 47,9\% \\ \hline
-    03\_ocupacao\_pai & 44,7\% \\ \hline
-    04\_ocupacao\_mae & 42,5\% \\ \hline
-    08\_qtde\_banheiro & 41,9\% \\ \hline
-    18\_flag\_aspirador\_po & 40,5\% \\ \hline
+    24\_qtde\_computadores & 47,9\% \\ 
+    03\_ocupacao\_pai & 44,7\% \\ 
+    04\_ocupacao\_mae & 42,5\% \\ 
+    08\_qtde\_banheiro & 41,9\% \\ 
+    18\_flag\_aspirador\_po & 40,5\% \\ 
 
 \end{longtable}
 
@@ -1055,54 +1100,58 @@ A próxima etapa da análise exploratória das variáveis preditoras foi a anál
 % 433      08\_qtde\_banheiro  0.332394
 % 495         10_qtde_carro  0.293415
 
-\begin{longtable}{|l|c|}
+\begin{longtable}{lc}
 
-    % --- TÍTULO E RÓTULO (1ª Página) ---
-    \caption{Cinco maiores correlações Phik - Redação} \label{tab_correlacao_phik_redacao} \\
-    \hline
-    \textbf{Variável} & \textbf{Correlação Phik} \\ \hline
+    % --- TÍTULO E RÓTULO (Aparece no topo da primeira página) ---
+    \caption{Cinco maiores correlações \textit{Phik} - Redação} \label{tab_correlacao_phik_redacao} \\
+    \toprule
+    \textbf{Variável} & \textbf{Correlação \textit{Phik}} \\ \midrule
     \endfirsthead
 
-    % --- CABEÇALHO (Páginas Seguintes) ---
-    \hline
-    \textbf{Variável} & \textbf{Correlação Phik} \\ \hline
+    % --- CABEÇALHO PARA PÁGINAS SEGUINTES (Se quebrar página) ---
+    \toprule
+    \textbf{Variável} & \textbf{Correlação \textit{Phik}} \\ \midrule
     \endhead
 
-    % --- RODAPÉ (Páginas Intermediárias) ---
-    \hline
+    % --- RODAPÉ PARA PÁGINAS INTERMEDIÁRIAS (Antes de terminar) ---
+    \bottomrule
     \multicolumn{2}{r}{\footnotesize\textit{Continua na próxima página...}} \\
     \endfoot
 
-    % --- RODAPÉ FINAL (Última Página) ---
-    \hline
+    % --- RODAPÉ FINAL (Aparece apenas na última página) ---
+    \bottomrule
     \multicolumn{2}{c}{\footnotesize Fonte: elaborado pelo autor.} \\
     \endlastfoot
 
-    % --- DADOS DA TABELA ---a
-    03\_ocupacao\_pai & 35,9\% \\ \hline
-    24\_qtde\_computadores & 35,6\% \\ \hline
-    04\_ocupacao\_mae & 34,9\% \\ \hline
-    08\_qtde\_banheiro & 33,2\% \\ \hline
-    10\_qtde\_carro & 29,3\% \\ \hline
+    % --- DADOS DA TABELA ---
+    03\_ocupacao\_pai & 35,9\% \\ 
+    24\_qtde\_computadores & 35,6\% \\ 
+    04\_ocupacao\_mae & 34,9\% \\ 
+    08\_qtde\_banheiro & 33,2\% \\ 
+    10\_qtde\_carro & 29,3\% \\ 
 
 \end{longtable}
 
-Ao analisarmos as matrizes de correlação Phik completas para cada conjunto de dados, foi possível identificar um par de variáveis que apresentavam uma correlação perfeita (Phik = 1.0): flag de treineiro e status da conclusão do ensino médio.
+Entre as cinco variáveis de maior correlação Phik com a variável resposta em cada conjunto de dados, foi observado que três variáveis estavam presentes em todos os conjuntos de dados: (i) quantidade de computadores, (ii) ocupação do pai e (iii) ocupação da mãe. Essas variáveis estão relacionadas a aspectos socioeconômicos dos participantes, o que é consistente com a literatura sobre o ENEM \cite{ref_01, ref_06}.
 
-Devido a essa correlação perfeita, analisamos a distribuição cruzadas das categorias dessas duas variáveis, onde foi possível observar que 100\% das observações da categoria "Treineiro" da variável "flag\_treineiro" estavam associadas à categoria "Termina o ensino médio após o ano da prova" da variável "conclusao\_ensino\_medio". Diante isso, dado que a variável "conclusao\_ensino\_medio" apresenta mais categorias e, portanto, mais informações, foi decidido manter essa variável no conjunto de dados e remover a variável "flag\_treineiro".
+Ao analisar as matrizes de correlação \textit{Phik} completas para cada conjunto de dados, foi possível identificar um par de variáveis que apresentavam uma correlação perfeita ($Phik = 1.0$): \textit{flag} de treineiro e \textit{status} da conclusão do ensino médio.
+
+Devido a essa correlação perfeita, analisou-se a distribuição cruzada das categorias dessas duas variáveis, onde foi possível observar que 100\% das observações da categoria "Treineiro" da variável \textit{flag} de treineiro estavam associadas à categoria "Termina o ensino médio após o ano da prova" da variável \textit{status} da conclusão do ensino médio.
+
+Diante disso, dado que a variável de \textit{status} da conclusão do ensino médio apresenta mais categorias e, portanto, mais informações, foi decidido manter essa variável no conjunto de dados e remover a variável \textit{flag} de treineiro.
 
 \subsubsection{\textit{Permutation Importance}}\label{resultados_analise_exploratoria_dados_vars_preditoras_permutation_importance}
 
-Conforme descrito na Seção \ref{metodologia_exploracao_dados}, a última etapa da análise exploratória das variáveis preditoras foi a análise de importância utilizando a métrica \textit{Permutation Importance}. Realizadas as separações dos conjuntos de dados em treino e teste, foi treinado um modelo de \textit{Random Forest Regressor} em cada conjunto de dados para em seguida calcularmos o \textit{Permutation Importance} de cada variável preditora.
+Conforme descrito na Seção \ref{metodologia_exploracao_dados}, a última etapa da análise exploratória das variáveis preditoras foi a análise de importância utilizando a métrica \textit{Permutation Importance}.
 
-As Figuras \ref{fig_permutation_importance_humanas} a \ref{fig_permutation_importance_redacao} apresentam os gráficos de importância das dez variáveis mais importantes para cada conjunto de dados.
+Realizadas as separações dos conjuntos de dados em treino e teste, foi treinado um modelo de \textit{Random Forest Regressor} em cada conjunto de dados para em seguida calcular o \textit{Permutation Importance} de cada variável preditora. As Figuras \ref{fig_permutation_importance_humanas} a \ref{fig_permutation_importance_redacao} apresentam os gráficos de importância das dez variáveis mais importantes para cada conjunto de dados.
 
 \begin{figure}[H]
     \centering
     \caption{Dez maiores \textit{Permutation Importance} - Humanas} \label{fig_permutation_importance_humanas}
     \includegraphics[width=0.9\linewidth]{imagens/permutation_importance_humanas.png}
     \par\vspace{0.1cm}
-    % {\footnotesize Fonte: elaborado pelo autor.}
+    {\footnotesize Fonte: elaborado pelo autor.}
 \end{figure}
 
 \begin{figure}[H]
@@ -1110,15 +1159,17 @@ As Figuras \ref{fig_permutation_importance_humanas} a \ref{fig_permutation_impor
     \caption{Dez maiores \textit{Permutation Importance} - Natureza} \label{fig_permutation_importance_natureza}
     \includegraphics[width=0.9\linewidth]{imagens/permutation_importance_natureza.png}
     \par\vspace{0.1cm}
-    % {\footnotesize Fonte: elaborado pelo autor.}
+    {\footnotesize Fonte: elaborado pelo autor.}
 \end{figure}
+
+\pagebreak
 
 \begin{figure}[H]
     \centering
     \caption{Dez maiores \textit{Permutation Importance} - Linguagem} \label{fig_permutation_importance_linguagem_codigo}
     \includegraphics[width=0.9\linewidth]{imagens/permutation_importance_linguagem_codigo.png}
     \par\vspace{0.1cm}
-    % {\footnotesize Fonte: elaborado pelo autor.}
+    {\footnotesize Fonte: elaborado pelo autor.}
 \end{figure}
 
 \begin{figure}[H]
@@ -1126,7 +1177,7 @@ As Figuras \ref{fig_permutation_importance_humanas} a \ref{fig_permutation_impor
     \caption{Dez maiores \textit{Permutation Importance} - Matemática} \label{fig_permutation_importance_matematica}
     \includegraphics[width=0.9\linewidth]{imagens/permutation_importance_matematica.png}
     \par\vspace{0.1cm}
-    % {\footnotesize Fonte: elaborado pelo autor.}
+    {\footnotesize Fonte: elaborado pelo autor.}
 \end{figure}
 
 \begin{figure}[H]
@@ -1139,19 +1190,20 @@ As Figuras \ref{fig_permutation_importance_humanas} a \ref{fig_permutation_impor
 
 \subsubsection{Seleção de Variáveis}\label{resultados_analise_exploratoria_dados_vars_preditoras_selecao_variaveis}
 
-Até o momento já aplicamos dois critérios para a seleção das variáveis preditoras: (i) concentração, removendo variáveis com concentração de categoria maior que 93\% e (ii) correlação perfeita com outra variável preditora, resultando em quatro variáveis removidas do conjunto de dados: (i) \texttt{nacionalidade}, \texttt{17\_qtde\_maq\_lavar\_louca} e \texttt{estado\_civil} e (ii) \texttt{flag\_treineiro}.
+Até o momento já foram aplicados dois critérios para a seleção das variáveis preditoras:
+(i) concentração, removendo variáveis com concentração de categoria maior que 93\% e (ii) correlação perfeita com outra variável preditora, resultando em quatro variáveis removidas do conjunto de dados: nacionalidade, quantidade de máquina de lavar louça, estado civil e \textit{flag} de treineiro.
 
+Com as informações de correlação \textit{Phik} e \textit{Permutation Importance}, foram aplicados mais dois critérios para a seleção das variáveis preditoras: (i) correlação baixa com a variável resposta ($Phik < 0,05\%$) e (ii) um critério duplo de correlação alta ($Phik > 85\%$) com outras variáveis preditoras e menor \textit{Permutation Importance} entre as variáveis correlacionadas.
 
+No critério de baixa correlação com a variável resposta, nenhuma variável preditora foi removida, uma vez que todas apresentaram correlação \textit{Phik} maior que 0,05\%, sendo o menor valor, entre todos os conjuntos de dados, de 3,64\% da variável de quantidade de motocicletas com a nota da Redação.
 
-Com as informações de correlação Phik e \textit{Permutation Importance}, aplicaremos mais dois critérios para a seleção das variáveis preditoras: (i) correlação baixa com a variável resposta (Phik < 0,05\%) e (ii) um critério duplo de correlação alta (Phik > 85\%) com outras variáveis preditoras e menor \textit{Permutation Importance} entre as variáveis correlacionadas.
+No critério duplo, foi apresentado apenas uma dupla de variáveis com correlação alta ($Phik > 85\%$) em cada conjunto de dados: \textit{status} da conclusão do ensino médio e a faixa etária do participante. Apenas no conjunto de dados da Redação, a variável de faixa etária apresentou maior \textit{Permutation Importance} e então seria mantida no conjunto de dados, enquanto a variável de \textit{status} da conclusão do ensino médio seria removida.
 
-No critério de baixa correlação com a variável resposta, nenhuma variável preditora foi removida, uma vez que todas apresentaram Phik maior que 0,05\%, sendo o menor valor, entre todos os conjuntos de dados, de 3.64\% (variável de quantidade de motociclestas com a nota da Redação).
+Porém, considerando a concentração cruzada das duas variáveis (apresentada na Tabela \ref{tab_concentracao_cruzada_status_conclusao_ensino_medio_faixa_etaria} para o conjunto de dados da Redação), foi decidido manter ambas as variáveis.
 
 No critério duplo, foi apresentado apenas uma dupla de variáveis com correlação alta (Phik > 85\%) em cada conjunto de dados: status da conclusão do ensino médio e a faixa etária do participante. Apenas no conjunto de dados da Redação, a variável de faixa etária apresentou maior \textit{Permutation Importance} e então seria mantida no conjunto de dados, enquanto a variável de status da conclusão do ensino médio seria removida.
 
-Porém, considerando a concentração cruzada das duas variáveis (apresentada na Tabela \ref{tab_concentracao_cruzada_status_conclusao_ensino_medio_faixa_etaria} para o conjunto de dados da Redação), foi decido manter ambas as variáveis no conjunto de dados por escolha do autor.
 
-% fx_etaria | ja_terminou_ensino | nao_concluiu_nem_cursa | termina_apos_ano_da_prova | termina_no_ano_da_prova
 % 17 & 0.3\% & 15.9\% & 6.6\% & 0.0\%  \\ \hline
 % 18 & 6.3\% & 16.0\% & 0.6\% & 0.0\%  \\ \hline
 % 19 & 8.8\% & 2.4\% & 0.1\% & 0.0\%  \\ \hline
@@ -1173,68 +1225,76 @@ Porém, considerando a concentração cruzada das duas variáveis (apresentada n
 % <_17 & 0.0\% & 0.4\% & 10.1\% & 0.2\%  \\ \hline
 % >_70 & 0.0\% & 0.0\% & 0.0\% & 0.0\%  \\ \hline
 
-\begin{longtable}{|c|c|c|c|c|}
+\begin{longtable}{ccccc}
 
-    % --- TÍTULO E RÓTULO (1ª Página) ---
-    \caption{Concentração cruzada - Redação} \label{tab_concentracao_cruzada_status_conclusao_ensino_medio_faixa_etaria} \\
-    \hline
-    \textbf{Faixa etária} & \textbf{Código 1} & \textbf{Código 2} & \textbf{Código 3} & \textbf{Código 4}\\ \hline
+    % --- TÍTULO E RÓTULO (Aparece no topo da primeira página) ---
+    \caption{Cinco maiores correlações \textit{Phik} - Redação}\label{tab_concentracao_cruzada_status_conclusao_ensino_medio_faixa_etaria} \\
+    \toprule
+    \textbf{Faixa etária} & \textbf{Concluiu} & \textbf{Conclui agora} & \textbf{Vai concluir} & \textbf{Não / Nem}\\ \midrule
     \endfirsthead
 
-    % --- CABEÇALHO (Páginas Seguintes) ---
-    \hline
-    \textbf{Faixa etária} & \textbf{Código 1} & \textbf{Código 2} & \textbf{Código 3} & \textbf{Código 4}\\ \hline
+    % --- CABEÇALHO PARA PÁGINAS SEGUINTES (Se quebrar página) ---
+    \toprule
+    \textbf{Faixa etária} & \textbf{Concluiu} & \textbf{Conclui agora} & \textbf{Vai concluir} & \textbf{Não / Nem}\\ \midrule
     \endhead
 
-    % --- RODAPÉ (Páginas Intermediárias) ---
-    \hline
+    % --- RODAPÉ PARA PÁGINAS INTERMEDIÁRIAS (Antes de terminar) ---
+    \bottomrule
     \multicolumn{5}{r}{\footnotesize\textit{Continua na próxima página...}} \\
     \endfoot
 
-    % --- RODAPÉ FINAL (Última Página) ---
-    \hline
+    % --- RODAPÉ FINAL (Aparece apenas na última página) ---
+    \bottomrule
     \multicolumn{5}{c}{\footnotesize Fonte: elaborado pelo autor.} \\
     \endlastfoot
 
-    % --- DADOS DA TABELA ---a
-    menor de 17 anos & - & 0.4\% & 10.1\% & 0.2\%  \\ \hline
-    17 anos & 0.3\% & 15.9\% & 6.6\% & -  \\ \hline
-    18 anos & 6.3\% & 16.0\% & 0.6\% & -  \\ \hline
-    19 anos & 8.8\% & 2.4\% & 0.1\% & -  \\ \hline
-    20 anos & 6.2\% & 0.6\% & - & -  \\ \hline
-    21 anos & 4.3\% & 0.2\% & - & -  \\ \hline
-    22 anos & 3.1\% & 0.1\% & - & -  \\ \hline
-    23 anos & 2.4\% & - & - & -  \\ \hline
-    24 anos & 1.9\% & - & - & -  \\ \hline
-    25 anos & 1.5\% & - & - & -  \\ \hline
-    26 a 30 anos & 4.5\% & 0.1\% & - & -  \\ \hline
-    31 a 35 anos & 2.4\% & - & - & -  \\ \hline
-    36 a 40 anos & 1.7\% & - & - & -  \\ \hline
-    41 a 45 anos & 1.2\% & - & - & -  \\ \hline
-    46 a 50 anos & 0.7\% & - & - & -  \\ \hline
-    51 a 55 anos & 0.4\% & - & - & -  \\ \hline
-    56 a 60 anos & 0.2\% & - & - & -  \\ \hline
-    61 a 65 anos & 0.1\% & - & - & -  \\ \hline
-    66 a 70 anos & - & - & - & -  \\ \hline
-    maior de 70 anos & - & - & - & -  \\ \hline
+    % --- DADOS DA TABELA ---
+    menor de 17 anos & - & 0.4\% & 10.1\% & 0.2\%  \\
+    17 anos & 0.3\% & 15.9\% & 6.6\% & -  \\ 
+    18 anos & 6.3\% & 16.0\% & 0.6\% & -  \\ 
+    19 anos & 8.8\% & 2.4\% & 0.1\% & -  \\ 
+    20 anos & 6.2\% & 0.6\% & - & -  \\ 
+    21 anos & 4.3\% & 0.2\% & - & -  \\ 
+    22 anos & 3.1\% & 0.1\% & - & -  \\ 
+    23 anos & 2.4\% & - & - & -  \\ 
+    24 anos & 1.9\% & - & - & -  \\ 
+    25 anos & 1.5\% & - & - & -  \\ 
+    26 a 30 anos & 4.5\% & 0.1\% & - & -  \\ 
+    31 a 35 anos & 2.4\% & - & - & -  \\ 
+    36 a 40 anos & 1.7\% & - & - & -  \\ 
+    41 a 45 anos & 1.2\% & - & - & -  \\ 
+    46 a 50 anos & 0.7\% & - & - & -  \\ 
+    51 a 55 anos & 0.4\% & - & - & -  \\ 
+    56 a 60 anos & 0.2\% & - & - & -  \\ 
+    61 a 65 anos & 0.1\% & - & - & -  \\ 
+    66 a 70 anos & - & - & - & -  \\ 
+    maior de 70 anos & - & - & - & -  \\ 
 
 \end{longtable}
+
+% 1: ja_terminou_ensino
+% 2: termina_no_ano_da_prova
+% 3: termina_apos_ano_da_prova
+% 4: nao_concluiu_nem_cursa
+
+Na tabela acima, as categorias da variável de status da conclusão do ensino médio foram renomeadas da seguinte maneira: (i) Já concluiu o ensimo médio: ``Concluiu''; (ii) Vai concluir o ensino médio no ano da prova: ``Conclui agora''; (iii) Vai concluir no ano seguinte à prova: ``Vai concluir''; e (iv) Não cursa e nem concluiu o ensino médio: ``Não / Nem''.
 
 \section{Treinamento dos Modelos}\label{resultados_treinamento_modelos}
 
 \subsection{Ajuste dos Hiperparâmetros}\label{resultados_treinamento_modelos_ajuste_hiperparametros}
 
-A primeira etapa do treinamento dos modelos foi o ajuste dos hiperparâmetros utilizando a técnica de \textit{Grid Search}. Inicialmente, foi utilizado o método \texttt{GridSearchCV} da biblioteca \texttt{scikit-learn} \cite{scikit-learn} para realizar o ajuste dos hiperparâmetros dos modelos. Porém, a execução do código foi interrompida subitamente algumas vezes, possivelmente devido ao alto consumo de memória da GPU.
+A primeira etapa do treinamento dos modelos foi o ajuste dos hiperparâmetros utilizando a técnica de \textit{Grid Search}.
+Inicialmente, foi utilizado o método \texttt{GridSearchCV} da biblioteca \texttt{scikit-learn} \cite{scikit-learn} para realizar o ajuste dos hiperparâmetros dos modelos. Porém, a execução do código foi interrompida subitamente algumas vezes, possivelmente devido a alto consumo de memória da GPU ou de memória RAM.
 
-Assim, para contornar esse problema, o \textit{Grid Search} foi implementado manualmente. Foi
-estabelecido um dicionário com os hiperparâmetros e seus respectivos valores a serem testados para cada modelo e gerada uma lista com todas as combinações possíveis desses hiperparâmetros. Em seguida, através de um \textit{loop}, cada combinação de hiperparâmetros foi utilizada para instanciar cada modelo, treinar o modelo com os dados de treino e avaliar o desempenho do modelo com os dados de validação.
+Assim, para contornar esse problema, o \textit{Grid Search} foi implementado manualmente. Foi estabelecido um dicionário com os hiperparâmetros e seus respectivos valores a serem testados para cada modelo e gerada uma lista com todas as combinações possíveis desses hiperparâmetros.
 
-Para gerar o conjunto de dados de validação, foi feita uma separação no conjunto de dados de treino de forma que o conjunto de validação tenha 10\% dos dados originais, considerando o conjunto de teste que já foi separado. O desempenho do modelo foi avaliado utilizando a métrica \textit{Root Mean Squared Error} - RMSE (raiz quadrada do erro quadrático médio).
+Em seguida, através de um \textit{loop}, cada combinação de hiperparâmetros foi utilizada para instanciar cada modelo, treinar o modelo com os dados de treino e avaliar o desempenho do modelo com os dados de validação.
 
-Para cada algoritmo, foi estabelecido um conjunto de hiperparâmetros e seus respectivos valores a serem testados, assim como hiperparâmetros fixos em valores pré-definidos. As tabelas \ref{tab_hiperparametros_grid_xgb} a \ref{tab_hiperparametros_grid_rf} apresentam os hiperparâmetros e seus respectivos valores a serem testados para cada modelo, bem como os hiperparâmetros fixados em valores pré-definidos.
+Para gerar o conjunto de dados de validação, foi feita uma separação no conjunto de dados de treino de forma que o conjunto de validação tenha 10\% dos dados originais, considerando o conjunto de teste que já foi separado.
+O desempenho do modelo foi avaliado utilizando a métrica da Raiz Quadrada do Erro Quadrático Médio (\textit{Root Mean Squared Error} - RMSE).
 
-% -------------------- XGBoost ---------------------
-%                      0     1     2
+Para cada algoritmo, foi estabelecido um conjunto de hiperparâmetros e seus respectivos valores a serem testados, assim como hiperparâmetros fixos em valores pré-definidos. As Tabelas \ref{tab_hiperparametros_grid_xgb} a \ref{tab_hiperparametros_grid_rf} apresentam os hiperparâmetros e seus respectivos valores a serem testados para cada modelo, bem como os hiperparâmetros fixados em valores pré-definidos.
+
 % learning_rate     0.05  0.10   0.2
 % max_depth         6.00  8.00  10.0
 % min_child_weight  1.00  5.00  10.0
@@ -1247,40 +1307,40 @@ Para cada algoritmo, foi estabelecido um conjunto de hiperparâmetros e seus res
 % device                    cuda
 % eval_metric               rmse
 
-\begin{longtable}{|c|c|}
+\begin{longtable}{cc}
 
-    % --- TÍTULO E RÓTULO (1ª Página) ---
-    \caption{\textit{Grid Search} - \textit{XGBoost}} \label{tab_hiperparametros_grid_xgb} \\
-    \hline
-    \textbf{Hiperparâmetro} & \textbf{Valores} \\ \hline
+    % --- TÍTULO E RÓTULO (Aparece no topo da primeira página) ---
+    \caption{\textit{Grid Search} - \textit{XGBoost}}\label{tab_hiperparametros_grid_xgb} \\
+    \toprule
+    \textbf{Hiperparâmetro} & \textbf{Valores} \\ \midrule
     \endfirsthead
 
-    % --- CABEÇALHO (Páginas Seguintes) ---
-    \hline
-    \textbf{Hiperparâmetro} & \textbf{Valores} \\ \hline
+    % --- CABEÇALHO PARA PÁGINAS SEGUINTES (Se quebrar página) ---
+    \toprule
+    \textbf{Hiperparâmetro} & \textbf{Valores} \\ \midrule
     \endhead
 
-    % --- RODAPÉ (Páginas Intermediárias) ---
-    \hline
+    % --- RODAPÉ PARA PÁGINAS INTERMEDIÁRIAS (Antes de terminar) ---
+    \bottomrule
     \multicolumn{2}{r}{\footnotesize\textit{Continua na próxima página...}} \\
     \endfoot
 
-    % --- RODAPÉ FINAL (Última Página) ---
-    \hline
+    % --- RODAPÉ FINAL (Aparece apenas na última página) ---
+    \bottomrule
     \multicolumn{2}{c}{\footnotesize Fonte: elaborado pelo autor.} \\
     \endlastfoot
 
     % --- DADOS DA TABELA ---
-    \texttt{learning\_rate} & \texttt{[0.05, 0.10, 0.20]} \\ \hline
-    \texttt{max\_depth} & \texttt{[6, 8, 10]} \\ \hline
-    \texttt{min\_child\_weight} & \texttt{[1, 5, 10]} \\ \hline
-    \texttt{colsample\_bytree} & \texttt{[0.70, 0.85, 1.0]} \\ \hline
-    \texttt{subsample} & \texttt{[0.70, 0.85, 1.0]} \\ \hline
-    \texttt{n\_estimators} & \texttt{100} \\ \hline
-    \texttt{objective} & \texttt{"reg:squarederror"} \\ \hline
-    \texttt{tree\_method} & \texttt{"hist"} \\ \hline
-    \texttt{device} & \texttt{"cuda"} \\ \hline
-    \texttt{eval\_metric} & \texttt{"rmse"} \\ \hline
+    \texttt{learning\_rate} & \texttt{[0.05, 0.10, 0.20]} \\
+    \texttt{max\_depth} & \texttt{[6, 8, 10]} \\ 
+    \texttt{min\_child\_weight} & \texttt{[1, 5, 10]} \\ 
+    \texttt{colsample\_bytree} & \texttt{[0.70, 0.85, 1.0]} \\ 
+    \texttt{subsample} & \texttt{[0.70, 0.85, 1.0]} \\ 
+    \texttt{n\_estimators} & \texttt{100} \\ 
+    \texttt{objective} & \texttt{"reg:squarederror"} \\ 
+    \texttt{tree\_method} & \texttt{"hist"} \\ 
+    \texttt{device} & \texttt{"cuda"} \\ 
+    \texttt{eval\_metric} & \texttt{"rmse"} \\ 
 
 \end{longtable}
 
@@ -1298,41 +1358,40 @@ Para cada algoritmo, foi estabelecido um conjunto de hiperparâmetros e seus res
 % device               cpu
 % n_jobs                -1
 
+\begin{longtable}{cc}
 
-\begin{longtable}{|c|c|}
-
-    % --- TÍTULO E RÓTULO (1ª Página) ---
+    % --- TÍTULO E RÓTULO (Aparece no topo da primeira página) ---
     \caption{\textit{Grid Search} - \textit{LightGBM}} \label{tab_hiperparametros_grid_lgbm} \\
-    \hline
-    \textbf{Hiperparâmetro} & \textbf{Valores} \\ \hline
+    \toprule
+    \textbf{Hiperparâmetro} & \textbf{Valores} \\ \midrule
     \endfirsthead
 
-    % --- CABEÇALHO (Páginas Seguintes) ---
-    \hline
-    \textbf{Hiperparâmetro} & \textbf{Valores} \\ \hline
+    % --- CABEÇALHO PARA PÁGINAS SEGUINTES (Se quebrar página) ---
+    \toprule
+    \textbf{Hiperparâmetro} & \textbf{Valores} \\ \midrule
     \endhead
 
-    % --- RODAPÉ (Páginas Intermediárias) ---
-    \hline
+    % --- RODAPÉ PARA PÁGINAS INTERMEDIÁRIAS (Antes de terminar) ---
+    \bottomrule
     \multicolumn{2}{r}{\footnotesize\textit{Continua na próxima página...}} \\
     \endfoot
 
-    % --- RODAPÉ FINAL (Última Página) ---
-    \hline
+    % --- RODAPÉ FINAL (Aparece apenas na última página) ---
+    \bottomrule
     \multicolumn{2}{c}{\footnotesize Fonte: elaborado pelo autor.} \\
     \endlastfoot
 
     % --- DADOS DA TABELA ---
-    \texttt{num\_leaves} & \texttt{[31, 63, 127]} \\ \hline
-    \texttt{learning\_rate} & \texttt{[0.05, 0.10, 0.20]} \\ \hline
-    \texttt{min\_child\_samples} & \texttt{[20, 50, 100]} \\ \hline
-    \texttt{colsample\_bytree} & \texttt{[0.70, 0.85, 1.0]} \\ \hline
-    \texttt{subsample} & \texttt{[0.70, 0.85, 1.0]} \\ \hline
-    \texttt{n\_estimators} & \texttt{100} \\ \hline
-    \texttt{objective} & \texttt{"regression"} \\ \hline
-    \texttt{metric} & \texttt{"rmse"} \\ \hline
-    \texttt{device} & \texttt{"cpu"} \\ \hline
-    \texttt{n\_jobs} & \texttt{-1} \\ \hline
+    \texttt{num\_leaves} & \texttt{[31, 63, 127]} \\
+    \texttt{learning\_rate} & \texttt{[0.05, 0.10, 0.20]} \\ 
+    \texttt{min\_child\_samples} & \texttt{[20, 50, 100]} \\ 
+    \texttt{colsample\_bytree} & \texttt{[0.70, 0.85, 1.0]} \\ 
+    \texttt{subsample} & \texttt{[0.70, 0.85, 1.0]} \\ 
+    \texttt{n\_estimators} & \texttt{100} \\ 
+    \texttt{objective} & \texttt{"regression"} \\ 
+    \texttt{metric} & \texttt{"rmse"} \\ 
+    \texttt{device} & \texttt{"cpu"} \\ 
+    \texttt{n\_jobs} & \texttt{-1} \\ 
 
 \end{longtable}
 
@@ -1349,52 +1408,54 @@ Para cada algoritmo, foi estabelecido um conjunto de hiperparâmetros e seus res
 % n_streams            4
 % n_estimators       100
 
-\begin{longtable}{|c|c|}
+\begin{longtable}{cc}
 
-    % --- TÍTULO E RÓTULO (1ª Página) ---
+    % --- TÍTULO E RÓTULO (Aparece no topo da primeira página) ---
     \caption{\textit{Grid Search} - \textit{Random Forest}} \label{tab_hiperparametros_grid_rf} \\
-    \hline
-    \textbf{Hiperparâmetro} & \textbf{Valores} \\ \hline
+    \toprule
+    \textbf{Hiperparâmetro} & \textbf{Valores} \\ \midrule
     \endfirsthead
 
-    % --- CABEÇALHO (Páginas Seguintes) ---
-    \hline
-    \textbf{Hiperparâmetro} & \textbf{Valores} \\ \hline
+    % --- CABEÇALHO PARA PÁGINAS SEGUINTES (Se quebrar página) ---
+    \toprule
+    \textbf{Hiperparâmetro} & \textbf{Valores} \\ \midrule
     \endhead
 
-    % --- RODAPÉ (Páginas Intermediárias) ---
-    \hline
+    % --- RODAPÉ PARA PÁGINAS INTERMEDIÁRIAS (Antes de terminar) ---
+    \bottomrule
     \multicolumn{2}{r}{\footnotesize\textit{Continua na próxima página...}} \\
     \endfoot
 
-    % --- RODAPÉ FINAL (Última Página) ---
-    \hline
+    % --- RODAPÉ FINAL (Aparece apenas na última página) ---
+    \bottomrule
     \multicolumn{2}{c}{\footnotesize Fonte: elaborado pelo autor.} \\
     \endlastfoot
 
     % --- DADOS DA TABELA ---
-    \texttt{max\_depth} & \texttt{[10, 15, 20]} \\ \hline
-    \texttt{max\_features} & \texttt{[0.7, 0.9, 1.0]} \\ \hline
-    \texttt{max\_samples} & \texttt{[0.8, 0.9, 1.0]} \\ \hline
-    \texttt{split\_criterion} & \texttt{"mse"} \\ \hline
-    \texttt{bootstrap} & \texttt{True} \\ \hline
-    \texttt{n\_bins} & \texttt{256} \\ \hline
-    \texttt{min\_samples\_leaf} & \texttt{15} \\ \hline
-    \texttt{n\_streams} & \texttt{4} \\ \hline
-    \texttt{n\_estimators} & \texttt{100} \\ \hline
+    \texttt{max\_depth} & \texttt{[10, 15, 20]} \\
+    \texttt{max\_features} & \texttt{[0.7, 0.9, 1.0]} \\ 
+    \texttt{max\_samples} & \texttt{[0.8, 0.9, 1.0]} \\ 
+    \texttt{split\_criterion} & \texttt{"mse"} \\ 
+    \texttt{bootstrap} & \texttt{True} \\ 
+    \texttt{n\_bins} & \texttt{256} \\ 
+    \texttt{min\_samples\_leaf} & \texttt{15} \\ 
+    \texttt{n\_streams} & \texttt{4} \\ 
+    \texttt{n\_estimators} & \texttt{100} \\ 
 
 \end{longtable}
 
-Foram então treinados 243 combinações de hiperparâmetros para os algoritmos de \textit{XGBoost} e \textit{LightGBM} (5 hiperparâmetros com 3 valores cada) e 27 combinações de hiperparâmetros para o algoritmo de \textit{Random Forest} (3 hiperparâmetros com 3 valores cada) totalizando 270 modelos treinados para cada conjunto de dados (Humanas, Natureza, Linguagem, Matemática e Redação) e 1.350 modelos treinados no total, o que levou aproximadamente 5 horas para ser executado.
+Foram treinados 243 combinações de hiperparâmetros para os algoritmos de \textit{XGBoost} e \textit{LightGBM} (5 hiperparâmetros com 3 valores cada) e 27 combinações de hiperparâmetros para o algoritmo de \textit{Random Forest} (3 hiperparâmetros com 3 valores cada), totalizando 270 modelos treinados para cada conjunto de dados (Ciências Humanas, Ciências da Natureza, Linguagem e Código, Matemática e Redação) e 1.350 modelos treinados no total, o que levou aproximadamente 5 horas para ser executado.
 
-Os gráficos \ref{fig_erro_grid_xgb} a \ref{fig_erro_grid_rf} apresentam o erro RMSE para as combinações de hiperparâmetros testadas para cada modelo e conjunto de dados, com as iterações do \textit{Grid Search} ordenadas em ordem decrescente de erro. Para melhor visualização, os valores do erro foram relativizados ao maior erro RMSE encontrado para cada modelo e conjunto de dados, ou seja, o maior erro RMSE encontrado para cada modelo e conjunto de dados foi considerado como 100\% e os demais erros foram relativizados em relação a esse valor.
+As Figuras \ref{fig_erro_grid_xgb} a \ref{fig_erro_grid_rf} apresentam o erro RMSE para as combinações de hiperparâmetros testadas para cada modelo e conjunto de dados, com as iterações do \textit{Grid Search} ordenadas em ordem decrescente de erro.
+
+Para melhor visualização, os valores do erro foram relativizados ao maior erro RMSE encontrado para cada modelo e conjunto de dados, ou seja, o maior erro RMSE encontrado para cada modelo e conjunto de dados foi considerado como 100\% e os demais erros foram relativizados em relação a esse valor.
 
 \begin{figure}[H]
     \centering
     \caption{Erro do \textit{Grid Search} - \textit{XGBoost}} \label{fig_erro_grid_xgb}
     \includegraphics[width=0.9\linewidth]{imagens/erro_grid_xgb.png}
     \par\vspace{0.1cm}
-    % {\footnotesize Fonte: elaborado pelo autor.}
+    {\footnotesize Fonte: elaborado pelo autor.}
     {\footnotesize Obs.: apenas metade dos dados foi plotada para melhor visualização.}
 \end{figure}
 
@@ -1403,7 +1464,7 @@ Os gráficos \ref{fig_erro_grid_xgb} a \ref{fig_erro_grid_rf} apresentam o erro 
     \caption{Erro do \textit{Grid Search} - \textit{LightGBM}} \label{fig_erro_grid_lgbm}
     \includegraphics[width=0.9\linewidth]{imagens/erro_grid_lgbm.png}
     \par\vspace{0.1cm}
-    % {\footnotesize Fonte: elaborado pelo autor.}
+    {\footnotesize Fonte: elaborado pelo autor.}
     {\footnotesize Obs.: apenas metade dos dados foi plotada para melhor visualização.}
 \end{figure}
 
@@ -1417,9 +1478,9 @@ Os gráficos \ref{fig_erro_grid_xgb} a \ref{fig_erro_grid_rf} apresentam o erro 
 
 A redução no erro RMSE para as melhores combinações de hiperparâmetros acabou não sendo tão significativa para os modelos de \textit{XGBoost} e \textit{LightGBM}, apresentando uma redução menor que 1\% em relação ao maior erro RMSE encontrado na \textit{Grid Search}. Já para o modelo de \textit{Random Forest}, a redução no erro RMSE foi mais significativa, apresentando uma redução de aproximadamente 2,2\% em relação ao maior erro RMSE encontrado na \textit{Grid Search}.
 
-Até este momento, não ajustamos o hiperparâmetro \texttt{n\_estimators} (número de estimadores), uma vez que a execução do código para as combinações com esse parâmetro maior que 100 foi interrompida subitamente algumas vezes, também possivelmente devido ao alto consumo de memória da GPU. Dessa forma, o ajuste desse hiperparâmetro será realizado na próxima etapa, juntamente com o treinamento final dos modelos.
+Neste ajuste, não foi selecionado diferentes valores para o hiperparâmetro \texttt{n\_estimators} (número de estimadores), uma vez que a execução do código para as combinações com esse parâmetro maior que 100 foi interrompida subitamente algumas vezes, também possivelmente devido ao alto consumo de memória da GPU/RAM. Assim, o ajuste desse hiperparâmetro foi realizado na próxima etapa, juntamente com o treinamento final dos modelos.
 
-As tabelas \ref{tab_hiperparametros_ajustados_xgb} a \ref{tab_hiperparametros_ajustados_rf} apresentam os melhores hiperparâmetros encontrados para cada modelo em cada conjunto de dados, bem como o erro RMSE correspondente a cada combinação de hiperparâmetros.
+Foram escolhidos os melhores hiperparâmetros para cada modelo e conjunto de dados baseados no menor erro RMSE encontrado na \textit{Grid Search}. As Tabelas \ref{tab_hiperparametros_ajustados_xgb} a \ref{tab_hiperparametros_ajustados_rf} apresentam os melhores hiperparâmetros encontrados para cada modelo em cada conjunto de dados, bem como o erro RMSE correspondente a cada combinação de hiperparâmetros.
 
 % ========================= XGBoost ==========================
 
@@ -1439,36 +1500,36 @@ As tabelas \ref{tab_hiperparametros_ajustados_xgb} a \ref{tab_hiperparametros_aj
 % colsample_bytree    0.700000    0.700000  
 % subsample           1.000000    1.000000  
 
-\begin{longtable}{|l|c|c|c|c|c|}
+\begin{longtable}{lccccc}
 
-    % --- TÍTULO E RÓTULO (1ª Página) ---
+    % --- TÍTULO E RÓTULO (Aparece no topo da primeira página) ---
     \caption{Hiperparâmetros Ajustados - \textit{XGBoost}} \label{tab_hiperparametros_ajustados_xgb} \\
-    \hline
-    \textbf{Hiperparâmetro} & \textbf{Humanas} & \textbf{Natureza} & \textbf{Linguagem} & \textbf{Matemática} & \textbf{Redação} \\ \hline
+    \toprule
+    \textbf{Hiperparâmetro} & \textbf{Humanas} & \textbf{Natureza} & \textbf{Linguagem} & \textbf{Matemática} & \textbf{Redação} \\ \midrule
     \endfirsthead
 
-    % --- CABEÇALHO (Páginas Seguintes) ---
-    \hline
-    \textbf{Hiperparâmetro} & \textbf{Humanas} & \textbf{Natureza} & \textbf{Linguagem} & \textbf{Matemática} & \textbf{Redação} \\ \hline
+    % --- CABEÇALHO PARA PÁGINAS SEGUINTES (Se quebrar página) ---
+    \toprule
+    \textbf{Hiperparâmetro} & \textbf{Humanas} & \textbf{Natureza} & \textbf{Linguagem} & \textbf{Matemática} & \textbf{Redação} \\ \midrule
     \endhead
 
-    % --- RODAPÉ (Páginas Intermediárias) ---
-    \hline
+    % --- RODAPÉ PARA PÁGINAS INTERMEDIÁRIAS (Antes de terminar) ---
+    \bottomrule
     \multicolumn{6}{r}{\footnotesize\textit{Continua na próxima página...}} \\
     \endfoot
 
-    % --- RODAPÉ FINAL (Última Página) ---
-    \hline
-    % \multicolumn{6}{c}{\footnotesize Fonte: elaborado pelo autor.} \\
+    % --- RODAPÉ FINAL (Aparece apenas na última página) ---
+    \bottomrule
+    \multicolumn{6}{c}{\footnotesize Fonte: elaborado pelo autor.} \\
     \endlastfoot
 
-    % --- DADOS DA TABELA ---a
-    \texttt{learning\_rate} & \texttt{0.1} & \texttt{0.1} & \texttt{0.1} & \texttt{0.1} & \texttt{0.1} \\ \hline
-    \texttt{max\_depth} & \texttt{10.0} & \texttt{10.0} & \texttt{10.0} & \texttt{10.0} & \texttt{10.0} \\ \hline
-    \texttt{min\_child\_weight} & \texttt{10.0} & \texttt{10.0} & \texttt{1.0} & \texttt{5.0} & \texttt{5.0} \\ \hline
-    \texttt{colsample\_bytree} & \texttt{0.7} & \texttt{0.7} & \texttt{0.7} & \texttt{0.7} & \texttt{0.7} \\ \hline
-    \texttt{subsample} & \texttt{1.0} & \texttt{1.0} & \texttt{1.0} & \texttt{1.0} & \texttt{1.0} \\ \hline
-    RMSE & 75,4 & 65,1 & 63,1 & 96,0 & 148,1 \\ \hline
+    % --- DADOS DA TABELA ---
+    \texttt{learning\_rate} & \texttt{0.1} & \texttt{0.1} & \texttt{0.1} & \texttt{0.1} & \texttt{0.1} \\
+    \texttt{max\_depth} & \texttt{10.0} & \texttt{10.0} & \texttt{10.0} & \texttt{10.0} & \texttt{10.0} \\
+    \texttt{min\_child\_weight} & \texttt{10.0} & \texttt{10.0} & \texttt{1.0} & \texttt{5.0} & \texttt{5.0} \\
+    \texttt{colsample\_bytree} & \texttt{0.7} & \texttt{0.7} & \texttt{0.7} & \texttt{0.7} & \texttt{0.7} \\
+    \texttt{subsample} & \texttt{1.0} & \texttt{1.0} & \texttt{1.0} & \texttt{1.0} & \texttt{1.0} \\ \midrule
+    RMSE & 75,4 & 65,1 & 63,1 & 96,0 & 148,1 \\
 
 \end{longtable}
 
@@ -1490,36 +1551,36 @@ As tabelas \ref{tab_hiperparametros_ajustados_xgb} a \ref{tab_hiperparametros_aj
 % colsample_bytree     0.700000    0.700000  
 % subsample            1.000000    1.000000  
 
-\begin{longtable}{|l|c|c|c|c|c|}
+\begin{longtable}{lccccc}
 
-    % --- TÍTULO E RÓTULO (1ª Página) ---
+    % --- TÍTULO E RÓTULO (Aparece no topo da primeira página) ---
     \caption{Hiperparâmetros Ajustados - \textit{LightGBM}} \label{tab_hiperparametros_ajustados_lgbm} \\
-    \hline
-    \textbf{Hiperparâmetro} & \textbf{Humanas} & \textbf{Natureza} & \textbf{Linguagem} & \textbf{Matemática} & \textbf{Redação} \\ \hline
+    \toprule
+    \textbf{Hiperparâmetro} & \textbf{Humanas} & \textbf{Natureza} & \textbf{Linguagem} & \textbf{Matemática} & \textbf{Redação} \\ \midrule
     \endfirsthead
 
-    % --- CABEÇALHO (Páginas Seguintes) ---
-    \hline
-    \textbf{Hiperparâmetro} & \textbf{Humanas} & \textbf{Natureza} & \textbf{Linguagem} & \textbf{Matemática} & \textbf{Redação} \\ \hline
+    % --- CABEÇALHO PARA PÁGINAS SEGUINTES (Se quebrar página) ---
+    \toprule
+    \textbf{Hiperparâmetro} & \textbf{Humanas} & \textbf{Natureza} & \textbf{Linguagem} & \textbf{Matemática} & \textbf{Redação} \\ \midrule
     \endhead
 
-    % --- RODAPÉ (Páginas Intermediárias) ---
-    \hline
+    % --- RODAPÉ PARA PÁGINAS INTERMEDIÁRIAS (Antes de terminar) ---
+    \bottomrule
     \multicolumn{6}{r}{\footnotesize\textit{Continua na próxima página...}} \\
     \endfoot
 
-    % --- RODAPÉ FINAL (Última Página) ---
-    \hline
-    % \multicolumn{6}{c}{\footnotesize Fonte: elaborado pelo autor.} \\
+    % --- RODAPÉ FINAL (Aparece apenas na última página) ---
+    \bottomrule
+    \multicolumn{6}{c}{\footnotesize Fonte: elaborado pelo autor.} \\
     \endlastfoot
 
-    % --- DADOS DA TABELA ---a
-    \texttt{num\_leaves} & \texttt{127.0} & \texttt{127.0} & \texttt{127.0} & \texttt{127.0} & \texttt{127.0} \\ \hline
-    \texttt{learning\_rate} & \texttt{0.2} & \texttt{0.2} & \texttt{0.2} & \texttt{0.2} & \texttt{0.2} \\ \hline
-    \texttt{min\_child\_samples} & \texttt{100.0} & \texttt{50.0} & \texttt{50.0} & \texttt{100.0} & \texttt{100.0} \\ \hline
-    \texttt{colsample\_bytree} & \texttt{0.7} & \texttt{0.7} & \texttt{0.85} & \texttt{0.7} & \texttt{0.7} \\ \hline
-    \texttt{subsample} & \texttt{1.0} & \texttt{0.7} & \texttt{1.0} & \texttt{1.0} & \texttt{1.0} \\ \hline
-    RMSE & 75,4 & 65,1 & 63,1 & 96,0 & 148,2 \\ \hline
+    % --- DADOS DA TABELA ---
+    \texttt{num\_leaves} & \texttt{127.0} & \texttt{127.0} & \texttt{127.0} & \texttt{127.0} & \texttt{127.0} \\
+    \texttt{learning\_rate} & \texttt{0.2} & \texttt{0.2} & \texttt{0.2} & \texttt{0.2} & \texttt{0.2} \\
+    \texttt{min\_child\_samples} & \texttt{100.0} & \texttt{50.0} & \texttt{50.0} & \texttt{100.0} & \texttt{100.0} \\
+    \texttt{colsample\_bytree} & \texttt{0.7} & \texttt{0.7} & \texttt{0.85} & \texttt{0.7} & \texttt{0.7} \\
+    \texttt{subsample} & \texttt{1.0} & \texttt{0.7} & \texttt{1.0} & \texttt{1.0} & \texttt{1.0} \\ \midrule
+    RMSE & 75,4 & 65,1 & 63,1 & 96,0 & 148,2 \\ 
 
 \end{longtable}
 
@@ -1537,49 +1598,54 @@ As tabelas \ref{tab_hiperparametros_ajustados_xgb} a \ref{tab_hiperparametros_aj
 % max_features    0.700000    0.700000  
 % max_samples     0.800000    0.800000
 
-\begin{longtable}{|l|c|c|c|c|c|}
+\begin{longtable}{lccccc}
 
-    % --- TÍTULO E RÓTULO (1ª Página) ---
+    % --- TÍTULO E RÓTULO (Aparece no topo da primeira página) ---
     \caption{Hiperparâmetros Ajustados - \textit{Random Forest}} \label{tab_hiperparametros_ajustados_rf} \\
-    \hline
-    \textbf{Hiperparâmetro} & \textbf{Humanas} & \textbf{Natureza} & \textbf{Linguagem} & \textbf{Matemática} & \textbf{Redação} \\ \hline
+    \toprule
+    \textbf{Hiperparâmetro} & \textbf{Humanas} & \textbf{Natureza} & \textbf{Linguagem} & \textbf{Matemática} & \textbf{Redação} \\ \midrule
     \endfirsthead
 
-    % --- CABEÇALHO (Páginas Seguintes) ---
-    \hline
-    \textbf{Hiperparâmetro} & \textbf{Humanas} & \textbf{Natureza} & \textbf{Linguagem} & \textbf{Matemática} & \textbf{Redação} \\ \hline
+    % --- CABEÇALHO PARA PÁGINAS SEGUINTES (Se quebrar página) ---
+    \toprule
+    \textbf{Hiperparâmetro} & \textbf{Humanas} & \textbf{Natureza} & \textbf{Linguagem} & \textbf{Matemática} & \textbf{Redação} \\ \midrule
     \endhead
 
-    % --- RODAPÉ (Páginas Intermediárias) ---
-    \hline
+    % --- RODAPÉ PARA PÁGINAS INTERMEDIÁRIAS (Antes de terminar) ---
+    \bottomrule
     \multicolumn{6}{r}{\footnotesize\textit{Continua na próxima página...}} \\
     \endfoot
 
-    % --- RODAPÉ FINAL (Última Página) ---
-    \hline
+    % --- RODAPÉ FINAL (Aparece apenas na última página) ---
+    \bottomrule
     \multicolumn{6}{c}{\footnotesize Fonte: elaborado pelo autor.} \\
     \endlastfoot
 
-    % --- DADOS DA TABELA ---a
-    \texttt{max\_depth} & \texttt{20.0} & \texttt{20.0} & \texttt{20.0} & \texttt{20.0} & \texttt{20.0} \\ \hline
-    \texttt{max\_features} & \texttt{0.7} & \texttt{0.7} & \texttt{0.7} & \texttt{0.7} & \texttt{0.7} \\ \hline
-    \texttt{max\_samples} & \texttt{0.8} & \texttt{0.8} & \texttt{0.8} & \texttt{0.8} & \texttt{0.8} \\ \hline
-    RMSE & 75,6 & 65,4 & 63,3 & 96,4 & 148,6 \\ \hline
+    % --- DADOS DA TABELA ---
+    \texttt{max\_depth} & \texttt{20.0} & \texttt{20.0} & \texttt{20.0} & \texttt{20.0} & \texttt{20.0} \\ 
+    \texttt{max\_features} & \texttt{0.7} & \texttt{0.7} & \texttt{0.7} & \texttt{0.7} & \texttt{0.7} \\ 
+    \texttt{max\_samples} & \texttt{0.8} & \texttt{0.8} & \texttt{0.8} & \texttt{0.8} & \texttt{0.8} \\ \midrule
+    RMSE & 75,6 & 65,4 & 63,3 & 96,4 & 148,6 \\ 
 
 \end{longtable}
 
 \subsection{Treinamento final dos modelos}\label{resultados_treinamento_final_modelos}
 
-Conforme descrito na Seção \ref{metodologia_treinamento_modelos}, o ajuste do hiperparâmetro \texttt{n\_estimators} (número de estimadores) será realizado na próxima etapa, juntamente com o treinamento final dos modelos. Para os modelos de \textit{XGBoost} e \textit{LightGBM}, serão testados os valores de 100, 500, 1.000 e 3.000 estimadores. Para o modelo de \textit{Random Forest}, só foi possível treinar o modelo com 100 e 500 estimadores, uma vez que a execução do código para as combinações com 1.000 e 3.000 estimadores foi interrompida subitamente algumas vezes, também possivelmente devido ao alto consumo de memória da GPU.
 
-As Figuras \ref{fig_erro_final_xgb} e \ref{fig_erro_final_lgbm} apresentam o erro MAPE do conjunto de teste, relativo ao maior erro MAPE encontrado para cada modelo e conjunto de dados, para os modelos de \textit{XGBoost} e \textit{LightGBM} com os melhores hiperparâmetros encontrados na etapa de ajuste dos hiperparâmetros, considerando o número de estimadores como 100, 500, 1.000 e 3.000. A tabela \ref{tab_erro_final_rf} apresenta o erro MAPE do conjunto de teste para o modelo de \textit{Random Forest} com os melhores hiperparâmetros encontrados na etapa de ajuste dos hiperparâmetros, considerando o número de estimadores como 100 e 500.
+Conforme descrito na Seção \ref{metodologia_treinamento_modelos}, o ajuste do hiperparâmetro \texttt{n\_estimators} (número de estimadores) foi realizado nesta etapa, juntamente com o treinamento final dos modelos.
+
+Para os modelos de \textit{XGBoost} e \textit{LightGBM}, foram testados os valores de 100, 500, 1.000 e 3.000 estimadores. Para o modelo de \textit{Random Forest}, só foi possível treinar o modelo com 100 e 500 estimadores, uma vez que a execução do código para as combinações com 1.000 e 3.000 estimadores foi interrompida subitamente algumas vezes, possivelmente devido ao alto consumo de memória da GPU ou memória RAM.
+
+As Figuras \ref{fig_erro_final_xgb} e \ref{fig_erro_final_lgbm} apresentam o erro MAPE do conjunto de teste, relativo ao maior erro MAPE encontrado para cada modelo e conjunto de dados, para os modelos de \textit{XGBoost} e \textit{LightGBM} com os melhores hiperparâmetros encontrados na etapa de ajuste dos hiperparâmetros, considerando o número de estimadores como 100, 500, 1.000 e 3.000.
+
+A Tabela \ref{tab_erro_final_rf} apresenta o erro MAPE do conjunto de teste para o modelo de \textit{Random Forest} com os melhores hiperparâmetros encontrados na etapa de ajuste dos hiperparâmetros, considerando o número de estimadores como 100 e 500.
 
 \begin{figure}[H]
     \centering
     \caption{Erro MAPE - \textit{XGBoost}} \label{fig_erro_final_xgb}
     \includegraphics[width=0.9\linewidth]{imagens/erro_final_xgb.png}
     \par\vspace{0.1cm}
-    % {\footnotesize Fonte: elaborado pelo autor.}
+    {\footnotesize Fonte: elaborado pelo autor.}
 \end{figure}
 
 \begin{figure}[H]
@@ -1587,7 +1653,7 @@ As Figuras \ref{fig_erro_final_xgb} e \ref{fig_erro_final_lgbm} apresentam o err
     \caption{Erro MAPE - \textit{LightGBM}} \label{fig_erro_final_lgbm}
     \includegraphics[width=0.9\linewidth]{imagens/erro_final_lgbm.png}
     \par\vspace{0.1cm}
-    % {\footnotesize Fonte: elaborado pelo autor.}
+    {\footnotesize Fonte: elaborado pelo autor.}
 \end{figure}
 
 % Prova | 100 estimadores | 500 estimadores
@@ -1597,45 +1663,49 @@ As Figuras \ref{fig_erro_final_xgb} e \ref{fig_erro_final_lgbm} apresentam o err
 % Matemática | 15.160% | 15.154% | 
 % Redação | 21.327% | 21.320% |
 
-\begin{longtable}{|l|c|c|}
+\begin{longtable}{ccc}
 
-    % --- TÍTULO E RÓTULO (1ª Página) ---
+    % --- TÍTULO E RÓTULO (Aparece no topo da primeira página) ---
     \caption{Erro MAPE - \textit{Random Forest}} \label{tab_erro_final_rf} \\
-    \hline
-    \textbf{Área} & \textbf{100 estimadores} & \textbf{500 estimadores} \\ \hline
+    \toprule
+    \textbf{Área} & \textbf{100 estimadores} & \textbf{500 estimadores} \\ \midrule
     \endfirsthead
 
-    % --- CABEÇALHO (Páginas Seguintes) ---
-    \hline
-    \textbf{Área} & \textbf{100 estimadores} & \textbf{500 estimadores} \\ \hline
+    % --- CABEÇALHO PARA PÁGINAS SEGUINTES (Se quebrar página) ---
+    \toprule
+    \textbf{Área} & \textbf{100 estimadores} & \textbf{500 estimadores} \\ \midrule
     \endhead
 
-    % --- RODAPÉ (Páginas Intermediárias) ---
-    \hline
+    % --- RODAPÉ PARA PÁGINAS INTERMEDIÁRIAS (Antes de terminar) ---
+    \bottomrule
     \multicolumn{3}{r}{\footnotesize\textit{Continua na próxima página...}} \\
     \endfoot
 
-    % --- RODAPÉ FINAL (Última Página) ---
-    \hline
+    % --- RODAPÉ FINAL (Aparece apenas na última página) ---
+    \bottomrule
     \multicolumn{3}{c}{\footnotesize Fonte: elaborado pelo autor.} \\
     \endlastfoot
 
-    % --- DADOS DA TABELA ---a
-    Ciências Humanas & 12.369\% & 12.364\% \\ \hline
-    Ciências Natureza & 10.924\% & 10.920\% \\ \hline
-    Linguagem e Código & 10.264\% & 10.260\% \\ \hline
-    Matemática & 15.160\% & 15.154\% \\ \hline
-    Redação & 21.327\% & 21.320\% \\ \hline
+    % --- DADOS DA TABELA ---
+    Ciências Humanas & 12.369\% & 12.364\% \\ 
+    Ciências Natureza & 10.924\% & 10.920\% \\ 
+    Linguagem e Código & 10.264\% & 10.260\% \\ 
+    Matemática & 15.160\% & 15.154\% \\ 
+    Redação & 21.327\% & 21.320\% \\ 
 
 \end{longtable}
 
-É possível notar que assim como aconteceu no ajuste dos hiperparâmetros, a redução no erro MAPE para diferentes números de estimadores acabou não sendo tão significativa para os três modelos. Para o modelo de \textit{XGBoost}, a maior redução no erro MAPE foi de foi 0.4258\% na prova de Linguagem e Código. Para o modelo de \textit{LightGBM}, a maior redução no erro MAPE foi de 0.2286\% na prova de Linguagem e Código. Para o modelo de \textit{Random Forest}, a maior redução no erro MAPE foi de 0.0068\% na prova de Redação.
+Assim como aconteceu no ajuste dos demais hiperparâmetros, a redução no erro MAPE para diferentes números de estimadores acabou não sendo tão significativa para os três modelos. Para o modelo de \textit{XGBoost}, a maior redução no erro MAPE foi de 0,4258\% na prova de Linguagem e Código. Para o modelo de \textit{LightGBM}, a maior redução no erro MAPE foi de 0,2286\% na prova de Linguagem e Código. Para o modelo de \textit{Random Forest}, a maior redução no erro MAPE foi de 0,0068\% na prova de Redação.
 
 \subsection{Construção dos modelos de \textit{ensemble}}\label{resultados_treinamento_modelos_ensemble}
 
-A partir dos três modelos treinados, foram construídos dois modelos de \textit{ensemble} usando a técnica de \textit{bagging}: (i) um modelo de \textit{ensemble} utilizando os modelos de \textit{XGBoost} e \textit{LightGBM} e (ii) um modelo de \textit{ensemble} utilizando os modelos de \textit{XGBoost}, \textit{LightGBM} e \textit{Random Forest}. Para ambos os modelos de \textit{ensemble}, foi utilizada a média aritmética das previsões dos modelos individuais para obter a previsão final do modelo de \textit{ensemble}.
+A partir dos três modelos treinados, foram construídos dois modelos de \textit{ensemble} usando a técnica de \textit{bagging}: (i) um modelo de \textit{ensemble} utilizando os modelos de \textit{XGBoost} e \textit{LightGBM} e (ii) um modelo de \textit{ensemble} utilizando os modelos de \textit{XGBoost}, \textit{LightGBM} e \textit{Random Forest}.
 
-As Figuras \ref{fig_erro_ensemble} e \ref{fig_erro_ensemble_2} apresentam o erro MAPE do conjunto de teste, relativo ao maior erro MAPE encontrado para cada modelo e conjunto de dados, para os modelos de \textit{ensemble} construídos a partir dos modelos de \textit{XGBoost}, \textit{LightGBM} e \textit{Random Forest} com os melhores hiperparâmetros encontrados na etapa de ajuste dos hiperparâmetros, considerando o número de estimadores como 100, 500, 1.000 e 3.000 para os modelos de \textit{XGBoost} e \textit{LightGBM} e 100 e 500 para o modelo de \textit{Random Forest}.
+Para ambos os modelos de \textit{ensemble}, foi utilizada a média aritmética das previsões dos modelos individuais para obter a previsão final do modelo de \textit{ensemble}.
+
+O \textit{ensemble} utilizando o modelo de \textit{Random Forest} foi construído considerando a média das previsões do modelo de acordo com a quantidade de modelos disponíveis. Ou seja, como o modelo de \textit{Random Forest} não foi treinado com 1.000 e 3.000 estimadores, a média do \textit{ensemble} foi calculada apenas com os modelos de \textit{XGBoost} e \textit{LightGBM} para esses números de estimadores, e com os três modelos para os números de estimadores de 100 e 500.
+ 
+As Figuras \ref{fig_erro_ensemble} e \ref{fig_erro_ensemble_2} apresentam o erro MAPE do conjunto de teste, relativo ao maior erro MAPE encontrado para cada modelo e conjunto de dados, para os modelos de \textit{ensemble} construídos.
 
 \begin{figure}[H]
     \centering
@@ -1653,15 +1723,15 @@ As Figuras \ref{fig_erro_ensemble} e \ref{fig_erro_ensemble_2} apresentam o erro
     {\footnotesize Fonte: elaborado pelo autor.}
 \end{figure}
 
-Novamente, a redução no erro MAPE para os modelos de \textit{ensemble} acabou não sendo tão significativa para os diferentes números de estimadores. Para o modelo de \textit{ensemble} utilizando os modelos de \textit{XGBoost} e \textit{LightGBM}, a maior redução no erro MAPE foi de 0.2103\% na prova de Redação. Para o modelo de \textit{ensemble} utilizando os modelos de \textit{XGBoost}, \textit{LightGBM} e \textit{Random Forest}, a maior redução no erro MAPE foi de 0.1883\% na prova de Redação.
+Novamente, a redução no erro MAPE para os modelos de \textit{ensemble} acabou não sendo tão significativa para os diferentes números de estimadores. Para o modelo de \textit{ensemble} utilizando os modelos de \textit{XGBoost} e \textit{LightGBM}, a maior redução no erro MAPE foi de 0,2103\% na prova de Redação. Para o modelo de \textit{ensemble} utilizando os modelos de \textit{XGBoost}, \textit{LightGBM} e \textit{Random Forest}, a maior redução no erro MAPE foi de 0,1883\% também na prova de Redação.
 
 \subsection{Avaliação dos modelos}\label{resultados_comparacao_modelos}
 
 Nessa etapa, a primeira análise realizada foi sobre um possível \textit{overfitting} dos modelos. Conforme o critério adotado e explicado na Seção \ref{metodologia_avaliacao_modelos}, nenhum dos modelos apresentou \textit{overfitting} segundo esse critério, ou seja, nenhum dos modelos apresentou um erro do conjunto de teste 15\% maior que o erro do conjunto de treino.
 
-Em seguida, foi feita a comparação dos modelos entre si para cada conjunto de dados, a fim de se encontrar o melhor modelo para cada conjunto de dados. Para isso, foi adotado o critério do menor erro MAPE do conjunto de teste, ou seja, o modelo com o menor erro MAPE do conjunto de teste foi considerado o melhor modelo para aquele conjunto de dados. As Tabelas \ref{tab_comparacao_modelos_humanas} a \ref{tab_comparacao_modelos_redacao} apresentam os cinco modelos que apresentaram os menores erros MAPE do conjunto de teste para cada conjunto de dados, ordenados do menor para o maior erro MAPE.
+Em seguida, foi feita a comparação dos modelos entre si para cada conjunto de dados, a fim de se encontrar o melhor modelo para cada conjunto de dados. Para isso, foi adotado o critério do menor erro MAPE do conjunto de teste.
 
-\pagebreak
+As Tabelas \ref{tab_comparacao_modelos_humanas} a \ref{tab_comparacao_modelos_redacao} apresentam os cinco modelos que apresentaram os menores erros MAPE do conjunto de teste para cada conjunto de dados, ordenados do menor para o maior erro MAPE.
 
 % ===================== Ciências Humanas =====================
 
@@ -1672,35 +1742,35 @@ Em seguida, foi feita a comparação dos modelos entre si para cada conjunto de 
 % 51  XGB + LGBM + RF          500   12.309288
 % 2           XGBoost         1000   12.312470
 
-\begin{longtable}{|l|c|c|}
+\begin{longtable}{ccc}
 
-    % --- TÍTULO E RÓTULO (1ª Página) ---
+    % --- TÍTULO E RÓTULO (Aparece no topo da primeira página) ---
     \caption{Cinco melhores modelos - Humanas} \label{tab_comparacao_modelos_humanas} \\
-    \hline
-    \textbf{Modelo} & \textbf{Qtd. estimadores} & \textbf{MAPE teste} \\ \hline
+    \toprule
+    \textbf{Modelo} & \textbf{Qtd. estimadores} & \textbf{MAPE teste} \\ \midrule
     \endfirsthead
 
-    % --- CABEÇALHO (Páginas Seguintes) ---
-    \hline
-    \textbf{Modelo} & \textbf{Qtd. estimadores} & \textbf{MAPE teste} \\ \hline
+    % --- CABEÇALHO PARA PÁGINAS SEGUINTES (Se quebrar página) ---
+    \toprule
+    \textbf{Modelo} & \textbf{Qtd. estimadores} & \textbf{MAPE teste} \\ \midrule
     \endhead
 
-    % --- RODAPÉ (Páginas Intermediárias) ---
-    \hline
+    % --- RODAPÉ PARA PÁGINAS INTERMEDIÁRIAS (Antes de terminar) ---
+    \bottomrule
     \multicolumn{3}{r}{\footnotesize\textit{Continua na próxima página...}} \\
     \endfoot
 
-    % --- RODAPÉ FINAL (Última Página) ---
-    \hline
-    % \multicolumn{3}{c}{\footnotesize Fonte: elaborado pelo autor.} \\
+    % --- RODAPÉ FINAL (Aparece apenas na última página) ---
+    \bottomrule
+    \multicolumn{3}{c}{\footnotesize Fonte: elaborado pelo autor.} \\
     \endlastfoot
 
     % --- DADOS DA TABELA ---
-    XGB + LGBM & 500 & 12.302290\% \\ \hline
-    XGB + LGBM & 1000 & 12.303594\% \\ \hline
-    XGBoost & 500 & 12.306396\% \\ \hline
-    XGB + LGBM + RF & 500 & 12.309288\% \\ \hline
-    XGBoost & 1000 & 12.312470\% \\ \hline
+    \textit{XGB} + \textit{LGBM} & 500 & 12,302290\% \\
+    \textit{XGB} + \textit{LGBM} & 1.000 & 12,303594\% \\ 
+    \textit{XGB} & 500 & 12,306396\% \\ 
+    \textit{XGB} + \textit{LGBM} + \textit{RF} & 500 & 12,309288\% \\ 
+    \textit{XGB} & 1.000 & 12,312470\% \\ 
 
 \end{longtable}
 
@@ -1713,36 +1783,35 @@ Em seguida, foi feita a comparação dos modelos entre si para cada conjunto de 
 % 55  XGB + LGBM + RF          500   10.869213
 % 25         LightGBM          500   10.872770
 
-\begin{longtable}{|l|c|c|}
+\begin{longtable}{ccc}
 
-    % --- TÍTULO E RÓTULO (1ª Página) ---
+    % --- TÍTULO E RÓTULO (Aparece no topo da primeira página) ---
     \caption{Cinco melhores modelos - Natureza} \label{tab_comparacao_modelos_natureza} \\
-    \hline
-    \textbf{Modelo} & \textbf{Qtd. estimadores} & \textbf{MAPE teste} \\ \hline
+    \toprule
+    \textbf{Modelo} & \textbf{Qtd. estimadores} & \textbf{MAPE teste} \\ \midrule
     \endfirsthead
 
-    % --- CABEÇALHO (Páginas Seguintes) ---
-    \hline
-    \textbf{Modelo} & \textbf{Qtd. estimadores} & \textbf{MAPE teste} \\ \hline
+    % --- CABEÇALHO PARA PÁGINAS SEGUINTES (Se quebrar página) ---
+    \toprule
+    \textbf{Modelo} & \textbf{Qtd. estimadores} & \textbf{MAPE teste} \\ \midrule
     \endhead
 
-    % --- RODAPÉ (Páginas Intermediárias) ---
-    \hline
+    % --- RODAPÉ PARA PÁGINAS INTERMEDIÁRIAS (Antes de terminar) ---
+    \bottomrule
     \multicolumn{3}{r}{\footnotesize\textit{Continua na próxima página...}} \\
     \endfoot
 
-    % --- RODAPÉ FINAL (Última Página) ---
-    \hline
-    % \multicolumn{3}{c}{\footnotesize Fonte: elaborado pelo autor.} \\
+    % --- RODAPÉ FINAL (Aparece apenas na última página) ---
+    \bottomrule
+    \multicolumn{3}{c}{\footnotesize Fonte: elaborado pelo autor.} \\
     \endlastfoot
 
     % --- DADOS DA TABELA ---
-    XGB + LGBM & 500 & 10.862886\% \\ \hline
-    XGB + LGBM & 1000 & 10.865162\% \\ \hline
-    XGBoost & 500 & 10.867356\% \\ \hline
-    XGB + LGBM + RF & 500 & 10.869213\% \\ \hline
-    LightGBM & 500 & 10.872770\% \\ \hline
-
+    \textit{XGB} + \textit{LGBM} & 500 & 10.862886\% \\ 
+    \textit{XGB} + \textit{LGBM} & 1.000 & 10.865162\% \\ 
+    \textit{XGB} & 500 & 10.867356\% \\ 
+    \textit{XGB} + \textit{LGBM} + \textit{RF} & 500 & 10.869213\% \\ 
+    \textit{LGBM} & 500 & 10.872770\% \\ 
 \end{longtable}
 
 % ==================== Linguagem e Código ====================
@@ -1754,36 +1823,35 @@ Em seguida, foi feita a comparação dos modelos entre si para cada conjunto de 
 % 59  XGB + LGBM + RF          500   10.210127
 % 78       XGB + LGBM          100   10.216225
 
-\begin{longtable}{|l|c|c|}
+\begin{longtable}{ccc}
 
-    % --- TÍTULO E RÓTULO (1ª Página) ---
+    % --- TÍTULO E RÓTULO (Aparece no topo da primeira página) ---
     \caption{Cinco melhores modelos - Linguagem} \label{tab_comparacao_modelos_linguagem_codigo} \\
-    \hline
-    \textbf{Modelo} & \textbf{Qtd. estimadores} & \textbf{MAPE teste} \\ \hline
+    \toprule
+    \textbf{Modelo} & \textbf{Qtd. estimadores} & \textbf{MAPE teste} \\ \midrule
     \endfirsthead
 
-    % --- CABEÇALHO (Páginas Seguintes) ---
-    \hline
-    \textbf{Modelo} & \textbf{Qtd. estimadores} & \textbf{MAPE teste} \\ \hline
+    % --- CABEÇALHO PARA PÁGINAS SEGUINTES (Se quebrar página) ---
+    \toprule
+    \textbf{Modelo} & \textbf{Qtd. estimadores} & \textbf{MAPE teste} \\ \midrule
     \endhead
 
-    % --- RODAPÉ (Páginas Intermediárias) ---
-    \hline
+    % --- RODAPÉ PARA PÁGINAS INTERMEDIÁRIAS (Antes de terminar) ---
+    \bottomrule
     \multicolumn{3}{r}{\footnotesize\textit{Continua na próxima página...}} \\
     \endfoot
 
-    % --- RODAPÉ FINAL (Última Página) ---
-    \hline
-    % \multicolumn{3}{c}{\footnotesize Fonte: elaborado pelo autor.} \\
+    % --- RODAPÉ FINAL (Aparece apenas na última página) ---
+    \bottomrule
+    \multicolumn{3}{c}{\footnotesize Fonte: elaborado pelo autor.} \\
     \endlastfoot
 
     % --- DADOS DA TABELA ---
-    XGB + LGBM & 500 & 10.205704\% \\ \hline
-    XGB + LGBM & 1000 & 10.207500\% \\ \hline
-    XGBoost & 500 & 10.209998\% \\ \hline
-    XGB + LGBM + RF & 500 & 10.210127\% \\ \hline
-    XGB + LGBM & 100 & 10.216225\% \\ \hline
-
+    \textit{XGB} + \textit{LGBM} & 500 & 10.205704\% \\
+    \textit{XGB} + \textit{LGBM} & 1.000 & 10.207500\% \\
+    \textit{XGBoost} & 500 & 10.209998\% \\ 
+    \textit{XGB} + \textit{LGBM} + \textit{RF} & 500 & 10.210127\% \\ 
+    \textit{XGB} + \textit{LGBM} & 100 & 10.216225\% \\ 
 \end{longtable}
 
 % ======================== Matemática ========================
@@ -1795,39 +1863,37 @@ Em seguida, foi feita a comparação dos modelos entre si para cada conjunto de 
 % 33         LightGBM          500   15.059630
 % 14          XGBoost         1000   15.060808
 
-\begin{longtable}{|l|c|c|}
+\begin{longtable}{ccc}
 
-    % --- TÍTULO E RÓTULO (1ª Página) ---
+    % --- TÍTULO E RÓTULO (Aparece no topo da primeira página) ---
     \caption{Cinco melhores modelos - Matemática} \label{tab_comparacao_modelos_matematica} \\
-    \hline
-    \textbf{Modelo} & \textbf{Qtd. estimadores} & \textbf{MAPE teste} \\ \hline
+    \toprule
+    \textbf{Modelo} & \textbf{Qtd. estimadores} & \textbf{MAPE teste} \\ \midrule
     \endfirsthead
 
-    % --- CABEÇALHO (Páginas Seguintes) ---
-    \hline
-    \textbf{Modelo} & \textbf{Qtd. estimadores} & \textbf{MAPE teste} \\ \hline
+    % --- CABEÇALHO PARA PÁGINAS SEGUINTES (Se quebrar página) ---
+    \toprule
+    \textbf{Modelo} & \textbf{Qtd. estimadores} & \textbf{MAPE teste} \\ \midrule
     \endhead
 
-    % --- RODAPÉ (Páginas Intermediárias) ---
-    \hline
+    % --- RODAPÉ PARA PÁGINAS INTERMEDIÁRIAS (Antes de terminar) ---
+    \bottomrule
     \multicolumn{3}{r}{\footnotesize\textit{Continua na próxima página...}} \\
     \endfoot
 
-    % --- RODAPÉ FINAL (Última Página) ---
-    \hline
+    % --- RODAPÉ FINAL (Aparece apenas na última página) ---
+    \bottomrule
     \multicolumn{3}{c}{\footnotesize Fonte: elaborado pelo autor.} \\
     \endlastfoot
 
     % --- DADOS DA TABELA ---
-    XGB + LGBM & 500 & 15.045981\% \\ \hline
-    XGB + LGBM & 1000 & 15.046495\% \\ \hline
-    XGBoost & 500 & 15.052611\% \\ \hline
-    LightGBM & 500 & 15.059630\% \\ \hline
-    XGBoost & 1000 & 15.060808\% \\ \hline
+    \textit{XGB} + \textit{LGBM} & 500 & 15.045981\% \\ 
+    \textit{XGB} + \textit{LGBM} & 1.000 & 15.046495\% \\ 
+    \textit{XGBoost} & 500 & 15.052611\% \\ 
+    \textit{LightGBM} & 500 & 15.059630\% \\ 
+    \textit{XGBoost} & 1.000 & 15.060808\% \\ 
 
 \end{longtable}
-
-\pagebreak
 
 % ========================= Redação ==========================
 
@@ -1838,62 +1904,66 @@ Em seguida, foi feita a comparação dos modelos entre si para cada conjunto de 
 % 37         LightGBM          500   21.219782
 % 67  XGB + LGBM + RF          500   21.220464
 
-\begin{longtable}{|l|c|c|}
+\begin{longtable}{ccc}
 
-    % --- TÍTULO E RÓTULO (1ª Página) ---
+    % --- TÍTULO E RÓTULO (Aparece no topo da primeira página) ---
     \caption{Cinco melhores modelos - Redação} \label{tab_comparacao_modelos_redacao} \\
-    \hline
-    \textbf{Modelo} & \textbf{Qtd. estimadores} & \textbf{MAPE teste} \\ \hline
+    \toprule
+    \textbf{Modelo} & \textbf{Qtd. estimadores} & \textbf{MAPE teste} \\ \midrule
     \endfirsthead
 
-    % --- CABEÇALHO (Páginas Seguintes) ---
-    \hline
-    \textbf{Modelo} & \textbf{Qtd. estimadores} & \textbf{MAPE teste} \\ \hline
+    % --- CABEÇALHO PARA PÁGINAS SEGUINTES (Se quebrar página) ---
+    \toprule
+    \textbf{Modelo} & \textbf{Qtd. estimadores} & \textbf{MAPE teste} \\ \midrule
     \endhead
 
-    % --- RODAPÉ (Páginas Intermediárias) ---
-    \hline
+    % --- RODAPÉ PARA PÁGINAS INTERMEDIÁRIAS (Antes de terminar) ---
+    \bottomrule
     \multicolumn{3}{r}{\footnotesize\textit{Continua na próxima página...}} \\
     \endfoot
 
-    % --- RODAPÉ FINAL (Última Página) ---
-    \hline
+    % --- RODAPÉ FINAL (Aparece apenas na última página) ---
+    \bottomrule
     \multicolumn{3}{c}{\footnotesize Fonte: elaborado pelo autor.} \\
     \endlastfoot
 
     % --- DADOS DA TABELA ---
-    XGB + LGBM & 500 & 21.208775\% \\ \hline
-    XGB + LGBM & 1000 & 21.213456\% \\ \hline
-    XGBoost & 500 & 21.214043\% \\ \hline
-    LightGBM & 500 & 21.219782\% \\ \hline
-    XGB + LGBM + RF & 500 & 21.220464\% \\ \hline
+    \textit{XGB} + \textit{LGBM} & 500 & 21.208775\% \\ 
+    \textit{XGB} + \textit{LGBM} & 1.000 & 21.213456\% \\ 
+    \textit{XGBoost} & 500 & 21.214043\% \\ 
+    \textit{LightGBM} & 500 & 21.219782\% \\ 
+    \textit{XGB} + \textit{LGBM} + \textit{RF} & 500 & 21.220464\% \\ 
 
 \end{longtable}
 
-Foram então escolhidos os seguintes modelos como os melhores para cada conjunto de dados, considerando o modelo com o menor erro MAPE do conjunto de teste:
+Com base nessas tabelas, os modelos finais escolhidos para cada conjunto de dados foram:
 
 \begin{itemize}
-    \item Humanas: modelo de \textit{ensemble} utilizando os modelos de \textit{XGBoost} e \textit{LightGBM} com 500 estimadores;
-    \item Natureza: modelo de \textit{ensemble} utilizando os modelos de \textit{XGBoost} e \textit{LightGBM} com 500 estimadores;
-    \item Linguagem e Código: modelo de \textit{ensemble} utilizando os modelos de \textit{XGBoost} e \textit{LightGBM} com 500 estimadores;
-    \item Matemática: modelo de \textit{ensemble} utilizando os modelos de \textit{XGBoost} e \textit{LightGBM} com 500 estimadores;
-    \item Redação: modelo de \textit{ensemble} utilizando os modelos de \textit{XGBoost} e \textit{LightGBM} com 500 estimadores.
+    \item \textbf{Humanas}: modelo de \textit{ensemble} utilizando os modelos de \textit{XGBoost} e \textit{LightGBM} com 500 estimadores;
+    \item \textbf{Natureza}: modelo de \textit{ensemble} utilizando os modelos de \textit{XGBoost} e \textit{LightGBM} com 500 estimadores;
+    \item \textbf{Linguagem e Código}: modelo de \textit{ensemble} utilizando os modelos de \textit{XGBoost} e \textit{LightGBM} com 500 estimadores;
+    \item \textbf{Matemática}: modelo de \textit{ensemble} utilizando os modelos de \textit{XGBoost} e \textit{LightGBM} com 500 estimadores;
+    \item \textbf{Redação}: modelo de \textit{ensemble} utilizando os modelos de \textit{XGBoost} e \textit{LightGBM} com 500 estimadores.
 \end{itemize}
 
-Essa escolha vai em linha com o apresentado até o momento, onde os modelos individuaisapresentaram o menor erro MAPE com 500 estimadores e os modelos de \textit{ensemble} apresentaram o menor erro MAPE em relação aos modelos individuais.
+Essa escolha vai em linha com o apresentado até o momento, onde os modelos individuais apresentaram o menor erro MAPE com 500 estimadores e os modelos de \textit{ensemble} apresentaram o menor erro MAPE em relação aos modelos individuais.
 
 \section{Influência das Variáveis Preditoras}\label{resultados_influencia_preditoras}
 
 \subsection{Importância}\label{resultados_influencia_importancia}
 
-Com o modelo final em mãos, foi possível analisar a importância das variáveis preditoras para cada modelo. Para isso, foi utilizado o método \texttt{feature\_importances\_} dos algoritmos para se extrair a importância de cada variável preditora para cada modelo. Como o modelo final é um modelo de \textit{ensemble} utilizando os modelos de \textit{XGBoost} e \textit{LightGBM}, a importância de cada variável preditora para o modelo de \textit{ensemble} foi calculada usando um método de ranking, onde a importância de cada variável preditora para o modelo de \textit{ensemble} foi calculada como a média do ranking da importância de cada variável preditora para os modelos de \textit{XGBoost} e \textit{LightGBM}. As Figuras \ref{fig_importancia_humanas} a \ref{fig_importancia_redacao} apresentam a importância das variáveis preditoras para cada modelo final, ordenadas da maior para a menor importância.
+Com o modelo final em mãos, foi possível analisar a importância das variáveis preditoras para cada modelo. Para isso, foi utilizado o método \texttt{feature\_importances\_} dos algoritmos para se extrair a importância de cada variável preditora para cada modelo.
+
+Como o modelo final é um modelo de \textit{ensemble}, a importância de cada variável preditora para o modelo de \textit{ensemble} foi calculada usando a média aritmética do ranking da importância de cada variável preditora para os modelos de \textit{XGBoost} e \textit{LightGBM}. 
+
+As Figuras \ref{fig_importancia_humanas} a \ref{fig_importancia_redacao} apresentam a importância das variáveis preditoras para cada modelo final, ordenadas da maior para a menor importância.
 
 \begin{figure}[H]
     \centering
     \caption{Rank de Importância - Humanas} \label{fig_importancia_humanas}
     \includegraphics[width=0.9\linewidth]{imagens/importancia_ensemble_humanas.png}
     \par\vspace{0.1cm}
-    % {\footnotesize Fonte: elaborado pelo autor.}
+    {\footnotesize Fonte: elaborado pelo autor.}
 \end{figure}
 
 \begin{figure}[H]
@@ -1901,7 +1971,7 @@ Com o modelo final em mãos, foi possível analisar a importância das variávei
     \caption{Rank de Importância - Natureza} \label{fig_importancia_natureza}
     \includegraphics[width=0.9\linewidth]{imagens/importancia_ensemble_natureza.png}
     \par\vspace{0.1cm}
-    % {\footnotesize Fonte: elaborado pelo autor.}
+    {\footnotesize Fonte: elaborado pelo autor.}
 \end{figure}
 
 \begin{figure}[H]
@@ -1909,7 +1979,7 @@ Com o modelo final em mãos, foi possível analisar a importância das variávei
     \caption{Rank de Importância - Linguagem} \label{fig_importancia_linguagem}
     \includegraphics[width=0.9\linewidth]{imagens/importancia_ensemble_linguagem_codigo.png}
     \par\vspace{0.1cm}
-    % {\footnotesize Fonte: elaborado pelo autor.}
+    {\footnotesize Fonte: elaborado pelo autor.}
 \end{figure}
 
 \begin{figure}[H]
@@ -1917,7 +1987,7 @@ Com o modelo final em mãos, foi possível analisar a importância das variávei
     \caption{Rank de Importância - Matemática} \label{fig_importancia_matematica}
     \includegraphics[width=0.9\linewidth]{imagens/importancia_ensemble_matematica.png}
     \par\vspace{0.1cm}
-    % {\footnotesize Fonte: elaborado pelo autor.}
+    {\footnotesize Fonte: elaborado pelo autor.}
 \end{figure}
 
 \begin{figure}[H]
@@ -1932,7 +2002,7 @@ As variáveis preditoras de renda familiar, quantidade de computadores em casa, 
 
 \subsection{Sensibilidade das Variáveis Respostas}\label{resultados_influencia_sensibilidade}
 
-Para se analisar a sensibilidade das variáveis respostas em relação às alterações nas variáveis preditoras, foi criada uma base sintética de dados, onde oito variáveis preditoras foram preenchidas com todos os seus possíveis valores e as demais 21 variáveis preditoras foram preenchidas com os seus valores mais frequentes. As variáveis preditoras selecionadas foram:
+Para se analisar a sensibilidade das variáveis respostas em relação às alterações nas variáveis preditoras, foi criada uma base sintética de dados, onde oito variáveis preditoras foram preenchidas com todos os seus possíveis valores e as demais variáveis preditoras foram preenchidas com os seus valores mais frequentes do conjunto de treino. As variáveis preditoras selecionadas foram:
 
 \begin{itemize}
     \item \texttt{fx\_etaria}: faixa etária do estudante;
@@ -1945,9 +2015,9 @@ Para se analisar a sensibilidade das variáveis respostas em relação às alter
     \item \texttt{06\_renda\_familiar}: renda familiar do estudante.
 \end{itemize}
 
-Foram selecionadas essas oito variáveis preditoras para a análise de sensibilidade por serem de interesse para a análise e por apresentarem uma quantidade razoável de valores distintos, o que possibilita uma análise mais detalhada da sensibilidade das variáveis respostas em relação às alterações nessas variáveis preditoras.
+Foram selecionadas essas oito variáveis preditoras para a análise de sensibilidade por serem de interesse para a análise e por apresentarem uma quantidade razoável de valores distintos, o que possibilita uma análise mais detalhada da sensibilidade das variáveis respostas em relação às alterações nessas variáveis preditoras. A base sintética criada possui 4.165.000 registros, 
 
-As figuras \ref{fig_sensibilidade_fx_etaria} a \ref{fig_sensibilidade_renda_familiar} apresentam as curvas de sensibilidade de cada Variável resposta em relação às alterações nas variáveis preditoras, onde cada curva representa a média das previsões do modelo final para cada valor da variável preditora, mantendo as demais variáveis preditoras fixas em seus valores mais frequentes.
+As Figuras \ref{fig_sensibilidade_fx_etaria} a \ref{fig_sensibilidade_renda_familiar} apresentam as curvas de sensibilidade de cada variável resposta em relação às alterações nas variáveis preditoras selecionadas, onde cada curva representa a média das previsões do modelo final para cada valor da variável preditora, mantendo as demais variáveis preditoras fixas.
 
 As curvas de sensibilidade foram normalizadas ao primeiro ponto da curva, ou seja, o valor da curva para o primeiro ponto da variável preditora foi definido como 0 e os demais pontos foram calculados como o aumento percentual da curva para cada ponto em relação ao primeiro ponto.
 
@@ -1965,7 +2035,7 @@ As curvas de sensibilidade foram normalizadas ao primeiro ponto da curva, ou sej
     \caption{Curva de Sensibilidade - Faixa Etária} \label{fig_sensibilidade_fx_etaria}
     \includegraphics[width=0.9\linewidth]{imagens/fig_sensibilidade_fx_etaria.png}
     \par\vspace{0.1cm}
-    % {\footnotesize Fonte: elaborado pelo autor.}
+    {\footnotesize Fonte: elaborado pelo autor.}
 \end{figure}
 
 \begin{figure}[H]
@@ -1973,7 +2043,7 @@ As curvas de sensibilidade foram normalizadas ao primeiro ponto da curva, ou sej
     \caption{Curva de Sensibilidade - Sexo} \label{fig_sensibilidade_sexo}
     \includegraphics[width=0.9\linewidth]{imagens/fig_sensibilidade_sexo.png}
     \par\vspace{0.1cm}
-    % {\footnotesize Fonte: elaborado pelo autor.}
+    {\footnotesize Fonte: elaborado pelo autor.}
 \end{figure}
 
 \begin{figure}[H]
@@ -1981,7 +2051,7 @@ As curvas de sensibilidade foram normalizadas ao primeiro ponto da curva, ou sej
     \caption{Curva de Sensibilidade - Cor/Raça} \label{fig_sensibilidade_cor_raca}
     \includegraphics[width=0.9\linewidth]{imagens/fig_sensibilidade_cor_raca.png}
     \par\vspace{0.1cm}
-    % {\footnotesize Fonte: elaborado pelo autor.}
+    {\footnotesize Fonte: elaborado pelo autor.}
 \end{figure}
 
 \begin{figure}[H]
@@ -1989,7 +2059,7 @@ As curvas de sensibilidade foram normalizadas ao primeiro ponto da curva, ou sej
     \caption{Curva de Sensibilidade - Escolaridade do Pai} \label{fig_sensibilidade_01_escolaridade_pai}
     \includegraphics[width=0.9\linewidth]{imagens/fig_sensibilidade_01_escolaridade_pai.png}
     \par\vspace{0.1cm}
-    % {\footnotesize Fonte: elaborado pelo autor.}
+    {\footnotesize Fonte: elaborado pelo autor.}
 \end{figure}
 
 \begin{figure}[H]
@@ -1997,7 +2067,7 @@ As curvas de sensibilidade foram normalizadas ao primeiro ponto da curva, ou sej
     \caption{Curva de Sensibilidade - Escolaridade da Mãe} \label{fig_sensibilidade_02_escolaridade_mae}
     \includegraphics[width=0.9\linewidth]{imagens/fig_sensibilidade_02_escolaridade_mae.png}
     \par\vspace{0.1cm}
-    % {\footnotesize Fonte: elaborado pelo autor.}
+    {\footnotesize Fonte: elaborado pelo autor.}
 \end{figure}
 
 \begin{figure}[H]
@@ -2005,7 +2075,7 @@ As curvas de sensibilidade foram normalizadas ao primeiro ponto da curva, ou sej
     \caption{Curva de Sensibilidade - Ocupação do Pai} \label{fig_sensibilidade_03_ocupacao_pai}
     \includegraphics[width=0.9\linewidth]{imagens/fig_sensibilidade_03_ocupacao_pai.png}
     \par\vspace{0.1cm}
-    % {\footnotesize Fonte: elaborado pelo autor.}
+    {\footnotesize Fonte: elaborado pelo autor.}
 \end{figure}
 
 \begin{figure}[H]
@@ -2013,7 +2083,7 @@ As curvas de sensibilidade foram normalizadas ao primeiro ponto da curva, ou sej
     \caption{Curva de Sensibilidade - Ocupação da Mãe} \label{fig_sensibilidade_04_ocupacao_mae}
     \includegraphics[width=0.9\linewidth]{imagens/fig_sensibilidade_04_ocupacao_mae.png}
     \par\vspace{0.1cm}
-    % {\footnotesize Fonte: elaborado pelo autor.}
+    {\footnotesize Fonte: elaborado pelo autor.}
 \end{figure}
 
 \begin{figure}[H]
@@ -2024,3 +2094,54 @@ As curvas de sensibilidade foram normalizadas ao primeiro ponto da curva, ou sej
     {\footnotesize Fonte: elaborado pelo autor.}
 \end{figure}
 
+\section{Discussão dos Resultados}\label{discussao_resultados}
+
+A análise dos modelos preditivos e, em especial, das curvas de sensibilidade e dos \textit{rankings} de importância de variáveis, permite ir além das métricas de erro (RMSE e MAPE) e compreender os fenômenos sociais subjacentes ao desempenho no ENEM.
+Nesta seção, os resultados quantitativos são interpretados à luz da fundamentação teórica apresentada no Capítulo \ref{cap_fundamentacao}, estabelecendo conexões entre os dados e a realidade educacional brasileira.
+
+\subsection{O Capital Cultural e a Reprodução de Desigualdades}
+
+Os resultados obtidos corroboram fortemente a teoria do Capital Cultural de Pierre Bourdieu, discutida na Seção \ref{capital_cultural}.
+Ao observar os gráficos de importância das variáveis (Figuras \ref{fig_importancia_humanas} a \ref{fig_importancia_redacao}), nota-se que a \textbf{Escolaridade da Mãe} e a \textbf{Ocupação do Pai} aparecem consistentemente entre os preditores mais influentes em todas as áreas do conhecimento.
+
+Além da influência parental direta, o fato de a escolaridade da mãe e a ocupação do pai serem variáveis tão relevantes reforça a percepção dos papéis de gênero tradicionais e da divisão sexual do trabalho.
+Nesse contexto, a mãe é frequentemente vista como a principal responsável pelo cuidado e educação dos filhos, enquanto o pai é associado ao papel de provedor financeiro da família \cite{brasil_genero_trabalho}.
+
+Ambas as curvas de sensibilidade para a escolaridade dos pais (Figuras \ref{fig_sensibilidade_01_escolaridade_pai} e \ref{fig_sensibilidade_02_escolaridade_mae}) apresentam uma relação monotônica e crescente, indicando que o aumento do nível de instrução dos genitores está associado a um aumento na nota prevista do candidato.
+O ajuste de uma regressão linear simples para cada uma dessas curvas resulta em um Coeficiente de Determinação ($R^2$) de 91\% para a escolaridade da mãe e de 86\% para a escolaridade do pai.
+
+Esses comportamentos validam a hipótese de que o capital cultural familiar, institucionalizado na forma de diplomas, atua como um facilitador do desempenho acadêmico.
+A inclinação acentuada dessas curvas sugere que o sistema educacional, refletido no ENEM, valoriza e recompensa o repertório cultural herdado, confirmando a tese de que a escola tende a transformar diferenças sociais em distinções escolares.
+
+\subsection{A Renda e o Acesso a Recursos}
+
+A variável \textbf{Renda Familiar} apresentou-se como um dos discriminadores mais fortes de desempenho.
+Esta variável representa múltiplos do salário mínimo da época do exame, tornando-se um indicador direto do poder aquisitivo da família.
+O fato de esta ser a variável de maior importância para os modelos de \textit{ensemble} corrobora a premissa de que o acesso a recursos financeiros é um fator decisivo para o sucesso escolar.
+
+A curva de sensibilidade associada (Figura \ref{fig_sensibilidade_renda_familiar}) exibe um crescimento rápido nas faixas iniciais de renda, tendendo a uma estabilização nas faixas mais altas.
+Até a faixa de 8 salários mínimos, o aumento é acentuado, com cada mudança de faixa representando em torno de 10 pontos na nota do estudante.
+Isso indica que a carência de recursos básicos tem um impacto devastador na nota, enquanto o acúmulo de riqueza, após certo ponto, oferece retornos marginais decrescentes.
+
+Entretanto, a importância destacada da variável \textbf{Quantidade de Computadores}, que figura entre os principais preditores, merece atenção especial. Mais do que um simples bem de consumo, o computador tornou-se, especialmente no contexto pós-pandemia, a ferramenta primordial de acesso ao conhecimento \cite{idoeta_2021_g1}.
+
+Sua alta relevância no modelo sugere que a exclusão digital é, hoje, uma das faces mais perversas da desigualdade educacional.
+A posse de computadores não reflete apenas poder econômico, mas a capacidade de estudar de forma autônoma, acessar videoaulas e materiais complementares, o que é decisivo em um exame conteudista como o ENEM \cite{idoeta_2021_g1}.
+
+\subsection{Fatores Demográficos}
+
+A análise da sensibilidade da variável \textbf{Faixa Etária} (Figura \ref{fig_sensibilidade_fx_etaria}) revela uma tendência preocupante: o desempenho tende a decrescer conforme a idade do participante avança além da idade regular de conclusão do Ensino Médio (17-18 anos).
+Participantes mais velhos frequentemente enfrentam a dupla jornada de trabalho e estudo \cite{ibge_sis_2023, corrochano_2018}, dispondo de menos tempo para preparação, o que se reflete em notas inferiores, perpetuando um ciclo de dificuldade de acesso ao ensino superior.
+
+Em relação à \textbf{Cor/Raça}, a curva de sensibilidade (Figura \ref{fig_sensibilidade_cor_raca}) reforça a existência de disparidades raciais estruturais.
+Mesmo quando isolada pelo modelo (mantendo-se as demais variáveis constantes na análise de sensibilidade), observa-se uma variação no desempenho predito entre candidatos brancos e pretos/pardos.
+Isso sugere que o racismo estrutural opera através de mecanismos que não são capturados apenas pelas variáveis de renda ou escolaridade parental \cite{almeida_racismo_estrutural}.
+
+\subsection{Desempenho dos Modelos de Machine Learning}
+
+Do ponto de vista técnico, a superioridade do modelo de \textit{ensemble} (\textit{XGBoost} + \textit{LightGBM}), conforme demonstrado nas tabelas da Seção \ref{resultados_treinamento_modelos}, justifica a utilização de técnicas de \textit{Machine Learning} mais complexas em detrimento de regressões lineares simples.
+
+A capacidade desses modelos de capturar relações não lineares é fundamental, visto que a relação entre fatores socioeconômicos e desempenho educacional não é linear, como se observa pelas curvas de sensibilidade que apresentam patamares e saturações.
+Os erros percentuais (MAPE) obtidos indicam que o perfil socioeconômico é, infelizmente, um forte preditor do sucesso escolar no Brasil.
+
+Isso leva à conclusão de que o ENEM, embora desenhado para ser uma ferramenta de acesso democrático, ainda reflete de maneira fiel as profundas desigualdades da sociedade brasileira.

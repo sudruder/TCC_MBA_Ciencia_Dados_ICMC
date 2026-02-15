@@ -1,9 +1,6 @@
-
 \chapter{Metodologia}\label{cap_metodologia}
 
-Este capítulo detalha a metodologia de trabalho utilizada, apresentando o delineamento da pesquisa, da coleta e processamento dos dados e as técnicas analíticas empregadas para responder às perguntas de pesquisa.
-
-A estrutura metodológica adotada será baseada no modelo CRISP-DM (\textit{Cross-Industry Standard Process for Data Mining}) \cite{Chapman2000CRISPDM}, contendo as etapas de (i) entendimento de negócio, (ii) entendimento dos dados, (iii) preparação dos dados, (iv) modelagem, (v) avaliação e (vi) implantação.
+Este capítulo detalha a metodologia de trabalho utilizada, apresentando o delineamento da pesquisa, da coleta e processamento dos dados e as técnicas analíticas empregadas para responder às perguntas de pesquisa. A estrutura metodológica adotada baseou-se no modelo CRISP-DM (\textit{Cross-Industry Standard Process for Data Mining}) \cite{Chapman2000CRISPDM}, contendo as etapas de (i) entendimento de negócio, (ii) entendimento dos dados, (iii) preparação dos dados, (iv) modelagem, (v) avaliação e (vi) implantação.
 
 \begin{figure}[H]
     \centering
@@ -16,96 +13,107 @@ A estrutura metodológica adotada será baseada no modelo CRISP-DM (\textit{Cros
 
 \section{Entendimento de Negócio}\label{metodologia_entendimento_negocio}
 
-A etapa de entendimento de negócio envolve a definição clara dos objetivos do projeto, a compreensão do contexto em que a pesquisa está inserida, a identificação das partes interessadas, a formulação das perguntas de pesquisa que guiarão a análise dos dados e os resultados que espera-se alcançar.
+A etapa de entendimento de negócio envolve a definição clara dos objetivos do projeto, a compreensão do contexto em que a pesquisa está inserida, a identificação das partes interessadas, a formulação das perguntas de pesquisa que guiarão a análise dos dados e os resultados que se espera alcançar.
 
-Como o foco principal deste trabalho será a formulação de hipóteses relacionadas aos fatores que influenciam o desempenho dos estudantes no ENEM, através da análise dos dados de performance dos participantes e suas características socioeconômicas,  foi necessário formular perguntas de pesquisa específicas que possam ser respondidas através da análise dos dados disponíveis.
+Como o foco principal deste trabalho é a formulação de hipóteses relacionadas aos fatores que influenciam o desempenho dos estudantes no ENEM, através da análise dos dados de performance dos participantes e suas características socioeconômicas, foi necessário formular perguntas de pesquisa específicas que pudessem ser respondidas através da análise dos dados disponíveis.
 
 \section{Entendimento dos dados}\label{metodologia_entendimento_dados}
 
-Com as perguntas de pesquisa definidas, a próxima etapa foi encontrar dados que fossem adequados para responder a essas perguntas e estabelecer uma forma consistente de coleta e armazenamento desses dados para em seguida realizar uma compreensão de sua estrutura e significado.
+Com as perguntas de pesquisa definidas, a etapa seguinte consistiu em encontrar dados que fossem adequados para responder a essas perguntas e estabelecer uma forma consistente de coleta e armazenamento desses dados para, em seguida, realizar uma compreensão de sua estrutura e significado.
 
-Após essa etapa, foi possível identificar quais os arquivos são relevantes para a análise e quais variáveis dentro desses arquivos serão utilizadas como variáveis preditoras e como variáveis resposta.
-
+Após essa etapa, foi possível identificar quais arquivos eram relevantes para a análise e quais variáveis dentro desses arquivos seriam utilizadas como variáveis preditoras e como variáveis resposta.
 A depender dos tipos de dados a serem utilizados, é necessário submeter o projeto a um comitê de ética em pesquisa para aprovação, garantindo que todos os aspectos éticos relacionados ao uso dos dados sejam devidamente considerados.
 
 \section{Preparação dos dados}\label{metodologia_preparacao_dados}
 
-Com os arquivos relevantes selecionados, passa-se para a etapa de preparação dos dados, que envolve a leitura, limpeza, transformação e integração dos dados para torná-los adequados para a modelagem. Essa etapa é crucial, pois a qualidade dos dados impacta diretamente na eficácia dos modelos preditivos que serão construídos posteriormente.
+Com os arquivos relevantes selecionados, passou-se para a etapa de preparação dos dados, que envolve a leitura, limpeza, transformação e integração dos dados para torná-los adequados para a modelagem.
+Essa etapa é crucial, pois a qualidade dos dados impacta diretamente na eficácia dos modelos preditivos construídos posteriormente.
+Para a execução dessa e das etapas posteriores, foi necessário preparar um ambiente tecnológico e analítico adequado que permitisse a manipulação eficiente dos dados e a construção dos modelos preditivos.
 
-Para a execução dessa e das etapas posteriores, é necessário preparar um ambiente tecnológico e analítico adequado que permita a manipulação eficiente dos dados e a construção dos modelos preditivos.
+Após a leitura dos dados, estes foram integrados em um único conjunto de dados para facilitar a análise e a modelagem.
+Foram realizados os ajustes necessários no esquema dos dados para garantir a consistência e a integridade das informações.
 
-Após a leitura dos dados, estes foram integrados em único conjunto de dados para facilitar a análise e a modelagem. Foram realizados os ajustes necessários no esquema dos dados para garantir a consistência e a integridade das informações.
+Em seguida, as variáveis foram renomeadas para nomes mais intuitivos e de fácil compreensão e foi analisada a necessidade de transformar os valores das variáveis originais em valores mais compreensíveis, por exemplo, transformar os códigos numéricos de variáveis categóricas em rótulos textuais.
 
-Em seguida, as variáveis foram renomeadas para nomes mais intuitivos e de fácil compreensão e foi analisado se necessário transformar os valores das variáveis originais em valores mais compreensíveis, por exemplo, transformar os códigos numéricos de variáveis categóricas em rótulos textuais.
-
-Posteriormente, foi realizada uma análise para identificar e tratar valores nulos, removendo ou imputando valores conforme apropriado. Após o tratamento dos valores nulos, os dados foram separados em diferentes conjuntos de dados, cada um correspondente a uma variável resposta específica, garantindo que cada conjunto contenha apenas as observações relevantes para a análise daquela variável e sem valores nulos.
+Posteriormente, foi realizada uma análise para identificar e tratar valores nulos, removendo ou imputando valores conforme apropriado.
+Após o tratamento dos valores nulos, os dados foram separados em diferentes conjuntos de dados, cada um correspondente a uma variável resposta específica, garantindo que cada conjunto contivesse apenas as observações relevantes para a análise daquela variável e sem valores nulos.
 
 \section{Modelagem}\label{metodologia_modelagem}
 
-Com os dados preparados, a etapa de modelagem envolve a análise exploratória dos dados para entender suas características, avaliação de correlações entre as variáveis preditoras, seleção e treinamento dos modelos preditivos e otimização dos hiperparâmetros. Além disso, é importante medir a magnitude da influência das variáveis preditoras nas variáveis resposta, utilizando técnicas de interpretação de modelos e análise de sensibilidade.
+A etapa de modelagem envolveu a análise exploratória dos dados para entender suas características, avaliação de correlações entre as variáveis preditoras, seleção e treinamento dos modelos preditivos e otimização dos hiperparâmetros.
 
 \subsection{Análise Exploratória dos Dados}\label{metodologia_exploracao_dados}
 
-A análise exploratória foi iniciada com o entendimento da variáveis respostas, buscando entender a distribuição das notas do ENEM. Em seguida, foi feito um teste de hipótese para se avaliar se as médias das notas variam significativamente entre as edições selecionadas para esse trabalho.
+A análise exploratória foi iniciada com o entendimento das variáveis respostas, buscando entender a distribuição das notas do ENEM.
+Em seguida, foi feito um teste de hipótese para avaliar se as médias das notas variam significativamente entre as edições selecionadas para este trabalho.
+Essa análise é necessária uma vez que as edições do ENEM podem apresentar variações no nível de dificuldade das provas, impactando as notas dos estudantes.
 
-Esse análise é necessária uma vez que as edições do ENEM podem apresentar variações no nível de dificuldade das provas, impactando as notas dos estudantes. Para isso, será utilizada a Estatística F de ANOVA (\textit{Analysis of Variance}) \cite{bussab2017} para comparar as médias das notas entre as diferentes edições do ENEM e o cálculo do tamanho do efeito para quantificar a magnitude das diferenças encontradas, utilizando a métrica SMD (\textit{Standardized Mean Difference}) utilizando os intervalos definidos por Jacob Cohen \cite{cohen1988}.
+Para isso, foi utilizada a Estatística F de ANOVA (\textit{Analysis of Variance}) \cite{bussab2017} para comparar as médias das notas entre as diferentes edições do ENEM e o cálculo do tamanho do efeito para quantificar a magnitude das diferenças encontradas, utilizando a métrica SMD (\textit{Standardized Mean Difference}) com os intervalos definidos por Jacob Cohen \cite{cohen1988}.
 
-A próxima etapa da análise exploratória foi a identificação de outliers nas variáveis respostas, utilizando o critério de 1.5 vezes o intervalo interquartil (IQR) \cite{bussab2017}. A identificação dos outliers é importante para entender a distribuição das notas e avaliar se esses valores extremos podem influenciar os resultados dos modelos preditivos.
+A próxima etapa da análise exploratória foi a identificação de \textit{outliers} nas variáveis respostas, utilizando o critério de 1,5 vezes o intervalo interquartil (IQR) \cite{bussab2017}.
+A identificação dos \textit{outliers} é importante para entender a distribuição das notas e avaliar se esses valores extremos podem influenciar os resultados dos modelos preditivos.
 
 Finalizadas as análises das variáveis respostas, foram realizadas três análises sobre as variáveis preditoras: (i) análise de concentração de categorias, (ii) análise de correlação entre as variáveis preditoras e (iii) cálculo do \textit{Permutation Importance} para cada variável preditora.
 
 Utilizando essas três informações, foi feita uma análise qualitativa para identificar possíveis variáveis preditoras a serem removidas do conjunto de dados, seja por apresentarem baixa correlação com as variáveis respostas, por apresentarem alta correlação com outras variáveis preditoras (multicolinearidade) ou por apresentarem baixa importância na predição das notas do ENEM.
 
-Para a correlação, foi utlizada a biblioteca \texttt{phik} \cite{KPMG_PhiK_2024} \cite{Baak2020Phik}, que permite calcular a correlação entre variáveis categóricas e numéricas, além de fornecer métricas para avaliar a força da correlação.
+Para a correlação, foi utilizada a biblioteca \texttt{phik} \cite{KPMG_PhiK_2024} \cite{Baak2020Phik}, que permite calcular a correlação entre variáveis categóricas e numéricas, além de fornecer métricas para avaliar a força da correlação.
 
-Para o cálculo do \textit{Permutation Importance}, foi utilizado o modelo de \textit{Random Forest Regressor} do \texttt{cuml} \cite{NVIDIA_cuML_2023} e o método de \textit{permutation importance} da biblioteca \texttt{sklearn} \cite{scikit-learn}. Foi necessário já separar os conjuntos de dados em treino e teste, afim de evitar vazamento de dados e garantir que a avaliação da importância das variáveis seja feita de forma justa e realista.
+Para o cálculo do \textit{Permutation Importance}, foi utilizado o modelo de \textit{Random Forest Regressor} do \texttt{cuml} \cite{NVIDIA_cuML_2023} e o método de \textit{permutation importance} da biblioteca \texttt{sklearn} \cite{scikit-learn}.
+Foi necessário separar os conjuntos de dados em treino e teste previamente, a fim de evitar vazamento de dados e garantir que a avaliação da importância das variáveis fosse feita de forma justa e realista.
+Para essa separação, foi utilizado o método \texttt{train\_test\_split} da biblioteca \texttt{sklearn}, com uma proporção de 80\% dos dados para treino e 20\% para teste.
 
-Para essa separação, foi utilizado o método \textit{train\_test\_split} da biblioteca \texttt{sklearn}, com uma proporção de 80\% dos dados para treino e 20\% para teste. A partir desse momento, não usamos mais o conjunto de dados completo, mas sim apenas o conjunto de treino para as análises das variáveis preditoras.
+A partir desse momento, não se utilizou mais o conjunto de dados completo, mas sim apenas o conjunto de treino para as análises das variáveis preditoras.
 
 \section{Treinamento dos Modelos}\label{metodologia_treinamento_modelos}
 
-Nesta seção serão detalhadas as técnicas de modelagem empregadas e os critérios utilizados para a seleção dos modelos. Como as nossas variáveis respostas são numéricas e contínuas, estamos em um problema de regressão de aprendizado supervisionado. Assim, é preciso selecionar modelos de regressão, que são os adequados para prever variáveis contínuas.
+Nesta seção são detalhadas as técnicas de modelagem empregadas e os critérios utilizados para a seleção dos modelos.
+Como as variáveis respostas são numéricas e contínuas, trata-se de um problema de regressão de aprendizado supervisionado.
+Assim, foi preciso selecionar modelos de regressão, que são os adequados para prever variáveis contínuas.
 
-Usaremos três modelos de regressão: (i) \textit{Random Forest Regressor}, (ii) \textit{XGBoost Regressor} e (iii) \textit{LightGBM Regressor}. Esses modelos são amplamente utilizados devido à sua eficácia e interpretabilidade, além de serem capazes de lidar com grandes volumes de dados e variáveis preditoras.
+Foram utilizados três modelos de regressão: (i) \textit{Random Forest Regressor}, (ii) \textit{XGBoost Regressor} e (iii) \textit{LightGBM Regressor}.
+Esses modelos são amplamente utilizados devido à sua eficácia e interpretabilidade, além de serem capazes de lidar com grandes volumes de dados e variáveis preditoras.
 
-Para otimizar o desempenho dos modelos selecionados, será realizada uma busca em grade (\textit{Grid Search}) para identificar os melhores hiperparâmetros. A busca não será realizada utilizando validação cruzada, devido ao alto volume de dados, mas sim um subconjunto do conjunto de treino equivalente a 10\% dos dados originais, garantindo que os resultados sejam robustos e generalizáveis.
+Para otimizar o desempenho dos modelos selecionados, foi realizada uma busca em grade (\textit{Grid Search}) para identificar os melhores hiperparâmetros.
+A busca não foi realizada utilizando validação cruzada, devido ao alto volume de dados, mas sim um subconjunto do conjunto de treino equivalente a 10\% dos dados originais, garantindo que os resultados fossem robustos e generalizáveis.
 
-A implementação da busca em grade será feita manualmente, utilizando loops para iterar sobre os diferentes valores dos hiperparâmetros e avaliando o desempenho dos modelos utilizando o conjunto de validação.  Isso se dá para evitar o alto custo computacional associado à utilização de bibliotecas como \texttt{GridSearchCV} da \texttt{sklearn}, que realizam a busca em grade utilizando validação cruzada, o que pode ser inviável para grandes volumes de dados e modelos complexos.
+A implementação da busca em grade foi feita manualmente, utilizando \textit{loops} para iterar sobre os diferentes valores dos hiperparâmetros e avaliando o desempenho dos modelos utilizando o conjunto de validação.
+Isso se deu para evitar o alto custo computacional associado à utilização de bibliotecas como \texttt{GridSearchCV} da \texttt{sklearn}, que realizam a busca em grade utilizando validação cruzada, o que pode ser inviável para grandes volumes de dados e modelos complexos.
 
-Definidos os hiperparâmetros ótimos, os modelos serão treinados utilizando o conjunto de dados preparado na Seção \ref{metodologia_preparacao_dados}, com uma quantidade maior de estimadores fracos (através do hiperparâmetro \textit{n\_estimators}) para garantir um melhor desempenho dos modelos. O treinamento será realizado utilizando o conjunto de treino completo, garantindo que os modelos sejam treinados com a maior quantidade possível de dados para melhorar sua capacidade de generalização.
+Definidos os hiperparâmetros ótimos, os modelos foram treinados utilizando o conjunto de dados preparado na Seção \ref{metodologia_preparacao_dados}, com uma quantidade maior de estimadores fracos (através do hiperparâmetro \texttt{n\_estimators}) para garantir um melhor desempenho dos modelos.
 
-Finalizando a etapa de treinamento, serão criados modelos de ensemble utilizando a técnica de \textit{bagging}, onde os modelos de regressão individuais serão combinados para criar um modelo mais robusto e preciso. A combinação será feita utilizando a média das previsões dos modelos individuais, garantindo que o modelo de ensemble aproveite as forças de cada modelo individual para melhorar a precisão das previsões.
+O treinamento foi realizado utilizando o conjunto de treino completo, garantindo que os modelos fossem treinados com a maior quantidade possível de dados para melhorar sua capacidade de generalização.
+
+Finalizando a etapa de treinamento, foram criados modelos de \textit{ensemble} utilizando a técnica de \textit{bagging}, onde os modelos de regressão individuais foram combinados para criar um modelo mais robusto e preciso.
+A combinação foi feita utilizando a média das previsões dos modelos individuais, garantindo que o modelo de \textit{ensemble} aproveitasse as forças de cada modelo individual para melhorar a precisão das previsões.
 
 \section{Avaliação dos Modelos}\label{metodologia_avaliacao_modelos}
 
-Feito o treinamento final dos modelos, iremos avaliá-los utilizando o conjunto de teste e duas métrias de desempenho apropriadas para problemas de regressão: a Raiz do Erro Quadrático Médio (\textit{Root Mean Squared Error} - RMSE) e Erro Percentual Absoluto Médio (\textit{Mean Absolute Percentage Error} - MAPE). Essas métricas fornecem uma visão clara da precisão das previsões dos modelos em relação aos valores reais das notas do ENEM.
+Após o treinamento final dos modelos, estes foram avaliados utilizando o conjunto de teste e duas métricas de desempenho apropriadas para problemas de regressão: a Raiz do Erro Quadrático Médio (\textit{Root Mean Squared Error} - RMSE) e o Erro Percentual Absoluto Médio (\textit{Mean Absolute Percentage Error} - MAPE). Essas métricas fornecem uma visão clara da precisão das previsões dos modelos em relação aos valores reais das notas do ENEM.
 
-Para a nota da Redação, como estas apresentam uma quantidade limitada de valores possíveis (de 0 a 1000, com incrementos de 20 pontos), será realizado um tratamento adicional para arredondar as previsões dos modelos para os valores possíveis antes do cálculo das métricas, garantindo que as previsões sejam coerentes com a escala de notas do ENEM, com o código abaixo:
+Para a nota da Redação, como esta apresenta uma quantidade limitada de valores possíveis (de 0 a 1000, com incrementos de 20 pontos), foi realizado um tratamento adicional para arredondar as previsões dos modelos para os valores possíveis antes do cálculo das métricas, garantindo que as previsões fossem coerentes com a escala de notas do ENEM, conforme o código abaixo:
 
 \begin{verbatim}
-    def arredonda_redacao(
-        nota: float
-    ) -> int:
-        
-        '''
-        Arredonda a nota de redação para o múltiplo de 20 mais próximo
-        '''
-
-        passo = 20 
-
-        return np.round(nota / passo) * passo
+def arredonda_redacao(nota: float) -> int:
+    '''
+    Arredonda a nota de redação para o múltiplo de 20 mais próximo
+    '''
+    passo = 20 
+    return np.round(nota / passo) * passo
 \end{verbatim}
 
-Após o cálculo das métricas de desempenho, duas análise serão realizadas: (i) uma análise entre o erro de treinamento e o erro de teste para avaliar se os modelos estão sofrendo de \textit{overfitting} e (ii) uma análise entre os modelos para identificar qual modelo apresenta o melhor desempenho na previsão das notas do ENEM.
+Após o cálculo das métricas de desempenho, duas análises foram realizadas: (i) uma análise entre o erro de treinamento e o erro de teste para avaliar se os modelos estavam sofrendo de \textit{overfitting} e (ii) uma análise entre os modelos para identificar qual modelo apresentava o melhor desempenho na previsão das notas do ENEM.
 
-Na análise de \textit{overfitting}, será adotado um critério sobre a razão do erro RMSE de teste em relação ao erro RMSE de treinamento. Uma razão maior que 15\% será considerada um indicativo de \textit{overfitting}, sugerindo que o modelo está se ajustando demais aos dados de treinamento e não generalizando bem para os dados de teste.
+Na análise de \textit{overfitting}, foi adotado um critério sobre a razão do erro RMSE de teste em relação ao erro RMSE de treinamento.
+Uma razão maior que 15\% foi considerada um indicativo de \textit{overfitting}, sugerindo que o modelo estava se ajustando demais aos dados de treinamento e não generalizando bem para os dados de teste.
 
-Na análise comparativa entre os modelos, para se escolher o melhor modelo para cada variável resposta, será considerado o modelo que apresentar o menor erro MAPE no conjunto de teste, garantindo que o modelo selecionado seja aquele que tem a melhor capacidade de prever as notas do ENEM com precisão.
+Na análise comparativa entre os modelos, para se escolher o melhor modelo para cada variável resposta, foi considerado o modelo que apresentou o menor erro MAPE no conjunto de teste, garantindo que o modelo selecionado fosse aquele com a melhor capacidade de prever as notas do ENEM com precisão.
 
 \section{Influência das Variáveis Preditoras}\label{medicao_efeito_variaveis}
 
-Nesta seção, buscamos responder às perguntas de pesquisa que foram formuladas na seção \ref{resultados_entendimento_negocio}, utilizando técnicas de interpretação de modelos e análise de sensibilidade para medir a magnitude da influência das variáveis preditoras nas variáveis resposta.
+Nesta seção, buscou-se responder às perguntas de pesquisa que foram formuladas na seção \ref{metodologia_entendimento_negocio}, utilizando técnicas de interpretação de modelos e análise de sensibilidade para medir a magnitude da influência das variáveis preditoras nas variáveis resposta.
 
-Primeiramente, será realizada uma análise de importância das variáveis preditoras do modelo final selecionado para cada variável resposta. Essa análise permitirá identificar quais variáveis preditoras têm a maior influência na previsão das notas do ENEM, fornecendo insights sobre os fatores socioeconômicos que mais impactam o desempenho dos estudantes.
+Primeiramente, foi realizada uma análise de importância das variáveis preditoras do modelo final selecionado para cada variável resposta.
+Essa análise permitiu identificar quais variáveis preditoras têm a maior influência na previsão das notas do ENEM, fornecendo \textit{insights} sobre os fatores socioeconômicos que mais impactam o desempenho dos estudantes.
 
-Em seguida, será realizada uma análise de sensibilidade para avaliar como as variações nas variáveis preditoras afetam as previsões dos modelos. Será construída uma base sintética de dados, onde algumas variáveis preditoras selecionadas serão as variáveis de interesse e as demais variáveis preditoras serão preenchidas com o valor mais frequente do conjunto de treino. A ideia é buscar entender como as variações nas variáveis de interesse impactam as previsões dos modelos, mantendo as demais variáveis constantes.
+Em seguida, foi realizada uma análise de sensibilidade para avaliar como as variações nas variáveis preditoras afetam as previsões dos modelos. Foi construída uma base sintética de dados, onde algumas variáveis preditoras de interess foram selecionadas e as demais variáveis preditoras foram preenchidas com o valor mais frequente do conjunto de treino. A ideia foi buscar entender como as variações nas variáveis de interesse impactam as previsões dos modelos, mantendo as demais variáveis constantes.

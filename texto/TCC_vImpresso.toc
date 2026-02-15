@@ -7,7 +7,6 @@
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase []{Introdução}}{29}{chapter.1}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
@@ -32,7 +31,7 @@
 \contentsline {subsection}{\numberline {3.4.1}Análise Exploratória dos Dados}{41}{subsection.3.4.1}%
 \contentsline {section}{\numberline {3.5}Treinamento dos Modelos}{42}{section.3.5}%
 \contentsline {section}{\numberline {3.6}Avaliação dos Modelos}{43}{section.3.6}%
-\contentsline {section}{\numberline {3.7}Influência das Variáveis Preditoras}{44}{section.3.7}%
+\contentsline {section}{\numberline {3.7}Influência das Variáveis Preditoras}{43}{section.3.7}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase []{Resultados}}{45}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Entendimento de Negócio}{45}{section.4.1}%
@@ -55,35 +54,43 @@
 \contentsline {subsubsection}{\numberline {4.4.1.3}Análise de Outliers}{56}{subsubsection.4.4.1.3}%
 \contentsline {subsection}{\numberline {4.4.2}Análise Exploratória - Variáveis Preditoras}{59}{subsection.4.4.2}%
 \contentsline {subsubsection}{\numberline {4.4.2.1}Concentração}{59}{subsubsection.4.4.2.1}%
-\contentsline {subsubsection}{\numberline {4.4.2.2}Correlação Phik}{61}{subsubsection.4.4.2.2}%
+\contentsline {subsubsection}{\numberline {4.4.2.2}Correlação}{60}{subsubsection.4.4.2.2}%
 \contentsline {subsubsection}{\numberline {4.4.2.3}\textit {Permutation Importance}}{63}{subsubsection.4.4.2.3}%
 \contentsline {subsubsection}{\numberline {4.4.2.4}Seleção de Variáveis}{65}{subsubsection.4.4.2.4}%
-\contentsline {section}{\numberline {4.5}Treinamento dos Modelos}{67}{section.4.5}%
-\contentsline {subsection}{\numberline {4.5.1}Ajuste dos Hiperparâmetros}{67}{subsection.4.5.1}%
-\contentsline {subsection}{\numberline {4.5.2}Treinamento final dos modelos}{72}{subsection.4.5.2}%
+\contentsline {section}{\numberline {4.5}Treinamento dos Modelos}{66}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Ajuste dos Hiperparâmetros}{66}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}Treinamento final dos modelos}{71}{subsection.4.5.2}%
 \contentsline {subsection}{\numberline {4.5.3}Construção dos modelos de \textit {ensemble}}{73}{subsection.4.5.3}%
-\contentsline {subsection}{\numberline {4.5.4}Avaliação dos modelos}{75}{subsection.4.5.4}%
+\contentsline {subsection}{\numberline {4.5.4}Avaliação dos modelos}{74}{subsection.4.5.4}%
 \contentsline {section}{\numberline {4.6}Influência das Variáveis Preditoras}{77}{section.4.6}%
 \contentsline {subsection}{\numberline {4.6.1}Importância}{77}{subsection.4.6.1}%
-\contentsline {subsection}{\numberline {4.6.2}Sensibilidade das Variáveis Respostas}{80}{subsection.4.6.2}%
+\contentsline {subsection}{\numberline {4.6.2}Sensibilidade das Variáveis Respostas}{79}{subsection.4.6.2}%
+\contentsline {section}{\numberline {4.7}Discussão dos Resultados}{86}{section.4.7}%
+\contentsline {subsection}{\numberline {4.7.1}O Capital Cultural e a Reprodução de Desigualdades}{86}{subsection.4.7.1}%
+\contentsline {subsection}{\numberline {4.7.2}A Renda e o Acesso a Recursos}{87}{subsection.4.7.2}%
+\contentsline {subsection}{\numberline {4.7.3}Fatores Demográficos}{87}{subsection.4.7.3}%
+\contentsline {subsection}{\numberline {4.7.4}Desempenho dos Modelos de Machine Learning}{88}{subsection.4.7.4}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase []{Conclusão}}{87}{chapter.5}%
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase []{Conclusão}}{89}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Síntese dos Resultados}{89}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Limitações do Estudo}{89}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Trabalhos Futuros}{90}{section.5.3}%
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\uppercase {Refer\^encias}}{89}{section*.23}%
+\contentsline {chapter}{\uppercase {Refer\^encias}}{91}{section*.22}%
 \renewcommand *{\cftappendixname }{AP\^ENDICE \space }
 \setlength {\cftpartindent }{\cftlastnumwidth } \setlength {\cftpartnumwidth }{2em}
 \cftinsert {A}
-\contentsline {part}{\uppercase {AP\^ENDICES}}{93}{section*.24}%
+\contentsline {part}{\uppercase {AP\^ENDICES}}{95}{section*.23}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase []{Dicionário de dados dos microdados do ENEM}}{95}{appendix.A}%
+\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase []{Dicionário de dados dos microdados do ENEM}}{97}{appendix.A}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {B}\MakeTextUppercase []{Dicionário de dados do Censo Escolar}}{97}{appendix.B}%
+\contentsline {appendix}{\chapternumberline {B}\MakeTextUppercase []{Dicionário de dados do Censo Escolar}}{99}{appendix.B}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {C}\MakeTextUppercase []{Configuração do ambiente virtual}}{99}{appendix.C}%
+\contentsline {appendix}{\chapternumberline {C}\MakeTextUppercase []{Configuração do ambiente virtual}}{101}{appendix.C}%
